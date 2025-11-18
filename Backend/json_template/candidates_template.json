@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Andi Pratama",
+    "detail": {
+      "umur": "25 tahun",
+      "gender": "Laki-laki",
+      "lokasi": "Tangerang Selatan, Banten",
+      "pengalaman_total": "1.4",
+      "gelar_tertinggi": "S1"
+    },
+    "minat": "Frontend Developer\nFull Stack Developer\nBackend Developer\nMobile Developer",
+    "preferensi_lokasi": "Jakarta Selatan, DKI Jakarta, Tangerang, Banten, Bekasi, Jawa Barat",
+    "ekspektasi_gaji": "Rp10.000.000 - Rp15.000.000",
+    "tentang_saya": "Saya seorang software engineer dengan pengalaman dalam pengembangan aplikasi web modern menggunakan React.js dan Node.js. Saya fokus pada efisiensi, scalability, dan clean code. Senang berkolaborasi dalam tim lintas fungsi dan berorientasi pada hasil.",
+    "skills": "JavaScript, TypeScript, React.js, Node.js, Express.js, PostgreSQL, MongoDB, Git, Docker",
+    "pendidikan": [
+      "Major : S1 di bidang Teknik Informatika\nTime : Agt'17 - Jul'21 · 4 thn\nSchool : Universitas Banten Raya"
+    ],
+    "pengalaman_kerja": [
+      "Role : Full Stack Developer\nTime : Jan'22 - Sekarang\nCompany : PT Digital Inovasi Nusantara",
+      "Role : Frontend Developer Intern\nTime : Jul'21 - Des'21 · 6 bln\nCompany : PT Techlabs Indonesia · Magang"
+    ],
+    "penghargaan": [
+      "Competition : Hackathon Nusantara 2021\nTime : 2021 -\nAward : Juara 3 - Kategori Web App"
+    ],
+    "organisasi": [
+      "Organization Name : Himpunan Mahasiswa Informatika\nTime : Sep'18 - Jun'20 · 1 thn 9 bln\nRole : Ketua Divisi Riset dan Teknologi"
+    ],
+    "whatsapp": "+6281112345678",
+    "email": "andi.pratama@example.com",
+    "contactUpdatedAt": "2025-10-14T10:30:00.000Z",
+    "resume_url": "http://34.80.84.47/public/resumes/andi_pratama_resume.pdf"
+  },
+  {
+    "name": "Dewi Anggraini",
+    "detail": {
+      "umur": "24 tahun",
+      "gender": "Perempuan",
+      "lokasi": "Bandung, Jawa Barat",
+      "pengalaman_total": "1.4",
+      "gelar_tertinggi": "S1"
+    },
+    "minat": "Backend Developer\nFull Stack Developer\nDevOps Engineer\nData Engineer",
+    "preferensi_lokasi": "Bandung, Jawa Barat, Jakarta Pusat, DKI Jakarta, Surabaya, Jawa Timur",
+    "ekspektasi_gaji": "Rp9.000.000 - Rp13.000.000",
+    "tentang_saya": "Backend engineer dengan fokus pada performa API dan sistem terdistribusi. Terampil menggunakan Laravel, Node.js, dan AWS. Memiliki ketertarikan pada cloud architecture dan CI/CD pipeline automation.",
+    "skills": "PHP, Laravel, Node.js, MySQL, PostgreSQL, Docker, AWS, Redis, Git, REST API",
+    "pendidikan": [
+      "Major : S1 di bidang Sistem Informasi\nTime : Sep'18 - Jul'22 · 4 thn\nSchool : Universitas Telkom"
+    ],
+    "pengalaman_kerja": [
+      "Role : Backend Developer\nTime : Sep'23 - Sekarang\nCompany : PT Solusi Digital Cemerlang",
+      "Role : Backend Developer Intern\nTime : Feb'23 - Agt'23 · 7 bln\nCompany : PT Cloudwave Indonesia · Magang"
+    ],
+    "penghargaan": [
+      "Competition : Kompetisi Inovasi Teknologi Mahasiswa\nTime : 2021 -\nAward : Finalis Nasional"
+    ],
+    "organisasi": [
+      "Organization Name : Google Developer Student Club Telkom University\nTime : Sep'20 - Agt'22 · 2 thn\nRole : Backend Core Team",
+      "Organization Name : Himpunan Mahasiswa Sistem Informasi\nTime : Sep'19 - Jun'21 · 1 thn 9 bln\nRole : Staff Divisi Akademik"
+    ],
+    "whatsapp": "+6282123456789",
+    "email": "dewi.anggraini@example.com",
+    "contactUpdatedAt": "2025-10-14T11:15:00.000Z",
+    "resume_url": "http://34.80.84.47/public/resumes/dewi_anggraini_resume.pdf"
+  }
+]

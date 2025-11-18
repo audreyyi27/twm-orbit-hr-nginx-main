@@ -1,0 +1,14 @@
+# frontend
+cd projects/orbit-hr-system-frontend/
+PORT=3000 npm run start
+
+# backend
+cd projects/orbit-hr-system-backend/
+
+# nginx
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+
+#
+git -c http.sslVerify=false remote show origin
