@@ -1,0 +1,581 @@
+2025-11-18 08:55:59 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:55:59 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:55:59 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:55:59 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:55:59 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:56:00 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:56:00 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:56:00 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:56:00 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:56:00 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:56:01 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-18 08:56:01 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:56:01 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:56:01 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:56:01 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:56:01 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:56:16 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-18 08:56:17 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:56:17 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:56:17 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:56:17 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:56:17 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:56:20 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-18 08:56:20 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:56:20 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:56:20 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:56:20 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:56:20 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:56:22 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-18 08:56:23 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:56:23 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:56:23 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:56:23 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:56:23 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:56:33 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-18 08:56:33 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:56:33 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:56:33 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:56:33 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:56:33 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:56:47 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-18 08:56:48 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 08:56:48 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 08:56:48 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 08:56:48 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 08:56:48 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 08:57:07 | [32mINFO[0m | http:117 | [f1354c92] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:07 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:07 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:07 | [33mWARNING[0m | http:133 | [f1354c92] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.010s | Size: 26 bytes
+2025-11-18 08:57:07 | [32mINFO[0m | http:117 | [80005d6f] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:07 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:07 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:07 | [33mWARNING[0m | http:133 | [80005d6f] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 08:57:11 | [32mINFO[0m | http:117 | [20afba42] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:11 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:11 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:11 | [33mWARNING[0m | http:133 | [20afba42] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 08:57:12 | [32mINFO[0m | http:117 | [8b5e6ffb] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:12 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:12 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:12 | [33mWARNING[0m | http:133 | [8b5e6ffb] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 08:57:14 | [32mINFO[0m | http:117 | [a3ce536e] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [33mWARNING[0m | http:133 | [a3ce536e] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 08:57:14 | [32mINFO[0m | http:117 | [1ed2261d] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [33mWARNING[0m | http:133 | [1ed2261d] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 08:57:14 | [32mINFO[0m | http:117 | [6dfa1529] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [33mWARNING[0m | http:133 | [6dfa1529] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 08:57:14 | [32mINFO[0m | http:117 | [56fe7cea] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:14 | [33mWARNING[0m | http:133 | [56fe7cea] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 08:57:17 | [32mINFO[0m | http:117 | [c111b864] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:17 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:17 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:17 | [33mWARNING[0m | http:133 | [c111b864] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 08:57:17 | [32mINFO[0m | http:117 | [4b7ea60e] GET http://127.0.0.1:8000/candidates?page=77&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:17 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:17 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 08:57:17 | [33mWARNING[0m | http:133 | [4b7ea60e] GET http://127.0.0.1:8000/candidates?page=77&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 08:57:31 | [32mINFO[0m | http:117 | [05e65b72] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-18 08:57:32 | [32mINFO[0m | http:133 | [05e65b72] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 1.003s | Size: 572 bytes
+2025-11-18 08:57:33 | [32mINFO[0m | http:117 | [da093251] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:33 | [32mINFO[0m | http:117 | [6f448dbb] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:33 | [32mINFO[0m | http:133 | [6f448dbb] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.142s | Size: 5950 bytes
+2025-11-18 08:57:33 | [32mINFO[0m | http:133 | [da093251] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.301s | Size: 13 bytes
+2025-11-18 08:57:38 | [32mINFO[0m | http:117 | [f8492d86] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:38 | [32mINFO[0m | http:133 | [f8492d86] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.097s | Size: 8984 bytes
+2025-11-18 08:57:38 | [32mINFO[0m | http:117 | [c0fc151b] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:39 | [32mINFO[0m | http:133 | [c0fc151b] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.263s | Size: 4771 bytes
+2025-11-18 08:57:41 | [32mINFO[0m | http:117 | [da5c07be] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:41 | [32mINFO[0m | http:133 | [da5c07be] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 200 | Time: 0.081s | Size: 10091 bytes
+2025-11-18 08:57:41 | [32mINFO[0m | http:117 | [78681c6d] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:41 | [32mINFO[0m | http:133 | [78681c6d] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | Status: 200 | Time: 0.089s | Size: 9396 bytes
+2025-11-18 08:57:41 | [32mINFO[0m | http:117 | [9beb714f] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:41 | [32mINFO[0m | http:133 | [9beb714f] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 200 | Time: 0.071s | Size: 8919 bytes
+2025-11-18 08:57:42 | [32mINFO[0m | http:117 | [1fd030f9] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:42 | [32mINFO[0m | http:133 | [1fd030f9] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | Status: 200 | Time: 0.078s | Size: 8902 bytes
+2025-11-18 08:57:42 | [32mINFO[0m | http:117 | [ecfa0983] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:42 | [32mINFO[0m | http:133 | [ecfa0983] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | Status: 200 | Time: 0.078s | Size: 8792 bytes
+2025-11-18 08:57:42 | [32mINFO[0m | http:117 | [337dbebc] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:42 | [32mINFO[0m | http:133 | [337dbebc] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | Status: 200 | Time: 0.080s | Size: 8391 bytes
+2025-11-18 08:57:42 | [32mINFO[0m | http:117 | [887da607] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 08:57:42 | [32mINFO[0m | http:133 | [887da607] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | Status: 200 | Time: 0.077s | Size: 3510 bytes
+2025-11-18 09:01:44 | [32mINFO[0m | http:117 | [56edf927] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:01:44 | [32mINFO[0m | http:117 | [8b51aae2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:01:44 | [32mINFO[0m | http:133 | [56edf927] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.075s | Size: 13 bytes
+2025-11-18 09:01:44 | [32mINFO[0m | http:133 | [8b51aae2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.101s | Size: 5950 bytes
+2025-11-18 09:01:49 | [32mINFO[0m | http:117 | [e9d2ca4a] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:01:49 | [32mINFO[0m | http:133 | [e9d2ca4a] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.082s | Size: 8984 bytes
+2025-11-18 09:01:49 | [32mINFO[0m | http:117 | [53b79dc5] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:01:50 | [32mINFO[0m | http:133 | [53b79dc5] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.232s | Size: 4771 bytes
+2025-11-18 09:01:51 | [32mINFO[0m | http:117 | [a4985484] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:01:51 | [32mINFO[0m | http:133 | [a4985484] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 200 | Time: 0.103s | Size: 5081 bytes
+2025-11-18 09:02:26 | [32mINFO[0m | http:117 | [2776c353] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:02:26 | [32mINFO[0m | http:133 | [2776c353] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.075s | Size: 5950 bytes
+2025-11-18 09:32:07 | [32mINFO[0m | http:117 | [f00749be] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:32:07 | [32mINFO[0m | http:117 | [c851b880] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:32:08 | [32mINFO[0m | http:133 | [f00749be] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.412s | Size: 13 bytes
+2025-11-18 09:32:08 | [32mINFO[0m | http:133 | [c851b880] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.429s | Size: 5950 bytes
+2025-11-18 09:32:14 | [32mINFO[0m | http:117 | [e5a5acbd] GET http://127.0.0.1:8000/candidates/149bbb15-b72c-4ee6-9eaf-ccc02f9deaa1 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:32:14 | [32mINFO[0m | http:133 | [e5a5acbd] GET http://127.0.0.1:8000/candidates/149bbb15-b72c-4ee6-9eaf-ccc02f9deaa1 | Status: 200 | Time: 0.090s | Size: 588 bytes
+2025-11-18 09:33:40 | [32mINFO[0m | http:117 | [5f90bafa] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:40 | [32mINFO[0m | http:117 | [1d489808] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:40 | [32mINFO[0m | http:133 | [5f90bafa] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.093s | Size: 13 bytes
+2025-11-18 09:33:40 | [32mINFO[0m | http:133 | [1d489808] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.100s | Size: 5950 bytes
+2025-11-18 09:33:41 | [32mINFO[0m | http:117 | [1c37ffb3] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:41 | [32mINFO[0m | http:133 | [1c37ffb3] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.082s | Size: 5950 bytes
+2025-11-18 09:33:42 | [32mINFO[0m | http:117 | [439472fe] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:42 | [32mINFO[0m | http:133 | [439472fe] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.080s | Size: 5950 bytes
+2025-11-18 09:33:42 | [32mINFO[0m | http:117 | [0722dc91] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:42 | [32mINFO[0m | http:133 | [0722dc91] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.079s | Size: 5950 bytes
+2025-11-18 09:33:42 | [32mINFO[0m | http:117 | [9292a82d] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:42 | [32mINFO[0m | http:133 | [9292a82d] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 5950 bytes
+2025-11-18 09:33:43 | [32mINFO[0m | http:117 | [d9445cbb] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:43 | [32mINFO[0m | http:133 | [d9445cbb] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.069s | Size: 5950 bytes
+2025-11-18 09:33:43 | [32mINFO[0m | http:117 | [fbf7d543] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:43 | [32mINFO[0m | http:133 | [fbf7d543] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.074s | Size: 5950 bytes
+2025-11-18 09:33:43 | [32mINFO[0m | http:117 | [981b9f24] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:43 | [32mINFO[0m | http:133 | [981b9f24] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.077s | Size: 5950 bytes
+2025-11-18 09:33:43 | [32mINFO[0m | http:117 | [90e29c59] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:43 | [32mINFO[0m | http:133 | [90e29c59] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 200 | Time: 0.069s | Size: 5951 bytes
+2025-11-18 09:33:43 | [32mINFO[0m | http:117 | [5d38b03f] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:43 | [32mINFO[0m | http:133 | [5d38b03f] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 200 | Time: 0.069s | Size: 5951 bytes
+2025-11-18 09:33:44 | [32mINFO[0m | http:117 | [f226c908] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:44 | [32mINFO[0m | http:133 | [f226c908] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 200 | Time: 0.154s | Size: 5951 bytes
+2025-11-18 09:33:44 | [32mINFO[0m | http:117 | [48ac5f17] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:44 | [32mINFO[0m | http:133 | [48ac5f17] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.088s | Size: 20874 bytes
+2025-11-18 09:33:45 | [32mINFO[0m | http:117 | [c4d211da] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:45 | [32mINFO[0m | http:133 | [c4d211da] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 200 | Time: 0.084s | Size: 28018 bytes
+2025-11-18 09:33:45 | [32mINFO[0m | http:117 | [b0626572] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 09:33:45 | [32mINFO[0m | http:133 | [b0626572] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.076s | Size: 21533 bytes
+2025-11-18 09:46:40 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-18 10:12:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-18 10:12:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-18 10:12:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-18 10:12:45 | [32mINFO[0m | app:94 | Daily log files: 2025-11-18.log
+2025-11-18 10:12:45 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-18 10:13:21 | [32mINFO[0m | http:117 | [ed2b531a] GET http://localhost:8000/health | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-18 10:13:22 | [31mERROR[0m | http:122 | [ed2b531a] GET http://localhost:8000/health | ERROR: 'AsyncAdaptedQueuePool' object has no attribute 'invalid' | Time: 0.328s
+2025-11-18 10:13:22 | [31mERROR[0m | http:122 | [ed2b531a] GET http://localhost:8000/health | ERROR: 'AsyncAdaptedQueuePool' object has no attribute 'invalid' | Time: 0.328s
+2025-11-18 10:13:22 | [32mINFO[0m | http:117 | [f19bde44] GET http://localhost:8000/favicon.ico | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-18 10:13:22 | [33mWARNING[0m | http:133 | [f19bde44] GET http://localhost:8000/favicon.ico | Status: 404 | Time: 0.004s | Size: 22 bytes
+2025-11-18 10:13:25 | [32mINFO[0m | http:117 | [0458b3ef] GET http://localhost:8000/ | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-18 10:13:25 | [32mINFO[0m | http:133 | [0458b3ef] GET http://localhost:8000/ | Status: 200 | Time: 0.001s | Size: 34 bytes
+2025-11-18 10:14:27 | [32mINFO[0m | http:117 | [c9b8afba] GET http://localhost:8000/ | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-18 10:14:27 | [32mINFO[0m | http:133 | [c9b8afba] GET http://localhost:8000/ | Status: 200 | Time: 0.001s | Size: 34 bytes
+2025-11-18 10:14:35 | [32mINFO[0m | http:117 | [2b2d76f6] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:14:35 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:35 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:35 | [32mINFO[0m | http:117 | [f92bd8fa] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:14:35 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:35 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:35 | [33mWARNING[0m | http:133 | [2b2d76f6] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.010s | Size: 26 bytes
+2025-11-18 10:14:35 | [33mWARNING[0m | http:133 | [f92bd8fa] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:14:39 | [32mINFO[0m | http:117 | [078a6624] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:14:39 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:39 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:39 | [33mWARNING[0m | http:133 | [078a6624] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:14:40 | [32mINFO[0m | http:117 | [fcc23584] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:14:40 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:40 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:40 | [33mWARNING[0m | http:133 | [fcc23584] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:14:41 | [32mINFO[0m | http:117 | [07fae1e9] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:14:41 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:41 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:14:41 | [33mWARNING[0m | http:133 | [07fae1e9] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:15:02 | [32mINFO[0m | http:117 | [ffe689f8] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:15:02 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:15:02 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:15:02 | [32mINFO[0m | http:117 | [83c1049d] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:15:02 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:15:02 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:15:02 | [33mWARNING[0m | http:133 | [ffe689f8] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:15:02 | [33mWARNING[0m | http:133 | [83c1049d] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:15:03 | [32mINFO[0m | http:117 | [a8b4895c] GET http://localhost:8000/ | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-18 10:15:03 | [32mINFO[0m | http:133 | [a8b4895c] GET http://localhost:8000/ | Status: 200 | Time: 0.001s | Size: 34 bytes
+2025-11-18 10:30:23 | [32mINFO[0m | http:117 | [f98a086e] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:30:23 | [32mINFO[0m | http:117 | [c9cca058] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [33mWARNING[0m | http:133 | [f98a086e] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.014s | Size: 26 bytes
+2025-11-18 10:30:23 | [33mWARNING[0m | http:133 | [c9cca058] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.013s | Size: 26 bytes
+2025-11-18 10:30:23 | [32mINFO[0m | http:117 | [e729dc84] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [33mWARNING[0m | http:133 | [e729dc84] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:30:23 | [32mINFO[0m | http:117 | [94e31f1a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:23 | [33mWARNING[0m | http:133 | [94e31f1a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:30:24 | [32mINFO[0m | http:117 | [6c355748] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:30:24 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:24 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:24 | [33mWARNING[0m | http:133 | [6c355748] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:30:25 | [32mINFO[0m | http:117 | [5d8a3af1] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:30:25 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:25 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:25 | [33mWARNING[0m | http:133 | [5d8a3af1] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:30:27 | [32mINFO[0m | http:117 | [e66cf0b0] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:30:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:30:27 | [33mWARNING[0m | http:133 | [e66cf0b0] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:06 | [32mINFO[0m | http:117 | [e6335d59] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:06 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:06 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:06 | [33mWARNING[0m | http:133 | [e6335d59] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.006s | Size: 26 bytes
+2025-11-18 10:47:08 | [32mINFO[0m | http:117 | [9e1b375b] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:08 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:08 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:08 | [33mWARNING[0m | http:133 | [9e1b375b] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:09 | [32mINFO[0m | http:117 | [44ab1d4c] POST http://127.0.0.1:8000/auth/logout | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:09 | [32mINFO[0m | http:117 | [1be5fadf] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:09 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:09 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:09 | [33mWARNING[0m | http:133 | [1be5fadf] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | Status: 401 | Time: 0.002s | Size: 26 bytes
+2025-11-18 10:47:09 | [32mINFO[0m | http:117 | [3ef56b68] POST http://127.0.0.1:8000/auth/logout | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:09 | [32mINFO[0m | http:133 | [44ab1d4c] POST http://127.0.0.1:8000/auth/logout | Status: 200 | Time: 0.318s | Size: 28 bytes
+2025-11-18 10:47:09 | [32mINFO[0m | http:133 | [3ef56b68] POST http://127.0.0.1:8000/auth/logout | Status: 200 | Time: 0.239s | Size: 28 bytes
+2025-11-18 10:47:52 | [32mINFO[0m | http:117 | [8170f647] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:53 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:53 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:53 | [33mWARNING[0m | http:133 | [8170f647] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:54 | [32mINFO[0m | http:117 | [4512d2b3] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [33mWARNING[0m | http:133 | [4512d2b3] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:54 | [32mINFO[0m | http:117 | [80ef33c8] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [33mWARNING[0m | http:133 | [80ef33c8] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:54 | [32mINFO[0m | http:117 | [c44c5106] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [33mWARNING[0m | http:133 | [c44c5106] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:54 | [32mINFO[0m | http:117 | [d299d0d4] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:54 | [33mWARNING[0m | http:133 | [d299d0d4] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [b7d13f8a] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [b7d13f8a] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.002s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [6c068423] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [6c068423] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [d27280ab] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [d27280ab] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [85950eab] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [85950eab] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [4614c487] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [4614c487] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [9f7bc5e4] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [9f7bc5e4] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [be3da579] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [be3da579] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [1fe86be5] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [1fe86be5] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [f9a420c1] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [f9a420c1] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.004s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [3cf670f9] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [3cf670f9] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [a625a7b9] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [a625a7b9] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:58 | [32mINFO[0m | http:117 | [81caba3c] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:58 | [33mWARNING[0m | http:133 | [81caba3c] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [95006ccf] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [95006ccf] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [6cccffa1] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [6cccffa1] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [14a42fa1] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [14a42fa1] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [3d934ba2] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [3d934ba2] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [8f826340] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [8f826340] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [14b384aa] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [14b384aa] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [20e935ec] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [20e935ec] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [f011c189] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [f011c189] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [6c6922b7] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [6c6922b7] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:47:59 | [32mINFO[0m | http:117 | [d5fdfec7] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:47:59 | [33mWARNING[0m | http:133 | [d5fdfec7] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [069573d5] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [069573d5] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [ec174e41] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [ec174e41] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [8cb53026] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [8cb53026] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [cf3458e3] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [cf3458e3] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [c9070c5f] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [c9070c5f] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [eb9906f9] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [eb9906f9] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [7af9a63d] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [7af9a63d] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-18 10:48:00 | [32mINFO[0m | http:117 | [62b6d6f4] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-18 10:48:00 | [33mWARNING[0m | http:133 | [62b6d6f4] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-18 10:48:12 | [32mINFO[0m | http:117 | [cfc99c59] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-18 10:48:12 | [32mINFO[0m | http:133 | [cfc99c59] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 0.611s | Size: 572 bytes
+2025-11-18 10:48:13 | [32mINFO[0m | http:117 | [bd920e98] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:13 | [32mINFO[0m | http:117 | [9bdd1811] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:13 | [32mINFO[0m | http:133 | [bd920e98] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.122s | Size: 13 bytes
+2025-11-18 10:48:13 | [32mINFO[0m | http:133 | [9bdd1811] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.230s | Size: 5950 bytes
+2025-11-18 10:48:15 | [32mINFO[0m | http:117 | [e6781246] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:16 | [32mINFO[0m | http:117 | [5d9ed7fe] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:16 | [32mINFO[0m | http:133 | [e6781246] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.170s | Size: 5950 bytes
+2025-11-18 10:48:16 | [32mINFO[0m | http:133 | [5d9ed7fe] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.073s | Size: 5950 bytes
+2025-11-18 10:48:16 | [32mINFO[0m | http:117 | [cbba42e8] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:16 | [32mINFO[0m | http:133 | [cbba42e8] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.086s | Size: 5950 bytes
+2025-11-18 10:48:16 | [32mINFO[0m | http:117 | [637a2784] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:16 | [32mINFO[0m | http:133 | [637a2784] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.084s | Size: 5950 bytes
+2025-11-18 10:48:16 | [32mINFO[0m | http:117 | [b8d17241] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:16 | [32mINFO[0m | http:133 | [b8d17241] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.078s | Size: 5950 bytes
+2025-11-18 10:48:16 | [32mINFO[0m | http:117 | [32e4d9a6] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:16 | [32mINFO[0m | http:133 | [32e4d9a6] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.132s | Size: 5950 bytes
+2025-11-18 10:48:18 | [32mINFO[0m | http:117 | [a8c4bcf5] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:18 | [32mINFO[0m | http:133 | [a8c4bcf5] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.130s | Size: 5950 bytes
+2025-11-18 10:48:18 | [32mINFO[0m | http:117 | [44bd933c] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:19 | [32mINFO[0m | http:133 | [44bd933c] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.077s | Size: 5950 bytes
+2025-11-18 10:48:19 | [32mINFO[0m | http:117 | [0cd92a3c] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:19 | [32mINFO[0m | http:133 | [0cd92a3c] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.081s | Size: 5950 bytes
+2025-11-18 10:48:19 | [32mINFO[0m | http:117 | [358c1c66] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:19 | [32mINFO[0m | http:133 | [358c1c66] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 200 | Time: 0.093s | Size: 5951 bytes
+2025-11-18 10:48:19 | [32mINFO[0m | http:117 | [9e3818d7] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:19 | [32mINFO[0m | http:133 | [9e3818d7] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 200 | Time: 0.084s | Size: 5951 bytes
+2025-11-18 10:48:19 | [32mINFO[0m | http:117 | [f768decc] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:20 | [32mINFO[0m | http:133 | [f768decc] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 200 | Time: 0.144s | Size: 5951 bytes
+2025-11-18 10:48:20 | [32mINFO[0m | http:117 | [7052e824] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:20 | [32mINFO[0m | http:133 | [7052e824] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.106s | Size: 20874 bytes
+2025-11-18 10:48:20 | [32mINFO[0m | http:117 | [701466ac] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:20 | [32mINFO[0m | http:133 | [701466ac] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 200 | Time: 0.198s | Size: 28018 bytes
+2025-11-18 10:48:25 | [32mINFO[0m | http:117 | [274bfde8] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:25 | [32mINFO[0m | http:133 | [274bfde8] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.088s | Size: 21533 bytes
+2025-11-18 10:48:25 | [32mINFO[0m | http:117 | [89884413] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:26 | [32mINFO[0m | http:133 | [89884413] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | Status: 200 | Time: 0.091s | Size: 25397 bytes
+2025-11-18 10:48:26 | [32mINFO[0m | http:117 | [7845fd50] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:26 | [32mINFO[0m | http:133 | [7845fd50] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | Status: 200 | Time: 0.077s | Size: 23794 bytes
+2025-11-18 10:48:26 | [32mINFO[0m | http:117 | [fe09a371] GET http://127.0.0.1:8000/candidates?page=18&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:26 | [32mINFO[0m | http:133 | [fe09a371] GET http://127.0.0.1:8000/candidates?page=18&per_page=10&sort_order=desc | Status: 200 | Time: 0.083s | Size: 26323 bytes
+2025-11-18 10:48:26 | [32mINFO[0m | http:117 | [e10d716f] GET http://127.0.0.1:8000/candidates?page=19&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:26 | [32mINFO[0m | http:133 | [e10d716f] GET http://127.0.0.1:8000/candidates?page=19&per_page=10&sort_order=desc | Status: 200 | Time: 0.084s | Size: 19757 bytes
+2025-11-18 10:48:26 | [32mINFO[0m | http:117 | [3983249c] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:26 | [32mINFO[0m | http:133 | [3983249c] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | Status: 200 | Time: 0.076s | Size: 24193 bytes
+2025-11-18 10:48:26 | [32mINFO[0m | http:117 | [ea1b57a7] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:27 | [32mINFO[0m | http:133 | [ea1b57a7] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | Status: 200 | Time: 0.093s | Size: 31450 bytes
+2025-11-18 10:48:27 | [32mINFO[0m | http:117 | [9a41b087] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:27 | [32mINFO[0m | http:133 | [9a41b087] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | Status: 200 | Time: 0.092s | Size: 26799 bytes
+2025-11-18 10:48:27 | [32mINFO[0m | http:117 | [728fddec] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:27 | [32mINFO[0m | http:133 | [728fddec] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | Status: 200 | Time: 0.089s | Size: 31741 bytes
+2025-11-18 10:48:27 | [32mINFO[0m | http:117 | [bd9e57a4] GET http://127.0.0.1:8000/candidates?page=24&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:27 | [32mINFO[0m | http:133 | [bd9e57a4] GET http://127.0.0.1:8000/candidates?page=24&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 32684 bytes
+2025-11-18 10:48:30 | [32mINFO[0m | http:117 | [efa385d0] GET http://127.0.0.1:8000/candidates?page=25&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:30 | [32mINFO[0m | http:133 | [efa385d0] GET http://127.0.0.1:8000/candidates?page=25&per_page=10&sort_order=desc | Status: 200 | Time: 0.077s | Size: 29330 bytes
+2025-11-18 10:48:31 | [32mINFO[0m | http:117 | [7622bae0] GET http://127.0.0.1:8000/candidates?page=26&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:31 | [32mINFO[0m | http:133 | [7622bae0] GET http://127.0.0.1:8000/candidates?page=26&per_page=10&sort_order=desc | Status: 200 | Time: 0.077s | Size: 32575 bytes
+2025-11-18 10:48:32 | [32mINFO[0m | http:117 | [3386529d] GET http://127.0.0.1:8000/candidates?page=27&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:32 | [32mINFO[0m | http:117 | [54299a31] GET http://127.0.0.1:8000/candidates?page=27&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:32 | [32mINFO[0m | http:133 | [3386529d] GET http://127.0.0.1:8000/candidates?page=27&per_page=10&sort_order=desc | Status: 200 | Time: 0.209s | Size: 30395 bytes
+2025-11-18 10:48:32 | [32mINFO[0m | http:133 | [54299a31] GET http://127.0.0.1:8000/candidates?page=27&per_page=10&sort_order=desc | Status: 200 | Time: 0.181s | Size: 30395 bytes
+2025-11-18 10:48:32 | [32mINFO[0m | http:117 | [8ec3a6da] GET http://127.0.0.1:8000/candidates?page=28&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:32 | [32mINFO[0m | http:133 | [8ec3a6da] GET http://127.0.0.1:8000/candidates?page=28&per_page=10&sort_order=desc | Status: 200 | Time: 0.102s | Size: 27767 bytes
+2025-11-18 10:48:34 | [32mINFO[0m | http:117 | [650c9818] GET http://127.0.0.1:8000/candidates?page=29&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:34 | [32mINFO[0m | http:133 | [650c9818] GET http://127.0.0.1:8000/candidates?page=29&per_page=10&sort_order=desc | Status: 200 | Time: 0.125s | Size: 32025 bytes
+2025-11-18 10:48:35 | [32mINFO[0m | http:117 | [1a57daa8] GET http://127.0.0.1:8000/candidates?page=30&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:35 | [32mINFO[0m | http:133 | [1a57daa8] GET http://127.0.0.1:8000/candidates?page=30&per_page=10&sort_order=desc | Status: 200 | Time: 0.088s | Size: 31155 bytes
+2025-11-18 10:48:35 | [32mINFO[0m | http:117 | [e9384596] GET http://127.0.0.1:8000/candidates?page=31&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:35 | [32mINFO[0m | http:133 | [e9384596] GET http://127.0.0.1:8000/candidates?page=31&per_page=10&sort_order=desc | Status: 200 | Time: 0.105s | Size: 34034 bytes
+2025-11-18 10:48:35 | [32mINFO[0m | http:117 | [38fb47bd] GET http://127.0.0.1:8000/candidates?page=32&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:35 | [32mINFO[0m | http:133 | [38fb47bd] GET http://127.0.0.1:8000/candidates?page=32&per_page=10&sort_order=desc | Status: 200 | Time: 0.156s | Size: 25971 bytes
+2025-11-18 10:48:36 | [32mINFO[0m | http:117 | [017b2530] GET http://127.0.0.1:8000/candidates?page=33&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:36 | [32mINFO[0m | http:133 | [017b2530] GET http://127.0.0.1:8000/candidates?page=33&per_page=10&sort_order=desc | Status: 200 | Time: 0.110s | Size: 26451 bytes
+2025-11-18 10:48:36 | [32mINFO[0m | http:117 | [551f34d1] GET http://127.0.0.1:8000/candidates?page=34&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:36 | [32mINFO[0m | http:133 | [551f34d1] GET http://127.0.0.1:8000/candidates?page=34&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 31168 bytes
+2025-11-18 10:48:36 | [32mINFO[0m | http:117 | [0e8f6769] GET http://127.0.0.1:8000/candidates?page=35&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:36 | [32mINFO[0m | http:133 | [0e8f6769] GET http://127.0.0.1:8000/candidates?page=35&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 30052 bytes
+2025-11-18 10:48:36 | [32mINFO[0m | http:117 | [2bf7c68a] GET http://127.0.0.1:8000/candidates?page=36&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:36 | [32mINFO[0m | http:133 | [2bf7c68a] GET http://127.0.0.1:8000/candidates?page=36&per_page=10&sort_order=desc | Status: 200 | Time: 0.087s | Size: 32094 bytes
+2025-11-18 10:48:36 | [32mINFO[0m | http:117 | [c701b5c9] GET http://127.0.0.1:8000/candidates?page=37&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:37 | [32mINFO[0m | http:117 | [2f438741] GET http://127.0.0.1:8000/candidates?page=37&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:37 | [32mINFO[0m | http:133 | [c701b5c9] GET http://127.0.0.1:8000/candidates?page=37&per_page=10&sort_order=desc | Status: 200 | Time: 0.288s | Size: 32495 bytes
+2025-11-18 10:48:37 | [32mINFO[0m | http:133 | [2f438741] GET http://127.0.0.1:8000/candidates?page=37&per_page=10&sort_order=desc | Status: 200 | Time: 0.078s | Size: 32495 bytes
+2025-11-18 10:48:37 | [32mINFO[0m | http:117 | [bab7ddf4] GET http://127.0.0.1:8000/candidates?page=38&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:37 | [32mINFO[0m | http:133 | [bab7ddf4] GET http://127.0.0.1:8000/candidates?page=38&per_page=10&sort_order=desc | Status: 200 | Time: 0.079s | Size: 27018 bytes
+2025-11-18 10:48:37 | [32mINFO[0m | http:117 | [00c3848b] GET http://127.0.0.1:8000/candidates?page=39&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:37 | [32mINFO[0m | http:133 | [00c3848b] GET http://127.0.0.1:8000/candidates?page=39&per_page=10&sort_order=desc | Status: 200 | Time: 0.157s | Size: 24068 bytes
+2025-11-18 10:48:37 | [32mINFO[0m | http:117 | [2d30e09d] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:38 | [32mINFO[0m | http:117 | [6671141d] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:38 | [32mINFO[0m | http:133 | [2d30e09d] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | Status: 200 | Time: 0.183s | Size: 21141 bytes
+2025-11-18 10:48:38 | [32mINFO[0m | http:117 | [f6cc6c60] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:38 | [32mINFO[0m | http:133 | [6671141d] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | Status: 200 | Time: 0.245s | Size: 21141 bytes
+2025-11-18 10:48:38 | [32mINFO[0m | http:117 | [654b9e98] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:38 | [32mINFO[0m | http:133 | [f6cc6c60] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | Status: 200 | Time: 0.307s | Size: 18507 bytes
+2025-11-18 10:48:38 | [32mINFO[0m | http:117 | [b50462c5] GET http://127.0.0.1:8000/candidates?page=42&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:38 | [32mINFO[0m | http:133 | [654b9e98] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | Status: 200 | Time: 0.246s | Size: 18507 bytes
+2025-11-18 10:48:38 | [32mINFO[0m | http:133 | [b50462c5] GET http://127.0.0.1:8000/candidates?page=42&per_page=10&sort_order=desc | Status: 200 | Time: 0.173s | Size: 19919 bytes
+2025-11-18 10:48:38 | [32mINFO[0m | http:117 | [a8bf7e95] GET http://127.0.0.1:8000/candidates?page=43&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:39 | [32mINFO[0m | http:133 | [a8bf7e95] GET http://127.0.0.1:8000/candidates?page=43&per_page=10&sort_order=desc | Status: 200 | Time: 0.096s | Size: 18060 bytes
+2025-11-18 10:48:39 | [32mINFO[0m | http:117 | [d40aeed6] GET http://127.0.0.1:8000/candidates?page=44&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:39 | [32mINFO[0m | http:133 | [d40aeed6] GET http://127.0.0.1:8000/candidates?page=44&per_page=10&sort_order=desc | Status: 200 | Time: 0.078s | Size: 20819 bytes
+2025-11-18 10:48:39 | [32mINFO[0m | http:117 | [2d11e2ae] GET http://127.0.0.1:8000/candidates?page=45&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:39 | [32mINFO[0m | http:133 | [2d11e2ae] GET http://127.0.0.1:8000/candidates?page=45&per_page=10&sort_order=desc | Status: 200 | Time: 0.114s | Size: 16780 bytes
+2025-11-18 10:48:39 | [32mINFO[0m | http:117 | [f5c313a4] GET http://127.0.0.1:8000/candidates?page=46&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:39 | [32mINFO[0m | http:133 | [f5c313a4] GET http://127.0.0.1:8000/candidates?page=46&per_page=10&sort_order=desc | Status: 200 | Time: 0.111s | Size: 17271 bytes
+2025-11-18 10:48:39 | [32mINFO[0m | http:117 | [92124482] GET http://127.0.0.1:8000/candidates?page=47&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:40 | [32mINFO[0m | http:133 | [92124482] GET http://127.0.0.1:8000/candidates?page=47&per_page=10&sort_order=desc | Status: 200 | Time: 0.107s | Size: 20144 bytes
+2025-11-18 10:48:40 | [32mINFO[0m | http:117 | [eed80bd9] GET http://127.0.0.1:8000/candidates?page=48&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:40 | [32mINFO[0m | http:117 | [e456a02f] GET http://127.0.0.1:8000/candidates?page=48&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:40 | [32mINFO[0m | http:133 | [eed80bd9] GET http://127.0.0.1:8000/candidates?page=48&per_page=10&sort_order=desc | Status: 200 | Time: 0.227s | Size: 28871 bytes
+2025-11-18 10:48:40 | [32mINFO[0m | http:117 | [e8b12f19] GET http://127.0.0.1:8000/candidates?page=49&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:40 | [32mINFO[0m | http:133 | [e456a02f] GET http://127.0.0.1:8000/candidates?page=48&per_page=10&sort_order=desc | Status: 200 | Time: 0.185s | Size: 28871 bytes
+2025-11-18 10:48:40 | [32mINFO[0m | http:133 | [e8b12f19] GET http://127.0.0.1:8000/candidates?page=49&per_page=10&sort_order=desc | Status: 200 | Time: 0.107s | Size: 24263 bytes
+2025-11-18 10:48:40 | [32mINFO[0m | http:117 | [06c1372e] GET http://127.0.0.1:8000/candidates?page=50&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:40 | [32mINFO[0m | http:133 | [06c1372e] GET http://127.0.0.1:8000/candidates?page=50&per_page=10&sort_order=desc | Status: 200 | Time: 0.095s | Size: 29694 bytes
+2025-11-18 10:48:41 | [32mINFO[0m | http:117 | [0ab9fe4e] GET http://127.0.0.1:8000/candidates?page=51&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:41 | [32mINFO[0m | http:133 | [0ab9fe4e] GET http://127.0.0.1:8000/candidates?page=51&per_page=10&sort_order=desc | Status: 200 | Time: 0.090s | Size: 24799 bytes
+2025-11-18 10:48:41 | [32mINFO[0m | http:117 | [9bbe83b5] GET http://127.0.0.1:8000/candidates?page=52&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:41 | [32mINFO[0m | http:133 | [9bbe83b5] GET http://127.0.0.1:8000/candidates?page=52&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 28229 bytes
+2025-11-18 10:48:41 | [32mINFO[0m | http:117 | [f6dee27f] GET http://127.0.0.1:8000/candidates?page=53&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:41 | [32mINFO[0m | http:133 | [f6dee27f] GET http://127.0.0.1:8000/candidates?page=53&per_page=10&sort_order=desc | Status: 200 | Time: 0.087s | Size: 25233 bytes
+2025-11-18 10:48:41 | [32mINFO[0m | http:117 | [eed76e26] GET http://127.0.0.1:8000/candidates?page=54&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:41 | [32mINFO[0m | http:133 | [eed76e26] GET http://127.0.0.1:8000/candidates?page=54&per_page=10&sort_order=desc | Status: 200 | Time: 0.092s | Size: 27300 bytes
+2025-11-18 10:48:41 | [32mINFO[0m | http:117 | [245342a5] GET http://127.0.0.1:8000/candidates?page=55&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:41 | [32mINFO[0m | http:133 | [245342a5] GET http://127.0.0.1:8000/candidates?page=55&per_page=10&sort_order=desc | Status: 200 | Time: 0.096s | Size: 24850 bytes
+2025-11-18 10:48:42 | [32mINFO[0m | http:117 | [daf310f2] GET http://127.0.0.1:8000/candidates?page=56&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:42 | [32mINFO[0m | http:133 | [daf310f2] GET http://127.0.0.1:8000/candidates?page=56&per_page=10&sort_order=desc | Status: 200 | Time: 0.087s | Size: 24746 bytes
+2025-11-18 10:48:42 | [32mINFO[0m | http:117 | [8477329b] GET http://127.0.0.1:8000/candidates?page=57&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:42 | [32mINFO[0m | http:133 | [8477329b] GET http://127.0.0.1:8000/candidates?page=57&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 25598 bytes
+2025-11-18 10:48:42 | [32mINFO[0m | http:117 | [c8149fd0] GET http://127.0.0.1:8000/candidates?page=58&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:42 | [32mINFO[0m | http:133 | [c8149fd0] GET http://127.0.0.1:8000/candidates?page=58&per_page=10&sort_order=desc | Status: 200 | Time: 0.093s | Size: 30363 bytes
+2025-11-18 10:48:43 | [32mINFO[0m | http:117 | [56a86eca] GET http://127.0.0.1:8000/candidates?page=59&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:43 | [32mINFO[0m | http:133 | [56a86eca] GET http://127.0.0.1:8000/candidates?page=59&per_page=10&sort_order=desc | Status: 200 | Time: 0.128s | Size: 23646 bytes
+2025-11-18 10:48:43 | [32mINFO[0m | http:117 | [c8e7af3a] GET http://127.0.0.1:8000/candidates?page=60&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:43 | [32mINFO[0m | http:133 | [c8e7af3a] GET http://127.0.0.1:8000/candidates?page=60&per_page=10&sort_order=desc | Status: 200 | Time: 0.087s | Size: 18158 bytes
+2025-11-18 10:48:43 | [32mINFO[0m | http:117 | [ba6dd86f] GET http://127.0.0.1:8000/candidates?page=61&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:43 | [32mINFO[0m | http:133 | [ba6dd86f] GET http://127.0.0.1:8000/candidates?page=61&per_page=10&sort_order=desc | Status: 200 | Time: 0.093s | Size: 17349 bytes
+2025-11-18 10:48:43 | [32mINFO[0m | http:117 | [81d9d441] GET http://127.0.0.1:8000/candidates?page=62&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:43 | [32mINFO[0m | http:133 | [81d9d441] GET http://127.0.0.1:8000/candidates?page=62&per_page=10&sort_order=desc | Status: 200 | Time: 0.081s | Size: 17492 bytes
+2025-11-18 10:48:43 | [32mINFO[0m | http:117 | [ae6b5d50] GET http://127.0.0.1:8000/candidates?page=63&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:44 | [32mINFO[0m | http:133 | [ae6b5d50] GET http://127.0.0.1:8000/candidates?page=63&per_page=10&sort_order=desc | Status: 200 | Time: 0.087s | Size: 23640 bytes
+2025-11-18 10:48:44 | [32mINFO[0m | http:117 | [be3f3434] GET http://127.0.0.1:8000/candidates?page=64&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:44 | [32mINFO[0m | http:133 | [be3f3434] GET http://127.0.0.1:8000/candidates?page=64&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 21546 bytes
+2025-11-18 10:48:44 | [32mINFO[0m | http:117 | [2d055bcb] GET http://127.0.0.1:8000/candidates?page=65&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:44 | [32mINFO[0m | http:133 | [2d055bcb] GET http://127.0.0.1:8000/candidates?page=65&per_page=10&sort_order=desc | Status: 200 | Time: 0.079s | Size: 19632 bytes
+2025-11-18 10:48:44 | [32mINFO[0m | http:117 | [046e0491] GET http://127.0.0.1:8000/candidates?page=66&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:44 | [32mINFO[0m | http:133 | [046e0491] GET http://127.0.0.1:8000/candidates?page=66&per_page=10&sort_order=desc | Status: 200 | Time: 0.090s | Size: 16028 bytes
+2025-11-18 10:48:44 | [32mINFO[0m | http:117 | [978cfaf9] GET http://127.0.0.1:8000/candidates?page=67&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:44 | [32mINFO[0m | http:133 | [978cfaf9] GET http://127.0.0.1:8000/candidates?page=67&per_page=10&sort_order=desc | Status: 200 | Time: 0.072s | Size: 21193 bytes
+2025-11-18 10:48:45 | [32mINFO[0m | http:117 | [87b1975d] GET http://127.0.0.1:8000/candidates?page=68&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:45 | [32mINFO[0m | http:133 | [87b1975d] GET http://127.0.0.1:8000/candidates?page=68&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 19426 bytes
+2025-11-18 10:48:45 | [32mINFO[0m | http:117 | [fff42c4f] GET http://127.0.0.1:8000/candidates?page=69&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:45 | [32mINFO[0m | http:133 | [fff42c4f] GET http://127.0.0.1:8000/candidates?page=69&per_page=10&sort_order=desc | Status: 200 | Time: 0.090s | Size: 16861 bytes
+2025-11-18 10:48:45 | [32mINFO[0m | http:117 | [a9e4c87e] GET http://127.0.0.1:8000/candidates?page=70&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:45 | [32mINFO[0m | http:133 | [a9e4c87e] GET http://127.0.0.1:8000/candidates?page=70&per_page=10&sort_order=desc | Status: 200 | Time: 0.074s | Size: 16458 bytes
+2025-11-18 10:48:45 | [32mINFO[0m | http:117 | [bb794408] GET http://127.0.0.1:8000/candidates?page=71&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:45 | [32mINFO[0m | http:133 | [bb794408] GET http://127.0.0.1:8000/candidates?page=71&per_page=10&sort_order=desc | Status: 200 | Time: 0.095s | Size: 25051 bytes
+2025-11-18 10:48:45 | [32mINFO[0m | http:117 | [f59819d4] GET http://127.0.0.1:8000/candidates?page=72&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:45 | [32mINFO[0m | http:133 | [f59819d4] GET http://127.0.0.1:8000/candidates?page=72&per_page=10&sort_order=desc | Status: 200 | Time: 0.084s | Size: 19896 bytes
+2025-11-18 10:48:45 | [32mINFO[0m | http:117 | [fdd9dff2] GET http://127.0.0.1:8000/candidates?page=73&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:46 | [32mINFO[0m | http:133 | [fdd9dff2] GET http://127.0.0.1:8000/candidates?page=73&per_page=10&sort_order=desc | Status: 200 | Time: 0.074s | Size: 21064 bytes
+2025-11-18 10:48:46 | [32mINFO[0m | http:117 | [783d92cd] GET http://127.0.0.1:8000/candidates?page=74&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:46 | [32mINFO[0m | http:133 | [783d92cd] GET http://127.0.0.1:8000/candidates?page=74&per_page=10&sort_order=desc | Status: 200 | Time: 0.084s | Size: 17304 bytes
+2025-11-18 10:48:46 | [32mINFO[0m | http:117 | [eae5ae98] GET http://127.0.0.1:8000/candidates?page=75&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:46 | [32mINFO[0m | http:117 | [8dccbef3] GET http://127.0.0.1:8000/candidates?page=75&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:46 | [32mINFO[0m | http:117 | [e82617a2] GET http://127.0.0.1:8000/candidates?page=75&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:46 | [32mINFO[0m | http:133 | [eae5ae98] GET http://127.0.0.1:8000/candidates?page=75&per_page=10&sort_order=desc | Status: 200 | Time: 0.366s | Size: 18736 bytes
+2025-11-18 10:48:46 | [32mINFO[0m | http:117 | [128c1a13] GET http://127.0.0.1:8000/candidates?page=76&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:47 | [32mINFO[0m | http:133 | [8dccbef3] GET http://127.0.0.1:8000/candidates?page=75&per_page=10&sort_order=desc | Status: 200 | Time: 0.580s | Size: 18736 bytes
+2025-11-18 10:48:47 | [32mINFO[0m | http:117 | [cc74867a] GET http://127.0.0.1:8000/candidates?page=76&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:47 | [32mINFO[0m | http:133 | [128c1a13] GET http://127.0.0.1:8000/candidates?page=76&per_page=10&sort_order=desc | Status: 200 | Time: 0.346s | Size: 19979 bytes
+2025-11-18 10:48:47 | [32mINFO[0m | http:133 | [cc74867a] GET http://127.0.0.1:8000/candidates?page=76&per_page=10&sort_order=desc | Status: 200 | Time: 0.094s | Size: 19979 bytes
+2025-11-18 10:48:47 | [32mINFO[0m | http:117 | [1d8b435d] GET http://127.0.0.1:8000/candidates?page=77&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:48:47 | [32mINFO[0m | http:133 | [e82617a2] GET http://127.0.0.1:8000/candidates?page=75&per_page=10&sort_order=desc | Status: 200 | Time: 0.710s | Size: 18736 bytes
+2025-11-18 10:48:47 | [32mINFO[0m | http:133 | [1d8b435d] GET http://127.0.0.1:8000/candidates?page=77&per_page=10&sort_order=desc | Status: 200 | Time: 0.165s | Size: 5739 bytes
+2025-11-18 10:49:01 | [32mINFO[0m | http:117 | [4c3b88e7] GET http://127.0.0.1:8000/candidates?page=71&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:49:01 | [32mINFO[0m | http:133 | [4c3b88e7] GET http://127.0.0.1:8000/candidates?page=71&per_page=10&sort_order=desc | Status: 200 | Time: 0.089s | Size: 25051 bytes
+2025-11-18 10:49:01 | [32mINFO[0m | http:117 | [bf831365] GET http://127.0.0.1:8000/candidates?page=70&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:49:01 | [32mINFO[0m | http:133 | [bf831365] GET http://127.0.0.1:8000/candidates?page=70&per_page=10&sort_order=desc | Status: 200 | Time: 0.091s | Size: 16458 bytes
+2025-11-18 10:49:01 | [32mINFO[0m | http:117 | [f6b61399] GET http://127.0.0.1:8000/candidates?page=69&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:49:01 | [32mINFO[0m | http:133 | [f6b61399] GET http://127.0.0.1:8000/candidates?page=69&per_page=10&sort_order=desc | Status: 200 | Time: 0.076s | Size: 16861 bytes
+2025-11-18 10:49:01 | [32mINFO[0m | http:117 | [04730250] GET http://127.0.0.1:8000/candidates?page=68&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:49:01 | [32mINFO[0m | http:133 | [04730250] GET http://127.0.0.1:8000/candidates?page=68&per_page=10&sort_order=desc | Status: 200 | Time: 0.072s | Size: 19426 bytes
+2025-11-18 10:49:01 | [32mINFO[0m | http:117 | [7e29469d] GET http://127.0.0.1:8000/candidates?page=67&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:49:01 | [32mINFO[0m | http:133 | [7e29469d] GET http://127.0.0.1:8000/candidates?page=67&per_page=10&sort_order=desc | Status: 200 | Time: 0.081s | Size: 21193 bytes
+2025-11-18 10:49:01 | [32mINFO[0m | http:117 | [f1b9c1e8] GET http://127.0.0.1:8000/candidates?page=66&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-18 10:49:02 | [32mINFO[0m | http:133 | [f1b9c1e8] GET http://127.0.0.1:8000/candidates?page=66&per_page=10&sort_order=desc | Status: 200 | Time: 0.085s | Size: 16028 bytes
+2025-11-18 11:05:17 | [32mINFO[0m | http:117 | [abd6f185] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: PostmanRuntime/7.49.1
+2025-11-18 11:05:18 | [32mINFO[0m | http:133 | [abd6f185] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.582s | Size: 572 bytes
+2025-11-18 11:42:40 | [32mINFO[0m | http:117 | [5b50bf43] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: PostmanRuntime/7.49.1
+2025-11-18 11:42:41 | [32mINFO[0m | http:133 | [5b50bf43] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.825s | Size: 572 bytes
+2025-11-18 11:42:46 | [32mINFO[0m | http:117 | [13560260] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: PostmanRuntime/7.49.1
+2025-11-18 11:42:47 | [32mINFO[0m | http:133 | [13560260] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.450s | Size: 5950 bytes

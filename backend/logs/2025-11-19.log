@@ -1,0 +1,319 @@
+2025-11-19 10:42:22 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-19 10:42:22 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-19 10:42:22 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-19 10:42:22 | [32mINFO[0m | app:94 | Daily log files: 2025-11-19.log
+2025-11-19 10:42:22 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-19 10:42:34 | [32mINFO[0m | http:117 | [4e3c1be1] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:42:34 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-19 10:42:34 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-19 10:42:34 | [32mINFO[0m | http:117 | [7e1c0147] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:42:34 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-19 10:42:34 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-19 10:42:34 | [33mWARNING[0m | http:133 | [4e3c1be1] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.027s | Size: 26 bytes
+2025-11-19 10:42:34 | [33mWARNING[0m | http:133 | [7e1c0147] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.002s | Size: 26 bytes
+2025-11-19 10:42:46 | [32mINFO[0m | http:117 | [a1eaf582] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-19 10:42:47 | [32mINFO[0m | http:133 | [a1eaf582] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 1.298s | Size: 572 bytes
+2025-11-19 10:42:48 | [32mINFO[0m | http:117 | [df8a6146] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:42:48 | [32mINFO[0m | http:117 | [947154a5] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:42:48 | [32mINFO[0m | http:133 | [947154a5] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.268s | Size: 5950 bytes
+2025-11-19 10:42:48 | [32mINFO[0m | http:133 | [df8a6146] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.620s | Size: 13 bytes
+2025-11-19 10:42:52 | [32mINFO[0m | http:117 | [d21701b2] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:42:52 | [32mINFO[0m | http:133 | [d21701b2] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.205s | Size: 8984 bytes
+2025-11-19 10:42:53 | [32mINFO[0m | http:117 | [4016ca93] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:42:54 | [32mINFO[0m | http:133 | [4016ca93] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.517s | Size: 4771 bytes
+2025-11-19 10:42:56 | [32mINFO[0m | http:117 | [f115fd74] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:42:56 | [32mINFO[0m | http:133 | [f115fd74] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 200 | Time: 0.210s | Size: 5085 bytes
+2025-11-19 10:43:00 | [32mINFO[0m | http:117 | [e8be1a8b] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:00 | [32mINFO[0m | http:133 | [e8be1a8b] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | Status: 200 | Time: 0.174s | Size: 4136 bytes
+2025-11-19 10:43:25 | [32mINFO[0m | http:117 | [fa6d9d0e] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:25 | [32mINFO[0m | http:117 | [9f1bee2a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:25 | [32mINFO[0m | http:117 | [706a65a9] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:25 | [32mINFO[0m | http:133 | [9f1bee2a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.172s | Size: 5950 bytes
+2025-11-19 10:43:26 | [32mINFO[0m | http:133 | [fa6d9d0e] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | Status: 200 | Time: 0.293s | Size: 950 bytes
+2025-11-19 10:43:26 | [32mINFO[0m | http:133 | [706a65a9] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.509s | Size: 5950 bytes
+2025-11-19 10:43:35 | [32mINFO[0m | http:117 | [eea4f8a3] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:35 | [32mINFO[0m | http:133 | [eea4f8a3] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.157s | Size: 5950 bytes
+2025-11-19 10:43:35 | [32mINFO[0m | http:117 | [c9c05d8a] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:35 | [32mINFO[0m | http:117 | [df7bba91] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:35 | [32mINFO[0m | http:133 | [c9c05d8a] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.178s | Size: 5950 bytes
+2025-11-19 10:43:36 | [32mINFO[0m | http:117 | [280267e9] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:36 | [32mINFO[0m | http:133 | [df7bba91] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.192s | Size: 5950 bytes
+2025-11-19 10:43:36 | [32mINFO[0m | http:133 | [280267e9] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.135s | Size: 5950 bytes
+2025-11-19 10:43:36 | [32mINFO[0m | http:117 | [28a815ef] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:36 | [32mINFO[0m | http:133 | [28a815ef] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.159s | Size: 5950 bytes
+2025-11-19 10:43:36 | [32mINFO[0m | http:117 | [488a84e3] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:36 | [32mINFO[0m | http:133 | [488a84e3] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.163s | Size: 5950 bytes
+2025-11-19 10:43:37 | [32mINFO[0m | http:117 | [15a3f68d] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:37 | [32mINFO[0m | http:133 | [15a3f68d] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.172s | Size: 5950 bytes
+2025-11-19 10:43:37 | [32mINFO[0m | http:117 | [77d20f4e] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:37 | [32mINFO[0m | http:133 | [77d20f4e] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.151s | Size: 5950 bytes
+2025-11-19 10:43:37 | [32mINFO[0m | http:117 | [f78d35cb] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:37 | [32mINFO[0m | http:133 | [f78d35cb] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.152s | Size: 5950 bytes
+2025-11-19 10:43:38 | [32mINFO[0m | http:117 | [5709eaa7] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:38 | [32mINFO[0m | http:133 | [5709eaa7] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.138s | Size: 5950 bytes
+2025-11-19 10:43:38 | [32mINFO[0m | http:117 | [5329af43] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:38 | [32mINFO[0m | http:133 | [5329af43] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 5951 bytes
+2025-11-19 10:43:38 | [32mINFO[0m | http:117 | [6a0eed6c] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:39 | [32mINFO[0m | http:133 | [6a0eed6c] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 200 | Time: 0.146s | Size: 5951 bytes
+2025-11-19 10:43:39 | [32mINFO[0m | http:117 | [1ede3ed7] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:39 | [32mINFO[0m | http:133 | [1ede3ed7] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 200 | Time: 0.145s | Size: 5951 bytes
+2025-11-19 10:43:39 | [32mINFO[0m | http:117 | [cdb31323] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:39 | [32mINFO[0m | http:117 | [31eeb9f0] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:39 | [32mINFO[0m | http:133 | [cdb31323] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.169s | Size: 20874 bytes
+2025-11-19 10:43:39 | [32mINFO[0m | http:133 | [31eeb9f0] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.173s | Size: 20874 bytes
+2025-11-19 10:43:39 | [32mINFO[0m | http:117 | [302cfb0f] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:40 | [32mINFO[0m | http:133 | [302cfb0f] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 200 | Time: 0.167s | Size: 28018 bytes
+2025-11-19 10:43:52 | [32mINFO[0m | http:117 | [76ac8279] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:52 | [32mINFO[0m | http:117 | [584f50f0] GET http://127.0.0.1:8000/candidates?page=1&per_page=20&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:43:52 | [32mINFO[0m | http:133 | [76ac8279] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.140s | Size: 13 bytes
+2025-11-19 10:43:52 | [32mINFO[0m | http:133 | [584f50f0] GET http://127.0.0.1:8000/candidates?page=1&per_page=20&sort_order=desc | Status: 200 | Time: 0.140s | Size: 11840 bytes
+2025-11-19 10:44:08 | [32mINFO[0m | http:117 | [9f66267b] GET http://127.0.0.1:8000/candidates?page=2&per_page=20&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:08 | [32mINFO[0m | http:133 | [9f66267b] GET http://127.0.0.1:8000/candidates?page=2&per_page=20&sort_order=desc | Status: 200 | Time: 0.174s | Size: 11840 bytes
+2025-11-19 10:44:11 | [32mINFO[0m | http:117 | [1bf2f235] GET http://127.0.0.1:8000/candidates?page=3&per_page=20&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:11 | [32mINFO[0m | http:133 | [1bf2f235] GET http://127.0.0.1:8000/candidates?page=3&per_page=20&sort_order=desc | Status: 200 | Time: 0.155s | Size: 11840 bytes
+2025-11-19 10:44:13 | [32mINFO[0m | http:117 | [a0c22927] GET http://127.0.0.1:8000/candidates?page=4&per_page=20&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:13 | [32mINFO[0m | http:133 | [a0c22927] GET http://127.0.0.1:8000/candidates?page=4&per_page=20&sort_order=desc | Status: 200 | Time: 0.140s | Size: 11840 bytes
+2025-11-19 10:44:14 | [32mINFO[0m | http:117 | [7cfc87b3] GET http://127.0.0.1:8000/candidates?page=5&per_page=20&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:14 | [32mINFO[0m | http:133 | [7cfc87b3] GET http://127.0.0.1:8000/candidates?page=5&per_page=20&sort_order=desc | Status: 200 | Time: 0.137s | Size: 11840 bytes
+2025-11-19 10:44:16 | [32mINFO[0m | http:117 | [9f9e0d2e] GET http://127.0.0.1:8000/candidates?page=6&per_page=20&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:16 | [32mINFO[0m | http:133 | [9f9e0d2e] GET http://127.0.0.1:8000/candidates?page=6&per_page=20&sort_order=desc | Status: 200 | Time: 0.161s | Size: 11840 bytes
+2025-11-19 10:44:20 | [32mINFO[0m | http:117 | [85af0efe] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:20 | [32mINFO[0m | http:133 | [85af0efe] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.139s | Size: 5950 bytes
+2025-11-19 10:44:22 | [32mINFO[0m | http:117 | [1e4b9e10] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:22 | [32mINFO[0m | http:133 | [1e4b9e10] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.144s | Size: 5950 bytes
+2025-11-19 10:44:22 | [32mINFO[0m | http:117 | [848603f0] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:22 | [32mINFO[0m | http:133 | [848603f0] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.150s | Size: 5950 bytes
+2025-11-19 10:44:22 | [32mINFO[0m | http:117 | [fea41154] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:22 | [32mINFO[0m | http:133 | [fea41154] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.133s | Size: 5950 bytes
+2025-11-19 10:44:22 | [32mINFO[0m | http:117 | [5f80632c] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:22 | [32mINFO[0m | http:133 | [5f80632c] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.126s | Size: 5950 bytes
+2025-11-19 10:44:22 | [32mINFO[0m | http:117 | [fd09a60b] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:22 | [32mINFO[0m | http:133 | [fd09a60b] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.138s | Size: 5950 bytes
+2025-11-19 10:44:22 | [32mINFO[0m | http:117 | [627c8243] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:23 | [32mINFO[0m | http:133 | [627c8243] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.139s | Size: 5950 bytes
+2025-11-19 10:44:23 | [32mINFO[0m | http:117 | [61c552a2] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:23 | [32mINFO[0m | http:133 | [61c552a2] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.132s | Size: 5950 bytes
+2025-11-19 10:44:23 | [32mINFO[0m | http:117 | [7ee72c6e] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:23 | [32mINFO[0m | http:133 | [7ee72c6e] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.140s | Size: 5950 bytes
+2025-11-19 10:44:23 | [32mINFO[0m | http:117 | [56d7e0eb] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:23 | [32mINFO[0m | http:133 | [56d7e0eb] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 200 | Time: 0.127s | Size: 5951 bytes
+2025-11-19 10:44:23 | [32mINFO[0m | http:117 | [7c7e8749] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:23 | [32mINFO[0m | http:133 | [7c7e8749] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 200 | Time: 0.143s | Size: 5951 bytes
+2025-11-19 10:44:23 | [32mINFO[0m | http:117 | [ed39c909] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:23 | [32mINFO[0m | http:133 | [ed39c909] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 200 | Time: 0.146s | Size: 5951 bytes
+2025-11-19 10:44:24 | [32mINFO[0m | http:117 | [217c4afd] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:24 | [32mINFO[0m | http:133 | [217c4afd] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.156s | Size: 20874 bytes
+2025-11-19 10:44:24 | [32mINFO[0m | http:117 | [71cd2633] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:24 | [32mINFO[0m | http:133 | [71cd2633] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 200 | Time: 0.142s | Size: 28018 bytes
+2025-11-19 10:44:24 | [32mINFO[0m | http:117 | [ccee84be] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:24 | [32mINFO[0m | http:133 | [ccee84be] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.177s | Size: 21533 bytes
+2025-11-19 10:44:24 | [32mINFO[0m | http:117 | [882a54bd] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:24 | [32mINFO[0m | http:133 | [882a54bd] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | Status: 200 | Time: 0.139s | Size: 25397 bytes
+2025-11-19 10:44:25 | [32mINFO[0m | http:117 | [7065fa75] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:25 | [32mINFO[0m | http:133 | [7065fa75] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | Status: 200 | Time: 0.148s | Size: 23794 bytes
+2025-11-19 10:44:25 | [32mINFO[0m | http:117 | [c176d5e9] GET http://127.0.0.1:8000/candidates?page=18&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:25 | [32mINFO[0m | http:133 | [c176d5e9] GET http://127.0.0.1:8000/candidates?page=18&per_page=10&sort_order=desc | Status: 200 | Time: 0.142s | Size: 26323 bytes
+2025-11-19 10:44:25 | [32mINFO[0m | http:117 | [4034dfb5] GET http://127.0.0.1:8000/candidates?page=19&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:26 | [32mINFO[0m | http:133 | [4034dfb5] GET http://127.0.0.1:8000/candidates?page=19&per_page=10&sort_order=desc | Status: 200 | Time: 0.157s | Size: 19757 bytes
+2025-11-19 10:44:39 | [32mINFO[0m | http:117 | [b74543e7] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:40 | [32mINFO[0m | http:133 | [b74543e7] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | Status: 200 | Time: 0.149s | Size: 24193 bytes
+2025-11-19 10:44:40 | [32mINFO[0m | http:117 | [19a40233] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:40 | [32mINFO[0m | http:133 | [19a40233] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | Status: 200 | Time: 0.178s | Size: 31450 bytes
+2025-11-19 10:44:40 | [32mINFO[0m | http:117 | [63123684] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:41 | [32mINFO[0m | http:133 | [63123684] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | Status: 200 | Time: 0.160s | Size: 26799 bytes
+2025-11-19 10:44:41 | [32mINFO[0m | http:117 | [dc8a816b] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:41 | [32mINFO[0m | http:133 | [dc8a816b] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | Status: 200 | Time: 0.137s | Size: 26799 bytes
+2025-11-19 10:44:41 | [32mINFO[0m | http:117 | [38282b8a] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:41 | [32mINFO[0m | http:133 | [38282b8a] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | Status: 200 | Time: 0.156s | Size: 31741 bytes
+2025-11-19 10:44:41 | [32mINFO[0m | http:117 | [790becbf] GET http://127.0.0.1:8000/candidates?page=24&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:41 | [32mINFO[0m | http:133 | [790becbf] GET http://127.0.0.1:8000/candidates?page=24&per_page=10&sort_order=desc | Status: 200 | Time: 0.150s | Size: 32684 bytes
+2025-11-19 10:44:42 | [32mINFO[0m | http:117 | [921be6d9] GET http://127.0.0.1:8000/candidates?page=25&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:42 | [32mINFO[0m | http:133 | [921be6d9] GET http://127.0.0.1:8000/candidates?page=25&per_page=10&sort_order=desc | Status: 200 | Time: 0.149s | Size: 29330 bytes
+2025-11-19 10:44:43 | [32mINFO[0m | http:117 | [0c807588] GET http://127.0.0.1:8000/candidates?page=26&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:43 | [32mINFO[0m | http:133 | [0c807588] GET http://127.0.0.1:8000/candidates?page=26&per_page=10&sort_order=desc | Status: 200 | Time: 0.146s | Size: 32575 bytes
+2025-11-19 10:44:43 | [32mINFO[0m | http:117 | [ee342cde] GET http://127.0.0.1:8000/candidates?page=27&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:43 | [32mINFO[0m | http:133 | [ee342cde] GET http://127.0.0.1:8000/candidates?page=27&per_page=10&sort_order=desc | Status: 200 | Time: 0.225s | Size: 30395 bytes
+2025-11-19 10:44:43 | [32mINFO[0m | http:117 | [3c96b1e0] GET http://127.0.0.1:8000/candidates?page=28&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:44 | [32mINFO[0m | http:133 | [3c96b1e0] GET http://127.0.0.1:8000/candidates?page=28&per_page=10&sort_order=desc | Status: 200 | Time: 0.200s | Size: 27767 bytes
+2025-11-19 10:44:44 | [32mINFO[0m | http:117 | [5b1d5a54] GET http://127.0.0.1:8000/candidates?page=29&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:44 | [32mINFO[0m | http:133 | [5b1d5a54] GET http://127.0.0.1:8000/candidates?page=29&per_page=10&sort_order=desc | Status: 200 | Time: 0.153s | Size: 32025 bytes
+2025-11-19 10:44:44 | [32mINFO[0m | http:117 | [91f3ebb2] GET http://127.0.0.1:8000/candidates?page=30&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:44 | [32mINFO[0m | http:133 | [91f3ebb2] GET http://127.0.0.1:8000/candidates?page=30&per_page=10&sort_order=desc | Status: 200 | Time: 0.135s | Size: 31155 bytes
+2025-11-19 10:44:44 | [32mINFO[0m | http:117 | [13c17bc7] GET http://127.0.0.1:8000/candidates?page=31&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:45 | [32mINFO[0m | http:133 | [13c17bc7] GET http://127.0.0.1:8000/candidates?page=31&per_page=10&sort_order=desc | Status: 200 | Time: 0.131s | Size: 34034 bytes
+2025-11-19 10:44:45 | [32mINFO[0m | http:117 | [8ff10b60] GET http://127.0.0.1:8000/candidates?page=32&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:45 | [32mINFO[0m | http:133 | [8ff10b60] GET http://127.0.0.1:8000/candidates?page=32&per_page=10&sort_order=desc | Status: 200 | Time: 0.148s | Size: 25971 bytes
+2025-11-19 10:44:45 | [32mINFO[0m | http:117 | [f1236a9b] GET http://127.0.0.1:8000/candidates?page=33&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:45 | [32mINFO[0m | http:133 | [f1236a9b] GET http://127.0.0.1:8000/candidates?page=33&per_page=10&sort_order=desc | Status: 200 | Time: 0.180s | Size: 26451 bytes
+2025-11-19 10:44:46 | [32mINFO[0m | http:117 | [bc389f63] GET http://127.0.0.1:8000/candidates?page=34&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:46 | [32mINFO[0m | http:133 | [bc389f63] GET http://127.0.0.1:8000/candidates?page=34&per_page=10&sort_order=desc | Status: 200 | Time: 0.145s | Size: 31168 bytes
+2025-11-19 10:44:46 | [32mINFO[0m | http:117 | [0bb68067] GET http://127.0.0.1:8000/candidates?page=35&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:46 | [32mINFO[0m | http:133 | [0bb68067] GET http://127.0.0.1:8000/candidates?page=35&per_page=10&sort_order=desc | Status: 200 | Time: 0.149s | Size: 30052 bytes
+2025-11-19 10:44:46 | [32mINFO[0m | http:117 | [0d1708b5] GET http://127.0.0.1:8000/candidates?page=36&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:46 | [32mINFO[0m | http:133 | [0d1708b5] GET http://127.0.0.1:8000/candidates?page=36&per_page=10&sort_order=desc | Status: 200 | Time: 0.136s | Size: 32094 bytes
+2025-11-19 10:44:47 | [32mINFO[0m | http:117 | [a3ca79f4] GET http://127.0.0.1:8000/candidates?page=37&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:47 | [32mINFO[0m | http:133 | [a3ca79f4] GET http://127.0.0.1:8000/candidates?page=37&per_page=10&sort_order=desc | Status: 200 | Time: 0.127s | Size: 32495 bytes
+2025-11-19 10:44:51 | [32mINFO[0m | http:117 | [44610413] GET http://127.0.0.1:8000/candidates?page=38&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:51 | [32mINFO[0m | http:133 | [44610413] GET http://127.0.0.1:8000/candidates?page=38&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 27018 bytes
+2025-11-19 10:44:51 | [32mINFO[0m | http:117 | [6bcd6f6b] GET http://127.0.0.1:8000/candidates?page=39&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:51 | [32mINFO[0m | http:133 | [6bcd6f6b] GET http://127.0.0.1:8000/candidates?page=39&per_page=10&sort_order=desc | Status: 200 | Time: 0.149s | Size: 24068 bytes
+2025-11-19 10:44:52 | [32mINFO[0m | http:117 | [fa294ac4] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:52 | [32mINFO[0m | http:133 | [fa294ac4] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | Status: 200 | Time: 0.182s | Size: 21141 bytes
+2025-11-19 10:44:52 | [32mINFO[0m | http:117 | [d829bb74] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:52 | [32mINFO[0m | http:133 | [d829bb74] GET http://127.0.0.1:8000/candidates?page=40&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 21141 bytes
+2025-11-19 10:44:52 | [32mINFO[0m | http:117 | [a7f9f96a] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:52 | [32mINFO[0m | http:133 | [a7f9f96a] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | Status: 200 | Time: 0.169s | Size: 18507 bytes
+2025-11-19 10:44:52 | [32mINFO[0m | http:117 | [3be1235a] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:52 | [32mINFO[0m | http:117 | [3c05d9ab] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:52 | [32mINFO[0m | http:133 | [3be1235a] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.135s | Size: 13 bytes
+2025-11-19 10:44:52 | [32mINFO[0m | http:133 | [3c05d9ab] GET http://127.0.0.1:8000/candidates?page=41&per_page=10&sort_order=desc | Status: 200 | Time: 0.152s | Size: 18507 bytes
+2025-11-19 10:44:53 | [32mINFO[0m | http:117 | [828fe900] GET http://127.0.0.1:8000/candidates?page=42&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:53 | [32mINFO[0m | http:133 | [828fe900] GET http://127.0.0.1:8000/candidates?page=42&per_page=10&sort_order=desc | Status: 200 | Time: 0.170s | Size: 19919 bytes
+2025-11-19 10:44:53 | [32mINFO[0m | http:117 | [d06b0f41] GET http://127.0.0.1:8000/candidates?page=43&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:53 | [32mINFO[0m | http:133 | [d06b0f41] GET http://127.0.0.1:8000/candidates?page=43&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 18060 bytes
+2025-11-19 10:44:53 | [32mINFO[0m | http:117 | [fe71d274] GET http://127.0.0.1:8000/candidates?page=44&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:53 | [32mINFO[0m | http:133 | [fe71d274] GET http://127.0.0.1:8000/candidates?page=44&per_page=10&sort_order=desc | Status: 200 | Time: 0.153s | Size: 20819 bytes
+2025-11-19 10:44:54 | [32mINFO[0m | http:117 | [4d175220] GET http://127.0.0.1:8000/candidates?page=45&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:54 | [32mINFO[0m | http:117 | [3ebfe94b] GET http://127.0.0.1:8000/candidates?page=45&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:54 | [32mINFO[0m | http:133 | [4d175220] GET http://127.0.0.1:8000/candidates?page=45&per_page=10&sort_order=desc | Status: 200 | Time: 0.230s | Size: 16780 bytes
+2025-11-19 10:44:54 | [32mINFO[0m | http:133 | [3ebfe94b] GET http://127.0.0.1:8000/candidates?page=45&per_page=10&sort_order=desc | Status: 200 | Time: 0.141s | Size: 16780 bytes
+2025-11-19 10:44:54 | [32mINFO[0m | http:117 | [1deb11ef] GET http://127.0.0.1:8000/candidates?page=46&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:54 | [32mINFO[0m | http:133 | [1deb11ef] GET http://127.0.0.1:8000/candidates?page=46&per_page=10&sort_order=desc | Status: 200 | Time: 0.169s | Size: 17271 bytes
+2025-11-19 10:44:55 | [32mINFO[0m | http:117 | [6e440e96] GET http://127.0.0.1:8000/candidates?page=47&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:55 | [32mINFO[0m | http:133 | [6e440e96] GET http://127.0.0.1:8000/candidates?page=47&per_page=10&sort_order=desc | Status: 200 | Time: 0.156s | Size: 20144 bytes
+2025-11-19 10:44:55 | [32mINFO[0m | http:117 | [2de0e327] GET http://127.0.0.1:8000/candidates?page=48&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:55 | [32mINFO[0m | http:133 | [2de0e327] GET http://127.0.0.1:8000/candidates?page=48&per_page=10&sort_order=desc | Status: 200 | Time: 0.134s | Size: 28871 bytes
+2025-11-19 10:44:55 | [32mINFO[0m | http:117 | [dd14aeaf] GET http://127.0.0.1:8000/candidates?page=49&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:55 | [32mINFO[0m | http:133 | [dd14aeaf] GET http://127.0.0.1:8000/candidates?page=49&per_page=10&sort_order=desc | Status: 200 | Time: 0.162s | Size: 24263 bytes
+2025-11-19 10:44:56 | [32mINFO[0m | http:117 | [ca2b16a2] GET http://127.0.0.1:8000/candidates?page=50&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:56 | [32mINFO[0m | http:133 | [ca2b16a2] GET http://127.0.0.1:8000/candidates?page=50&per_page=10&sort_order=desc | Status: 200 | Time: 0.135s | Size: 29694 bytes
+2025-11-19 10:44:56 | [32mINFO[0m | http:117 | [d29a3956] GET http://127.0.0.1:8000/candidates?page=51&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:56 | [32mINFO[0m | http:133 | [d29a3956] GET http://127.0.0.1:8000/candidates?page=51&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 24799 bytes
+2025-11-19 10:44:56 | [32mINFO[0m | http:117 | [5ae2be17] GET http://127.0.0.1:8000/candidates?page=52&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:56 | [32mINFO[0m | http:133 | [5ae2be17] GET http://127.0.0.1:8000/candidates?page=52&per_page=10&sort_order=desc | Status: 200 | Time: 0.149s | Size: 28229 bytes
+2025-11-19 10:44:57 | [32mINFO[0m | http:117 | [2e349ffc] GET http://127.0.0.1:8000/candidates?page=53&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:57 | [32mINFO[0m | http:133 | [2e349ffc] GET http://127.0.0.1:8000/candidates?page=53&per_page=10&sort_order=desc | Status: 200 | Time: 0.142s | Size: 25233 bytes
+2025-11-19 10:44:57 | [32mINFO[0m | http:117 | [d0c4ead2] GET http://127.0.0.1:8000/candidates?page=54&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:57 | [32mINFO[0m | http:133 | [d0c4ead2] GET http://127.0.0.1:8000/candidates?page=54&per_page=10&sort_order=desc | Status: 200 | Time: 0.156s | Size: 27300 bytes
+2025-11-19 10:44:57 | [32mINFO[0m | http:117 | [40a79cb8] GET http://127.0.0.1:8000/candidates?page=54&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:58 | [32mINFO[0m | http:133 | [40a79cb8] GET http://127.0.0.1:8000/candidates?page=54&per_page=10&sort_order=desc | Status: 200 | Time: 0.152s | Size: 27300 bytes
+2025-11-19 10:44:58 | [32mINFO[0m | http:117 | [c196b566] GET http://127.0.0.1:8000/candidates?page=55&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:58 | [32mINFO[0m | http:133 | [c196b566] GET http://127.0.0.1:8000/candidates?page=55&per_page=10&sort_order=desc | Status: 200 | Time: 0.135s | Size: 24850 bytes
+2025-11-19 10:44:58 | [32mINFO[0m | http:117 | [72d12153] GET http://127.0.0.1:8000/candidates?page=56&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:58 | [32mINFO[0m | http:133 | [72d12153] GET http://127.0.0.1:8000/candidates?page=56&per_page=10&sort_order=desc | Status: 200 | Time: 0.135s | Size: 24746 bytes
+2025-11-19 10:44:58 | [32mINFO[0m | http:117 | [ea142646] GET http://127.0.0.1:8000/candidates?page=57&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:59 | [32mINFO[0m | http:133 | [ea142646] GET http://127.0.0.1:8000/candidates?page=57&per_page=10&sort_order=desc | Status: 200 | Time: 0.157s | Size: 25598 bytes
+2025-11-19 10:44:59 | [32mINFO[0m | http:117 | [3748ff67] GET http://127.0.0.1:8000/candidates?page=58&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:59 | [32mINFO[0m | http:133 | [3748ff67] GET http://127.0.0.1:8000/candidates?page=58&per_page=10&sort_order=desc | Status: 200 | Time: 0.181s | Size: 30363 bytes
+2025-11-19 10:44:59 | [32mINFO[0m | http:117 | [8ee063f6] GET http://127.0.0.1:8000/candidates?page=59&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:44:59 | [32mINFO[0m | http:133 | [8ee063f6] GET http://127.0.0.1:8000/candidates?page=59&per_page=10&sort_order=desc | Status: 200 | Time: 0.137s | Size: 23646 bytes
+2025-11-19 10:45:00 | [32mINFO[0m | http:117 | [b224b90f] GET http://127.0.0.1:8000/candidates?page=60&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:00 | [32mINFO[0m | http:133 | [b224b90f] GET http://127.0.0.1:8000/candidates?page=60&per_page=10&sort_order=desc | Status: 200 | Time: 0.145s | Size: 18158 bytes
+2025-11-19 10:45:00 | [32mINFO[0m | http:117 | [02de3cb6] GET http://127.0.0.1:8000/candidates?page=61&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:00 | [32mINFO[0m | http:117 | [53077317] GET http://127.0.0.1:8000/candidates?page=61&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:00 | [32mINFO[0m | http:133 | [02de3cb6] GET http://127.0.0.1:8000/candidates?page=61&per_page=10&sort_order=desc | Status: 200 | Time: 0.225s | Size: 17349 bytes
+2025-11-19 10:45:01 | [32mINFO[0m | http:133 | [53077317] GET http://127.0.0.1:8000/candidates?page=61&per_page=10&sort_order=desc | Status: 200 | Time: 0.157s | Size: 17349 bytes
+2025-11-19 10:45:01 | [32mINFO[0m | http:117 | [1bc46296] GET http://127.0.0.1:8000/candidates?page=62&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:01 | [32mINFO[0m | http:133 | [1bc46296] GET http://127.0.0.1:8000/candidates?page=62&per_page=10&sort_order=desc | Status: 200 | Time: 0.153s | Size: 17492 bytes
+2025-11-19 10:45:01 | [32mINFO[0m | http:117 | [e5629704] GET http://127.0.0.1:8000/candidates?page=63&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:01 | [32mINFO[0m | http:133 | [e5629704] GET http://127.0.0.1:8000/candidates?page=63&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 23640 bytes
+2025-11-19 10:45:01 | [32mINFO[0m | http:117 | [4fdf84d0] GET http://127.0.0.1:8000/candidates?page=64&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:02 | [32mINFO[0m | http:133 | [4fdf84d0] GET http://127.0.0.1:8000/candidates?page=64&per_page=10&sort_order=desc | Status: 200 | Time: 0.173s | Size: 21546 bytes
+2025-11-19 10:45:02 | [32mINFO[0m | http:117 | [b1b6f16b] GET http://127.0.0.1:8000/candidates?page=64&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:02 | [32mINFO[0m | http:133 | [b1b6f16b] GET http://127.0.0.1:8000/candidates?page=64&per_page=10&sort_order=desc | Status: 200 | Time: 0.156s | Size: 21546 bytes
+2025-11-19 10:45:02 | [32mINFO[0m | http:117 | [0c0a7fd4] GET http://127.0.0.1:8000/candidates?page=65&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:02 | [32mINFO[0m | http:133 | [0c0a7fd4] GET http://127.0.0.1:8000/candidates?page=65&per_page=10&sort_order=desc | Status: 200 | Time: 0.136s | Size: 19632 bytes
+2025-11-19 10:45:02 | [32mINFO[0m | http:117 | [a98e2719] GET http://127.0.0.1:8000/candidates?page=66&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:02 | [32mINFO[0m | http:133 | [a98e2719] GET http://127.0.0.1:8000/candidates?page=66&per_page=10&sort_order=desc | Status: 200 | Time: 0.128s | Size: 16028 bytes
+2025-11-19 10:45:03 | [32mINFO[0m | http:117 | [9142c976] GET http://127.0.0.1:8000/candidates?page=67&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:03 | [32mINFO[0m | http:133 | [9142c976] GET http://127.0.0.1:8000/candidates?page=67&per_page=10&sort_order=desc | Status: 200 | Time: 0.145s | Size: 21193 bytes
+2025-11-19 10:45:18 | [32mINFO[0m | http:117 | [50f4099d] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:18 | [32mINFO[0m | http:133 | [50f4099d] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.194s | Size: 8984 bytes
+2025-11-19 10:45:20 | [32mINFO[0m | http:117 | [b1d6b11e] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:21 | [32mINFO[0m | http:133 | [b1d6b11e] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.453s | Size: 4771 bytes
+2025-11-19 10:45:23 | [32mINFO[0m | http:117 | [8766de71] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:23 | [32mINFO[0m | http:133 | [8766de71] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 200 | Time: 0.149s | Size: 5085 bytes
+2025-11-19 10:45:50 | [32mINFO[0m | http:117 | [35506536] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:51 | [32mINFO[0m | http:133 | [35506536] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.173s | Size: 8984 bytes
+2025-11-19 10:45:54 | [32mINFO[0m | http:117 | [34be0593] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:54 | [32mINFO[0m | http:133 | [34be0593] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.419s | Size: 4771 bytes
+2025-11-19 10:45:57 | [32mINFO[0m | http:117 | [0bcbad7f] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:45:57 | [32mINFO[0m | http:133 | [0bcbad7f] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 200 | Time: 0.147s | Size: 5085 bytes
+2025-11-19 10:48:48 | [32mINFO[0m | http:117 | [eb408ff9] POST http://127.0.0.1:8000/auth/logout | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 10:48:49 | [32mINFO[0m | http:133 | [eb408ff9] POST http://127.0.0.1:8000/auth/logout | Status: 200 | Time: 0.327s | Size: 20 bytes
+2025-11-19 11:08:45 | [32mINFO[0m | http:117 | [0ebea640] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-19 11:08:45 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid credentials
+2025-11-19 11:08:45 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid credentials
+2025-11-19 11:08:45 | [33mWARNING[0m | http:133 | [0ebea640] POST http://127.0.0.1:8000/auth/login | Status: 401 | Time: 0.442s | Size: 32 bytes
+2025-11-19 11:09:02 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-19 11:09:05 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-19 11:09:05 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-19 11:09:05 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-19 11:09:05 | [32mINFO[0m | app:94 | Daily log files: 2025-11-19.log
+2025-11-19 11:09:05 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-19 11:09:35 | [32mINFO[0m | http:117 | [57c78c24] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-19 11:09:36 | [32mINFO[0m | http:133 | [57c78c24] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 1.118s | Size: 572 bytes
+2025-11-19 11:09:38 | [32mINFO[0m | http:117 | [41f50736] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:38 | [32mINFO[0m | http:117 | [c8020d17] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:38 | [32mINFO[0m | http:133 | [41f50736] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.209s | Size: 13 bytes
+2025-11-19 11:09:38 | [32mINFO[0m | http:133 | [c8020d17] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.579s | Size: 5950 bytes
+2025-11-19 11:09:39 | [32mINFO[0m | http:117 | [2d377d1b] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:40 | [32mINFO[0m | http:133 | [2d377d1b] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.492s | Size: 4771 bytes
+2025-11-19 11:09:42 | [32mINFO[0m | http:117 | [f1899956] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:42 | [32mINFO[0m | http:133 | [f1899956] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.190s | Size: 8984 bytes
+2025-11-19 11:09:45 | [32mINFO[0m | http:117 | [cc004eab] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:46 | [32mINFO[0m | http:133 | [cc004eab] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 200 | Time: 0.232s | Size: 789 bytes
+2025-11-19 11:09:52 | [32mINFO[0m | http:117 | [2491c9da] GET http://127.0.0.1:8000/employees/d1c04464-cd96-4726-8c5a-647b2cfce60c | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:52 | [32mINFO[0m | http:133 | [2491c9da] GET http://127.0.0.1:8000/employees/d1c04464-cd96-4726-8c5a-647b2cfce60c | Status: 200 | Time: 0.142s | Size: 612 bytes
+2025-11-19 11:09:57 | [32mINFO[0m | http:117 | [0238343c] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:57 | [32mINFO[0m | http:133 | [0238343c] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.135s | Size: 1098 bytes
+2025-11-19 11:09:59 | [32mINFO[0m | http:117 | [5af072a9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:09:59 | [32mINFO[0m | http:133 | [5af072a9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.142s | Size: 8984 bytes
+2025-11-19 11:10:17 | [32mINFO[0m | http:117 | [7393ac31] GET http://127.0.0.1:8000/projects/0b4d5515-112d-4bd3-8667-b14ce59efee3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:10:17 | [32mINFO[0m | http:133 | [7393ac31] GET http://127.0.0.1:8000/projects/0b4d5515-112d-4bd3-8667-b14ce59efee3 | Status: 200 | Time: 0.202s | Size: 16497 bytes
+2025-11-19 11:10:21 | [32mINFO[0m | http:117 | [b395e872] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:10:22 | [32mINFO[0m | http:133 | [b395e872] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.483s | Size: 4771 bytes
+2025-11-19 11:16:40 | [32mINFO[0m | http:117 | [a451fc53] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:16:40 | [32mINFO[0m | http:133 | [a451fc53] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.567s | Size: 4771 bytes
+2025-11-19 11:16:59 | [32mINFO[0m | http:117 | [72399097] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:16:59 | [32mINFO[0m | http:117 | [a8b80447] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:16:59 | [32mINFO[0m | http:133 | [a8b80447] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 200 | Time: 0.144s | Size: 5085 bytes
+2025-11-19 11:16:59 | [32mINFO[0m | http:133 | [72399097] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 200 | Time: 0.743s | Size: 5085 bytes
+2025-11-19 11:24:18 | [32mINFO[0m | http:117 | [a7e09298] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:24:18 | [32mINFO[0m | http:133 | [a7e09298] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | Status: 200 | Time: 0.170s | Size: 4136 bytes
+2025-11-19 11:24:18 | [32mINFO[0m | http:117 | [7758e9a0] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:24:18 | [32mINFO[0m | http:133 | [7758e9a0] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.254s | Size: 15495 bytes
+2025-11-19 11:39:03 | [32mINFO[0m | http:117 | [5cc91d8d] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:03 | [32mINFO[0m | http:133 | [5cc91d8d] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | Status: 200 | Time: 0.191s | Size: 4136 bytes
+2025-11-19 11:39:15 | [32mINFO[0m | http:117 | [6abdfe60] DELETE http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members/2ed5a65b-bd2b-49b4-b410-68b81634a851 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:15 | [32mINFO[0m | http:133 | [6abdfe60] DELETE http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members/2ed5a65b-bd2b-49b4-b410-68b81634a851 | Status: 200 | Time: 0.211s | Size: 54 bytes
+2025-11-19 11:39:22 | [32mINFO[0m | http:117 | [3fe478b0] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:22 | [32mINFO[0m | http:133 | [3fe478b0] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.155s | Size: 15495 bytes
+2025-11-19 11:39:31 | [32mINFO[0m | http:117 | [8d3de245] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:31 | [32mINFO[0m | http:133 | [8d3de245] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.190s | Size: 15495 bytes
+2025-11-19 11:39:40 | [32mINFO[0m | http:117 | [ddd7963a] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:41 | [32mINFO[0m | http:133 | [ddd7963a] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.933s | Size: 4771 bytes
+2025-11-19 11:39:41 | [32mINFO[0m | http:117 | [a315051c] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:42 | [32mINFO[0m | http:133 | [a315051c] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | Status: 200 | Time: 0.553s | Size: 3163 bytes
+2025-11-19 11:39:48 | [32mINFO[0m | http:117 | [30ecec8e] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:48 | [32mINFO[0m | http:133 | [30ecec8e] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.208s | Size: 15495 bytes
+2025-11-19 11:39:55 | [32mINFO[0m | http:117 | [2a021e9c] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:55 | [32mINFO[0m | http:117 | [dda394a9] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:39:55 | [32mINFO[0m | http:133 | [2a021e9c] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.172s | Size: 13 bytes
+2025-11-19 11:39:55 | [32mINFO[0m | http:133 | [dda394a9] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.195s | Size: 5950 bytes
+2025-11-19 11:40:02 | [32mINFO[0m | http:117 | [74e14fe6] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:40:02 | [32mINFO[0m | http:133 | [74e14fe6] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.169s | Size: 15495 bytes
+2025-11-19 11:46:14 | [32mINFO[0m | http:117 | [c80b393e] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:46:15 | [32mINFO[0m | http:133 | [c80b393e] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.209s | Size: 15495 bytes
+2025-11-19 11:46:27 | [32mINFO[0m | http:117 | [66a66dbb] POST http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:46:28 | [32mINFO[0m | http:133 | [66a66dbb] POST http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members | Status: 200 | Time: 0.452s | Size: 194 bytes
+2025-11-19 11:46:28 | [32mINFO[0m | http:117 | [03476c34] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:46:28 | [32mINFO[0m | http:133 | [03476c34] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | Status: 200 | Time: 0.130s | Size: 4153 bytes
+2025-11-19 11:46:42 | [32mINFO[0m | http:117 | [a45ffa9c] DELETE http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members/1bea8a73-47f7-4bf7-bfd2-d74252312e99 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:46:42 | [32mINFO[0m | http:133 | [a45ffa9c] DELETE http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members/1bea8a73-47f7-4bf7-bfd2-d74252312e99 | Status: 200 | Time: 0.189s | Size: 54 bytes
+2025-11-19 11:46:48 | [32mINFO[0m | http:117 | [a3d418a1] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:46:48 | [32mINFO[0m | http:133 | [a3d418a1] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.126s | Size: 15495 bytes
+2025-11-19 11:47:06 | [32mINFO[0m | http:117 | [aa43f379] POST http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:47:06 | [32mINFO[0m | http:133 | [aa43f379] POST http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6/members | Status: 200 | Time: 0.379s | Size: 194 bytes
+2025-11-19 11:47:06 | [32mINFO[0m | http:117 | [57d1bf7c] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | IP: 127.0.0.1 | User-Agent: node
+2025-11-19 11:47:06 | [32mINFO[0m | http:133 | [57d1bf7c] GET http://127.0.0.1:8000/projects/487f6697-ebe3-4163-9240-4ff09eb8a8c6 | Status: 200 | Time: 0.150s | Size: 4153 bytes

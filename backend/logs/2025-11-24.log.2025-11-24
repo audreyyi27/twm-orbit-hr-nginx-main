@@ -1,0 +1,757 @@
+2025-11-24 14:22:37 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:22:37 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:22:37 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:22:37 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:22:37 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:23:50 | [32mINFO[0m | http:117 | [3e67f0f7] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:23:50 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:23:50 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:23:50 | [32mINFO[0m | http:117 | [ec2a4305] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:23:50 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:23:50 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:23:50 | [33mWARNING[0m | http:133 | [3e67f0f7] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.012s | Size: 26 bytes
+2025-11-24 14:23:50 | [33mWARNING[0m | http:133 | [ec2a4305] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:24:00 | [32mINFO[0m | http:117 | [2182d0f5] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:24:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:00 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:00 | [33mWARNING[0m | http:133 | [2182d0f5] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:24:01 | [32mINFO[0m | http:117 | [493a7bdb] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:24:01 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:01 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:01 | [33mWARNING[0m | http:133 | [493a7bdb] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:24:03 | [32mINFO[0m | http:117 | [c8d04903] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:24:03 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:03 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:03 | [33mWARNING[0m | http:133 | [c8d04903] GET http://127.0.0.1:8000/projects/c6c3dae8-4d1f-4772-b1cc-50a82375bc0a | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:24:08 | [32mINFO[0m | http:117 | [88a6655b] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:24:08 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:08 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:08 | [33mWARNING[0m | http:133 | [88a6655b] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:24:11 | [32mINFO[0m | http:117 | [ac76e2ef] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:24:11 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:11 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:24:11 | [33mWARNING[0m | http:133 | [ac76e2ef] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:34:43 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 14:45:43 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:45:43 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:45:43 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:45:43 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:45:43 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:45:48 | [32mINFO[0m | http:117 | [521cd2c7] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15
+2025-11-24 14:45:57 | [32mINFO[0m | http:133 | [521cd2c7] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 9.362s | Size: 572 bytes
+2025-11-24 14:45:59 | [32mINFO[0m | http:117 | [bf3db271] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:45:59 | [32mINFO[0m | http:117 | [96f6631f] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:03 | [32mINFO[0m | http:133 | [96f6631f] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 3.729s | Size: 5951 bytes
+2025-11-24 14:46:06 | [32mINFO[0m | http:133 | [bf3db271] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 6.620s | Size: 14 bytes
+2025-11-24 14:46:08 | [32mINFO[0m | http:117 | [d540e437] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:09 | [32mINFO[0m | http:117 | [f1c0c728] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:10 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:10 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:10 | [31mERROR[0m | http:122 | [d540e437] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 2.041s
+2025-11-24 14:46:10 | [31mERROR[0m | http:122 | [d540e437] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 2.041s
+2025-11-24 14:46:10 | [32mINFO[0m | http:117 | [2af4f0ac] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:10 | [32mINFO[0m | http:117 | [5036a995] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:10 | [32mINFO[0m | http:117 | [3d6b13fd] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:11 | [32mINFO[0m | http:117 | [dc2dc517] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:11 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:11 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:11 | [31mERROR[0m | http:122 | [f1c0c728] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.681s
+2025-11-24 14:46:11 | [31mERROR[0m | http:122 | [f1c0c728] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.681s
+2025-11-24 14:46:11 | [32mINFO[0m | http:117 | [b1b7a2cd] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:46:12 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:12 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:12 | [31mERROR[0m | http:122 | [dc2dc517] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.046s
+2025-11-24 14:46:12 | [31mERROR[0m | http:122 | [dc2dc517] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.046s
+2025-11-24 14:46:12 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:12 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:12 | [31mERROR[0m | http:122 | [2af4f0ac] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.812s
+2025-11-24 14:46:12 | [31mERROR[0m | http:122 | [2af4f0ac] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.812s
+2025-11-24 14:46:13 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:13 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:13 | [31mERROR[0m | http:122 | [b1b7a2cd] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 2.586s
+2025-11-24 14:46:13 | [31mERROR[0m | http:122 | [b1b7a2cd] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 2.586s
+2025-11-24 14:46:19 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:19 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:19 | [31mERROR[0m | http:122 | [5036a995] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 8.404s
+2025-11-24 14:46:19 | [31mERROR[0m | http:122 | [5036a995] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 8.404s
+2025-11-24 14:46:19 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:19 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:46:19 | [31mERROR[0m | http:122 | [3d6b13fd] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 8.667s
+2025-11-24 14:46:19 | [31mERROR[0m | http:122 | [3d6b13fd] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window, orbit_projects.description 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 8.667s
+2025-11-24 14:47:35 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 14:47:46 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:47:46 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:47:46 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:47:46 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:47:46 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:47:51 | [32mINFO[0m | http:117 | [8e186b5e] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:47:53 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+HINT:  Perhaps you meant to reference the column "orbit_projects.project_descriptions".
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:47:53 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+HINT:  Perhaps you meant to reference the column "orbit_projects.project_descriptions".
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:47:53 | [31mERROR[0m | http:122 | [8e186b5e] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+HINT:  Perhaps you meant to reference the column "orbit_projects.project_descriptions".
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.372s
+2025-11-24 14:47:53 | [31mERROR[0m | http:122 | [8e186b5e] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.project_description does not exist
+HINT:  Perhaps you meant to reference the column "orbit_projects.project_descriptions".
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 1.372s
+2025-11-24 14:48:12 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 14:48:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:48:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:48:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:48:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:48:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:48:18 | [32mINFO[0m | http:117 | [0e5ed342] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:48:23 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_descriptions, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:48:23 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_descriptions, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:48:23 | [31mERROR[0m | http:122 | [0e5ed342] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_descriptions, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 5.409s
+2025-11-24 14:48:23 | [31mERROR[0m | http:122 | [0e5ed342] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_descriptions, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 5.409s
+2025-11-24 14:49:37 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 14:49:38 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:49:38 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:49:38 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:49:38 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:49:38 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:49:48 | [32mINFO[0m | http:117 | [02162f5e] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:50:03 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:50:03 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:50:03 | [31mERROR[0m | http:122 | [02162f5e] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 15.757s
+2025-11-24 14:50:03 | [31mERROR[0m | http:122 | [02162f5e] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 15.757s
+2025-11-24 14:50:49 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 14:51:17 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:51:17 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:51:17 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:51:17 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:51:17 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:51:24 | [32mINFO[0m | http:117 | [e87af5d6] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:51:57 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:51:57 | [31mERROR[0m | app.db:57 | Database error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-24 14:51:57 | [31mERROR[0m | http:122 | [e87af5d6] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 33.588s
+2025-11-24 14:51:57 | [31mERROR[0m | http:122 | [e87af5d6] GET http://127.0.0.1:8000/projects/dashboard | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column orbit_projects.status does not exist
+[SQL: SELECT orbit_projects.project_id, orbit_projects.project_name, orbit_projects.project_description, orbit_projects.status, orbit_projects.start_date, orbit_projects.end_date, orbit_projects.division, orbit_projects.contact_window 
+FROM orbit_projects ORDER BY orbit_projects.project_name]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 33.588s
+2025-11-24 14:53:56 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 14:53:59 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:53:59 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:53:59 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:53:59 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:53:59 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:54:04 | [32mINFO[0m | http:117 | [2a75a2b9] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:54:10 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 1 validation error for Project
+project_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `O` at 1 [type=uuid_parsing, input_value='ORBIT000007', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing
+2025-11-24 14:54:10 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 1 validation error for Project
+project_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `O` at 1 [type=uuid_parsing, input_value='ORBIT000007', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing
+2025-11-24 14:54:10 | [31mERROR[0m | http:122 | [2a75a2b9] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 1 validation error for Project
+project_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `O` at 1 [type=uuid_parsing, input_value='ORBIT000007', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing | Time: 6.086s
+2025-11-24 14:54:10 | [31mERROR[0m | http:122 | [2a75a2b9] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 1 validation error for Project
+project_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `O` at 1 [type=uuid_parsing, input_value='ORBIT000007', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing | Time: 6.086s
+2025-11-24 14:57:08 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 14:57:09 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 14:57:09 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 14:57:09 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 14:57:09 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 14:57:09 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 14:57:20 | [32mINFO[0m | http:117 | [0985996d] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:20 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:20 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:20 | [32mINFO[0m | http:117 | [da3e9494] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:20 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:20 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:20 | [33mWARNING[0m | http:133 | [0985996d] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.006s | Size: 26 bytes
+2025-11-24 14:57:20 | [33mWARNING[0m | http:133 | [da3e9494] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:57:24 | [32mINFO[0m | http:117 | [182169f4] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:24 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:24 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:24 | [33mWARNING[0m | http:133 | [182169f4] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:57:26 | [32mINFO[0m | http:117 | [ccd14ead] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-24 14:57:26 | [33mWARNING[0m | http:133 | [ccd14ead] GET http://127.0.0.1:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-24 14:57:29 | [32mINFO[0m | http:117 | [005c8087] POST http://127.0.0.1:8000/auth/logout | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:34 | [32mINFO[0m | http:133 | [005c8087] POST http://127.0.0.1:8000/auth/logout | Status: 200 | Time: 4.719s | Size: 28 bytes
+2025-11-24 14:57:45 | [32mINFO[0m | http:117 | [cba50cd7] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-24 14:57:50 | [32mINFO[0m | http:133 | [cba50cd7] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 5.386s | Size: 572 bytes
+2025-11-24 14:57:51 | [32mINFO[0m | http:117 | [7042114e] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:51 | [32mINFO[0m | http:117 | [379afd19] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:53 | [32mINFO[0m | http:117 | [af95ade2] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:54 | [32mINFO[0m | http:117 | [e2752366] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:54 | [32mINFO[0m | http:133 | [7042114e] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 3.329s | Size: 14 bytes
+2025-11-24 14:57:59 | [32mINFO[0m | http:117 | [c2cd496a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:57:59 | [32mINFO[0m | http:117 | [c4fecb5f] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:01 | [32mINFO[0m | http:117 | [8f0cbc62] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:01 | [32mINFO[0m | http:133 | [379afd19] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 9.968s | Size: 5951 bytes
+2025-11-24 14:58:02 | [32mINFO[0m | http:117 | [986791f4] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:06 | [32mINFO[0m | http:133 | [c2cd496a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 6.956s | Size: 5951 bytes
+2025-11-24 14:58:07 | [32mINFO[0m | http:117 | [d028d7b7] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:08 | [32mINFO[0m | http:117 | [c37b6eb1] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:09 | [32mINFO[0m | http:117 | [7b53e519] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:10 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:10 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:10 | [31mERROR[0m | http:122 | [c37b6eb1] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 2.630s
+2025-11-24 14:58:10 | [31mERROR[0m | http:122 | [c37b6eb1] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 2.630s
+2025-11-24 14:58:10 | [32mINFO[0m | http:117 | [76aa60fa] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:11 | [32mINFO[0m | http:117 | [65538c7f] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 14:58:11 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:11 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:11 | [31mERROR[0m | http:122 | [76aa60fa] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 1.191s
+2025-11-24 14:58:11 | [31mERROR[0m | http:122 | [76aa60fa] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 1.191s
+2025-11-24 14:58:17 | [32mINFO[0m | http:133 | [c4fecb5f] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 17.671s | Size: 5951 bytes
+2025-11-24 14:58:18 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:18 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:18 | [31mERROR[0m | http:122 | [af95ade2] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 25.260s
+2025-11-24 14:58:18 | [31mERROR[0m | http:122 | [af95ade2] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 25.260s
+2025-11-24 14:58:18 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:18 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:18 | [31mERROR[0m | http:122 | [e2752366] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 24.573s
+2025-11-24 14:58:18 | [31mERROR[0m | http:122 | [e2752366] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 24.573s
+2025-11-24 14:58:21 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:21 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:21 | [31mERROR[0m | http:122 | [986791f4] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 19.099s
+2025-11-24 14:58:21 | [31mERROR[0m | http:122 | [986791f4] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 19.099s
+2025-11-24 14:58:22 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:22 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:22 | [31mERROR[0m | http:122 | [d028d7b7] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 15.697s
+2025-11-24 14:58:22 | [31mERROR[0m | http:122 | [d028d7b7] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 15.697s
+2025-11-24 14:58:25 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:25 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:25 | [31mERROR[0m | http:122 | [8f0cbc62] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 24.429s
+2025-11-24 14:58:25 | [31mERROR[0m | http:122 | [8f0cbc62] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 24.429s
+2025-11-24 14:58:30 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:30 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:30 | [31mERROR[0m | http:122 | [7b53e519] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 21.716s
+2025-11-24 14:58:30 | [31mERROR[0m | http:122 | [7b53e519] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 21.716s
+2025-11-24 14:58:33 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:33 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 'NoneType' object has no attribute 'lower'
+2025-11-24 14:58:33 | [31mERROR[0m | http:122 | [65538c7f] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 21.853s
+2025-11-24 14:58:33 | [31mERROR[0m | http:122 | [65538c7f] GET http://127.0.0.1:8000/projects/dashboard | ERROR: 'NoneType' object has no attribute 'lower' | Time: 21.853s
+2025-11-24 15:01:45 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 15:01:47 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 15:01:47 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 15:01:47 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 15:01:47 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 15:01:47 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 15:01:54 | [32mINFO[0m | http:117 | [00d68828] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:29 | [32mINFO[0m | http:117 | [3308d06c] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:29 | [32mINFO[0m | http:133 | [00d68828] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 34.954s | Size: 6977 bytes
+2025-11-24 15:02:32 | [32mINFO[0m | http:133 | [3308d06c] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 3.128s | Size: 6977 bytes
+2025-11-24 15:02:43 | [32mINFO[0m | http:117 | [14926164] GET http://127.0.0.1:8000/projects/ORBIT000025 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:45 | [32mINFO[0m | http:133 | [14926164] GET http://127.0.0.1:8000/projects/ORBIT000025 | Status: 200 | Time: 2.384s | Size: 2191 bytes
+2025-11-24 15:02:48 | [32mINFO[0m | http:117 | [06dd8f21] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:49 | [32mINFO[0m | http:117 | [793c5fc9] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:51 | [32mINFO[0m | http:117 | [9cfad6fb] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:51 | [32mINFO[0m | http:133 | [06dd8f21] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 2.662s | Size: 2120 bytes
+2025-11-24 15:02:52 | [32mINFO[0m | http:133 | [793c5fc9] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 2.926s | Size: 2120 bytes
+2025-11-24 15:02:53 | [32mINFO[0m | http:133 | [9cfad6fb] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 1.879s | Size: 2120 bytes
+2025-11-24 15:02:56 | [32mINFO[0m | http:117 | [662eefd7] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:57 | [32mINFO[0m | http:117 | [44a3a8bc] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:57 | [32mINFO[0m | http:117 | [36b456f9] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:02:58 | [32mINFO[0m | http:133 | [36b456f9] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 0.327s | Size: 5282 bytes
+2025-11-24 15:03:03 | [32mINFO[0m | http:117 | [a8cb158c] GET http://127.0.0.1:8000/projects/ORBIT000019 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:03:04 | [32mINFO[0m | http:133 | [a8cb158c] GET http://127.0.0.1:8000/projects/ORBIT000019 | Status: 200 | Time: 0.227s | Size: 1145 bytes
+2025-11-24 15:03:04 | [32mINFO[0m | http:133 | [662eefd7] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 7.800s | Size: 5282 bytes
+2025-11-24 15:03:05 | [32mINFO[0m | http:133 | [44a3a8bc] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 7.407s | Size: 5282 bytes
+2025-11-24 15:03:05 | [32mINFO[0m | http:117 | [6864376e] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:03:06 | [32mINFO[0m | http:133 | [6864376e] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 1.279s | Size: 6977 bytes
+2025-11-24 15:06:49 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 15:47:25 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 15:47:25 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 15:47:25 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 15:47:25 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 15:47:25 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 15:48:50 | [32mINFO[0m | http:117 | [91a4abe8] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-24 15:48:52 | [32mINFO[0m | http:133 | [91a4abe8] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 1.320s | Size: 572 bytes
+2025-11-24 15:48:54 | [32mINFO[0m | http:117 | [4cd81f62] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:48:54 | [32mINFO[0m | http:117 | [a28bdea1] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:48:54 | [32mINFO[0m | http:133 | [a28bdea1] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.374s | Size: 5951 bytes
+2025-11-24 15:48:55 | [32mINFO[0m | http:133 | [4cd81f62] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.667s | Size: 14 bytes
+2025-11-24 15:48:56 | [32mINFO[0m | http:117 | [f5d43d2b] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:48:57 | [32mINFO[0m | http:117 | [ded3f383] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 15:48:57 | [32mINFO[0m | http:133 | [f5d43d2b] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 1.006s | Size: 6977 bytes
+2025-11-24 15:48:58 | [32mINFO[0m | http:133 | [ded3f383] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 1.319s | Size: 6977 bytes
+2025-11-24 15:51:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 15:51:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 15:51:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 15:51:56 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 15:51:56 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 15:51:56 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 15:52:05 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 15:52:05 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 15:52:05 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 15:52:05 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 15:52:05 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 15:52:05 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 16:00:19 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 16:00:22 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 16:00:22 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 16:00:22 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 16:00:22 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 16:00:22 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 16:39:45 | [32mINFO[0m | http:117 | [3b314d4b] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: PostmanRuntime/7.49.1
+2025-11-24 16:40:10 | [32mINFO[0m | http:133 | [3b314d4b] POST http://localhost:8000/auth/login | Status: 200 | Time: 25.358s | Size: 572 bytes
+2025-11-24 16:40:55 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 16:43:01 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 16:43:01 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 16:43:01 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 16:43:01 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 16:43:01 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 16:43:04 | [32mINFO[0m | http:117 | [cefd4912] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 16:43:17 | [32mINFO[0m | http:133 | [cefd4912] POST http://localhost:8000/auth/login | Status: 200 | Time: 12.376s | Size: 572 bytes
+2025-11-24 16:44:45 | [32mINFO[0m | http:117 | [0f269e16] GET http://localhost:8000/docs | IP: 127.0.0.1 | User-Agent: curl/8.7.1
+2025-11-24 16:44:45 | [32mINFO[0m | http:133 | [0f269e16] GET http://localhost:8000/docs | Status: 200 | Time: 0.003s | Size: 949 bytes
+2025-11-24 16:45:15 | [32mINFO[0m | http:117 | [b23c655e] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: PostmanRuntime/7.49.1
+2025-11-24 16:45:18 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-11-24 16:45:18 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-11-24 16:45:18 | [33mWARNING[0m | http:133 | [b23c655e] GET http://localhost:8000/projects/dashboard | Status: 401 | Time: 2.701s | Size: 46 bytes
+2025-11-24 16:45:47 | [32mINFO[0m | http:117 | [a1ac7a52] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 16:45:50 | [32mINFO[0m | http:133 | [a1ac7a52] POST http://localhost:8000/auth/login | Status: 200 | Time: 3.511s | Size: 572 bytes
+2025-11-24 16:46:40 | [32mINFO[0m | http:117 | [f0bade47] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: PostmanRuntime/7.49.1
+2025-11-24 16:46:41 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-11-24 16:46:41 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-11-24 16:46:41 | [33mWARNING[0m | http:133 | [f0bade47] GET http://localhost:8000/projects/dashboard | Status: 401 | Time: 1.368s | Size: 46 bytes
+2025-11-24 16:47:24 | [32mINFO[0m | http:117 | [bcfe0110] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: PostmanRuntime/7.49.1
+2025-11-24 16:47:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-11-24 16:47:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-11-24 16:47:26 | [33mWARNING[0m | http:133 | [bcfe0110] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 1.976s | Size: 46 bytes
+2025-11-24 16:48:12 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-24 16:48:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-24 16:48:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-24 16:48:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-24 16:48:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-24.log
+2025-11-24 16:48:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-24 16:48:28 | [32mINFO[0m | http:117 | [caf06288] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 16:48:40 | [32mINFO[0m | http:133 | [caf06288] POST http://localhost:8000/auth/login | Status: 200 | Time: 11.736s | Size: 572 bytes
+2025-11-24 16:49:22 | [32mINFO[0m | http:117 | [ad6e0c0c] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-24 16:49:25 | [32mINFO[0m | http:133 | [ad6e0c0c] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 3.435s | Size: 572 bytes
+2025-11-24 16:49:28 | [32mINFO[0m | http:117 | [409b905d] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 16:49:28 | [32mINFO[0m | http:117 | [00e31521] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 16:49:30 | [32mINFO[0m | http:133 | [409b905d] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 1.787s | Size: 14 bytes
+2025-11-24 16:49:39 | [32mINFO[0m | http:133 | [00e31521] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 10.394s | Size: 5951 bytes
+2025-11-24 16:49:40 | [32mINFO[0m | http:117 | [f9a1df76] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 16:49:41 | [32mINFO[0m | http:117 | [43282ee1] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 16:49:42 | [32mINFO[0m | http:133 | [f9a1df76] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 1.335s | Size: 6977 bytes
+2025-11-24 16:49:51 | [32mINFO[0m | http:133 | [43282ee1] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 9.302s | Size: 6977 bytes
+2025-11-24 17:00:07 | [32mINFO[0m | http:117 | [69b5a111] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-24 17:00:07 | [32mINFO[0m | http:133 | [69b5a111] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 0.558s | Size: 572 bytes
+2025-11-24 17:00:08 | [32mINFO[0m | http:117 | [916b37e4] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:08 | [32mINFO[0m | http:117 | [aabb08e2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:08 | [32mINFO[0m | http:133 | [916b37e4] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.278s | Size: 14 bytes
+2025-11-24 17:00:08 | [32mINFO[0m | http:133 | [aabb08e2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.354s | Size: 5951 bytes
+2025-11-24 17:00:10 | [32mINFO[0m | http:117 | [234e045e] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:10 | [32mINFO[0m | http:133 | [234e045e] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.603s | Size: 6977 bytes
+2025-11-24 17:00:21 | [32mINFO[0m | http:117 | [d77a134d] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:21 | [32mINFO[0m | http:133 | [d77a134d] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.444s | Size: 2120 bytes
+2025-11-24 17:00:25 | [32mINFO[0m | http:117 | [866bc163] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:26 | [32mINFO[0m | http:133 | [866bc163] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 0.132s | Size: 5282 bytes
+2025-11-24 17:00:30 | [32mINFO[0m | http:117 | [4b963ae9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:30 | [32mINFO[0m | http:133 | [4b963ae9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.260s | Size: 9750 bytes
+2025-11-24 17:00:32 | [32mINFO[0m | http:117 | [6a67522e] GET http://127.0.0.1:8000/employees/15a071a9-69ba-4037-b6f3-4020481b0d1a | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:32 | [32mINFO[0m | http:133 | [6a67522e] GET http://127.0.0.1:8000/employees/15a071a9-69ba-4037-b6f3-4020481b0d1a | Status: 200 | Time: 0.343s | Size: 1097 bytes
+2025-11-24 17:00:35 | [32mINFO[0m | http:117 | [3ea5d9d4] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:35 | [32mINFO[0m | http:133 | [3ea5d9d4] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.097s | Size: 5951 bytes
+2025-11-24 17:00:37 | [32mINFO[0m | http:117 | [4e86da96] GET http://127.0.0.1:8000/candidates?page=111&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:37 | [32mINFO[0m | http:117 | [6d171ed9] GET http://127.0.0.1:8000/candidates?page=111&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:37 | [32mINFO[0m | http:133 | [4e86da96] GET http://127.0.0.1:8000/candidates?page=111&per_page=10&sort_order=desc | Status: 200 | Time: 0.205s | Size: 18534 bytes
+2025-11-24 17:00:38 | [32mINFO[0m | http:133 | [6d171ed9] GET http://127.0.0.1:8000/candidates?page=111&per_page=10&sort_order=desc | Status: 200 | Time: 0.219s | Size: 18534 bytes
+2025-11-24 17:00:38 | [32mINFO[0m | http:117 | [27026aab] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:39 | [32mINFO[0m | http:117 | [aee3f15e] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:39 | [32mINFO[0m | http:133 | [27026aab] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.187s | Size: 5951 bytes
+2025-11-24 17:00:39 | [32mINFO[0m | http:133 | [aee3f15e] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.134s | Size: 5951 bytes
+2025-11-24 17:00:39 | [32mINFO[0m | http:117 | [238d8a67] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:39 | [32mINFO[0m | http:133 | [238d8a67] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.144s | Size: 5951 bytes
+2025-11-24 17:00:39 | [32mINFO[0m | http:117 | [cf41a33f] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:39 | [32mINFO[0m | http:133 | [cf41a33f] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.164s | Size: 5951 bytes
+2025-11-24 17:00:39 | [32mINFO[0m | http:117 | [02dfb7bf] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:39 | [32mINFO[0m | http:133 | [02dfb7bf] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.206s | Size: 5951 bytes
+2025-11-24 17:00:40 | [32mINFO[0m | http:117 | [4e4116e8] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:40 | [32mINFO[0m | http:117 | [9bd69a81] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:40 | [32mINFO[0m | http:133 | [4e4116e8] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.224s | Size: 5951 bytes
+2025-11-24 17:00:40 | [32mINFO[0m | http:133 | [9bd69a81] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.149s | Size: 5951 bytes
+2025-11-24 17:00:40 | [32mINFO[0m | http:117 | [7d649bab] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:40 | [32mINFO[0m | http:117 | [93ce9bd6] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:40 | [32mINFO[0m | http:133 | [7d649bab] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.174s | Size: 5951 bytes
+2025-11-24 17:00:40 | [32mINFO[0m | http:133 | [93ce9bd6] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.122s | Size: 5951 bytes
+2025-11-24 17:00:41 | [32mINFO[0m | http:117 | [2644379e] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:41 | [32mINFO[0m | http:133 | [2644379e] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.129s | Size: 5951 bytes
+2025-11-24 17:00:41 | [32mINFO[0m | http:117 | [1d83a01a] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:41 | [32mINFO[0m | http:117 | [e4c28fc3] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:41 | [32mINFO[0m | http:133 | [1d83a01a] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.196s | Size: 5951 bytes
+2025-11-24 17:00:41 | [32mINFO[0m | http:133 | [e4c28fc3] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.136s | Size: 5951 bytes
+2025-11-24 17:00:41 | [32mINFO[0m | http:117 | [6c78cc10] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:42 | [32mINFO[0m | http:117 | [17ccbbd1] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:42 | [32mINFO[0m | http:133 | [6c78cc10] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.191s | Size: 5951 bytes
+2025-11-24 17:00:42 | [32mINFO[0m | http:133 | [17ccbbd1] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.179s | Size: 5951 bytes
+2025-11-24 17:00:42 | [32mINFO[0m | http:117 | [328096ab] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:42 | [32mINFO[0m | http:133 | [328096ab] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 5952 bytes
+2025-11-24 17:00:42 | [32mINFO[0m | http:117 | [d722aa95] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:42 | [32mINFO[0m | http:133 | [d722aa95] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 200 | Time: 0.124s | Size: 5952 bytes
+2025-11-24 17:00:42 | [32mINFO[0m | http:117 | [e489d28f] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:43 | [32mINFO[0m | http:133 | [e489d28f] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 200 | Time: 0.138s | Size: 5952 bytes
+2025-11-24 17:00:43 | [32mINFO[0m | http:117 | [8f128bab] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:43 | [32mINFO[0m | http:133 | [8f128bab] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.105s | Size: 5952 bytes
+2025-11-24 17:00:43 | [32mINFO[0m | http:117 | [541c7ed0] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:43 | [32mINFO[0m | http:133 | [541c7ed0] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 200 | Time: 0.123s | Size: 5952 bytes
+2025-11-24 17:00:43 | [32mINFO[0m | http:117 | [241b60c6] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:00:44 | [32mINFO[0m | http:133 | [241b60c6] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.156s | Size: 19265 bytes
+2025-11-24 17:02:36 | [32mINFO[0m | http:117 | [92f45df2] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:36 | [32mINFO[0m | http:117 | [036fcff8] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:36 | [32mINFO[0m | http:133 | [92f45df2] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.124s | Size: 14 bytes
+2025-11-24 17:02:36 | [32mINFO[0m | http:133 | [036fcff8] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.151s | Size: 5951 bytes
+2025-11-24 17:02:38 | [32mINFO[0m | http:117 | [1572711e] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:38 | [32mINFO[0m | http:133 | [1572711e] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.192s | Size: 5951 bytes
+2025-11-24 17:02:38 | [32mINFO[0m | http:117 | [0d1a8e08] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:38 | [32mINFO[0m | http:133 | [0d1a8e08] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.118s | Size: 5951 bytes
+2025-11-24 17:02:38 | [32mINFO[0m | http:117 | [9ba456db] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:39 | [32mINFO[0m | http:133 | [9ba456db] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.116s | Size: 5951 bytes
+2025-11-24 17:02:39 | [32mINFO[0m | http:117 | [7812be77] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:39 | [32mINFO[0m | http:133 | [7812be77] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.151s | Size: 5951 bytes
+2025-11-24 17:02:39 | [32mINFO[0m | http:117 | [4fe29550] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:39 | [32mINFO[0m | http:133 | [4fe29550] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.131s | Size: 5951 bytes
+2025-11-24 17:02:39 | [32mINFO[0m | http:117 | [c4fe8585] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:39 | [32mINFO[0m | http:133 | [c4fe8585] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.146s | Size: 5951 bytes
+2025-11-24 17:02:39 | [32mINFO[0m | http:117 | [7c0d017c] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:40 | [32mINFO[0m | http:133 | [7c0d017c] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.131s | Size: 5951 bytes
+2025-11-24 17:02:40 | [32mINFO[0m | http:117 | [5c5a0490] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:40 | [32mINFO[0m | http:133 | [5c5a0490] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.111s | Size: 5951 bytes
+2025-11-24 17:02:40 | [32mINFO[0m | http:117 | [5b98d347] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:40 | [32mINFO[0m | http:133 | [5b98d347] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.126s | Size: 5951 bytes
+2025-11-24 17:02:40 | [32mINFO[0m | http:117 | [03882888] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:40 | [32mINFO[0m | http:133 | [03882888] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 200 | Time: 0.128s | Size: 5952 bytes
+2025-11-24 17:02:41 | [32mINFO[0m | http:117 | [e283410a] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:41 | [32mINFO[0m | http:133 | [e283410a] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 200 | Time: 0.163s | Size: 5952 bytes
+2025-11-24 17:02:41 | [32mINFO[0m | http:117 | [fc8229a7] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:41 | [32mINFO[0m | http:133 | [fc8229a7] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 200 | Time: 0.109s | Size: 5952 bytes
+2025-11-24 17:02:41 | [32mINFO[0m | http:117 | [bb9599ff] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:41 | [32mINFO[0m | http:133 | [bb9599ff] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.134s | Size: 5952 bytes
+2025-11-24 17:02:41 | [32mINFO[0m | http:117 | [e35359d0] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:42 | [32mINFO[0m | http:133 | [e35359d0] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 200 | Time: 0.177s | Size: 5952 bytes
+2025-11-24 17:02:42 | [32mINFO[0m | http:117 | [5ada604a] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:42 | [32mINFO[0m | http:117 | [001b1220] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:42 | [32mINFO[0m | http:117 | [56653c86] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:42 | [32mINFO[0m | http:117 | [a417218b] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:42 | [32mINFO[0m | http:133 | [5ada604a] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.616s | Size: 12295 bytes
+2025-11-24 17:02:43 | [32mINFO[0m | http:133 | [001b1220] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.607s | Size: 12295 bytes
+2025-11-24 17:02:43 | [32mINFO[0m | http:117 | [01a43096] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:43 | [32mINFO[0m | http:133 | [01a43096] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | Status: 200 | Time: 0.233s | Size: 22641 bytes
+2025-11-24 17:02:43 | [32mINFO[0m | http:133 | [a417218b] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.727s | Size: 12295 bytes
+2025-11-24 17:02:44 | [32mINFO[0m | http:133 | [56653c86] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 1.317s | Size: 12295 bytes
+2025-11-24 17:02:45 | [32mINFO[0m | http:117 | [ea0960b4] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:02:46 | [32mINFO[0m | http:133 | [ea0960b4] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | Status: 200 | Time: 0.260s | Size: 20683 bytes
+2025-11-24 17:04:41 | [32mINFO[0m | http:117 | [07a827b3] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:41 | [32mINFO[0m | http:117 | [ee3beb63] GET http://127.0.0.1:8000/candidates?page=112&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:41 | [32mINFO[0m | http:133 | [07a827b3] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.157s | Size: 14 bytes
+2025-11-24 17:04:41 | [32mINFO[0m | http:133 | [ee3beb63] GET http://127.0.0.1:8000/candidates?page=112&per_page=10&sort_order=desc | Status: 200 | Time: 0.192s | Size: 4122 bytes
+2025-11-24 17:04:52 | [32mINFO[0m | http:117 | [581e3e1c] GET http://127.0.0.1:8000/candidates?page=111&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:52 | [32mINFO[0m | http:133 | [581e3e1c] GET http://127.0.0.1:8000/candidates?page=111&per_page=10&sort_order=desc | Status: 200 | Time: 0.235s | Size: 23767 bytes
+2025-11-24 17:04:56 | [32mINFO[0m | http:117 | [ee639c06] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:56 | [32mINFO[0m | http:133 | [ee639c06] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.146s | Size: 5951 bytes
+2025-11-24 17:04:58 | [32mINFO[0m | http:117 | [04664548] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:58 | [32mINFO[0m | http:133 | [04664548] GET http://127.0.0.1:8000/candidates?page=2&per_page=10&sort_order=desc | Status: 200 | Time: 0.159s | Size: 5951 bytes
+2025-11-24 17:04:58 | [32mINFO[0m | http:117 | [0cdfeb94] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:58 | [32mINFO[0m | http:133 | [0cdfeb94] GET http://127.0.0.1:8000/candidates?page=3&per_page=10&sort_order=desc | Status: 200 | Time: 0.151s | Size: 5951 bytes
+2025-11-24 17:04:58 | [32mINFO[0m | http:117 | [7968dc35] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:58 | [32mINFO[0m | http:133 | [7968dc35] GET http://127.0.0.1:8000/candidates?page=4&per_page=10&sort_order=desc | Status: 200 | Time: 0.127s | Size: 5951 bytes
+2025-11-24 17:04:58 | [32mINFO[0m | http:117 | [58dcb7e7] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:59 | [32mINFO[0m | http:133 | [58dcb7e7] GET http://127.0.0.1:8000/candidates?page=5&per_page=10&sort_order=desc | Status: 200 | Time: 0.140s | Size: 5951 bytes
+2025-11-24 17:04:59 | [32mINFO[0m | http:117 | [a116fc7b] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:59 | [32mINFO[0m | http:133 | [a116fc7b] GET http://127.0.0.1:8000/candidates?page=6&per_page=10&sort_order=desc | Status: 200 | Time: 0.100s | Size: 5951 bytes
+2025-11-24 17:04:59 | [32mINFO[0m | http:117 | [a9468161] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:59 | [32mINFO[0m | http:133 | [a9468161] GET http://127.0.0.1:8000/candidates?page=7&per_page=10&sort_order=desc | Status: 200 | Time: 0.097s | Size: 5951 bytes
+2025-11-24 17:04:59 | [32mINFO[0m | http:117 | [071ec3db] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:59 | [32mINFO[0m | http:117 | [a52d32f4] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:59 | [32mINFO[0m | http:133 | [071ec3db] GET http://127.0.0.1:8000/candidates?page=8&per_page=10&sort_order=desc | Status: 200 | Time: 0.155s | Size: 5951 bytes
+2025-11-24 17:04:59 | [32mINFO[0m | http:133 | [a52d32f4] GET http://127.0.0.1:8000/candidates?page=9&per_page=10&sort_order=desc | Status: 200 | Time: 0.101s | Size: 5951 bytes
+2025-11-24 17:04:59 | [32mINFO[0m | http:117 | [0e3b81dc] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:59 | [32mINFO[0m | http:133 | [0e3b81dc] GET http://127.0.0.1:8000/candidates?page=10&per_page=10&sort_order=desc | Status: 200 | Time: 0.147s | Size: 5952 bytes
+2025-11-24 17:04:59 | [32mINFO[0m | http:117 | [cbcee45e] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:04:59 | [32mINFO[0m | http:133 | [cbcee45e] GET http://127.0.0.1:8000/candidates?page=11&per_page=10&sort_order=desc | Status: 200 | Time: 0.097s | Size: 5952 bytes
+2025-11-24 17:05:00 | [32mINFO[0m | http:117 | [dfe631e5] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:00 | [32mINFO[0m | http:133 | [dfe631e5] GET http://127.0.0.1:8000/candidates?page=12&per_page=10&sort_order=desc | Status: 200 | Time: 0.126s | Size: 5952 bytes
+2025-11-24 17:05:00 | [32mINFO[0m | http:117 | [b51882ed] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:00 | [32mINFO[0m | http:133 | [b51882ed] GET http://127.0.0.1:8000/candidates?page=13&per_page=10&sort_order=desc | Status: 200 | Time: 0.096s | Size: 5952 bytes
+2025-11-24 17:05:00 | [32mINFO[0m | http:117 | [445fbecf] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:00 | [32mINFO[0m | http:133 | [445fbecf] GET http://127.0.0.1:8000/candidates?page=14&per_page=10&sort_order=desc | Status: 200 | Time: 0.099s | Size: 5952 bytes
+2025-11-24 17:05:00 | [32mINFO[0m | http:117 | [4395ec9c] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:00 | [32mINFO[0m | http:133 | [4395ec9c] GET http://127.0.0.1:8000/candidates?page=15&per_page=10&sort_order=desc | Status: 200 | Time: 0.172s | Size: 12295 bytes
+2025-11-24 17:05:00 | [32mINFO[0m | http:117 | [f83b1d52] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:00 | [32mINFO[0m | http:117 | [9484884b] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:01 | [32mINFO[0m | http:133 | [f83b1d52] GET http://127.0.0.1:8000/candidates?page=16&per_page=10&sort_order=desc | Status: 200 | Time: 0.224s | Size: 22641 bytes
+2025-11-24 17:05:01 | [32mINFO[0m | http:133 | [9484884b] GET http://127.0.0.1:8000/candidates?page=17&per_page=10&sort_order=desc | Status: 200 | Time: 0.164s | Size: 20683 bytes
+2025-11-24 17:05:05 | [32mINFO[0m | http:117 | [e4abe215] GET http://127.0.0.1:8000/candidates?page=18&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:05 | [32mINFO[0m | http:133 | [e4abe215] GET http://127.0.0.1:8000/candidates?page=18&per_page=10&sort_order=desc | Status: 200 | Time: 0.195s | Size: 27689 bytes
+2025-11-24 17:05:07 | [32mINFO[0m | http:117 | [ea4f53f2] GET http://127.0.0.1:8000/candidates?page=19&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:07 | [32mINFO[0m | http:133 | [ea4f53f2] GET http://127.0.0.1:8000/candidates?page=19&per_page=10&sort_order=desc | Status: 200 | Time: 0.423s | Size: 25494 bytes
+2025-11-24 17:05:08 | [32mINFO[0m | http:117 | [67daad8b] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:08 | [32mINFO[0m | http:117 | [7a0ddc53] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:08 | [32mINFO[0m | http:133 | [67daad8b] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | Status: 200 | Time: 0.337s | Size: 27080 bytes
+2025-11-24 17:05:08 | [32mINFO[0m | http:133 | [7a0ddc53] GET http://127.0.0.1:8000/candidates?page=20&per_page=10&sort_order=desc | Status: 200 | Time: 0.364s | Size: 27080 bytes
+2025-11-24 17:05:08 | [32mINFO[0m | http:117 | [6fe219b0] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:08 | [32mINFO[0m | http:117 | [9d3af267] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:09 | [32mINFO[0m | http:133 | [6fe219b0] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | Status: 200 | Time: 0.362s | Size: 18680 bytes
+2025-11-24 17:05:09 | [32mINFO[0m | http:133 | [9d3af267] GET http://127.0.0.1:8000/candidates?page=21&per_page=10&sort_order=desc | Status: 200 | Time: 0.311s | Size: 18680 bytes
+2025-11-24 17:05:09 | [32mINFO[0m | http:117 | [4fec448c] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:09 | [32mINFO[0m | http:133 | [4fec448c] GET http://127.0.0.1:8000/candidates?page=22&per_page=10&sort_order=desc | Status: 200 | Time: 0.367s | Size: 31130 bytes
+2025-11-24 17:05:10 | [32mINFO[0m | http:117 | [3f00bbbe] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:10 | [32mINFO[0m | http:117 | [8fb77e81] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:10 | [32mINFO[0m | http:133 | [3f00bbbe] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | Status: 200 | Time: 0.292s | Size: 18378 bytes
+2025-11-24 17:05:10 | [32mINFO[0m | http:133 | [8fb77e81] GET http://127.0.0.1:8000/candidates?page=23&per_page=10&sort_order=desc | Status: 200 | Time: 0.351s | Size: 18378 bytes
+2025-11-24 17:05:27 | [32mINFO[0m | http:117 | [b96b5adc] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:28 | [32mINFO[0m | http:133 | [b96b5adc] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.270s | Size: 9750 bytes
+2025-11-24 17:05:28 | [32mINFO[0m | http:117 | [800ca994] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:05:29 | [32mINFO[0m | http:133 | [800ca994] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.969s | Size: 6977 bytes
+2025-11-24 17:06:49 | [32mINFO[0m | http:117 | [bfb3f0ed] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:06:49 | [32mINFO[0m | http:133 | [bfb3f0ed] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 0.230s | Size: 5282 bytes
+2025-11-24 17:06:52 | [32mINFO[0m | http:117 | [1142b81c] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:06:52 | [32mINFO[0m | http:133 | [1142b81c] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.441s | Size: 31576 bytes
+2025-11-24 17:06:55 | [32mINFO[0m | http:117 | [6334ca7c] POST http://127.0.0.1:8000/projects/ORBIT000016/members | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:06:56 | [32mINFO[0m | http:133 | [6334ca7c] POST http://127.0.0.1:8000/projects/ORBIT000016/members | Status: 200 | Time: 0.394s | Size: 152 bytes
+2025-11-24 17:07:06 | [32mINFO[0m | http:117 | [3d610216] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:07:07 | [32mINFO[0m | http:133 | [3d610216] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.562s | Size: 31576 bytes
+2025-11-24 17:07:10 | [32mINFO[0m | http:117 | [99c6801b] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:07:11 | [32mINFO[0m | http:133 | [99c6801b] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.515s | Size: 6977 bytes
+2025-11-24 17:07:11 | [32mINFO[0m | http:117 | [d565b116] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:07:12 | [32mINFO[0m | http:133 | [d565b116] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.225s | Size: 2120 bytes
+2025-11-24 17:07:22 | [32mINFO[0m | http:117 | [d543e392] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:07:22 | [32mINFO[0m | http:133 | [d543e392] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.191s | Size: 9750 bytes
+2025-11-24 17:07:23 | [32mINFO[0m | http:117 | [1389c2d7] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:07:24 | [32mINFO[0m | http:133 | [1389c2d7] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 0.123s | Size: 6002 bytes
+2025-11-24 17:11:27 | [32mINFO[0m | http:117 | [bd2d4034] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:11:27 | [32mINFO[0m | http:133 | [bd2d4034] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 0.137s | Size: 6002 bytes
+2025-11-24 17:11:34 | [32mINFO[0m | http:117 | [18482400] DELETE http://127.0.0.1:8000/projects/ORBIT000016/members/ce1a28ed-9740-4ea1-8ea3-2a6b4134a54e | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:11:35 | [32mINFO[0m | http:133 | [18482400] DELETE http://127.0.0.1:8000/projects/ORBIT000016/members/ce1a28ed-9740-4ea1-8ea3-2a6b4134a54e | Status: 200 | Time: 0.386s | Size: 54 bytes
+2025-11-24 17:19:00 | [32mINFO[0m | http:117 | [f3b67962] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:19:02 | [32mINFO[0m | http:133 | [f3b67962] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 2.617s | Size: 5282 bytes
+2025-11-24 17:19:36 | [32mINFO[0m | http:117 | [d0c4ebe7] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:19:37 | [32mINFO[0m | http:133 | [d0c4ebe7] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 0.589s | Size: 5282 bytes
+2025-11-24 17:19:39 | [32mINFO[0m | http:117 | [44b68133] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:19:40 | [32mINFO[0m | http:133 | [44b68133] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 1.179s | Size: 31576 bytes
+2025-11-24 17:19:42 | [32mINFO[0m | http:117 | [8ef0ddd7] POST http://127.0.0.1:8000/projects/ORBIT000016/members | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:19:43 | [32mINFO[0m | http:133 | [8ef0ddd7] POST http://127.0.0.1:8000/projects/ORBIT000016/members | Status: 200 | Time: 0.383s | Size: 152 bytes
+2025-11-24 17:19:57 | [32mINFO[0m | http:117 | [e1219f47] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:19:58 | [32mINFO[0m | http:133 | [e1219f47] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 1.096s | Size: 6977 bytes
+2025-11-24 17:20:04 | [32mINFO[0m | http:117 | [9d1431ef] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:20:04 | [32mINFO[0m | http:117 | [7bdeca5b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:20:04 | [32mINFO[0m | http:133 | [9d1431ef] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.228s | Size: 13 bytes
+2025-11-24 17:20:05 | [32mINFO[0m | http:117 | [4e48f068] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:20:05 | [32mINFO[0m | http:133 | [7bdeca5b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.537s | Size: 26132 bytes
+2025-11-24 17:20:05 | [32mINFO[0m | http:133 | [4e48f068] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.589s | Size: 26132 bytes
+2025-11-24 17:20:09 | [32mINFO[0m | http:117 | [68bd6c5a] GET http://127.0.0.1:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:20:09 | [32mINFO[0m | http:133 | [68bd6c5a] GET http://127.0.0.1:8000/projects/ORBIT000016 | Status: 200 | Time: 0.203s | Size: 6002 bytes
+2025-11-24 17:20:16 | [32mINFO[0m | http:117 | [6c9b0691] DELETE http://127.0.0.1:8000/projects/ORBIT000016/members/b9798e66-8b3b-48c9-a548-574f2d657bf5 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:20:17 | [32mINFO[0m | http:133 | [6c9b0691] DELETE http://127.0.0.1:8000/projects/ORBIT000016/members/b9798e66-8b3b-48c9-a548-574f2d657bf5 | Status: 200 | Time: 0.232s | Size: 54 bytes
+2025-11-24 17:20:21 | [32mINFO[0m | http:117 | [8d7cc95c] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:20:21 | [32mINFO[0m | http:133 | [8d7cc95c] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.149s | Size: 9750 bytes
+2025-11-24 17:22:49 | [32mINFO[0m | http:117 | [99a64572] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:22:49 | [32mINFO[0m | http:117 | [05760202] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:22:51 | [32mINFO[0m | http:117 | [8018fcb6] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:22:51 | [32mINFO[0m | http:133 | [99a64572] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 1.938s | Size: 13 bytes
+2025-11-24 17:22:52 | [32mINFO[0m | http:133 | [05760202] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 2.434s | Size: 26132 bytes
+2025-11-24 17:22:52 | [32mINFO[0m | http:117 | [22da3490] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:22:52 | [32mINFO[0m | http:133 | [8018fcb6] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 1.024s | Size: 6977 bytes
+2025-11-24 17:22:53 | [32mINFO[0m | http:117 | [84e1721a] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:22:55 | [32mINFO[0m | http:133 | [84e1721a] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 1.666s | Size: 2120 bytes
+2025-11-24 17:22:56 | [32mINFO[0m | http:117 | [62c4017e] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:22:57 | [32mINFO[0m | http:133 | [22da3490] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 4.611s | Size: 6977 bytes
+2025-11-24 17:22:57 | [32mINFO[0m | http:133 | [62c4017e] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 1.494s | Size: 31576 bytes
+2025-11-24 17:23:09 | [32mINFO[0m | http:117 | [c4d71a74] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:10 | [32mINFO[0m | http:133 | [c4d71a74] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.880s | Size: 31576 bytes
+2025-11-24 17:23:13 | [32mINFO[0m | http:117 | [6310b68c] POST http://127.0.0.1:8000/projects/ORBIT000007/members | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:16 | [32mINFO[0m | http:133 | [6310b68c] POST http://127.0.0.1:8000/projects/ORBIT000007/members | Status: 200 | Time: 3.062s | Size: 152 bytes
+2025-11-24 17:23:31 | [32mINFO[0m | http:117 | [e2b059f7] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:32 | [32mINFO[0m | http:117 | [c3725e4a] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:32 | [32mINFO[0m | http:133 | [e2b059f7] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.563s | Size: 2840 bytes
+2025-11-24 17:23:32 | [32mINFO[0m | http:117 | [d7512af0] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:32 | [32mINFO[0m | http:133 | [c3725e4a] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.300s | Size: 2840 bytes
+2025-11-24 17:23:32 | [32mINFO[0m | http:133 | [d7512af0] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.245s | Size: 2840 bytes
+2025-11-24 17:23:37 | [32mINFO[0m | http:117 | [274dd9b0] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/83aa1456-303a-4a59-99d6-5bbfc77240e3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:37 | [32mINFO[0m | http:133 | [274dd9b0] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/83aa1456-303a-4a59-99d6-5bbfc77240e3 | Status: 200 | Time: 0.152s | Size: 54 bytes
+2025-11-24 17:23:42 | [32mINFO[0m | http:117 | [61ba0fed] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:43 | [32mINFO[0m | http:133 | [61ba0fed] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.735s | Size: 6977 bytes
+2025-11-24 17:23:48 | [32mINFO[0m | http:117 | [096f117c] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/83aa1456-303a-4a59-99d6-5bbfc77240e3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:48 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 404: Task assignment not found
+2025-11-24 17:23:48 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 404: Task assignment not found
+2025-11-24 17:23:48 | [33mWARNING[0m | http:133 | [096f117c] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/83aa1456-303a-4a59-99d6-5bbfc77240e3 | Status: 404 | Time: 0.142s | Size: 38 bytes
+2025-11-24 17:23:57 | [32mINFO[0m | http:117 | [262dd333] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:23:58 | [32mINFO[0m | http:133 | [262dd333] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.773s | Size: 31576 bytes
+2025-11-24 17:24:32 | [32mINFO[0m | http:117 | [1a3972cf] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:24:32 | [32mINFO[0m | http:133 | [1a3972cf] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.125s | Size: 2120 bytes
+2025-11-24 17:24:35 | [32mINFO[0m | http:117 | [14a70b63] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:24:36 | [32mINFO[0m | http:133 | [14a70b63] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.549s | Size: 31576 bytes
+2025-11-24 17:24:40 | [32mINFO[0m | http:117 | [fce66a38] POST http://127.0.0.1:8000/projects/ORBIT000007/members | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:24:40 | [32mINFO[0m | http:133 | [fce66a38] POST http://127.0.0.1:8000/projects/ORBIT000007/members | Status: 200 | Time: 0.430s | Size: 156 bytes
+2025-11-24 17:25:01 | [32mINFO[0m | http:117 | [3520e9c0] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:25:01 | [32mINFO[0m | http:133 | [3520e9c0] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.252s | Size: 9750 bytes
+2025-11-24 17:25:02 | [32mINFO[0m | http:117 | [874ae005] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:25:02 | [32mINFO[0m | http:117 | [1a362f3e] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:25:02 | [32mINFO[0m | http:117 | [2030b41b] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:25:03 | [32mINFO[0m | http:133 | [874ae005] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.977s | Size: 6977 bytes
+2025-11-24 17:25:03 | [32mINFO[0m | http:133 | [1a362f3e] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.834s | Size: 6977 bytes
+2025-11-24 17:25:03 | [32mINFO[0m | http:117 | [df7ea56d] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:25:03 | [32mINFO[0m | http:133 | [2030b41b] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.935s | Size: 6977 bytes
+2025-11-24 17:25:03 | [32mINFO[0m | http:133 | [df7ea56d] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.136s | Size: 2844 bytes
+2025-11-24 17:25:05 | [32mINFO[0m | http:117 | [5052062c] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:25:05 | [32mINFO[0m | http:133 | [5052062c] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.432s | Size: 31576 bytes
+2025-11-24 17:28:24 | [32mINFO[0m | http:117 | [43d8f54b] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:24 | [32mINFO[0m | http:117 | [94d6a07b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:24 | [32mINFO[0m | http:133 | [43d8f54b] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.246s | Size: 13 bytes
+2025-11-24 17:28:24 | [32mINFO[0m | http:133 | [94d6a07b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.656s | Size: 26132 bytes
+2025-11-24 17:28:25 | [32mINFO[0m | http:117 | [3d2c4bd9] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:26 | [32mINFO[0m | http:133 | [3d2c4bd9] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.655s | Size: 6977 bytes
+2025-11-24 17:28:27 | [32mINFO[0m | http:117 | [6275d220] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:27 | [32mINFO[0m | http:133 | [6275d220] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.145s | Size: 2844 bytes
+2025-11-24 17:28:32 | [32mINFO[0m | http:117 | [6bfd019d] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/9d4ee19f-042f-46bd-a720-6a514c99f6bf | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:32 | [32mINFO[0m | http:133 | [6bfd019d] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/9d4ee19f-042f-46bd-a720-6a514c99f6bf | Status: 200 | Time: 0.106s | Size: 54 bytes
+2025-11-24 17:28:36 | [32mINFO[0m | http:117 | [d5c71fb6] GET http://127.0.0.1:8000/projects/available-employees/all | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:37 | [32mINFO[0m | http:133 | [d5c71fb6] GET http://127.0.0.1:8000/projects/available-employees/all | Status: 200 | Time: 0.549s | Size: 31576 bytes
+2025-11-24 17:28:41 | [32mINFO[0m | http:117 | [babfb403] POST http://127.0.0.1:8000/projects/ORBIT000007/members | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:41 | [32mINFO[0m | http:133 | [babfb403] POST http://127.0.0.1:8000/projects/ORBIT000007/members | Status: 200 | Time: 0.247s | Size: 152 bytes
+2025-11-24 17:28:49 | [32mINFO[0m | http:117 | [3eb19266] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:49 | [32mINFO[0m | http:133 | [3eb19266] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.198s | Size: 9750 bytes
+2025-11-24 17:28:57 | [32mINFO[0m | http:117 | [2ae98eac] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/9d4ee19f-042f-46bd-a720-6a514c99f6bf | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:28:57 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 404: Task assignment not found
+2025-11-24 17:28:57 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 404: Task assignment not found
+2025-11-24 17:28:57 | [33mWARNING[0m | http:133 | [2ae98eac] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/9d4ee19f-042f-46bd-a720-6a514c99f6bf | Status: 404 | Time: 0.139s | Size: 38 bytes
+2025-11-24 17:29:29 | [32mINFO[0m | http:117 | [3359f599] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:29:29 | [32mINFO[0m | http:117 | [08630d9c] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:29:29 | [32mINFO[0m | http:133 | [3359f599] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.271s | Size: 2874 bytes
+2025-11-24 17:29:29 | [32mINFO[0m | http:133 | [08630d9c] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.223s | Size: 2874 bytes
+2025-11-24 17:29:35 | [32mINFO[0m | http:117 | [a935b4d7] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/739b9fb6-2114-4fd6-9b15-ccaf496cb15e | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:29:36 | [32mINFO[0m | http:133 | [a935b4d7] DELETE http://127.0.0.1:8000/projects/ORBIT000007/members/739b9fb6-2114-4fd6-9b15-ccaf496cb15e | Status: 200 | Time: 0.176s | Size: 54 bytes
+2025-11-24 17:31:40 | [32mINFO[0m | http:117 | [3e740c9f] GET http://127.0.0.1:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-24 17:31:41 | [32mINFO[0m | http:133 | [3e740c9f] GET http://127.0.0.1:8000/projects/ORBIT000007 | Status: 200 | Time: 0.232s | Size: 2120 bytes
+2025-11-25 08:34:44 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
