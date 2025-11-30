@@ -174,7 +174,7 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
         Back to Projects
-      </button>
+      </Link>
 
       {/* Project Header */}
       <div className="bg-white rounded-xl border-2 border-gray-200 p-8 shadow-sm mb-6">

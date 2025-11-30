@@ -1870,7 +1870,6 @@
 2025-11-25 16:07:21 | [32mINFO[0m | http:133 | [e64fdfd4] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.304s | Size: 6977 bytes
 2025-11-25 16:07:25 | [32mINFO[0m | http:117 | [9ccaba02] GET http://127.0.0.1:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
 2025-11-25 16:07:25 | [32mINFO[0m | http:133 | [9ccaba02] GET http://127.0.0.1:8000/projects/dashboard | Status: 200 | Time: 0.359s | Size: 6977 bytes
-<<<<<<< HEAD:Backend/logs/2025-11-25.log
 2025-11-25 17:56:43 | [32mINFO[0m | app:91 | Logging system initialized
 2025-11-25 17:56:43 | [32mINFO[0m | app:92 | Log level: INFO
 2025-11-25 17:56:43 | [32mINFO[0m | app:93 | Log directory: logs
@@ -2273,5 +2272,3 @@ FROM orbit_projects LEFT OUTER JOIN employee_projects_tasks ON orbit_projects.pr
 2025-11-25 18:18:27 | [32mINFO[0m | http:133 | [21aff424] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.069s | Size: 9749 bytes
 2025-11-25 18:18:34 | [32mINFO[0m | http:117 | [89e36b1c] GET http://localhost:8000/employees/85b20f72-ccaa-4161-aa7c-52c808075ceb | IP: 127.0.0.1 | User-Agent: node
 2025-11-25 18:18:34 | [32mINFO[0m | http:133 | [89e36b1c] GET http://localhost:8000/employees/85b20f72-ccaa-4161-aa7c-52c808075ceb | Status: 200 | Time: 0.066s | Size: 1097 bytes
-=======
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/logs/2025-11-25.log

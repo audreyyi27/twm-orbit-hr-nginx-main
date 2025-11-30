@@ -291,3 +291,940 @@
 2025-11-30 22:19:37 | [32mINFO[0m | http:133 | [416edc0b] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6821 bytes
 2025-11-30 22:19:37 | [32mINFO[0m | http:117 | [74f17a98] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
 2025-11-30 22:19:37 | [32mINFO[0m | http:133 | [74f17a98] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6821 bytes
+2025-11-30 22:20:38 | [32mINFO[0m | http:117 | [f064bb10] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:20:38 | [32mINFO[0m | http:133 | [f064bb10] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.027s | Size: 76332 bytes
+2025-11-30 22:20:38 | [32mINFO[0m | http:117 | [75ecc11d] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:20:38 | [32mINFO[0m | http:133 | [75ecc11d] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.023s | Size: 76332 bytes
+2025-11-30 22:20:39 | [32mINFO[0m | http:117 | [c151ace1] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:20:39 | [32mINFO[0m | http:133 | [c151ace1] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.008s | Size: 9286 bytes
+2025-11-30 22:23:36 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:23:36 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:23:36 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:23:36 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:23:36 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:23:36 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:29:23 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:29:24 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:29:24 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:29:24 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:29:24 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:29:24 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:29:34 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:29:35 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:29:35 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:29:35 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:29:35 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:29:35 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:29:43 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:29:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:29:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:29:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:29:44 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:29:44 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:29:44 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:29:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:29:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:29:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:29:45 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:29:45 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:29:56 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:29:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:29:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:29:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:29:56 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:29:56 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:29:56 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:29:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:29:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:29:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:29:57 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:29:57 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:07 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:08 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:08 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:08 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:08 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:08 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:08 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:09 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:09 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:09 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:09 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:09 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:09 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:09 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:09 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:09 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:09 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:16 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:17 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:17 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:17 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:17 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:17 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:43 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:44 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:44 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:44 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:44 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:44 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:45 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:45 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:45 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:45 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:46 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:46 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:46 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:46 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:46 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:46 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:47 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:47 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:47 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:47 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:47 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:47 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:48 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:48 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:48 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:48 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:48 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:48 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:48 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:48 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:48 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:48 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:49 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:49 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:49 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:49 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:49 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:49 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:49 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:49 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:49 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:49 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:49 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:50 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:50 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:50 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:50 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:50 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:50 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:50 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:50 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:50 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:50 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:51 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:51 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:51 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:51 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:51 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:51 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:51 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:51 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:51 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:51 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:52 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:52 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:52 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:52 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:52 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:52 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:52 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:52 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:52 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:52 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:53 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:30:53 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:53 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:53 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:53 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:53 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:54 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:54 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:54 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:54 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:54 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:54 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:54 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:54 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:54 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:54 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:55 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:55 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:55 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:55 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:55 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:55 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:55 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:55 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:55 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:55 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:56 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:56 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:56 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:56 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:56 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:57 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:57 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:57 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:57 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:57 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:30:58 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:30:58 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:30:58 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:30:58 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:30:58 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:35:18 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:35:19 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:35:19 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:35:19 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:35:19 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:35:19 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:36:15 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:36:18 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:36:18 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:36:18 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:36:18 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:36:18 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:36:29 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:36:30 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:36:30 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:36:30 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:36:30 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:36:30 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:40:30 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:40:31 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:40:31 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:40:31 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:40:31 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:40:31 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:40:36 | [32mINFO[0m | http:117 | [34dd0859] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:40:37 | [32mINFO[0m | http:117 | [744d3118] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:40:37 | [33mWARNING[0m | http:133 | [744d3118] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-11-30 22:40:37 | [32mINFO[0m | http:133 | [34dd0859] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.127s | Size: 9286 bytes
+2025-11-30 22:40:38 | [32mINFO[0m | http:117 | [ee89f5f5] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:40:38 | [32mINFO[0m | http:133 | [ee89f5f5] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.040s | Size: 76332 bytes
+2025-11-30 22:40:38 | [32mINFO[0m | http:117 | [d79025e1] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:40:38 | [32mINFO[0m | http:133 | [d79025e1] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.016s | Size: 76332 bytes
+2025-11-30 22:40:39 | [32mINFO[0m | http:117 | [d6862023] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:40:39 | [32mINFO[0m | http:133 | [d6862023] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.015s | Size: 16301 bytes
+2025-11-30 22:40:39 | [32mINFO[0m | http:117 | [5e597286] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:40:39 | [32mINFO[0m | http:133 | [5e597286] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.004s | Size: 16301 bytes
+2025-11-30 22:41:39 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:41:40 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:41:40 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:41:40 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:41:40 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:41:40 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:41:40 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:41:40 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:41:40 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:41:40 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:41:40 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:41:41 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:41:42 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:41:42 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:41:42 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:41:42 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:41:42 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:41:43 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:41:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:41:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:41:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:41:44 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:41:44 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:41:57 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:41:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:41:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:41:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:41:57 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:41:57 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:42:56 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:42:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:42:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:42:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:42:57 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:42:57 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:43:04 | [32mINFO[0m | http:117 | [371b7e4b] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:43:04 | [32mINFO[0m | http:117 | [02f1a43a] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:43:04 | [33mWARNING[0m | http:133 | [02f1a43a] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-11-30 22:43:04 | [32mINFO[0m | http:133 | [371b7e4b] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.102s | Size: 16301 bytes
+2025-11-30 22:43:05 | [32mINFO[0m | http:117 | [db5d5054] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:43:05 | [32mINFO[0m | http:133 | [db5d5054] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.030s | Size: 76332 bytes
+2025-11-30 22:43:05 | [32mINFO[0m | http:117 | [5b30d797] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:43:05 | [32mINFO[0m | http:133 | [5b30d797] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76332 bytes
+2025-11-30 22:43:06 | [32mINFO[0m | http:117 | [6e120385] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:43:06 | [32mINFO[0m | http:133 | [6e120385] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.006s | Size: 9286 bytes
+2025-11-30 22:43:06 | [32mINFO[0m | http:117 | [7a3bff84] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:43:06 | [32mINFO[0m | http:133 | [7a3bff84] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.007s | Size: 6821 bytes
+2025-11-30 22:43:06 | [32mINFO[0m | http:117 | [5924d6e9] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:43:06 | [32mINFO[0m | http:133 | [5924d6e9] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6821 bytes
+2025-11-30 22:43:06 | [32mINFO[0m | http:117 | [5f91680f] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:43:06 | [32mINFO[0m | http:133 | [5f91680f] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6821 bytes
+2025-11-30 22:46:15 | [32mINFO[0m | http:117 | [32cd8b55] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:46:15 | [32mINFO[0m | http:133 | [32cd8b55] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.018s | Size: 6821 bytes
+2025-11-30 22:46:15 | [32mINFO[0m | http:117 | [da10971f] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:46:15 | [32mINFO[0m | http:133 | [da10971f] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 22:46:16 | [32mINFO[0m | http:117 | [16222296] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:46:16 | [32mINFO[0m | http:133 | [16222296] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.005s | Size: 9286 bytes
+2025-11-30 22:47:11 | [32mINFO[0m | http:117 | [a3e9eeb1] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:47:11 | [32mINFO[0m | http:133 | [a3e9eeb1] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.011s | Size: 9286 bytes
+2025-11-30 22:48:21 | [32mINFO[0m | http:117 | [be014404] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:48:21 | [32mINFO[0m | http:133 | [be014404] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.011s | Size: 16301 bytes
+2025-11-30 22:49:18 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:49:19 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:49:19 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:49:19 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:49:19 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:49:19 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:49:21 | [32mINFO[0m | http:117 | [3da5e615] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:49:21 | [32mINFO[0m | http:133 | [3da5e615] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.071s | Size: 9286 bytes
+2025-11-30 22:49:53 | [32mINFO[0m | http:117 | [02d76081] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:49:53 | [32mINFO[0m | http:133 | [02d76081] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.028s | Size: 16301 bytes
+2025-11-30 22:51:45 | [32mINFO[0m | http:117 | [9ef17336] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:51:45 | [32mINFO[0m | http:133 | [9ef17336] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.013s | Size: 9286 bytes
+2025-11-30 22:51:46 | [32mINFO[0m | http:117 | [cc77defd] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:51:46 | [32mINFO[0m | http:133 | [cc77defd] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.036s | Size: 76332 bytes
+2025-11-30 22:51:46 | [32mINFO[0m | http:117 | [0fba001c] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:51:46 | [32mINFO[0m | http:133 | [0fba001c] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.019s | Size: 76332 bytes
+2025-11-30 22:51:48 | [32mINFO[0m | http:117 | [45ed26be] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:51:48 | [32mINFO[0m | http:133 | [45ed26be] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.007s | Size: 6821 bytes
+2025-11-30 22:51:48 | [32mINFO[0m | http:117 | [de57aa0c] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:51:48 | [32mINFO[0m | http:133 | [de57aa0c] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6821 bytes
+2025-11-30 22:51:48 | [32mINFO[0m | http:117 | [062456db] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:51:48 | [32mINFO[0m | http:133 | [062456db] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6821 bytes
+2025-11-30 22:52:42 | [32mINFO[0m | http:117 | [c3ac9092] GET http://localhost:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:42 | [32mINFO[0m | http:133 | [c3ac9092] GET http://localhost:8000/projects/ORBIT000016 | Status: 200 | Time: 0.005s | Size: 2518 bytes
+2025-11-30 22:52:44 | [32mINFO[0m | http:117 | [895cff0b] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:44 | [32mINFO[0m | http:133 | [895cff0b] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 22:52:44 | [32mINFO[0m | http:117 | [62fc5430] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:44 | [32mINFO[0m | http:133 | [62fc5430] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 22:52:44 | [32mINFO[0m | http:117 | [7ec75335] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:44 | [32mINFO[0m | http:133 | [7ec75335] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 22:52:45 | [32mINFO[0m | http:117 | [cd14f86f] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:45 | [32mINFO[0m | http:133 | [cd14f86f] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.005s | Size: 1078 bytes
+2025-11-30 22:52:49 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:52:50 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:52:50 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:52:50 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:52:50 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:52:50 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:52:50 | [32mINFO[0m | http:117 | [dea2c008] PUT http://localhost:8000/projects/ORBIT000007/update | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:50 | [32mINFO[0m | http:133 | [dea2c008] PUT http://localhost:8000/projects/ORBIT000007/update | Status: 200 | Time: 0.052s | Size: 253 bytes
+2025-11-30 22:52:50 | [32mINFO[0m | http:117 | [68f32d5a] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:50 | [32mINFO[0m | http:133 | [68f32d5a] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.011s | Size: 1080 bytes
+2025-11-30 22:52:51 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:52:52 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:52:52 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:52:52 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:52:52 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:52:52 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:52:52 | [32mINFO[0m | http:117 | [72c8664d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:52 | [32mINFO[0m | http:133 | [72c8664d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.035s | Size: 6823 bytes
+2025-11-30 22:52:52 | [32mINFO[0m | http:117 | [bf7bfa36] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:52 | [32mINFO[0m | http:133 | [bf7bfa36] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:52:52 | [32mINFO[0m | http:117 | [9e7339f1] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:52 | [32mINFO[0m | http:133 | [9e7339f1] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.009s | Size: 6823 bytes
+2025-11-30 22:52:54 | [32mINFO[0m | http:117 | [e3067197] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:54 | [32mINFO[0m | http:133 | [e3067197] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.009s | Size: 1080 bytes
+2025-11-30 22:52:55 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:52:55 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:52:55 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:52:55 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:52:55 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:52:56 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:52:56 | [32mINFO[0m | http:117 | [471c2864] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:56 | [32mINFO[0m | http:133 | [471c2864] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.036s | Size: 6823 bytes
+2025-11-30 22:52:56 | [32mINFO[0m | http:117 | [2b2b447d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:56 | [32mINFO[0m | http:133 | [2b2b447d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:52:56 | [32mINFO[0m | http:117 | [ec394fd2] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:52:56 | [32mINFO[0m | http:133 | [ec394fd2] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6823 bytes
+2025-11-30 22:52:57 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:52:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:52:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:52:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:52:57 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:52:57 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:53:00 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:53:01 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:53:01 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:53:01 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:53:01 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:53:01 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:53:02 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:53:03 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:53:03 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:53:03 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:53:03 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:53:03 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:53:05 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:53:06 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:53:06 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:53:06 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:53:06 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:53:06 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:53:09 | [32mINFO[0m | http:117 | [be0f698e] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:09 | [32mINFO[0m | http:133 | [be0f698e] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.042s | Size: 9286 bytes
+2025-11-30 22:53:10 | [32mINFO[0m | http:117 | [3748a473] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:53:10 | [32mINFO[0m | http:133 | [3748a473] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.025s | Size: 76336 bytes
+2025-11-30 22:53:10 | [32mINFO[0m | http:117 | [06cbc088] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:53:10 | [32mINFO[0m | http:133 | [06cbc088] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76336 bytes
+2025-11-30 22:53:11 | [32mINFO[0m | http:117 | [ca9cf372] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:11 | [32mINFO[0m | http:133 | [ca9cf372] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.007s | Size: 5228 bytes
+2025-11-30 22:53:13 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:53:14 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:53:14 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:53:14 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:53:14 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:53:14 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:53:14 | [32mINFO[0m | http:117 | [74605386] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:53:14 | [32mINFO[0m | http:133 | [74605386] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.048s | Size: 76336 bytes
+2025-11-30 22:53:14 | [32mINFO[0m | http:117 | [dd4f033a] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:53:14 | [32mINFO[0m | http:133 | [dd4f033a] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.028s | Size: 76336 bytes
+2025-11-30 22:53:14 | [32mINFO[0m | http:117 | [baf99050] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:14 | [32mINFO[0m | http:133 | [baf99050] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6823 bytes
+2025-11-30 22:53:14 | [32mINFO[0m | http:117 | [88b9b95d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:14 | [32mINFO[0m | http:133 | [88b9b95d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6823 bytes
+2025-11-30 22:53:14 | [32mINFO[0m | http:117 | [197af025] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:14 | [32mINFO[0m | http:133 | [197af025] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6823 bytes
+2025-11-30 22:53:15 | [32mINFO[0m | http:117 | [00a645e7] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:15 | [32mINFO[0m | http:133 | [00a645e7] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.008s | Size: 1080 bytes
+2025-11-30 22:53:18 | [32mINFO[0m | http:117 | [e35eced0] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:18 | [32mINFO[0m | http:133 | [e35eced0] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6823 bytes
+2025-11-30 22:53:18 | [32mINFO[0m | http:117 | [f07de44b] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:18 | [32mINFO[0m | http:133 | [f07de44b] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:53:18 | [32mINFO[0m | http:117 | [41f005fc] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:18 | [32mINFO[0m | http:133 | [41f005fc] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:53:20 | [32mINFO[0m | http:117 | [ef5c278b] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:53:20 | [32mINFO[0m | http:133 | [ef5c278b] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.021s | Size: 76336 bytes
+2025-11-30 22:53:20 | [32mINFO[0m | http:117 | [15f15988] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:53:20 | [32mINFO[0m | http:133 | [15f15988] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.016s | Size: 76336 bytes
+2025-11-30 22:53:24 | [32mINFO[0m | http:117 | [ba83ebb3] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:24 | [32mINFO[0m | http:133 | [ba83ebb3] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:53:24 | [32mINFO[0m | http:117 | [977d8054] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:24 | [32mINFO[0m | http:133 | [977d8054] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:53:24 | [32mINFO[0m | http:117 | [8c1ee5f9] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:53:24 | [32mINFO[0m | http:133 | [8c1ee5f9] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:53:27 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:53:28 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:53:28 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:53:28 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:53:28 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:53:28 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:53:30 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:53:31 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:53:31 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:53:31 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:53:31 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:53:31 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:53:42 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:53:42 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:53:42 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:53:42 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:53:42 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:53:42 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:08 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:08 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:08 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:08 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:08 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:08 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:10 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:10 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:10 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:10 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:10 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:10 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:12 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:14 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:15 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:15 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:15 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:15 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:15 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:16 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:17 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:17 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:17 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:17 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:17 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:18 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:19 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:19 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:19 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:19 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:19 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:22 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:22 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:22 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:22 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:22 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:22 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:25 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:25 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:25 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:25 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:25 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:25 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:29 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:29 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:29 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:29 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:29 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:29 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:39 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:54:40 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:54:40 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:54:40 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:54:40 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:54:40 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:54:51 | [32mINFO[0m | http:117 | [826e9610] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:54:51 | [32mINFO[0m | http:133 | [826e9610] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.055s | Size: 9286 bytes
+2025-11-30 22:54:52 | [32mINFO[0m | http:117 | [13ccdf95] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:52 | [32mINFO[0m | http:133 | [13ccdf95] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.028s | Size: 76336 bytes
+2025-11-30 22:54:52 | [32mINFO[0m | http:117 | [5d6f63a4] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:52 | [32mINFO[0m | http:133 | [5d6f63a4] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76336 bytes
+2025-11-30 22:54:54 | [32mINFO[0m | http:117 | [4859994c] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:54 | [32mINFO[0m | http:133 | [4859994c] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76336 bytes
+2025-11-30 22:54:54 | [32mINFO[0m | http:117 | [5e99f504] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:54 | [32mINFO[0m | http:133 | [5e99f504] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.018s | Size: 76336 bytes
+2025-11-30 22:54:55 | [32mINFO[0m | http:117 | [0c4a07d4] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:54:55 | [32mINFO[0m | http:133 | [0c4a07d4] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6823 bytes
+2025-11-30 22:54:55 | [32mINFO[0m | http:117 | [f1920c43] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:54:55 | [32mINFO[0m | http:133 | [f1920c43] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:54:55 | [32mINFO[0m | http:117 | [08be1c60] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:54:55 | [32mINFO[0m | http:133 | [08be1c60] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:54:56 | [32mINFO[0m | http:117 | [d5ceaef7] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:56 | [32mINFO[0m | http:133 | [d5ceaef7] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76336 bytes
+2025-11-30 22:54:56 | [32mINFO[0m | http:117 | [8ae0f691] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:56 | [32mINFO[0m | http:133 | [8ae0f691] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.014s | Size: 76336 bytes
+2025-11-30 22:54:58 | [32mINFO[0m | http:117 | [6ae748b7] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:54:58 | [32mINFO[0m | http:133 | [6ae748b7] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:54:58 | [32mINFO[0m | http:117 | [79a8843d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:54:58 | [32mINFO[0m | http:133 | [79a8843d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.007s | Size: 6823 bytes
+2025-11-30 22:54:58 | [32mINFO[0m | http:117 | [4e0dcb0c] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:54:58 | [32mINFO[0m | http:133 | [4e0dcb0c] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6823 bytes
+2025-11-30 22:54:59 | [32mINFO[0m | http:117 | [1a59726f] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:59 | [32mINFO[0m | http:133 | [1a59726f] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.021s | Size: 76336 bytes
+2025-11-30 22:54:59 | [32mINFO[0m | http:117 | [f109cf21] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:54:59 | [32mINFO[0m | http:133 | [f109cf21] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76336 bytes
+2025-11-30 22:55:00 | [32mINFO[0m | http:117 | [88d1595e] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:00 | [32mINFO[0m | http:133 | [88d1595e] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6823 bytes
+2025-11-30 22:55:00 | [32mINFO[0m | http:117 | [86a3db19] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:00 | [32mINFO[0m | http:133 | [86a3db19] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:55:00 | [32mINFO[0m | http:117 | [916593f0] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:00 | [32mINFO[0m | http:133 | [916593f0] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6823 bytes
+2025-11-30 22:55:02 | [32mINFO[0m | http:117 | [a21bb0a3] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:02 | [32mINFO[0m | http:133 | [a21bb0a3] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:55:03 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:55:04 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:55:04 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:55:04 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:55:04 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:55:04 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:55:12 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:55:12 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:55:12 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:55:12 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:55:12 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:55:12 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:55:13 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:55:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:55:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:55:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:55:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:55:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:55:15 | [32mINFO[0m | http:117 | [714ffadb] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:15 | [32mINFO[0m | http:133 | [714ffadb] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.063s | Size: 6823 bytes
+2025-11-30 22:55:15 | [32mINFO[0m | http:117 | [7c01c93f] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:15 | [33mWARNING[0m | http:133 | [7c01c93f] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-11-30 22:55:16 | [32mINFO[0m | http:117 | [c8dfb537] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:16 | [32mINFO[0m | http:133 | [c8dfb537] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:55:16 | [32mINFO[0m | http:117 | [be398f9e] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:16 | [32mINFO[0m | http:133 | [be398f9e] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.009s | Size: 9286 bytes
+2025-11-30 22:55:17 | [32mINFO[0m | http:117 | [e0a059bc] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:55:17 | [32mINFO[0m | http:133 | [e0a059bc] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.030s | Size: 76336 bytes
+2025-11-30 22:55:17 | [32mINFO[0m | http:117 | [7840c37a] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:55:17 | [32mINFO[0m | http:133 | [7840c37a] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.019s | Size: 76336 bytes
+2025-11-30 22:55:18 | [32mINFO[0m | http:117 | [b1a00780] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:18 | [32mINFO[0m | http:133 | [b1a00780] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.006s | Size: 5228 bytes
+2025-11-30 22:55:20 | [32mINFO[0m | http:117 | [51a02ff1] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:20 | [32mINFO[0m | http:133 | [51a02ff1] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6823 bytes
+2025-11-30 22:55:20 | [32mINFO[0m | http:117 | [6fb7ad97] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:20 | [32mINFO[0m | http:133 | [6fb7ad97] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:55:20 | [32mINFO[0m | http:117 | [bd8e20d2] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:20 | [32mINFO[0m | http:133 | [bd8e20d2] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6823 bytes
+2025-11-30 22:55:20 | [32mINFO[0m | http:117 | [7ef66607] GET http://localhost:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:20 | [32mINFO[0m | http:133 | [7ef66607] GET http://localhost:8000/projects/ORBIT000016 | Status: 200 | Time: 0.006s | Size: 2518 bytes
+2025-11-30 22:55:22 | [32mINFO[0m | http:117 | [46cbbd85] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:22 | [32mINFO[0m | http:133 | [46cbbd85] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6823 bytes
+2025-11-30 22:55:22 | [32mINFO[0m | http:117 | [48bad003] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:22 | [32mINFO[0m | http:133 | [48bad003] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:55:22 | [32mINFO[0m | http:117 | [587885cc] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:55:22 | [32mINFO[0m | http:133 | [587885cc] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 22:57:12 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 22:57:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 22:57:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 22:57:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 22:57:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 22:57:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 22:57:39 | [32mINFO[0m | http:117 | [db69089e] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:57:40 | [32mINFO[0m | http:133 | [db69089e] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.303s | Size: 616 bytes
+2025-11-30 22:57:40 | [32mINFO[0m | http:117 | [3ba164aa] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:57:40 | [33mWARNING[0m | http:133 | [3ba164aa] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-11-30 22:57:40 | [32mINFO[0m | http:117 | [961b4507] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:57:40 | [32mINFO[0m | http:133 | [961b4507] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.035s | Size: 16301 bytes
+2025-11-30 22:57:40 | [32mINFO[0m | http:117 | [845bb40b] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:57:40 | [33mWARNING[0m | http:133 | [845bb40b] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-11-30 22:57:41 | [32mINFO[0m | http:117 | [a7c758ae] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:57:41 | [32mINFO[0m | http:133 | [a7c758ae] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.045s | Size: 76336 bytes
+2025-11-30 22:57:41 | [32mINFO[0m | http:117 | [066581f9] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:57:41 | [32mINFO[0m | http:133 | [066581f9] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.018s | Size: 76336 bytes
+2025-11-30 22:57:42 | [32mINFO[0m | http:117 | [1f5e56ad] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 22:57:42 | [32mINFO[0m | http:133 | [1f5e56ad] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.007s | Size: 9286 bytes
+2025-11-30 22:57:43 | [32mINFO[0m | http:117 | [df2787e6] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:57:43 | [32mINFO[0m | http:133 | [df2787e6] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.021s | Size: 76336 bytes
+2025-11-30 22:57:43 | [32mINFO[0m | http:117 | [ad28caa0] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 22:57:43 | [32mINFO[0m | http:133 | [ad28caa0] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.018s | Size: 76336 bytes
+2025-11-30 23:22:07 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:22:08 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:22:08 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:22:08 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:22:08 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:22:08 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:23:12 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:23:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:23:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:23:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:23:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:23:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:23:26 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:23:27 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:23:27 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:23:27 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:23:27 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:23:27 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:24:12 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:24:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:24:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:24:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:24:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:24:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:24:13 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:24:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:24:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:24:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:24:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:24:13 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:24:18 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:24:18 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:24:18 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:24:18 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:24:18 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:24:19 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:24:19 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:24:20 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:24:20 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:24:20 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:24:20 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:24:20 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:24:22 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:24:22 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:24:22 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:24:22 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:24:22 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:24:23 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:24:43 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:24:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:24:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:24:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:24:44 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:24:44 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:24:55 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:24:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:24:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:24:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:24:56 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:24:56 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:26:00 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:26:00 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:26:00 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:26:00 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:26:00 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:26:00 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:26:01 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:26:01 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:26:01 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:26:01 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:26:01 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:26:03 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:26:03 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:26:03 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:26:03 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:26:03 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:26:03 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:29:07 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:29:07 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:29:07 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:29:07 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:29:07 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:29:07 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:29:48 | [32mINFO[0m | http:117 | [91df2288] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:48 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid token
+2025-11-30 23:29:48 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid token
+2025-11-30 23:29:48 | [33mWARNING[0m | http:133 | [91df2288] GET http://localhost:8000/projects/dashboard | Status: 401 | Time: 0.009s | Size: 26 bytes
+2025-11-30 23:29:48 | [32mINFO[0m | http:117 | [fdfe9d71] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:48 | [33mWARNING[0m | http:133 | [fdfe9d71] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-11-30 23:29:50 | [32mINFO[0m | http:117 | [f066f5e3] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:29:50 | [32mINFO[0m | http:133 | [f066f5e3] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.297s | Size: 616 bytes
+2025-11-30 23:29:50 | [32mINFO[0m | http:117 | [1b8b2d0a] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:50 | [33mWARNING[0m | http:133 | [1b8b2d0a] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-11-30 23:29:50 | [32mINFO[0m | http:117 | [945123f9] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:50 | [32mINFO[0m | http:133 | [945123f9] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.038s | Size: 16301 bytes
+2025-11-30 23:29:50 | [32mINFO[0m | http:117 | [13f63a07] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:50 | [33mWARNING[0m | http:133 | [13f63a07] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-11-30 23:29:52 | [32mINFO[0m | http:117 | [f5118cc5] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:52 | [32mINFO[0m | http:133 | [f5118cc5] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.007s | Size: 9286 bytes
+2025-11-30 23:29:52 | [32mINFO[0m | http:117 | [f105a91b] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:52 | [32mINFO[0m | http:133 | [f105a91b] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6823 bytes
+2025-11-30 23:29:52 | [32mINFO[0m | http:117 | [46b9acd7] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:52 | [32mINFO[0m | http:133 | [46b9acd7] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 23:29:52 | [32mINFO[0m | http:117 | [7ec93e99] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:29:52 | [32mINFO[0m | http:133 | [7ec93e99] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 23:29:53 | [32mINFO[0m | http:117 | [53bafc5f] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:29:53 | [32mINFO[0m | http:133 | [53bafc5f] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.033s | Size: 76336 bytes
+2025-11-30 23:29:53 | [32mINFO[0m | http:117 | [0107eb16] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:29:53 | [32mINFO[0m | http:133 | [0107eb16] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.021s | Size: 76336 bytes
+2025-11-30 23:30:15 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:30:15 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:30:15 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:30:15 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:30:15 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:30:15 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:30:45 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:30:46 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:30:46 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:30:46 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:30:46 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:30:46 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:30:51 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:30:52 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:30:52 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:30:52 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:30:52 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:30:52 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:30:55 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:30:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:30:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:30:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:30:56 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:30:56 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:31:04 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:31:04 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:31:04 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:31:04 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:31:04 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:31:04 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:21 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 23:32:22 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:22 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:22 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:22 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:22 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:22 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:22 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:22 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:22 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:22 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:23 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:23 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:23 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:23 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:23 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:23 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:23 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:23 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:23 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:23 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:24 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:24 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:24 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:24 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:24 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:24 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:24 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:24 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:24 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:24 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:25 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:25 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:25 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:25 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:25 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:25 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:25 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:25 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:25 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:25 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:26 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:26 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:26 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:26 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:26 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:26 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:26 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:26 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:26 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:26 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:27 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:27 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:27 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:27 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:27 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:27 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:27 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:27 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:27 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:27 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:28 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:28 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:28 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:28 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:28 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:28 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:28 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:28 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:28 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:28 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:29 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:29 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:29 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:29 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:29 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:32:29 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 23:32:29 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 23:32:29 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 23:32:29 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 23:32:29 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 23:35:32 | [32mINFO[0m | http:117 | [41241bff] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:32 | [33mWARNING[0m | http:133 | [41241bff] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-11-30 23:35:32 | [32mINFO[0m | http:117 | [ecc48a70] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:35:32 | [32mINFO[0m | http:133 | [ecc48a70] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.092s | Size: 76336 bytes
+2025-11-30 23:35:34 | [32mINFO[0m | http:117 | [ab97c5e8] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:34 | [32mINFO[0m | http:133 | [ab97c5e8] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.011s | Size: 9286 bytes
+2025-11-30 23:35:35 | [32mINFO[0m | http:117 | [b604d834] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:35 | [32mINFO[0m | http:133 | [b604d834] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.007s | Size: 6823 bytes
+2025-11-30 23:35:35 | [32mINFO[0m | http:117 | [517eb3bc] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:35 | [32mINFO[0m | http:133 | [517eb3bc] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 23:35:35 | [32mINFO[0m | http:117 | [42079076] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:35 | [32mINFO[0m | http:133 | [42079076] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6823 bytes
+2025-11-30 23:35:35 | [32mINFO[0m | http:117 | [a731beeb] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:35 | [32mINFO[0m | http:133 | [a731beeb] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.006s | Size: 1080 bytes
+2025-11-30 23:35:40 | [32mINFO[0m | http:117 | [3ca72300] PUT http://localhost:8000/projects/ORBIT000007/update | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:40 | [32mINFO[0m | http:133 | [3ca72300] PUT http://localhost:8000/projects/ORBIT000007/update | Status: 200 | Time: 0.010s | Size: 251 bytes
+2025-11-30 23:35:40 | [32mINFO[0m | http:117 | [0b1f9384] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:40 | [32mINFO[0m | http:133 | [0b1f9384] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.006s | Size: 1078 bytes
+2025-11-30 23:35:41 | [32mINFO[0m | http:117 | [3080fd4d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:41 | [32mINFO[0m | http:133 | [3080fd4d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:35:41 | [32mINFO[0m | http:117 | [cb285039] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:41 | [32mINFO[0m | http:133 | [cb285039] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:35:41 | [32mINFO[0m | http:117 | [d02c2138] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:41 | [32mINFO[0m | http:133 | [d02c2138] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:35:46 | [32mINFO[0m | http:117 | [ea1045e9] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:46 | [32mINFO[0m | http:133 | [ea1045e9] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.004s | Size: 1049 bytes
+2025-11-30 23:35:49 | [32mINFO[0m | http:117 | [9d23b422] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:49 | [32mINFO[0m | http:133 | [9d23b422] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9286 bytes
+2025-11-30 23:35:50 | [32mINFO[0m | http:117 | [87fb55a5] GET http://localhost:8000/employees/8af821c0-2fe1-488b-81f9-594ec2bb0f59 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:50 | [32mINFO[0m | http:133 | [87fb55a5] GET http://localhost:8000/employees/8af821c0-2fe1-488b-81f9-594ec2bb0f59 | Status: 200 | Time: 0.003s | Size: 918 bytes
+2025-11-30 23:35:52 | [32mINFO[0m | http:117 | [5e0d30a3] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:35:53 | [32mINFO[0m | http:133 | [5e0d30a3] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.024s | Size: 76332 bytes
+2025-11-30 23:35:53 | [32mINFO[0m | http:117 | [6a6c2f42] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:35:53 | [32mINFO[0m | http:133 | [6a6c2f42] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.024s | Size: 76332 bytes
+2025-11-30 23:35:53 | [32mINFO[0m | http:117 | [28296272] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:35:53 | [32mINFO[0m | http:133 | [28296272] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.005s | Size: 5226 bytes
+2025-11-30 23:36:08 | [32mINFO[0m | http:117 | [a59612aa] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:08 | [32mINFO[0m | http:117 | [305f32cf] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:08 | [32mINFO[0m | http:133 | [a59612aa] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.014s | Size: 16301 bytes
+2025-11-30 23:36:08 | [32mINFO[0m | http:133 | [305f32cf] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.008s | Size: 16301 bytes
+2025-11-30 23:36:10 | [32mINFO[0m | http:117 | [a7e03b7a] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:36:10 | [32mINFO[0m | http:133 | [a7e03b7a] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-11-30 23:36:10 | [32mINFO[0m | http:117 | [6e51b5c5] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:36:10 | [32mINFO[0m | http:133 | [6e51b5c5] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.018s | Size: 76332 bytes
+2025-11-30 23:36:11 | [32mINFO[0m | http:117 | [f340ca26] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:11 | [32mINFO[0m | http:133 | [f340ca26] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.005s | Size: 5226 bytes
+2025-11-30 23:36:19 | [32mINFO[0m | http:117 | [089b8c0f] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:36:19 | [32mINFO[0m | http:133 | [089b8c0f] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.021s | Size: 76332 bytes
+2025-11-30 23:36:19 | [32mINFO[0m | http:117 | [b615fdc4] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 23:36:19 | [32mINFO[0m | http:133 | [b615fdc4] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.016s | Size: 76332 bytes
+2025-11-30 23:36:20 | [32mINFO[0m | http:117 | [225e1285] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:20 | [32mINFO[0m | http:133 | [225e1285] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9286 bytes
+2025-11-30 23:36:20 | [32mINFO[0m | http:117 | [d26e8db4] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:20 | [32mINFO[0m | http:133 | [d26e8db4] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6821 bytes
+2025-11-30 23:36:20 | [32mINFO[0m | http:117 | [778c9dbc] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:20 | [32mINFO[0m | http:133 | [778c9dbc] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:36:20 | [32mINFO[0m | http:117 | [f8392910] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:20 | [32mINFO[0m | http:133 | [f8392910] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:36:23 | [32mINFO[0m | http:117 | [ef0c86d4] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:23 | [32mINFO[0m | http:133 | [ef0c86d4] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6821 bytes
+2025-11-30 23:36:23 | [32mINFO[0m | http:117 | [a9ec7b7d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:23 | [32mINFO[0m | http:133 | [a9ec7b7d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6821 bytes
+2025-11-30 23:36:23 | [32mINFO[0m | http:117 | [284b0d28] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:23 | [32mINFO[0m | http:133 | [284b0d28] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:36:23 | [32mINFO[0m | http:117 | [03b142c4] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:23 | [32mINFO[0m | http:133 | [03b142c4] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.004s | Size: 1078 bytes
+2025-11-30 23:36:28 | [32mINFO[0m | http:117 | [af33b095] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:28 | [32mINFO[0m | http:133 | [af33b095] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:36:28 | [32mINFO[0m | http:117 | [0cf43e55] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:28 | [32mINFO[0m | http:133 | [0cf43e55] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:36:28 | [32mINFO[0m | http:117 | [590b18db] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:28 | [32mINFO[0m | http:133 | [590b18db] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:36:31 | [32mINFO[0m | http:117 | [265a49b0] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:31 | [32mINFO[0m | http:133 | [265a49b0] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.003s | Size: 1049 bytes
+2025-11-30 23:36:34 | [32mINFO[0m | http:117 | [53022a80] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:34 | [32mINFO[0m | http:133 | [53022a80] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6821 bytes
+2025-11-30 23:36:34 | [32mINFO[0m | http:117 | [bca7f037] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:34 | [32mINFO[0m | http:133 | [bca7f037] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6821 bytes
+2025-11-30 23:36:34 | [32mINFO[0m | http:117 | [bf1db7a4] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:34 | [32mINFO[0m | http:133 | [bf1db7a4] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6821 bytes
+2025-11-30 23:36:52 | [32mINFO[0m | http:117 | [aa1a7662] GET http://localhost:8000/employees?page=1&per_page=10&search=fadly | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:52 | [32mINFO[0m | http:133 | [aa1a7662] GET http://localhost:8000/employees?page=1&per_page=10&search=fadly | Status: 200 | Time: 0.011s | Size: 987 bytes
+2025-11-30 23:36:55 | [32mINFO[0m | http:117 | [d93e5f66] GET http://localhost:8000/employees?page=1&per_page=10&search=irvan | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:55 | [32mINFO[0m | http:133 | [d93e5f66] GET http://localhost:8000/employees?page=1&per_page=10&search=irvan | Status: 200 | Time: 0.007s | Size: 987 bytes
+2025-11-30 23:36:57 | [32mINFO[0m | http:117 | [3ebf5ad3] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:57 | [32mINFO[0m | http:133 | [3ebf5ad3] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.006s | Size: 9286 bytes
+2025-11-30 23:36:59 | [32mINFO[0m | http:117 | [63a47516] GET http://localhost:8000/employees?page=1&per_page=10&search=saputr | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 23:36:59 | [32mINFO[0m | http:133 | [63a47516] GET http://localhost:8000/employees?page=1&per_page=10&search=saputr | Status: 200 | Time: 0.005s | Size: 2737 bytes
