@@ -1,0 +1,187 @@
+2025-12-01 00:00:04 | [32mINFO[0m | app:91 | Logging system initialized
+2025-12-01 00:00:04 | [32mINFO[0m | app:92 | Log level: INFO
+2025-12-01 00:00:04 | [32mINFO[0m | app:93 | Log directory: logs
+2025-12-01 00:00:04 | [32mINFO[0m | app:94 | Daily log files: 2025-12-01.log
+2025-12-01 00:00:04 | [32mINFO[0m | app:34 | Application startup initiated
+2025-12-01 00:05:21 | [32mINFO[0m | http:117 | [3f191d3d] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:05:21 | [32mINFO[0m | http:133 | [3f191d3d] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.184s | Size: 1049 bytes
+2025-12-01 00:05:21 | [32mINFO[0m | http:117 | [f1617c26] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:05:21 | [33mWARNING[0m | http:133 | [f1617c26] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:05:30 | [32mINFO[0m | http:117 | [4d044a06] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:05:30 | [33mWARNING[0m | http:133 | [4d044a06] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:07:07 | [32mINFO[0m | http:117 | [78123b88] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:07:07 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-12-01 00:07:07 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-12-01 00:07:07 | [33mWARNING[0m | http:133 | [78123b88] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.023s | Size: 46 bytes
+2025-12-01 00:07:08 | [32mINFO[0m | http:117 | [222c5fac] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:07:08 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-12-01 00:07:08 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-12-01 00:07:08 | [33mWARNING[0m | http:133 | [222c5fac] GET http://localhost:8000/teams/with-details | Status: 401 | Time: 0.004s | Size: 46 bytes
+2025-12-01 00:07:08 | [32mINFO[0m | http:117 | [7d8d45a5] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:07:08 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-12-01 00:07:08 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 401: Invalid session or user not found
+2025-12-01 00:07:08 | [33mWARNING[0m | http:133 | [7d8d45a5] GET http://localhost:8000/teams/with-details | Status: 401 | Time: 0.002s | Size: 46 bytes
+2025-12-01 00:07:10 | [32mINFO[0m | http:117 | [1c72a509] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:07:10 | [32mINFO[0m | http:133 | [1c72a509] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.256s | Size: 616 bytes
+2025-12-01 00:07:10 | [32mINFO[0m | http:117 | [873a64ce] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:07:10 | [33mWARNING[0m | http:133 | [873a64ce] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:07:10 | [32mINFO[0m | http:117 | [d339b832] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:07:10 | [32mINFO[0m | http:133 | [d339b832] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.029s | Size: 16301 bytes
+2025-12-01 00:07:11 | [32mINFO[0m | http:117 | [a9df2395] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:07:11 | [33mWARNING[0m | http:133 | [a9df2395] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:08:50 | [32mINFO[0m | http:117 | [7977ac92] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:08:50 | [32mINFO[0m | http:133 | [7977ac92] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.017s | Size: 9286 bytes
+2025-12-01 00:09:04 | [32mINFO[0m | http:117 | [110f4d64] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:09:04 | [32mINFO[0m | http:133 | [110f4d64] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.005s | Size: 1049 bytes
+2025-12-01 00:09:16 | [32mINFO[0m | http:117 | [f221df27] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:09:16 | [33mWARNING[0m | http:133 | [f221df27] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:09:41 | [32mINFO[0m | http:117 | [6ee5cb3f] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:09:41 | [33mWARNING[0m | http:133 | [6ee5cb3f] GET http://localhost:8000/users/me | Status: 404 | Time: 0.015s | Size: 22 bytes
+2025-12-01 00:09:42 | [32mINFO[0m | http:117 | [1564ad5f] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:09:43 | [32mINFO[0m | http:133 | [1564ad5f] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.423s | Size: 1049 bytes
+2025-12-01 00:09:44 | [32mINFO[0m | http:117 | [1bd8b55b] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:09:44 | [32mINFO[0m | http:133 | [1bd8b55b] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.084s | Size: 76332 bytes
+2025-12-01 00:09:44 | [32mINFO[0m | http:117 | [049bf437] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:09:44 | [32mINFO[0m | http:133 | [049bf437] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.037s | Size: 76332 bytes
+2025-12-01 00:09:45 | [32mINFO[0m | http:117 | [20f556f8] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:09:45 | [32mINFO[0m | http:133 | [20f556f8] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.007s | Size: 5226 bytes
+2025-12-01 00:09:49 | [32mINFO[0m | http:117 | [a789b5c4] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:09:49 | [32mINFO[0m | http:133 | [a789b5c4] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-12-01 00:09:49 | [32mINFO[0m | http:117 | [a36d541f] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:09:49 | [32mINFO[0m | http:133 | [a36d541f] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.026s | Size: 76332 bytes
+2025-12-01 00:09:50 | [32mINFO[0m | http:117 | [d2040053] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:09:50 | [32mINFO[0m | http:133 | [d2040053] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.007s | Size: 9286 bytes
+2025-12-01 00:12:27 | [32mINFO[0m | http:117 | [63028405] GET http://localhost:8000/attendance/employee/wijayadisaputra | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:12:27 | [33mWARNING[0m | http:133 | [63028405] GET http://localhost:8000/attendance/employee/wijayadisaputra | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:12:28 | [32mINFO[0m | http:117 | [8c5f79f2] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:12:28 | [33mWARNING[0m | http:133 | [8c5f79f2] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:12:28 | [32mINFO[0m | http:117 | [32425d53] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:12:28 | [33mWARNING[0m | http:133 | [32425d53] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:12:28 | [32mINFO[0m | http:117 | [50f57e91] GET http://localhost:8000/attendance/employee/wijayadisaputra | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:12:28 | [33mWARNING[0m | http:133 | [50f57e91] GET http://localhost:8000/attendance/employee/wijayadisaputra | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:12:28 | [32mINFO[0m | http:117 | [0bc5c625] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:12:28 | [33mWARNING[0m | http:133 | [0bc5c625] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:12:28 | [32mINFO[0m | http:117 | [313506ed] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:12:28 | [33mWARNING[0m | http:133 | [313506ed] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:16:34 | [32mINFO[0m | http:117 | [13f5f619] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:16:34 | [32mINFO[0m | http:117 | [c916552a] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:16:34 | [33mWARNING[0m | http:133 | [c916552a] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:16:34 | [32mINFO[0m | http:133 | [13f5f619] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.243s | Size: 1049 bytes
+2025-12-01 00:16:56 | [32mINFO[0m | http:117 | [f50a8e35] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:16:56 | [32mINFO[0m | http:133 | [f50a8e35] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.048s | Size: 9286 bytes
+2025-12-01 00:17:06 | [32mINFO[0m | http:117 | [0249d555] GET http://localhost:8000/attendance/employee/wijayadisaputra | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:06 | [33mWARNING[0m | http:133 | [0249d555] GET http://localhost:8000/attendance/employee/wijayadisaputra | Status: 404 | Time: 0.005s | Size: 22 bytes
+2025-12-01 00:17:06 | [32mINFO[0m | http:117 | [1536d782] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:06 | [33mWARNING[0m | http:133 | [1536d782] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:17:06 | [32mINFO[0m | http:117 | [e15db0cf] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:06 | [33mWARNING[0m | http:133 | [e15db0cf] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:17:10 | [32mINFO[0m | http:117 | [4ae12f29] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:10 | [32mINFO[0m | http:133 | [4ae12f29] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.008s | Size: 1049 bytes
+2025-12-01 00:17:10 | [32mINFO[0m | http:117 | [6f2bb50b] GET http://localhost:8000/attendance/employee/wijayadisaputra | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:10 | [33mWARNING[0m | http:133 | [6f2bb50b] GET http://localhost:8000/attendance/employee/wijayadisaputra | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:17:10 | [32mINFO[0m | http:117 | [0f2cc25b] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:10 | [33mWARNING[0m | http:133 | [0f2cc25b] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:17:10 | [32mINFO[0m | http:117 | [0a088a6e] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:10 | [33mWARNING[0m | http:133 | [0a088a6e] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:17:10 | [32mINFO[0m | http:117 | [5e1849be] GET http://localhost:8000/attendance/employee/wijayadisaputra | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:10 | [33mWARNING[0m | http:133 | [5e1849be] GET http://localhost:8000/attendance/employee/wijayadisaputra | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:17:10 | [32mINFO[0m | http:117 | [a0050f41] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:10 | [33mWARNING[0m | http:133 | [a0050f41] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:17:10 | [32mINFO[0m | http:117 | [331b2974] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:17:10 | [33mWARNING[0m | http:133 | [331b2974] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:18:27 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-12-01 00:18:28 | [32mINFO[0m | app:91 | Logging system initialized
+2025-12-01 00:18:28 | [32mINFO[0m | app:92 | Log level: INFO
+2025-12-01 00:18:28 | [32mINFO[0m | app:93 | Log directory: logs
+2025-12-01 00:18:28 | [32mINFO[0m | app:94 | Daily log files: 2025-12-01.log
+2025-12-01 00:18:28 | [32mINFO[0m | app:34 | Application startup initiated
+2025-12-01 00:18:29 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-12-01 00:18:30 | [32mINFO[0m | app:91 | Logging system initialized
+2025-12-01 00:18:30 | [32mINFO[0m | app:92 | Log level: INFO
+2025-12-01 00:18:30 | [32mINFO[0m | app:93 | Log directory: logs
+2025-12-01 00:18:30 | [32mINFO[0m | app:94 | Daily log files: 2025-12-01.log
+2025-12-01 00:18:30 | [32mINFO[0m | app:34 | Application startup initiated
+2025-12-01 00:18:43 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-12-01 00:18:43 | [32mINFO[0m | app:91 | Logging system initialized
+2025-12-01 00:18:43 | [32mINFO[0m | app:92 | Log level: INFO
+2025-12-01 00:18:43 | [32mINFO[0m | app:93 | Log directory: logs
+2025-12-01 00:18:43 | [32mINFO[0m | app:94 | Daily log files: 2025-12-01.log
+2025-12-01 00:18:43 | [32mINFO[0m | app:34 | Application startup initiated
+2025-12-01 00:18:45 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-12-01 00:18:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-12-01 00:18:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-12-01 00:18:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-12-01 00:18:45 | [32mINFO[0m | app:94 | Daily log files: 2025-12-01.log
+2025-12-01 00:18:45 | [32mINFO[0m | app:34 | Application startup initiated
+2025-12-01 00:18:56 | [32mINFO[0m | http:117 | [b45d8a10] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:18:56 | [32mINFO[0m | http:117 | [0be9dc17] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:18:56 | [33mWARNING[0m | http:133 | [0be9dc17] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:18:56 | [32mINFO[0m | http:133 | [b45d8a10] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.122s | Size: 1049 bytes
+2025-12-01 00:18:57 | [32mINFO[0m | http:117 | [00b28bfa] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:18:57 | [32mINFO[0m | http:133 | [00b28bfa] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | Status: 200 | Time: 0.030s | Size: 15115 bytes
+2025-12-01 00:18:57 | [32mINFO[0m | http:117 | [c1423239] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:18:57 | [32mINFO[0m | http:133 | [c1423239] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 200 | Time: 0.006s | Size: 225 bytes
+2025-12-01 00:18:57 | [32mINFO[0m | http:117 | [206dcabc] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:18:57 | [32mINFO[0m | http:133 | [206dcabc] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 200 | Time: 0.005s | Size: 2 bytes
+2025-12-01 00:20:54 | [32mINFO[0m | http:117 | [5a1af599] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: curl/8.7.1
+2025-12-01 00:20:54 | [32mINFO[0m | http:133 | [5a1af599] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.240s | Size: 616 bytes
+2025-12-01 00:21:33 | [32mINFO[0m | http:117 | [1800edcd] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | IP: 127.0.0.1 | User-Agent: curl/8.7.1
+2025-12-01 00:21:33 | [31mERROR[0m | app.db:145 | Unexpected error in get_attendance_db: 403: Not authenticated
+2025-12-01 00:21:33 | [31mERROR[0m | app.db:145 | Unexpected error in get_attendance_db: 403: Not authenticated
+2025-12-01 00:21:33 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 403: Not authenticated
+2025-12-01 00:21:33 | [31mERROR[0m | app.db:124 | Unexpected error in get_db: 403: Not authenticated
+2025-12-01 00:21:33 | [33mWARNING[0m | http:133 | [1800edcd] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | Status: 403 | Time: 0.001s | Size: 30 bytes
+2025-12-01 00:22:41 | [32mINFO[0m | http:117 | [9be81f2f] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | IP: 127.0.0.1 | User-Agent: curl/8.7.1
+2025-12-01 00:22:41 | [32mINFO[0m | http:133 | [9be81f2f] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | Status: 200 | Time: 0.014s | Size: 15115 bytes
+2025-12-01 00:24:06 | [32mINFO[0m | http:117 | [b4bdd041] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:06 | [32mINFO[0m | http:133 | [b4bdd041] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.009s | Size: 1049 bytes
+2025-12-01 00:24:06 | [32mINFO[0m | http:117 | [1725bb67] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:06 | [33mWARNING[0m | http:133 | [1725bb67] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-12-01 00:24:06 | [32mINFO[0m | http:117 | [29a2015e] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:06 | [32mINFO[0m | http:133 | [29a2015e] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | Status: 200 | Time: 0.010s | Size: 15115 bytes
+2025-12-01 00:24:06 | [32mINFO[0m | http:117 | [cc452794] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:06 | [32mINFO[0m | http:133 | [cc452794] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 200 | Time: 0.005s | Size: 225 bytes
+2025-12-01 00:24:06 | [32mINFO[0m | http:117 | [28166f2b] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:06 | [32mINFO[0m | http:133 | [28166f2b] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 200 | Time: 0.005s | Size: 2 bytes
+2025-12-01 00:24:09 | [32mINFO[0m | http:117 | [a379560e] POST http://localhost:8000/auth/logout | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:09 | [32mINFO[0m | http:133 | [a379560e] POST http://localhost:8000/auth/logout | Status: 200 | Time: 0.004s | Size: 28 bytes
+2025-12-01 00:24:10 | [32mINFO[0m | http:117 | [961e9c95] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:24:11 | [32mINFO[0m | http:133 | [961e9c95] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.237s | Size: 616 bytes
+2025-12-01 00:24:11 | [32mINFO[0m | http:117 | [2da09652] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:11 | [33mWARNING[0m | http:133 | [2da09652] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:24:11 | [32mINFO[0m | http:117 | [4cdd38d8] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:11 | [32mINFO[0m | http:133 | [4cdd38d8] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.032s | Size: 16301 bytes
+2025-12-01 00:24:11 | [32mINFO[0m | http:117 | [f9867b95] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:11 | [33mWARNING[0m | http:133 | [f9867b95] GET http://localhost:8000/users/me | Status: 404 | Time: 0.003s | Size: 22 bytes
+2025-12-01 00:24:12 | [32mINFO[0m | http:117 | [e01cb035] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:12 | [32mINFO[0m | http:133 | [e01cb035] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.008s | Size: 9286 bytes
+2025-12-01 00:24:14 | [32mINFO[0m | http:117 | [a49b4acf] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:14 | [32mINFO[0m | http:133 | [a49b4acf] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.003s | Size: 1049 bytes
+2025-12-01 00:24:14 | [32mINFO[0m | http:117 | [8bff853a] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:14 | [32mINFO[0m | http:133 | [8bff853a] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | Status: 200 | Time: 0.005s | Size: 15115 bytes
+2025-12-01 00:24:14 | [32mINFO[0m | http:117 | [dbf600e8] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:14 | [32mINFO[0m | http:133 | [dbf600e8] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 200 | Time: 0.004s | Size: 225 bytes
+2025-12-01 00:24:14 | [32mINFO[0m | http:117 | [7dfb699d] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:14 | [32mINFO[0m | http:133 | [7dfb699d] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 200 | Time: 0.004s | Size: 2 bytes
+2025-12-01 00:24:14 | [32mINFO[0m | http:117 | [8be2c02b] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:14 | [32mINFO[0m | http:133 | [8be2c02b] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | Status: 200 | Time: 0.005s | Size: 15115 bytes
+2025-12-01 00:24:14 | [32mINFO[0m | http:117 | [141b1ba2] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:14 | [32mINFO[0m | http:133 | [141b1ba2] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 200 | Time: 0.004s | Size: 225 bytes
+2025-12-01 00:24:14 | [32mINFO[0m | http:117 | [76aa08c0] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:24:14 | [32mINFO[0m | http:133 | [76aa08c0] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 200 | Time: 0.003s | Size: 2 bytes
+2025-12-01 00:27:06 | [32mINFO[0m | http:117 | [3f4dadf9] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:27:06 | [32mINFO[0m | http:133 | [3f4dadf9] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.024s | Size: 1049 bytes
+2025-12-01 00:27:06 | [32mINFO[0m | http:117 | [a19f7c02] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-12-01 00:27:06 | [33mWARNING[0m | http:133 | [a19f7c02] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-12-01 00:27:06 | [32mINFO[0m | http:117 | [b219b225] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:27:06 | [32mINFO[0m | http:133 | [b219b225] GET http://localhost:8000/attendance/employee/wijayadisaputra/attendance | Status: 200 | Time: 0.008s | Size: 15115 bytes
+2025-12-01 00:27:06 | [32mINFO[0m | http:117 | [a85830fd] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:27:06 | [32mINFO[0m | http:133 | [a85830fd] GET http://localhost:8000/attendance/employee/wijayadisaputra/leave | Status: 200 | Time: 0.007s | Size: 225 bytes
+2025-12-01 00:27:06 | [32mINFO[0m | http:117 | [840beb38] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-12-01 00:27:06 | [32mINFO[0m | http:133 | [840beb38] GET http://localhost:8000/attendance/employee/wijayadisaputra/overtime | Status: 200 | Time: 0.004s | Size: 2 bytes
+2025-12-01 00:28:34 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-12-01 00:28:35 | [32mINFO[0m | app:91 | Logging system initialized
+2025-12-01 00:28:35 | [32mINFO[0m | app:92 | Log level: INFO
+2025-12-01 00:28:35 | [32mINFO[0m | app:93 | Log directory: logs
+2025-12-01 00:28:35 | [32mINFO[0m | app:94 | Daily log files: 2025-12-01.log
+2025-12-01 00:28:35 | [32mINFO[0m | app:34 | Application startup initiated

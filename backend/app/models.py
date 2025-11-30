@@ -181,8 +181,8 @@ class Project(Base):
     project_name = Column(String(255), index=True)
     project_description = Column(Text)
     status = Column(String(50), nullable=True, index=True)
-    start_date = Column(Date, nullable=True)
-    end_date = Column(Date, nullable=True)
+    start_date = Column(Date)
+    end_date = Column(Date)
     division = Column(String(50), nullable=True)
     contact_window = Column(String(100), nullable=True)
     

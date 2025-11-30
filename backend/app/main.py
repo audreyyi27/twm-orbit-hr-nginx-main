@@ -3,7 +3,7 @@ import time
 from fastapi import FastAPI, Request
  
 from fastapi.concurrency import asynccontextmanager
-from .routers import auth,candidates,reports,dashboard, get_candidates, employees, teams, projects
+from .routers import auth,candidates,reports,dashboard, get_candidates, employees, teams, projects, attendance
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from slowapi.errors import RateLimitExceeded
@@ -107,6 +107,7 @@ app.include_router(reports.router)
 app.include_router(dashboard.router)
 app.include_router(teams.router)
 app.include_router(projects.router)
+app.include_router(attendance.router)
 
 
 @app.get("/", tags=["home"], summary="Healthcheck", response_description="Service is up.")

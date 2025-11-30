@@ -78,8 +78,83 @@ export interface EmployeeProjectDto {
   }[];
 }
 
-// Simple - Team with all members and all projects they're doing
+// Team members + All projects
 export interface TeamProjectsDto {
   team_name: string;
   members: EmployeeProjectDto[]; // All 5 employees with their projects
+}
+
+
+
+
+
+// ===================Attendance=========================
+export interface AttendanceDto {
+  id: string;
+  user_id: string;
+  attendance_date?: string;
+  clock_in_time?: string | null;
+  clock_in_latitude?: number | null;
+  clock_in_longitude?: number | null;
+  clock_in_address?: string | null;
+  clock_out_time?: string | null;
+  clock_out_latitude?: number | null;
+  clock_out_longitude?: number | null;
+  clock_out_address?: string | null;
+  work_description?: string | null;
+  reason?: string | null;
+  status?: string | null;
+  plan?: string | null;
+  nt_account?: string | null;
+  created_at?: string;
+  updated_at?: string;
+}
+
+// ==================== LEAVE DTOs ====================
+export interface AttendanceLeaveDto {
+  user_id: string;
+  type?: string | null;
+  start_date?: string | null;
+  end_date?: string | null;
+  start_time?: string | null;
+  end_time?: string | null;
+  duration?: string | null;
+  status?: string;
+  reason?: string | null;
+}
+
+
+
+
+
+// ==================== OVERTIME DTOs ====================
+export interface AttendanceOvertimeDto {
+  user_id: string;
+  type?: string | null;
+  start_date?: string | null;
+  end_date?: string | null;
+  start_time?: string | null;
+  end_time?: string | null;
+  duration?: string | null;
+  reason?: string | null;
+  status?: string;
+}
+
+
+
+
+
+// ==================== USER DTOs ====================
+export interface AttendanceUsertemplate {
+  id: string;
+  username?: string | null;
+  fullname?: string | null;
+  employee_id?: string | null;
+  email?: string | null;
+  phone?: string | null;
+  positions?: string | null;
+  role?: string | null;
+  is_active?: boolean;
+  created_at?: string;
+  updated_at?: string;
 }

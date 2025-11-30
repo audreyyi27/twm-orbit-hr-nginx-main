@@ -3,6 +3,7 @@
 import { GetEmployeeService } from "@/core/employees";
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import { EmployeeAttendanceSection } from "./employee_attendance";
 
 interface PageProps {
   params: {
@@ -24,7 +25,7 @@ export default async function EmployeeDetailPage({ params }: PageProps) {
   return (
     <div className="min-h-screen p-6">
       {/* Back button */}
-      <Link href="/employees" className=" items-center gap-2 text-sm text-gray-600 hover:text-gray-900 mb-6">
+      <Link href="/employees" className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 mb-6">
         <span>←</span>
         <span>Back to Employees</span>
       </Link>
@@ -32,14 +33,18 @@ export default async function EmployeeDetailPage({ params }: PageProps) {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="bg-white rounded-lg border border-gray-200 p-6 mb-6">
-          <h1 className="text-2xl font-bold text-gray-900">{employee.name || 'Employee'}</h1>
-          {employee.chinese_name && (
-            <p className="text-gray-600 mt-1">{employee.chinese_name}</p>
-          )}
-          <div className="flex gap-6 mt-4 text-sm text-gray-600">
-            <span>ID: {employee.employee_id || '-'}</span>
-            <span>Team: {employee.team || '-'}</span>
-            <span>Role: {employee.role || '-'}</span>
+          <div className="flex justify-between items-start">
+            <div>
+              <h1 className="text-2xl font-bold text-gray-900">{employee.name || 'Employee'}</h1>
+              {employee.chinese_name && (
+                <p className="text-gray-600 mt-1">{employee.chinese_name}</p>
+              )}
+              <div className="flex gap-6 mt-4 text-sm text-gray-600">
+                <span>ID: {employee.employee_id || '-'}</span>
+                <span>Team: {employee.team || '-'}</span>
+                <span>Role: {employee.role || '-'}</span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -155,6 +160,16 @@ export default async function EmployeeDetailPage({ params }: PageProps) {
             </>
           )}
         </div>
+
+        {/* Attendance Section */}
+        {employee.nt_account && (
+          <>
+            <div className="mt-8 mb-6">
+              <h2 className="text-xl font-bold text-gray-900">Attendance Records</h2>
+            </div>
+            <EmployeeAttendanceSection ntAccount={employee.nt_account} />
+          </>
+        )}
       </div>
     </div>
   );
