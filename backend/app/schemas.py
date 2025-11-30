@@ -419,12 +419,8 @@ class ProjectCard(BaseModel):
     project_description: Optional[str] = None
     status: Optional[str] = None
     start_date: Optional[date] = None
-<<<<<<< HEAD:Backend/app/schemas.py
     end_date: Optional[date] = None  # Keep for database compatibility
     completed_date: Optional[date] = None  # Alias for frontend (same as end_date)
-=======
-    end_date: Optional[date] = None
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/app/schemas.py
     division: Optional[str] = None
     contact_window: Optional[str] = None
     team_id: Optional[str] = None
