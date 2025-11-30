@@ -1,0 +1,226 @@
+2025-11-30 17:08:11 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 17:08:11 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 17:08:11 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 17:08:11 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 17:08:11 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 17:09:28 | [32mINFO[0m | http:117 | [dc36591c] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:28 | [32mINFO[0m | http:133 | [dc36591c] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.360s | Size: 616 bytes
+2025-11-30 17:09:30 | [32mINFO[0m | http:117 | [c84bcb59] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:30 | [33mWARNING[0m | http:133 | [c84bcb59] GET http://localhost:8000/users/me | Status: 404 | Time: 0.003s | Size: 22 bytes
+2025-11-30 17:09:30 | [32mINFO[0m | http:117 | [2e6b49b7] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:30 | [32mINFO[0m | http:133 | [2e6b49b7] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.047s | Size: 16301 bytes
+2025-11-30 17:09:30 | [32mINFO[0m | http:117 | [e1bbd61e] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:30 | [33mWARNING[0m | http:133 | [e1bbd61e] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-11-30 17:09:32 | [32mINFO[0m | http:117 | [79d81e69] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:32 | [32mINFO[0m | http:133 | [79d81e69] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.032s | Size: 76332 bytes
+2025-11-30 17:09:32 | [32mINFO[0m | http:117 | [37051232] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:32 | [32mINFO[0m | http:133 | [37051232] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.016s | Size: 76332 bytes
+2025-11-30 17:09:33 | [32mINFO[0m | http:117 | [4f6fa72d] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:33 | [32mINFO[0m | http:133 | [4f6fa72d] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9286 bytes
+2025-11-30 17:09:33 | [32mINFO[0m | http:117 | [a39c0f16] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:34 | [32mINFO[0m | http:133 | [a39c0f16] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76332 bytes
+2025-11-30 17:09:34 | [32mINFO[0m | http:117 | [57a65924] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:34 | [32mINFO[0m | http:133 | [57a65924] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.015s | Size: 76332 bytes
+2025-11-30 17:09:43 | [32mINFO[0m | http:117 | [e383208f] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:43 | [32mINFO[0m | http:133 | [e383208f] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.018s | Size: 76332 bytes
+2025-11-30 17:09:43 | [32mINFO[0m | http:117 | [704134c7] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:43 | [32mINFO[0m | http:133 | [704134c7] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.015s | Size: 76332 bytes
+2025-11-30 17:09:44 | [32mINFO[0m | http:117 | [d97ed392] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:44 | [32mINFO[0m | http:133 | [d97ed392] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.016s | Size: 76332 bytes
+2025-11-30 17:09:44 | [32mINFO[0m | http:117 | [25f13674] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:44 | [32mINFO[0m | http:133 | [25f13674] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76332 bytes
+2025-11-30 17:09:45 | [32mINFO[0m | http:117 | [d5cd049e] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:45 | [32mINFO[0m | http:133 | [d5cd049e] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.009s | Size: 6821 bytes
+2025-11-30 17:09:45 | [32mINFO[0m | http:117 | [7e9ca90a] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:45 | [32mINFO[0m | http:133 | [7e9ca90a] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6821 bytes
+2025-11-30 17:09:48 | [32mINFO[0m | http:117 | [27c657ff] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:48 | [32mINFO[0m | http:133 | [27c657ff] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.006s | Size: 9286 bytes
+2025-11-30 17:09:49 | [32mINFO[0m | http:117 | [da844194] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:49 | [32mINFO[0m | http:133 | [da844194] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.028s | Size: 76332 bytes
+2025-11-30 17:09:49 | [32mINFO[0m | http:117 | [3c7c8759] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:49 | [32mINFO[0m | http:133 | [3c7c8759] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.016s | Size: 76332 bytes
+2025-11-30 17:09:53 | [32mINFO[0m | http:117 | [4a530c89] GET http://localhost:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:53 | [32mINFO[0m | http:133 | [4a530c89] GET http://localhost:8000/employees?page=2&per_page=10 | Status: 200 | Time: 0.005s | Size: 9523 bytes
+2025-11-30 17:09:53 | [32mINFO[0m | http:117 | [07ef3aba] GET http://localhost:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:53 | [32mINFO[0m | http:133 | [07ef3aba] GET http://localhost:8000/employees?page=3&per_page=10 | Status: 200 | Time: 0.005s | Size: 8615 bytes
+2025-11-30 17:09:53 | [32mINFO[0m | http:117 | [a2b9c061] GET http://localhost:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:53 | [32mINFO[0m | http:133 | [a2b9c061] GET http://localhost:8000/employees?page=4&per_page=10 | Status: 200 | Time: 0.004s | Size: 8303 bytes
+2025-11-30 17:09:53 | [32mINFO[0m | http:117 | [e0d8ce1c] GET http://localhost:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:53 | [32mINFO[0m | http:133 | [e0d8ce1c] GET http://localhost:8000/employees?page=5&per_page=10 | Status: 200 | Time: 0.005s | Size: 8249 bytes
+2025-11-30 17:09:54 | [32mINFO[0m | http:117 | [466d79c7] GET http://localhost:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:54 | [32mINFO[0m | http:133 | [466d79c7] GET http://localhost:8000/employees?page=6&per_page=10 | Status: 200 | Time: 0.005s | Size: 8677 bytes
+2025-11-30 17:09:54 | [32mINFO[0m | http:117 | [474664d5] GET http://localhost:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:54 | [32mINFO[0m | http:133 | [474664d5] GET http://localhost:8000/employees?page=7&per_page=10 | Status: 200 | Time: 0.004s | Size: 7641 bytes
+2025-11-30 17:09:54 | [32mINFO[0m | http:117 | [340b0c4b] GET http://localhost:8000/employees?page=8&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:09:54 | [32mINFO[0m | http:133 | [340b0c4b] GET http://localhost:8000/employees?page=8&per_page=10 | Status: 200 | Time: 0.003s | Size: 8390 bytes
+2025-11-30 17:09:59 | [32mINFO[0m | http:117 | [9d2c05df] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:59 | [32mINFO[0m | http:133 | [9d2c05df] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-11-30 17:09:59 | [32mINFO[0m | http:117 | [30b20ae9] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:09:59 | [32mINFO[0m | http:133 | [30b20ae9] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.019s | Size: 76332 bytes
+2025-11-30 17:10:02 | [32mINFO[0m | http:117 | [a965aa01] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:10:02 | [32mINFO[0m | http:133 | [a965aa01] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.004s | Size: 5226 bytes
+2025-11-30 17:10:14 | [32mINFO[0m | http:117 | [5f9e4f34] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:10:14 | [32mINFO[0m | http:133 | [5f9e4f34] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.019s | Size: 76332 bytes
+2025-11-30 17:10:14 | [32mINFO[0m | http:117 | [575ccfe6] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:10:14 | [32mINFO[0m | http:133 | [575ccfe6] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76332 bytes
+2025-11-30 17:10:15 | [32mINFO[0m | http:117 | [2d612f34] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:10:15 | [32mINFO[0m | http:133 | [2d612f34] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.005s | Size: 5226 bytes
+2025-11-30 17:10:16 | [32mINFO[0m | http:117 | [0631bb1b] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:10:16 | [32mINFO[0m | http:133 | [0631bb1b] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-11-30 17:10:16 | [32mINFO[0m | http:117 | [e8a8f852] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:10:16 | [32mINFO[0m | http:133 | [e8a8f852] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.021s | Size: 76332 bytes
+2025-11-30 17:11:52 | [32mINFO[0m | http:117 | [e5ae255b] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:11:52 | [32mINFO[0m | http:133 | [e5ae255b] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.005s | Size: 16301 bytes
+2025-11-30 17:11:52 | [32mINFO[0m | http:117 | [f0cdba25] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:11:52 | [32mINFO[0m | http:133 | [f0cdba25] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.004s | Size: 16301 bytes
+2025-11-30 17:11:58 | [32mINFO[0m | http:117 | [7cd67776] GET http://localhost:8000/candidates/649a0ddd-a619-4ee8-87ee-1b5edb558dd4 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:11:58 | [32mINFO[0m | http:133 | [7cd67776] GET http://localhost:8000/candidates/649a0ddd-a619-4ee8-87ee-1b5edb558dd4 | Status: 200 | Time: 0.018s | Size: 2295 bytes
+2025-11-30 17:12:12 | [32mINFO[0m | http:117 | [1662502b] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:12:12 | [32mINFO[0m | http:133 | [1662502b] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-11-30 17:12:12 | [32mINFO[0m | http:117 | [d20ddc15] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:12:12 | [32mINFO[0m | http:133 | [d20ddc15] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76332 bytes
+2025-11-30 17:12:17 | [32mINFO[0m | http:117 | [ad68234f] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:12:17 | [32mINFO[0m | http:133 | [ad68234f] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.004s | Size: 5226 bytes
+2025-11-30 17:13:20 | [32mINFO[0m | http:117 | [e4a4adce] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:20 | [32mINFO[0m | http:133 | [e4a4adce] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.003s | Size: 9286 bytes
+2025-11-30 17:13:25 | [32mINFO[0m | http:117 | [e59c2964] GET http://localhost:8000/employees?page=1&per_page=10&search=wija | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:25 | [32mINFO[0m | http:133 | [e59c2964] GET http://localhost:8000/employees?page=1&per_page=10&search=wija | Status: 200 | Time: 0.009s | Size: 4221 bytes
+2025-11-30 17:13:26 | [32mINFO[0m | http:117 | [9ffec6bb] GET http://localhost:8000/employees?page=1&per_page=10&search=wijayadi | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:26 | [32mINFO[0m | http:133 | [9ffec6bb] GET http://localhost:8000/employees?page=1&per_page=10&search=wijayadi | Status: 200 | Time: 0.005s | Size: 1125 bytes
+2025-11-30 17:13:29 | [32mINFO[0m | http:117 | [c37fa8e2] GET http://localhost:8000/employees?page=1&per_page=10&search=roh | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:29 | [32mINFO[0m | http:133 | [c37fa8e2] GET http://localhost:8000/employees?page=1&per_page=10&search=roh | Status: 200 | Time: 0.007s | Size: 1769 bytes
+2025-11-30 17:13:30 | [32mINFO[0m | http:117 | [a72bce1c] GET http://localhost:8000/employees?page=1&per_page=10&search=rohmat | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:30 | [32mINFO[0m | http:133 | [a72bce1c] GET http://localhost:8000/employees?page=1&per_page=10&search=rohmat | Status: 200 | Time: 0.005s | Size: 943 bytes
+2025-11-30 17:13:35 | [32mINFO[0m | http:117 | [80599f08] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:13:35 | [32mINFO[0m | http:133 | [80599f08] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.019s | Size: 76332 bytes
+2025-11-30 17:13:35 | [32mINFO[0m | http:117 | [3f647e4f] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:13:35 | [32mINFO[0m | http:133 | [3f647e4f] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.022s | Size: 76332 bytes
+2025-11-30 17:13:36 | [32mINFO[0m | http:117 | [4d0878a0] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:36 | [32mINFO[0m | http:133 | [4d0878a0] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9286 bytes
+2025-11-30 17:13:39 | [32mINFO[0m | http:117 | [029c32c6] GET http://localhost:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:39 | [32mINFO[0m | http:133 | [029c32c6] GET http://localhost:8000/employees?page=2&per_page=10 | Status: 200 | Time: 0.004s | Size: 9523 bytes
+2025-11-30 17:13:39 | [32mINFO[0m | http:117 | [740e293b] GET http://localhost:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:39 | [32mINFO[0m | http:133 | [740e293b] GET http://localhost:8000/employees?page=3&per_page=10 | Status: 200 | Time: 0.004s | Size: 8615 bytes
+2025-11-30 17:13:40 | [32mINFO[0m | http:117 | [0763b711] GET http://localhost:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:40 | [32mINFO[0m | http:133 | [0763b711] GET http://localhost:8000/employees?page=4&per_page=10 | Status: 200 | Time: 0.005s | Size: 8303 bytes
+2025-11-30 17:13:40 | [32mINFO[0m | http:117 | [3eb3064b] GET http://localhost:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:40 | [32mINFO[0m | http:133 | [3eb3064b] GET http://localhost:8000/employees?page=5&per_page=10 | Status: 200 | Time: 0.005s | Size: 8249 bytes
+2025-11-30 17:13:40 | [32mINFO[0m | http:117 | [d3f23849] GET http://localhost:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:40 | [32mINFO[0m | http:133 | [d3f23849] GET http://localhost:8000/employees?page=6&per_page=10 | Status: 200 | Time: 0.005s | Size: 8677 bytes
+2025-11-30 17:13:40 | [32mINFO[0m | http:117 | [1c35ce89] GET http://localhost:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:40 | [32mINFO[0m | http:133 | [1c35ce89] GET http://localhost:8000/employees?page=7&per_page=10 | Status: 200 | Time: 0.005s | Size: 7641 bytes
+2025-11-30 17:13:41 | [32mINFO[0m | http:117 | [909b38b7] GET http://localhost:8000/employees?page=8&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:41 | [32mINFO[0m | http:133 | [909b38b7] GET http://localhost:8000/employees?page=8&per_page=10 | Status: 200 | Time: 0.004s | Size: 8390 bytes
+2025-11-30 17:13:43 | [32mINFO[0m | http:117 | [994ab0ff] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:13:43 | [32mINFO[0m | http:133 | [994ab0ff] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-11-30 17:13:43 | [32mINFO[0m | http:117 | [b4b90e9e] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:13:43 | [32mINFO[0m | http:133 | [b4b90e9e] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.018s | Size: 76332 bytes
+2025-11-30 17:13:44 | [32mINFO[0m | http:117 | [873d1066] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:44 | [32mINFO[0m | http:133 | [873d1066] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.005s | Size: 5226 bytes
+2025-11-30 17:13:48 | [32mINFO[0m | http:117 | [01fb44e9] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:48 | [32mINFO[0m | http:133 | [01fb44e9] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.003s | Size: 1049 bytes
+2025-11-30 17:13:52 | [32mINFO[0m | http:117 | [fe2901ef] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:13:52 | [32mINFO[0m | http:133 | [fe2901ef] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76332 bytes
+2025-11-30 17:13:52 | [32mINFO[0m | http:117 | [d19390bb] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:13:52 | [32mINFO[0m | http:133 | [d19390bb] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.023s | Size: 76332 bytes
+2025-11-30 17:13:53 | [32mINFO[0m | http:117 | [dcd46858] GET http://localhost:8000/employees/teams/Team 3/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:13:53 | [32mINFO[0m | http:133 | [dcd46858] GET http://localhost:8000/employees/teams/Team 3/projects | Status: 200 | Time: 0.004s | Size: 2425 bytes
+2025-11-30 17:14:04 | [32mINFO[0m | http:117 | [ded791fb] GET http://localhost:8000/employees/c5d1fcdc-f5be-4172-b7c9-217581113c6e | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:14:04 | [32mINFO[0m | http:133 | [ded791fb] GET http://localhost:8000/employees/c5d1fcdc-f5be-4172-b7c9-217581113c6e | Status: 200 | Time: 0.003s | Size: 885 bytes
+2025-11-30 17:14:16 | [32mINFO[0m | http:117 | [4a974b90] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:14:16 | [33mWARNING[0m | http:133 | [4a974b90] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-11-30 17:14:21 | [32mINFO[0m | http:117 | [3f4acbc2] GET http://localhost:8000/employees?page=1&per_page=10&search=Team+3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:14:21 | [32mINFO[0m | http:133 | [3f4acbc2] GET http://localhost:8000/employees?page=1&per_page=10&search=Team+3 | Status: 200 | Time: 0.005s | Size: 76 bytes
+2025-11-30 17:22:35 | [32mINFO[0m | http:117 | [fae2b745] GET http://localhost:8000/employees/c5d1fcdc-f5be-4172-b7c9-217581113c6e | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:22:35 | [32mINFO[0m | http:133 | [fae2b745] GET http://localhost:8000/employees/c5d1fcdc-f5be-4172-b7c9-217581113c6e | Status: 200 | Time: 0.015s | Size: 885 bytes
+2025-11-30 17:22:36 | [32mINFO[0m | http:117 | [882b2ea6] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:22:36 | [33mWARNING[0m | http:133 | [882b2ea6] GET http://localhost:8000/users/me | Status: 404 | Time: 0.000s | Size: 22 bytes
+2025-11-30 17:22:43 | [32mINFO[0m | http:117 | [8a262b8c] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:22:43 | [32mINFO[0m | http:133 | [8a262b8c] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.022s | Size: 76332 bytes
+2025-11-30 17:22:43 | [32mINFO[0m | http:117 | [3cfc8590] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:22:43 | [32mINFO[0m | http:133 | [3cfc8590] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.015s | Size: 76332 bytes
+2025-11-30 17:22:45 | [32mINFO[0m | http:117 | [385e5520] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:22:45 | [32mINFO[0m | http:133 | [385e5520] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.006s | Size: 9286 bytes
+2025-11-30 17:22:47 | [32mINFO[0m | http:117 | [9229f36b] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:22:47 | [32mINFO[0m | http:133 | [9229f36b] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6821 bytes
+2025-11-30 17:22:51 | [32mINFO[0m | http:117 | [7c6bc55b] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:22:51 | [32mINFO[0m | http:133 | [7c6bc55b] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-11-30 17:22:51 | [32mINFO[0m | http:117 | [729f8f42] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:22:51 | [32mINFO[0m | http:133 | [729f8f42] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.016s | Size: 76332 bytes
+2025-11-30 17:22:54 | [32mINFO[0m | http:117 | [38392099] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:22:54 | [32mINFO[0m | http:133 | [38392099] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.020s | Size: 76332 bytes
+2025-11-30 17:22:54 | [32mINFO[0m | http:117 | [2a7786e0] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 17:22:54 | [32mINFO[0m | http:133 | [2a7786e0] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.017s | Size: 76332 bytes
+2025-11-30 17:22:57 | [32mINFO[0m | http:117 | [55f8454f] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:22:57 | [32mINFO[0m | http:133 | [55f8454f] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.004s | Size: 5226 bytes
+2025-11-30 17:23:02 | [32mINFO[0m | http:117 | [1c2553f6] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 17:23:02 | [32mINFO[0m | http:133 | [1c2553f6] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.005s | Size: 9286 bytes
+2025-11-30 17:35:48 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 17:35:49 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 17:35:49 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 17:35:49 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 17:35:49 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 17:35:49 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 17:35:49 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 17:35:49 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 17:35:49 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 17:35:49 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 17:35:49 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 17:36:41 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 17:36:42 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 17:36:42 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 17:36:42 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 17:36:42 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 17:36:42 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 20:40:28 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 20:40:28 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 20:40:28 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 20:40:28 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 20:40:28 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 20:40:33 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 20:40:33 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 20:40:33 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 20:40:33 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 20:40:33 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 20:40:38 | [32mINFO[0m | http:117 | [844e680f] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 20:40:38 | [32mINFO[0m | http:133 | [844e680f] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.130s | Size: 16301 bytes
+2025-11-30 20:40:38 | [32mINFO[0m | http:117 | [f8224725] GET http://localhost:8000/users/me | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 20:40:38 | [33mWARNING[0m | http:133 | [f8224725] GET http://localhost:8000/users/me | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-11-30 20:40:44 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 20:40:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 20:40:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 20:40:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 20:40:45 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 20:40:45 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-30 20:40:48 | [32mINFO[0m | http:117 | [4e281132] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:40:48 | [32mINFO[0m | http:133 | [4e281132] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.087s | Size: 76332 bytes
+2025-11-30 20:40:48 | [32mINFO[0m | http:117 | [b44ae415] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:40:48 | [32mINFO[0m | http:133 | [b44ae415] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.029s | Size: 76332 bytes
+2025-11-30 20:40:50 | [32mINFO[0m | http:117 | [42c9c7f0] GET http://localhost:8000/employees/teams/Team 1/projects | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 20:40:50 | [32mINFO[0m | http:133 | [42c9c7f0] GET http://localhost:8000/employees/teams/Team 1/projects | Status: 200 | Time: 0.011s | Size: 5226 bytes
+2025-11-30 20:41:23 | [32mINFO[0m | http:117 | [ba53b72f] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:41:23 | [32mINFO[0m | http:133 | [ba53b72f] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.074s | Size: 76332 bytes
+2025-11-30 20:41:23 | [32mINFO[0m | http:117 | [0db62524] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:41:23 | [32mINFO[0m | http:133 | [0db62524] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.023s | Size: 76332 bytes
+2025-11-30 20:41:25 | [32mINFO[0m | http:117 | [767fbc55] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 20:41:25 | [32mINFO[0m | http:133 | [767fbc55] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.021s | Size: 16301 bytes
+2025-11-30 20:41:25 | [32mINFO[0m | http:117 | [2b3c2aa5] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 20:41:25 | [32mINFO[0m | http:133 | [2b3c2aa5] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.011s | Size: 16301 bytes
+2025-11-30 20:41:30 | [32mINFO[0m | http:117 | [be3ddd9f] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 20:41:30 | [32mINFO[0m | http:133 | [be3ddd9f] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.008s | Size: 9286 bytes
+2025-11-30 20:41:31 | [32mINFO[0m | http:117 | [fdfdc7c0] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:41:31 | [32mINFO[0m | http:133 | [fdfdc7c0] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.031s | Size: 76332 bytes
+2025-11-30 20:41:31 | [32mINFO[0m | http:117 | [95a84075] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:41:31 | [32mINFO[0m | http:133 | [95a84075] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.023s | Size: 76332 bytes
+2025-11-30 20:41:33 | [32mINFO[0m | http:117 | [5458f4c5] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-30 20:41:33 | [32mINFO[0m | http:133 | [5458f4c5] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.009s | Size: 6821 bytes
+2025-11-30 20:41:39 | [32mINFO[0m | http:117 | [10f768ad] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:41:39 | [32mINFO[0m | http:133 | [10f768ad] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.025s | Size: 76332 bytes
+2025-11-30 20:41:39 | [32mINFO[0m | http:117 | [55810178] GET http://localhost:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-30 20:41:39 | [32mINFO[0m | http:133 | [55810178] GET http://localhost:8000/teams/with-details | Status: 200 | Time: 0.022s | Size: 76332 bytes
+2025-11-30 20:41:40 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-30 20:41:43 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-30 20:41:43 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-30 20:41:43 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-30 20:41:43 | [32mINFO[0m | app:94 | Daily log files: 2025-11-30.log
+2025-11-30 20:41:43 | [32mINFO[0m | app:34 | Application startup initiated

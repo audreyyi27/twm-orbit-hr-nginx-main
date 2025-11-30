@@ -1,0 +1,985 @@
+2025-11-11 09:03:35 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 09:03:35 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 09:03:35 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 09:03:35 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 09:03:35 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 09:03:50 | [32mINFO[0m | http:117 | [7074dd02] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:03:50 | [33mWARNING[0m | http:133 | [7074dd02] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.011s | Size: 26 bytes
+2025-11-11 09:03:50 | [32mINFO[0m | http:117 | [a0dbe45b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:03:50 | [33mWARNING[0m | http:133 | [a0dbe45b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 09:03:54 | [32mINFO[0m | http:117 | [ae241c98] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:03:54 | [33mWARNING[0m | http:133 | [ae241c98] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 09:03:57 | [32mINFO[0m | http:117 | [b80afaad] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:03:57 | [33mWARNING[0m | http:133 | [b80afaad] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 09:04:00 | [32mINFO[0m | http:117 | [97541c22] GET http://127.0.0.1:8000/teams/projects/01a9a5b8-39f1-40eb-89b9-970b31d0222e | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:04:00 | [33mWARNING[0m | http:133 | [97541c22] GET http://127.0.0.1:8000/teams/projects/01a9a5b8-39f1-40eb-89b9-970b31d0222e | Status: 401 | Time: 0.002s | Size: 26 bytes
+2025-11-11 09:04:07 | [32mINFO[0m | http:117 | [fc3f523c] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:04:07 | [33mWARNING[0m | http:133 | [fc3f523c] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 09:04:11 | [32mINFO[0m | http:117 | [ed863314] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:04:11 | [33mWARNING[0m | http:133 | [ed863314] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 09:04:20 | [32mINFO[0m | http:117 | [f976d9c9] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 09:04:20 | [33mWARNING[0m | http:133 | [f976d9c9] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.004s | Size: 26 bytes
+2025-11-11 10:02:24 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:02:25 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:02:25 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:02:25 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:02:25 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:02:25 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:03:11 | [32mINFO[0m | http:117 | [64346e3d] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:03:11 | [33mWARNING[0m | http:133 | [64346e3d] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.005s | Size: 26 bytes
+2025-11-11 10:03:17 | [32mINFO[0m | http:117 | [bdfd7723] GET http://127.0.0.1:8000/teams/projects/01a9a5b8-39f1-40eb-89b9-970b31d0222e | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:03:17 | [33mWARNING[0m | http:133 | [bdfd7723] GET http://127.0.0.1:8000/teams/projects/01a9a5b8-39f1-40eb-89b9-970b31d0222e | Status: 401 | Time: 0.002s | Size: 26 bytes
+2025-11-11 10:03:19 | [32mINFO[0m | http:117 | [76dd4815] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:03:19 | [33mWARNING[0m | http:133 | [76dd4815] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:03:23 | [32mINFO[0m | http:117 | [a04d59d6] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:03:23 | [33mWARNING[0m | http:133 | [a04d59d6] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:03:28 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:03:30 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:03:30 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:03:30 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:03:30 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:03:30 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:03:34 | [32mINFO[0m | http:117 | [174baeff] POST http://127.0.0.1:8000/auth/logout | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:03:34 | [32mINFO[0m | http:133 | [174baeff] POST http://127.0.0.1:8000/auth/logout | Status: 200 | Time: 0.599s | Size: 20 bytes
+2025-11-11 10:03:49 | [32mINFO[0m | http:117 | [1a4df4ea] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 10:03:49 | [33mWARNING[0m | http:133 | [1a4df4ea] POST http://127.0.0.1:8000/auth/login | Status: 401 | Time: 0.278s | Size: 32 bytes
+2025-11-11 10:03:50 | [32mINFO[0m | http:117 | [c845df00] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 10:03:50 | [33mWARNING[0m | http:133 | [c845df00] POST http://127.0.0.1:8000/auth/login | Status: 401 | Time: 0.115s | Size: 32 bytes
+2025-11-11 10:03:53 | [32mINFO[0m | http:117 | [b614e6b1] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 10:03:53 | [33mWARNING[0m | http:133 | [b614e6b1] POST http://127.0.0.1:8000/auth/login | Status: 401 | Time: 0.112s | Size: 32 bytes
+2025-11-11 10:04:05 | [32mINFO[0m | http:117 | [7fa3b2f4] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 10:04:05 | [32mINFO[0m | http:133 | [7fa3b2f4] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 0.542s | Size: 572 bytes
+2025-11-11 10:04:06 | [32mINFO[0m | http:117 | [43e20d1c] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:04:06 | [32mINFO[0m | http:117 | [bd7da974] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:04:06 | [32mINFO[0m | http:133 | [43e20d1c] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.264s | Size: 14977 bytes
+2025-11-11 10:04:07 | [32mINFO[0m | http:133 | [bd7da974] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.564s | Size: 13 bytes
+2025-11-11 10:04:07 | [32mINFO[0m | http:117 | [eafef012] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:04:07 | [31mERROR[0m | http:122 | [eafef012] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.190s
+2025-11-11 10:04:07 | [31mERROR[0m | http:122 | [eafef012] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.190s
+2025-11-11 10:04:09 | [32mINFO[0m | http:117 | [10dc4633] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:04:10 | [31mERROR[0m | http:122 | [10dc4633] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.216s
+2025-11-11 10:04:10 | [31mERROR[0m | http:122 | [10dc4633] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.216s
+2025-11-11 10:12:29 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:12:31 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:12:31 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:12:31 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:12:31 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:12:31 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:12:36 | [32mINFO[0m | http:117 | [63d792c5] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:12:36 | [31mERROR[0m | http:122 | [63d792c5] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.770s
+2025-11-11 10:12:36 | [31mERROR[0m | http:122 | [63d792c5] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.770s
+2025-11-11 10:13:15 | [32mINFO[0m | http:117 | [99eecaa9] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:13:15 | [32mINFO[0m | http:117 | [14bbc620] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:13:15 | [33mWARNING[0m | http:133 | [99eecaa9] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:13:15 | [33mWARNING[0m | http:133 | [14bbc620] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:13:18 | [32mINFO[0m | http:117 | [4d7c9adf] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:13:18 | [33mWARNING[0m | http:133 | [4d7c9adf] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:13:19 | [32mINFO[0m | http:117 | [8d9b4b66] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:13:19 | [33mWARNING[0m | http:133 | [8d9b4b66] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:13:32 | [32mINFO[0m | http:117 | [a6502bf0] GET http://127.0.0.1:8000/teams/projects/16208168-68b1-4913-9595-70db5d892563 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:13:32 | [33mWARNING[0m | http:133 | [a6502bf0] GET http://127.0.0.1:8000/teams/projects/16208168-68b1-4913-9595-70db5d892563 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:13:49 | [32mINFO[0m | http:117 | [6ce8d2af] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15
+2025-11-11 10:13:49 | [33mWARNING[0m | http:133 | [6ce8d2af] POST http://127.0.0.1:8000/auth/login | Status: 401 | Time: 0.187s | Size: 32 bytes
+2025-11-11 10:14:00 | [32mINFO[0m | http:117 | [cd990e0e] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15
+2025-11-11 10:14:00 | [32mINFO[0m | http:133 | [cd990e0e] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 0.521s | Size: 572 bytes
+2025-11-11 10:14:01 | [32mINFO[0m | http:117 | [90d7acbd] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:01 | [32mINFO[0m | http:117 | [3892911b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:01 | [32mINFO[0m | http:133 | [90d7acbd] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.200s | Size: 13 bytes
+2025-11-11 10:14:01 | [32mINFO[0m | http:133 | [3892911b] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.616s | Size: 14977 bytes
+2025-11-11 10:14:03 | [32mINFO[0m | http:117 | [000a0871] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:03 | [31mERROR[0m | http:122 | [000a0871] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.173s
+2025-11-11 10:14:03 | [31mERROR[0m | http:122 | [000a0871] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.173s
+2025-11-11 10:14:04 | [32mINFO[0m | http:117 | [d3fde52d] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:04 | [32mINFO[0m | http:133 | [d3fde52d] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.214s | Size: 8900 bytes
+2025-11-11 10:14:05 | [32mINFO[0m | http:117 | [f58afc9c] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:05 | [31mERROR[0m | http:122 | [f58afc9c] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.173s
+2025-11-11 10:14:05 | [31mERROR[0m | http:122 | [f58afc9c] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.173s
+2025-11-11 10:14:18 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:14:26 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:14:26 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:14:26 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:14:26 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:14:26 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:14:32 | [32mINFO[0m | http:117 | [d29e2e8b] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:32 | [32mINFO[0m | http:117 | [8af1eddf] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:33 | [32mINFO[0m | http:133 | [8af1eddf] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.849s | Size: 14977 bytes
+2025-11-11 10:14:33 | [32mINFO[0m | http:133 | [d29e2e8b] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.901s | Size: 13 bytes
+2025-11-11 10:14:37 | [32mINFO[0m | http:117 | [277b324a] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:14:37 | [31mERROR[0m | http:122 | [277b324a] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.219s
+2025-11-11 10:14:37 | [31mERROR[0m | http:122 | [277b324a] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.219s
+2025-11-11 10:17:49 | [32mINFO[0m | http:117 | [32817889] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:17:49 | [31mERROR[0m | http:122 | [32817889] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.205s
+2025-11-11 10:17:49 | [31mERROR[0m | http:122 | [32817889] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.205s
+2025-11-11 10:17:50 | [32mINFO[0m | http:117 | [73e8fa43] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:17:50 | [31mERROR[0m | http:122 | [73e8fa43] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.177s
+2025-11-11 10:17:50 | [31mERROR[0m | http:122 | [73e8fa43] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.177s
+2025-11-11 10:19:53 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:20:14 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:20:14 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:20:14 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:20:14 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:20:14 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:20:20 | [32mINFO[0m | http:117 | [8424d1d8] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:20:20 | [31mERROR[0m | http:122 | [8424d1d8] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.759s
+2025-11-11 10:20:20 | [31mERROR[0m | http:122 | [8424d1d8] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.759s
+2025-11-11 10:20:26 | [32mINFO[0m | http:117 | [e2de5d17] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:20:26 | [32mINFO[0m | http:117 | [2dd45949] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:20:27 | [32mINFO[0m | http:133 | [e2de5d17] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.206s | Size: 13 bytes
+2025-11-11 10:20:27 | [32mINFO[0m | http:133 | [2dd45949] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.589s | Size: 14977 bytes
+2025-11-11 10:20:30 | [32mINFO[0m | http:117 | [5e4cbe4d] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:20:31 | [31mERROR[0m | http:122 | [5e4cbe4d] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.172s
+2025-11-11 10:20:31 | [31mERROR[0m | http:122 | [5e4cbe4d] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.172s
+2025-11-11 10:23:24 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:25:36 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:25:36 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:25:36 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:25:36 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:25:36 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:25:48 | [32mINFO[0m | http:117 | [20d2412e] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:25:49 | [31mERROR[0m | http:122 | [20d2412e] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.789s
+2025-11-11 10:25:49 | [31mERROR[0m | http:122 | [20d2412e] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.789s
+2025-11-11 10:25:53 | [32mINFO[0m | http:117 | [db3a20db] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:25:53 | [32mINFO[0m | http:117 | [6ffa3fc1] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:25:53 | [32mINFO[0m | http:133 | [db3a20db] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.187s | Size: 13 bytes
+2025-11-11 10:25:54 | [32mINFO[0m | http:133 | [6ffa3fc1] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.576s | Size: 14977 bytes
+2025-11-11 10:25:56 | [32mINFO[0m | http:117 | [1fb27418] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:25:56 | [31mERROR[0m | http:122 | [1fb27418] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.174s
+2025-11-11 10:25:56 | [31mERROR[0m | http:122 | [1fb27418] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.174s
+2025-11-11 10:28:37 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:35:50 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:35:50 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:35:50 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:35:50 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:35:50 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:35:54 | [32mINFO[0m | http:117 | [2fd0df94] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:35:55 | [33mWARNING[0m | http:133 | [2fd0df94] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.921s | Size: 46 bytes
+2025-11-11 10:36:06 | [32mINFO[0m | http:117 | [dc0d7e45] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 10:36:07 | [32mINFO[0m | http:133 | [dc0d7e45] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 0.570s | Size: 572 bytes
+2025-11-11 10:36:08 | [32mINFO[0m | http:117 | [2c97c1a7] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:36:08 | [32mINFO[0m | http:117 | [6dd3aa39] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:36:08 | [32mINFO[0m | http:133 | [2c97c1a7] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.194s | Size: 13 bytes
+2025-11-11 10:36:08 | [32mINFO[0m | http:133 | [6dd3aa39] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.611s | Size: 14977 bytes
+2025-11-11 10:36:12 | [32mINFO[0m | http:117 | [a0cdc3a1] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:36:12 | [31mERROR[0m | http:122 | [a0cdc3a1] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.195s
+2025-11-11 10:36:12 | [31mERROR[0m | http:122 | [a0cdc3a1] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.195s
+2025-11-11 10:36:14 | [32mINFO[0m | http:117 | [e2ededad] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:36:15 | [31mERROR[0m | http:122 | [e2ededad] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.242s
+2025-11-11 10:36:15 | [31mERROR[0m | http:122 | [e2ededad] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.242s
+2025-11-11 10:37:03 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:38:19 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:38:19 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:38:19 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:38:19 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:38:19 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:38:24 | [32mINFO[0m | http:117 | [4cce1a39] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:38:25 | [31mERROR[0m | http:122 | [4cce1a39] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.846s
+2025-11-11 10:38:25 | [31mERROR[0m | http:122 | [4cce1a39] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.846s
+2025-11-11 10:38:28 | [32mINFO[0m | http:117 | [5a0aa998] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:38:28 | [32mINFO[0m | http:133 | [5a0aa998] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.213s | Size: 8900 bytes
+2025-11-11 10:38:29 | [32mINFO[0m | http:117 | [78514932] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:38:29 | [31mERROR[0m | http:122 | [78514932] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.168s
+2025-11-11 10:38:29 | [31mERROR[0m | http:122 | [78514932] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.168s
+2025-11-11 10:38:32 | [32mINFO[0m | http:117 | [d27d6fca] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:38:32 | [31mERROR[0m | http:122 | [d27d6fca] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.182s
+2025-11-11 10:38:32 | [31mERROR[0m | http:122 | [d27d6fca] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.182s
+2025-11-11 10:38:32 | [32mINFO[0m | http:117 | [5344f1ec] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:38:33 | [31mERROR[0m | http:122 | [5344f1ec] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.166s
+2025-11-11 10:38:33 | [31mERROR[0m | http:122 | [5344f1ec] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.166s
+2025-11-11 10:38:33 | [32mINFO[0m | http:117 | [54fef591] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:38:33 | [31mERROR[0m | http:122 | [54fef591] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.166s
+2025-11-11 10:38:33 | [31mERROR[0m | http:122 | [54fef591] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.166s
+2025-11-11 10:38:33 | [32mINFO[0m | http:117 | [1998ee39] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:38:33 | [31mERROR[0m | http:122 | [1998ee39] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.167s
+2025-11-11 10:38:33 | [31mERROR[0m | http:122 | [1998ee39] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.167s
+2025-11-11 10:45:12 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:45:13 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:45:13 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:45:13 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:45:13 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:45:13 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:45:15 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:45:16 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:45:16 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:45:16 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:45:16 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:45:16 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:45:37 | [32mINFO[0m | http:117 | [134dedbe] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:45:38 | [31mERROR[0m | http:122 | [134dedbe] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.777s
+2025-11-11 10:45:38 | [31mERROR[0m | http:122 | [134dedbe] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.777s
+2025-11-11 10:48:07 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:53:55 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:53:55 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:53:55 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:53:55 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:53:55 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:54:20 | [32mINFO[0m | http:117 | [086f49a3] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:54:20 | [32mINFO[0m | http:117 | [20df610d] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:54:20 | [33mWARNING[0m | http:133 | [086f49a3] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.014s | Size: 26 bytes
+2025-11-11 10:54:20 | [33mWARNING[0m | http:133 | [20df610d] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-11 10:54:25 | [32mINFO[0m | http:117 | [2cafa4b7] POST http://127.0.0.1:8000/auth/logout | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:54:26 | [32mINFO[0m | http:133 | [2cafa4b7] POST http://127.0.0.1:8000/auth/logout | Status: 200 | Time: 0.591s | Size: 28 bytes
+2025-11-11 10:54:28 | [32mINFO[0m | http:117 | [90a732d5] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 10:54:29 | [32mINFO[0m | http:133 | [90a732d5] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 1.194s | Size: 572 bytes
+2025-11-11 10:54:30 | [32mINFO[0m | http:117 | [b998f924] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:54:30 | [32mINFO[0m | http:117 | [a5f38b74] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:54:30 | [32mINFO[0m | http:133 | [b998f924] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.415s | Size: 13 bytes
+2025-11-11 10:54:31 | [32mINFO[0m | http:133 | [a5f38b74] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.842s | Size: 14977 bytes
+2025-11-11 10:54:33 | [32mINFO[0m | http:117 | [ebae148e] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:54:33 | [31mERROR[0m | http:122 | [ebae148e] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.194s
+2025-11-11 10:54:33 | [31mERROR[0m | http:122 | [ebae148e] GET http://127.0.0.1:8000/teams/with-details | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = uuid
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT employee_projects.project_id, employee_projects.team_id, employee_projects.project_name, employee_projects.project_description, employee_projects.status, employee_projects.start_date, employee_projects.completed_date, employee_projects.department 
+FROM employee_projects 
+WHERE employee_projects.team_id = $1::UUID ORDER BY employee_projects.project_name ASC]
+[parameters: ('team_1',)]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.194s
+2025-11-11 10:55:47 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:55:48 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:55:48 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:55:48 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:55:48 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:55:48 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:55:48 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:55:49 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:55:49 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:55:49 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:55:49 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:55:49 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:55:50 | [32mINFO[0m | http:117 | [2fe4ac32] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:55:51 | [31mERROR[0m | http:122 | [2fe4ac32] GET http://127.0.0.1:8000/teams/with-details | ERROR: 1 validation error for Team
+team_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `t` at 1 [type=uuid_parsing, input_value='team_1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing | Time: 0.834s
+2025-11-11 10:55:51 | [31mERROR[0m | http:122 | [2fe4ac32] GET http://127.0.0.1:8000/teams/with-details | ERROR: 1 validation error for Team
+team_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `t` at 1 [type=uuid_parsing, input_value='team_1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing | Time: 0.834s
+2025-11-11 10:55:53 | [32mINFO[0m | http:117 | [78e48245] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:55:53 | [31mERROR[0m | http:122 | [78e48245] GET http://127.0.0.1:8000/teams/with-details | ERROR: 1 validation error for Team
+team_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `t` at 1 [type=uuid_parsing, input_value='team_1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing | Time: 0.189s
+2025-11-11 10:55:53 | [31mERROR[0m | http:122 | [78e48245] GET http://127.0.0.1:8000/teams/with-details | ERROR: 1 validation error for Team
+team_id
+  Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `t` at 1 [type=uuid_parsing, input_value='team_1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/uuid_parsing | Time: 0.189s
+2025-11-11 10:55:57 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 10:59:12 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 10:59:12 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 10:59:12 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 10:59:12 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 10:59:12 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 10:59:30 | [32mINFO[0m | http:117 | [0294d639] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:59:31 | [32mINFO[0m | http:133 | [0294d639] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 1.333s | Size: 74585 bytes
+2025-11-11 10:59:41 | [32mINFO[0m | http:117 | [0f3e2087] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 10:59:41 | [32mINFO[0m | http:133 | [0f3e2087] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.226s | Size: 8380 bytes
+2025-11-11 11:00:27 | [32mINFO[0m | http:117 | [4269c11e] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:00:28 | [32mINFO[0m | http:133 | [4269c11e] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.693s | Size: 74585 bytes
+2025-11-11 11:06:40 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 11:06:40 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 11:06:40 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 11:06:40 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 11:06:40 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 11:07:12 | [32mINFO[0m | http:117 | [57dd12a3] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:12 | [32mINFO[0m | http:117 | [0839ead9] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:13 | [33mWARNING[0m | http:133 | [0839ead9] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.756s | Size: 46 bytes
+2025-11-11 11:07:13 | [33mWARNING[0m | http:133 | [57dd12a3] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.865s | Size: 46 bytes
+2025-11-11 11:07:14 | [32mINFO[0m | http:117 | [72551929] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:14 | [33mWARNING[0m | http:133 | [72551929] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.138s | Size: 46 bytes
+2025-11-11 11:07:16 | [32mINFO[0m | http:117 | [ba8de920] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:16 | [33mWARNING[0m | http:133 | [ba8de920] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 401 | Time: 0.132s | Size: 46 bytes
+2025-11-11 11:07:21 | [32mINFO[0m | http:117 | [7b08f360] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:21 | [33mWARNING[0m | http:133 | [7b08f360] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 401 | Time: 0.109s | Size: 46 bytes
+2025-11-11 11:07:21 | [32mINFO[0m | http:117 | [c940b69c] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:21 | [33mWARNING[0m | http:133 | [c940b69c] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.110s | Size: 46 bytes
+2025-11-11 11:07:24 | [32mINFO[0m | http:117 | [1a668324] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:24 | [33mWARNING[0m | http:133 | [1a668324] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.108s | Size: 46 bytes
+2025-11-11 11:07:25 | [32mINFO[0m | http:117 | [fa874bc0] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:25 | [33mWARNING[0m | http:133 | [fa874bc0] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 401 | Time: 0.116s | Size: 46 bytes
+2025-11-11 11:07:27 | [32mINFO[0m | http:117 | [7fc5bff7] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:27 | [33mWARNING[0m | http:133 | [7fc5bff7] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 401 | Time: 0.115s | Size: 46 bytes
+2025-11-11 11:07:27 | [32mINFO[0m | http:117 | [3ef41d8f] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:27 | [33mWARNING[0m | http:133 | [3ef41d8f] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.111s | Size: 46 bytes
+2025-11-11 11:07:29 | [32mINFO[0m | http:117 | [4803a2e2] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:29 | [33mWARNING[0m | http:133 | [4803a2e2] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.116s | Size: 46 bytes
+2025-11-11 11:07:30 | [32mINFO[0m | http:117 | [8396d58c] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:31 | [33mWARNING[0m | http:133 | [8396d58c] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.110s | Size: 46 bytes
+2025-11-11 11:07:32 | [32mINFO[0m | http:117 | [0a1c788f] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:32 | [33mWARNING[0m | http:133 | [0a1c788f] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 401 | Time: 0.198s | Size: 46 bytes
+2025-11-11 11:07:35 | [32mINFO[0m | http:117 | [05d55fd9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:35 | [33mWARNING[0m | http:133 | [05d55fd9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.115s | Size: 46 bytes
+2025-11-11 11:07:37 | [32mINFO[0m | http:117 | [2a0cc6d4] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:37 | [33mWARNING[0m | http:133 | [2a0cc6d4] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.114s | Size: 46 bytes
+2025-11-11 11:07:37 | [32mINFO[0m | http:117 | [cfc9203b] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:37 | [32mINFO[0m | http:117 | [40fe5a40] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:37 | [33mWARNING[0m | http:133 | [cfc9203b] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.121s | Size: 46 bytes
+2025-11-11 11:07:38 | [33mWARNING[0m | http:133 | [40fe5a40] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.123s | Size: 46 bytes
+2025-11-11 11:07:38 | [32mINFO[0m | http:117 | [2e755abb] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:38 | [32mINFO[0m | http:117 | [092fdc48] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:38 | [33mWARNING[0m | http:133 | [2e755abb] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.323s | Size: 46 bytes
+2025-11-11 11:07:38 | [32mINFO[0m | http:117 | [0c8fc55c] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:38 | [33mWARNING[0m | http:133 | [092fdc48] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.191s | Size: 46 bytes
+2025-11-11 11:07:39 | [32mINFO[0m | http:117 | [bced52a5] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:39 | [33mWARNING[0m | http:133 | [0c8fc55c] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.126s | Size: 46 bytes
+2025-11-11 11:07:39 | [32mINFO[0m | http:117 | [de2cf29a] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:39 | [33mWARNING[0m | http:133 | [bced52a5] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.147s | Size: 46 bytes
+2025-11-11 11:07:39 | [33mWARNING[0m | http:133 | [de2cf29a] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.152s | Size: 46 bytes
+2025-11-11 11:07:39 | [32mINFO[0m | http:117 | [fd9d649b] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:39 | [33mWARNING[0m | http:133 | [fd9d649b] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.167s | Size: 46 bytes
+2025-11-11 11:07:39 | [32mINFO[0m | http:117 | [88b8d552] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:39 | [32mINFO[0m | http:117 | [f857077f] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:39 | [33mWARNING[0m | http:133 | [88b8d552] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.280s | Size: 46 bytes
+2025-11-11 11:07:39 | [32mINFO[0m | http:117 | [3d0bcc67] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:39 | [32mINFO[0m | http:117 | [52782838] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:40 | [32mINFO[0m | http:117 | [e7a9fdee] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:40 | [33mWARNING[0m | http:133 | [3d0bcc67] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.991s | Size: 46 bytes
+2025-11-11 11:07:41 | [33mWARNING[0m | http:133 | [e7a9fdee] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.552s | Size: 46 bytes
+2025-11-11 11:07:41 | [32mINFO[0m | http:117 | [af651f14] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:41 | [32mINFO[0m | http:117 | [ed2a4982] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:07:41 | [33mWARNING[0m | http:133 | [af651f14] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.152s | Size: 46 bytes
+2025-11-11 11:07:41 | [33mWARNING[0m | http:133 | [f857077f] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 1.898s | Size: 46 bytes
+2025-11-11 11:07:41 | [33mWARNING[0m | http:133 | [ed2a4982] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.191s | Size: 46 bytes
+2025-11-11 11:07:41 | [33mWARNING[0m | http:133 | [52782838] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 1.782s | Size: 46 bytes
+2025-11-11 11:08:04 | [32mINFO[0m | http:117 | [c9064487] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:04 | [32mINFO[0m | http:117 | [996bcd6a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:04 | [33mWARNING[0m | http:133 | [c9064487] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.115s | Size: 46 bytes
+2025-11-11 11:08:04 | [33mWARNING[0m | http:133 | [996bcd6a] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.110s | Size: 46 bytes
+2025-11-11 11:08:10 | [32mINFO[0m | http:117 | [1f311244] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:10 | [33mWARNING[0m | http:133 | [1f311244] GET http://127.0.0.1:8000/teams/with-details | Status: 401 | Time: 0.111s | Size: 46 bytes
+2025-11-11 11:08:23 | [32mINFO[0m | http:117 | [92ea2464] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15
+2025-11-11 11:08:24 | [32mINFO[0m | http:133 | [92ea2464] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 0.609s | Size: 572 bytes
+2025-11-11 11:08:25 | [32mINFO[0m | http:117 | [826a7055] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:25 | [32mINFO[0m | http:117 | [ed1549f3] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:25 | [32mINFO[0m | http:133 | [826a7055] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.188s | Size: 13 bytes
+2025-11-11 11:08:25 | [32mINFO[0m | http:133 | [ed1549f3] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.228s | Size: 14977 bytes
+2025-11-11 11:08:27 | [32mINFO[0m | http:117 | [5e5433f7] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:27 | [32mINFO[0m | http:133 | [5e5433f7] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.809s | Size: 74585 bytes
+2025-11-11 11:08:29 | [32mINFO[0m | http:117 | [8aeea8d6] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:29 | [32mINFO[0m | http:133 | [8aeea8d6] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.313s | Size: 8380 bytes
+2025-11-11 11:08:31 | [32mINFO[0m | http:117 | [a2753720] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:08:31 | [32mINFO[0m | http:133 | [a2753720] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.146s | Size: 1113 bytes
+2025-11-11 11:11:01 | [32mINFO[0m | http:117 | [e3f720cb] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:11:01 | [32mINFO[0m | http:133 | [e3f720cb] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.762s | Size: 74585 bytes
+2025-11-11 11:15:07 | [32mINFO[0m | http:117 | [0ac7ab50] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:15:07 | [32mINFO[0m | http:133 | [0ac7ab50] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.342s | Size: 8380 bytes
+2025-11-11 11:15:26 | [32mINFO[0m | http:117 | [017084ef] GET http://127.0.0.1:8000/employees/224cf5e3-08ef-4688-b59c-b97b8226b03b | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:15:26 | [32mINFO[0m | http:133 | [017084ef] GET http://127.0.0.1:8000/employees/224cf5e3-08ef-4688-b59c-b97b8226b03b | Status: 200 | Time: 0.278s | Size: 973 bytes
+2025-11-11 11:15:30 | [32mINFO[0m | http:117 | [f19e1912] GET http://127.0.0.1:8000/employees/d4c99ebb-2031-471f-a1d4-a080d5d59821 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:15:30 | [32mINFO[0m | http:133 | [f19e1912] GET http://127.0.0.1:8000/employees/d4c99ebb-2031-471f-a1d4-a080d5d59821 | Status: 200 | Time: 0.220s | Size: 1291 bytes
+2025-11-11 11:16:08 | [32mINFO[0m | http:117 | [9b1703e9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:16:08 | [32mINFO[0m | http:133 | [9b1703e9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.340s | Size: 9093 bytes
+2025-11-11 11:16:09 | [32mINFO[0m | http:117 | [9fb504fe] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:16:09 | [32mINFO[0m | http:133 | [9fb504fe] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.674s | Size: 74585 bytes
+2025-11-11 11:17:05 | [32mINFO[0m | http:117 | [0e67f208] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:17:05 | [32mINFO[0m | http:133 | [0e67f208] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.180s | Size: 8380 bytes
+2025-11-11 11:20:41 | [32mINFO[0m | http:117 | [0c49b774] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:20:42 | [32mINFO[0m | http:133 | [0c49b774] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.784s | Size: 74585 bytes
+2025-11-11 11:20:44 | [32mINFO[0m | http:117 | [99a166e7] GET http://127.0.0.1:8000/teams/projects/f0f0babf-99ce-4d9a-9b87-f645b5476347 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:20:44 | [32mINFO[0m | http:133 | [99a166e7] GET http://127.0.0.1:8000/teams/projects/f0f0babf-99ce-4d9a-9b87-f645b5476347 | Status: 200 | Time: 0.207s | Size: 8411 bytes
+2025-11-11 11:21:46 | [32mINFO[0m | http:117 | [b94412e1] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:21:46 | [32mINFO[0m | http:133 | [b94412e1] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.723s | Size: 74585 bytes
+2025-11-11 11:21:49 | [32mINFO[0m | http:117 | [0f66bed3] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:21:49 | [32mINFO[0m | http:133 | [0f66bed3] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.209s | Size: 8380 bytes
+2025-11-11 11:21:53 | [32mINFO[0m | http:117 | [fc31844b] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:21:53 | [32mINFO[0m | http:133 | [fc31844b] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.191s | Size: 9093 bytes
+2025-11-11 11:21:56 | [32mINFO[0m | http:117 | [c6cab767] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:21:56 | [32mINFO[0m | http:133 | [c6cab767] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 200 | Time: 0.190s | Size: 793 bytes
+2025-11-11 11:22:02 | [32mINFO[0m | http:117 | [5852e219] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:22:02 | [32mINFO[0m | http:133 | [5852e219] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.159s | Size: 1113 bytes
+2025-11-11 11:22:17 | [32mINFO[0m | http:117 | [cfb49076] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:22:17 | [32mINFO[0m | http:133 | [cfb49076] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.730s | Size: 74585 bytes
+2025-11-11 11:22:38 | [32mINFO[0m | http:117 | [00a0d40c] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:22:38 | [32mINFO[0m | http:133 | [00a0d40c] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.201s | Size: 8380 bytes
+2025-11-11 11:23:35 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 11:23:36 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 11:23:36 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 11:23:36 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 11:23:36 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 11:23:36 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 11:24:27 | [32mINFO[0m | http:117 | [06b6014d] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:24:27 | [32mINFO[0m | http:133 | [06b6014d] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.755s | Size: 1113 bytes
+2025-11-11 11:24:53 | [32mINFO[0m | http:117 | [2693ccd9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:24:54 | [32mINFO[0m | http:133 | [2693ccd9] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.210s | Size: 9093 bytes
+2025-11-11 11:24:56 | [32mINFO[0m | http:117 | [b89c6c0c] GET http://127.0.0.1:8000/employees/3493e639-5d91-4611-9973-f21621ebe886 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:24:56 | [32mINFO[0m | http:133 | [b89c6c0c] GET http://127.0.0.1:8000/employees/3493e639-5d91-4611-9973-f21621ebe886 | Status: 200 | Time: 0.130s | Size: 1007 bytes
+2025-11-11 11:25:02 | [32mINFO[0m | http:117 | [0bfb0e51] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:25:03 | [32mINFO[0m | http:133 | [0bfb0e51] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.740s | Size: 74585 bytes
+2025-11-11 11:25:36 | [32mINFO[0m | http:117 | [84b238a3] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:25:37 | [32mINFO[0m | http:133 | [84b238a3] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.691s | Size: 74585 bytes
+2025-11-11 11:26:00 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 11:26:00 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 11:26:00 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 11:26:00 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 11:26:00 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 11:26:00 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 11:30:43 | [32mINFO[0m | http:117 | [346bd691] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:43 | [32mINFO[0m | http:117 | [7cacb5b2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:43 | [33mWARNING[0m | http:133 | [7cacb5b2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.730s | Size: 46 bytes
+2025-11-11 11:30:43 | [33mWARNING[0m | http:133 | [346bd691] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.859s | Size: 46 bytes
+2025-11-11 11:30:56 | [32mINFO[0m | http:117 | [e3f64e03] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:56 | [33mWARNING[0m | http:133 | [e3f64e03] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | Status: 401 | Time: 0.150s | Size: 46 bytes
+2025-11-11 11:30:57 | [32mINFO[0m | http:117 | [d8600c04] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:57 | [32mINFO[0m | http:117 | [d1b66d94] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:57 | [32mINFO[0m | http:117 | [b05d3b4a] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:57 | [32mINFO[0m | http:117 | [cf2fa2f4] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:57 | [33mWARNING[0m | http:133 | [d1b66d94] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.110s | Size: 46 bytes
+2025-11-11 11:30:57 | [33mWARNING[0m | http:133 | [d8600c04] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.125s | Size: 46 bytes
+2025-11-11 11:30:57 | [33mWARNING[0m | http:133 | [b05d3b4a] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.568s | Size: 46 bytes
+2025-11-11 11:30:57 | [33mWARNING[0m | http:133 | [cf2fa2f4] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.588s | Size: 46 bytes
+2025-11-11 11:30:59 | [32mINFO[0m | http:117 | [f7cd5ec0] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:59 | [33mWARNING[0m | http:133 | [f7cd5ec0] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | Status: 401 | Time: 0.111s | Size: 46 bytes
+2025-11-11 11:30:59 | [32mINFO[0m | http:117 | [9cf895a0] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:59 | [32mINFO[0m | http:117 | [899b89c2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:59 | [32mINFO[0m | http:117 | [0db34312] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:59 | [32mINFO[0m | http:117 | [76837b30] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:30:59 | [33mWARNING[0m | http:133 | [9cf895a0] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.117s | Size: 46 bytes
+2025-11-11 11:30:59 | [33mWARNING[0m | http:133 | [899b89c2] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.134s | Size: 46 bytes
+2025-11-11 11:30:59 | [33mWARNING[0m | http:133 | [76837b30] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.110s | Size: 46 bytes
+2025-11-11 11:30:59 | [33mWARNING[0m | http:133 | [0db34312] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.135s | Size: 46 bytes
+2025-11-11 11:31:02 | [32mINFO[0m | http:117 | [52de4476] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:02 | [33mWARNING[0m | http:133 | [52de4476] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.117s | Size: 46 bytes
+2025-11-11 11:31:04 | [32mINFO[0m | http:117 | [dfd95fc4] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:04 | [33mWARNING[0m | http:133 | [dfd95fc4] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 401 | Time: 0.112s | Size: 46 bytes
+2025-11-11 11:31:04 | [32mINFO[0m | http:117 | [af269b29] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:04 | [32mINFO[0m | http:117 | [778e5162] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:04 | [33mWARNING[0m | http:133 | [af269b29] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.108s | Size: 46 bytes
+2025-11-11 11:31:04 | [33mWARNING[0m | http:133 | [778e5162] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.116s | Size: 46 bytes
+2025-11-11 11:31:10 | [32mINFO[0m | http:117 | [7971e2d9] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:10 | [32mINFO[0m | http:117 | [9c212734] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:10 | [33mWARNING[0m | http:133 | [7971e2d9] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.115s | Size: 46 bytes
+2025-11-11 11:31:10 | [33mWARNING[0m | http:133 | [9c212734] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.115s | Size: 46 bytes
+2025-11-11 11:31:33 | [32mINFO[0m | http:117 | [63468cfb] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:33 | [32mINFO[0m | http:117 | [70cbe145] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:33 | [32mINFO[0m | http:117 | [6539e21c] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:33 | [32mINFO[0m | http:117 | [fed8d64e] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:33 | [32mINFO[0m | http:133 | [63468cfb] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.174s | Size: 13 bytes
+2025-11-11 11:31:33 | [32mINFO[0m | http:133 | [6539e21c] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.179s | Size: 13 bytes
+2025-11-11 11:31:33 | [32mINFO[0m | http:133 | [70cbe145] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.222s | Size: 14977 bytes
+2025-11-11 11:31:33 | [32mINFO[0m | http:133 | [fed8d64e] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.218s | Size: 14977 bytes
+2025-11-11 11:31:36 | [32mINFO[0m | http:117 | [80ec50d2] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:36 | [32mINFO[0m | http:133 | [80ec50d2] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | Status: 200 | Time: 0.156s | Size: 1305 bytes
+2025-11-11 11:31:52 | [32mINFO[0m | http:117 | [16a3ff18] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:52 | [32mINFO[0m | http:133 | [16a3ff18] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.200s | Size: 9093 bytes
+2025-11-11 11:31:58 | [32mINFO[0m | http:117 | [94722b26] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:31:58 | [32mINFO[0m | http:133 | [94722b26] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 200 | Time: 0.155s | Size: 793 bytes
+2025-11-11 11:32:49 | [32mINFO[0m | http:117 | [8e958d74] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:32:49 | [32mINFO[0m | http:133 | [8e958d74] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.199s | Size: 9093 bytes
+2025-11-11 11:32:54 | [32mINFO[0m | http:117 | [ad65ce04] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:32:54 | [32mINFO[0m | http:133 | [ad65ce04] GET http://127.0.0.1:8000/employees/7fc55d9b-9684-46c1-bd21-9bc330250810 | Status: 200 | Time: 0.175s | Size: 793 bytes
+2025-11-11 11:33:00 | [32mINFO[0m | http:117 | [bb2dfb06] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:33:00 | [32mINFO[0m | http:133 | [bb2dfb06] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.768s | Size: 74585 bytes
+2025-11-11 11:33:09 | [32mINFO[0m | http:117 | [ce76e9ab] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:33:09 | [32mINFO[0m | http:133 | [ce76e9ab] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.147s | Size: 1113 bytes
+2025-11-11 11:33:21 | [32mINFO[0m | http:117 | [427b5dd7] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:33:21 | [31mERROR[0m | http:122 | [427b5dd7] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.266s
+2025-11-11 11:33:21 | [31mERROR[0m | http:122 | [427b5dd7] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.266s
+2025-11-11 11:33:36 | [32mINFO[0m | http:117 | [c28f6c50] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:33:36 | [32mINFO[0m | http:133 | [c28f6c50] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.736s | Size: 74585 bytes
+2025-11-11 11:33:40 | [32mINFO[0m | http:117 | [4983aa99] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:33:41 | [31mERROR[0m | http:122 | [4983aa99] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.243s
+2025-11-11 11:33:41 | [31mERROR[0m | http:122 | [4983aa99] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.243s
+2025-11-11 11:35:35 | [32mINFO[0m | http:117 | [e65952d0] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:35:36 | [32mINFO[0m | http:133 | [e65952d0] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.761s | Size: 74585 bytes
+2025-11-11 11:38:26 | [32mINFO[0m | http:117 | [d3c85eb4] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:38:26 | [31mERROR[0m | http:122 | [d3c85eb4] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.335s
+2025-11-11 11:38:26 | [31mERROR[0m | http:122 | [d3c85eb4] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.335s
+2025-11-11 11:41:13 | [32mINFO[0m | http:117 | [bff63d07] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:41:14 | [31mERROR[0m | http:122 | [bff63d07] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.654s
+2025-11-11 11:41:14 | [31mERROR[0m | http:122 | [bff63d07] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.654s
+2025-11-11 11:42:38 | [32mINFO[0m | http:117 | [9f516421] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:42:40 | [32mINFO[0m | http:133 | [9f516421] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 1.185s | Size: 74585 bytes
+2025-11-11 11:44:21 | [32mINFO[0m | http:117 | [f278caf7] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:44:22 | [31mERROR[0m | http:122 | [f278caf7] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.639s
+2025-11-11 11:44:22 | [31mERROR[0m | http:122 | [f278caf7] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.639s
+2025-11-11 11:44:24 | [32mINFO[0m | http:117 | [a27253d8] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:44:25 | [32mINFO[0m | http:133 | [a27253d8] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 1.156s | Size: 74585 bytes
+2025-11-11 11:44:30 | [32mINFO[0m | http:117 | [7d1dfcc4] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:44:30 | [31mERROR[0m | http:122 | [7d1dfcc4] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.233s
+2025-11-11 11:44:30 | [31mERROR[0m | http:122 | [7d1dfcc4] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.233s
+2025-11-11 11:46:12 | [32mINFO[0m | http:117 | [01a5930a] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:46:12 | [32mINFO[0m | http:117 | [be985f12] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:46:12 | [32mINFO[0m | http:117 | [bec63482] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:46:12 | [32mINFO[0m | http:117 | [4c197bde] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:46:12 | [32mINFO[0m | http:133 | [bec63482] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.172s | Size: 13 bytes
+2025-11-11 11:46:12 | [32mINFO[0m | http:133 | [01a5930a] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.188s | Size: 13 bytes
+2025-11-11 11:46:12 | [32mINFO[0m | http:133 | [be985f12] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.234s | Size: 14977 bytes
+2025-11-11 11:46:12 | [32mINFO[0m | http:133 | [4c197bde] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.229s | Size: 14977 bytes
+2025-11-11 11:46:18 | [32mINFO[0m | http:117 | [f88185bd] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&search=wijayadi+&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 11:46:19 | [32mINFO[0m | http:133 | [f88185bd] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&search=wijayadi+&sort_order=desc | Status: 200 | Time: 0.254s | Size: 60 bytes
+2025-11-11 12:02:46 | [32mINFO[0m | http:117 | [11800e01] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 12:02:47 | [32mINFO[0m | http:133 | [11800e01] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.586s | Size: 9093 bytes
+2025-11-11 12:02:48 | [32mINFO[0m | http:117 | [40d73d28] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 12:02:49 | [32mINFO[0m | http:133 | [40d73d28] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 1.130s | Size: 74585 bytes
+2025-11-11 12:02:49 | [32mINFO[0m | http:117 | [066e4244] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 12:02:50 | [31mERROR[0m | http:122 | [066e4244] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.673s
+2025-11-11 12:02:50 | [31mERROR[0m | http:122 | [066e4244] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.673s
+2025-11-11 12:06:11 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 16:43:07 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 16:43:07 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 16:43:07 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 16:43:07 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 16:43:07 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 16:43:37 | [32mINFO[0m | http:117 | [9b17bb3c] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15
+2025-11-11 16:43:38 | [32mINFO[0m | http:133 | [9b17bb3c] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 1.183s | Size: 572 bytes
+2025-11-11 16:43:39 | [32mINFO[0m | http:117 | [ec64e726] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:43:39 | [32mINFO[0m | http:117 | [0ea9f90c] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:43:39 | [32mINFO[0m | http:133 | [0ea9f90c] GET http://127.0.0.1:8000/candidates/stats/count | Status: 200 | Time: 0.228s | Size: 13 bytes
+2025-11-11 16:43:40 | [32mINFO[0m | http:133 | [ec64e726] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.695s | Size: 14977 bytes
+2025-11-11 16:43:42 | [32mINFO[0m | http:117 | [fd8290a0] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:43:42 | [32mINFO[0m | http:133 | [fd8290a0] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.197s | Size: 9093 bytes
+2025-11-11 16:43:45 | [32mINFO[0m | http:117 | [1701a7d5] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:43:45 | [32mINFO[0m | http:133 | [1701a7d5] GET http://127.0.0.1:8000/dashboard/candidate-stages?period=weekly | Status: 200 | Time: 0.294s | Size: 950 bytes
+2025-11-11 16:43:47 | [32mINFO[0m | http:117 | [7fdb4a4d] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:43:47 | [32mINFO[0m | http:133 | [7fdb4a4d] GET http://127.0.0.1:8000/candidates/5b09fdb9-8f89-4476-9013-3d99de35e0b3 | Status: 200 | Time: 0.177s | Size: 1305 bytes
+2025-11-11 16:43:58 | [32mINFO[0m | http:117 | [a33a0740] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:43:58 | [32mINFO[0m | http:133 | [a33a0740] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.194s | Size: 9093 bytes
+2025-11-11 16:44:00 | [32mINFO[0m | http:117 | [343a17e2] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:00 | [32mINFO[0m | http:133 | [343a17e2] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 200 | Time: 0.151s | Size: 10261 bytes
+2025-11-11 16:44:00 | [32mINFO[0m | http:117 | [3c9a0e1b] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:00 | [32mINFO[0m | http:133 | [3c9a0e1b] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 200 | Time: 0.154s | Size: 10261 bytes
+2025-11-11 16:44:01 | [32mINFO[0m | http:117 | [ebe0cef4] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:01 | [32mINFO[0m | http:133 | [ebe0cef4] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | Status: 200 | Time: 0.153s | Size: 9571 bytes
+2025-11-11 16:44:01 | [32mINFO[0m | http:117 | [85bda25e] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:01 | [32mINFO[0m | http:133 | [85bda25e] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 200 | Time: 0.157s | Size: 9130 bytes
+2025-11-11 16:44:01 | [32mINFO[0m | http:117 | [0d94e6df] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:01 | [32mINFO[0m | http:133 | [0d94e6df] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 200 | Time: 0.157s | Size: 9130 bytes
+2025-11-11 16:44:02 | [32mINFO[0m | http:117 | [14801fd8] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:02 | [32mINFO[0m | http:133 | [14801fd8] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | Status: 200 | Time: 0.152s | Size: 9060 bytes
+2025-11-11 16:44:02 | [32mINFO[0m | http:117 | [0a7f1bb3] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:02 | [32mINFO[0m | http:133 | [0a7f1bb3] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | Status: 200 | Time: 0.151s | Size: 8892 bytes
+2025-11-11 16:44:02 | [32mINFO[0m | http:117 | [8af440c7] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:02 | [32mINFO[0m | http:133 | [8af440c7] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | Status: 200 | Time: 0.160s | Size: 8492 bytes
+2025-11-11 16:44:03 | [32mINFO[0m | http:117 | [43d01ab9] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:03 | [32mINFO[0m | http:133 | [43d01ab9] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | Status: 200 | Time: 0.155s | Size: 3510 bytes
+2025-11-11 16:44:06 | [32mINFO[0m | http:117 | [1d0b3f67] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:07 | [32mINFO[0m | http:133 | [1d0b3f67] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.796s | Size: 74585 bytes
+2025-11-11 16:44:10 | [32mINFO[0m | http:117 | [98e79ee0] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:10 | [31mERROR[0m | http:122 | [98e79ee0] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.273s
+2025-11-11 16:44:10 | [31mERROR[0m | http:122 | [98e79ee0] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.273s
+2025-11-11 16:44:13 | [32mINFO[0m | http:117 | [5b227f2c] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:44:13 | [31mERROR[0m | http:122 | [5b227f2c] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.246s
+2025-11-11 16:44:13 | [31mERROR[0m | http:122 | [5b227f2c] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: character varying = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.uuid, candidates.name, candidates.age, candidates.gender, candidates.location, candidates.experience_month, candidates.highest_degree, candidates.job_preference, candidates.location_preference, candidates.instagram, candidates.linkedin, candidates.github, candidates.codepen, candidates.facebook, candidates.twitter, candidates.certificate, candidates.volunteer_organization_experience, candidates.awards_from_preference, candidates.expected_salary, candidates.about_me, candidates.skills, candidates.education, candidates.awards, candidates.organization, candidates.whatsapp, candidates.email, candidates.cv_file, candidates.date_scraped, candidates.applied_as, candidates.candidate_status 
+FROM candidates 
+WHERE candidates.email = $1::VARCHAR AND candidates.candidate_status = $2::candidate_status]
+[parameters: ('wijayadisaputra@taiwanmobile.com', 'hired')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.246s
+2025-11-11 16:47:38 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 16:47:39 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 16:47:39 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 16:47:39 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 16:47:39 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 16:47:39 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 16:47:39 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 16:47:40 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 16:47:40 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 16:47:40 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 16:47:40 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 16:47:40 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 16:47:46 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 16:47:46 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 16:47:46 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 16:47:46 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 16:47:46 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 16:47:46 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 16:47:48 | [32mINFO[0m | http:117 | [0197e87a] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:47:49 | [32mINFO[0m | http:133 | [0197e87a] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.820s | Size: 8380 bytes
+2025-11-11 16:47:51 | [32mINFO[0m | http:117 | [b411ecae] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:47:52 | [32mINFO[0m | http:133 | [b411ecae] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.742s | Size: 74585 bytes
+2025-11-11 16:47:54 | [32mINFO[0m | http:117 | [5c991ac8] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:47:54 | [32mINFO[0m | http:133 | [5c991ac8] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.144s | Size: 1113 bytes
+2025-11-11 16:47:55 | [32mINFO[0m | http:117 | [2cfa1388] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:47:55 | [32mINFO[0m | http:133 | [2cfa1388] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.188s | Size: 9093 bytes
+2025-11-11 16:58:04 | [32mINFO[0m | http:117 | [ca1f8ac8] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:58:05 | [32mINFO[0m | http:133 | [ca1f8ac8] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.772s | Size: 74585 bytes
+2025-11-11 16:58:06 | [32mINFO[0m | http:117 | [4e1737e1] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:58:06 | [32mINFO[0m | http:133 | [4e1737e1] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.173s | Size: 8380 bytes
+2025-11-11 16:58:08 | [32mINFO[0m | http:117 | [19de1bd8] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:58:08 | [32mINFO[0m | http:133 | [19de1bd8] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.129s | Size: 1113 bytes
+2025-11-11 16:58:15 | [32mINFO[0m | http:117 | [a4b39ac7] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 16:58:15 | [32mINFO[0m | http:133 | [a4b39ac7] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.149s | Size: 9093 bytes
+2025-11-11 17:27:07 | [32mINFO[0m | http:117 | [d7eb27fd] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 17:27:08 | [32mINFO[0m | http:133 | [d7eb27fd] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 1.215s | Size: 74585 bytes
+2025-11-11 17:27:08 | [32mINFO[0m | http:117 | [f6d5fa7e] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 17:27:09 | [32mINFO[0m | http:133 | [f6d5fa7e] GET http://127.0.0.1:8000/teams/projects/66f3f6ad-d0ce-46cb-bdce-5a458720bcae | Status: 200 | Time: 0.229s | Size: 8380 bytes
+2025-11-11 17:27:10 | [32mINFO[0m | http:117 | [b19c44e8] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 17:27:10 | [32mINFO[0m | http:133 | [b19c44e8] GET http://127.0.0.1:8000/employees/b55f4910-ebf2-4dcc-9dce-ff6b904bdbfa | Status: 200 | Time: 0.152s | Size: 1113 bytes
+2025-11-11 17:27:12 | [32mINFO[0m | http:117 | [3ffa4f88] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 17:27:13 | [32mINFO[0m | http:133 | [3ffa4f88] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.216s | Size: 9093 bytes
+2025-11-11 17:38:52 | [32mINFO[0m | http:117 | [f30b5730] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 17:38:53 | [32mINFO[0m | http:133 | [f30b5730] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.253s | Size: 9093 bytes
+2025-11-11 17:38:53 | [32mINFO[0m | http:117 | [f961db96] GET http://127.0.0.1:8000/teams/with-details | IP: 127.0.0.1 | User-Agent: node
+2025-11-11 17:38:54 | [32mINFO[0m | http:133 | [f961db96] GET http://127.0.0.1:8000/teams/with-details | Status: 200 | Time: 0.660s | Size: 74585 bytes
+2025-11-11 18:04:44 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 18:04:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 18:04:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 18:04:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 18:04:45 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 18:04:45 | [32mINFO[0m | app:33 | Application startup initiated
+2025-11-11 18:07:31 | [32mINFO[0m | app:36 | Application shutdown initiated
+2025-11-11 18:07:32 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-11 18:07:32 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-11 18:07:32 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-11 18:07:32 | [32mINFO[0m | app:94 | Daily log files: 2025-11-11.log
+2025-11-11 18:07:32 | [32mINFO[0m | app:33 | Application startup initiated

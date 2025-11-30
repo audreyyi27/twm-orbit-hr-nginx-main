@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Session - HR System</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            margin: 0 0 1rem 0;
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+        }
+        button:active {
+            transform: translateY(0);
+        }
+        .success {
+            color: #10b981;
+            font-weight: 600;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔓 Clear Session</h1>
+        <p>If you're stuck in a login loop, click the button below to clear all session data and return to the login page.</p>
+        <button onclick="clearSession()">Clear Session & Login</button>
+        <p class="success" id="success">✓ Session cleared! Redirecting...</p>
+    </div>
+
+    <script>
+        function clearSession() {
+            // Clear all cookies
+            document.cookie.split(";").forEach(function(c) {
+                document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+            });
+            
+            // Clear local storage and session storage
+            localStorage.clear();
+            sessionStorage.clear();
+            
+            // Show success message
+            document.getElementById('success').style.display = 'block';
+            
+            // Redirect to login after 1 second
+            setTimeout(function() {
+                window.location.href = '/';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
+
+

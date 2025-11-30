@@ -1,0 +1,385 @@
+2025-10-20 15:02:54 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:02:54 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:02:54 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:02:54 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:02:54 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:02:56 | [32mINFO[0m | http:117 | [d0e0f9c4] GET http://127.0.0.1:8000/ | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:02:56 | [32mINFO[0m | http:133 | [d0e0f9c4] GET http://127.0.0.1:8000/ | Status: 200 | Time: 0.001s | Size: 34 bytes
+2025-10-20 15:02:56 | [32mINFO[0m | http:117 | [623d4a57] GET http://127.0.0.1:8000/favicon.ico | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:02:56 | [33mWARNING[0m | http:133 | [623d4a57] GET http://127.0.0.1:8000/favicon.ico | Status: 404 | Time: 0.001s | Size: 22 bytes
+2025-10-20 15:02:58 | [32mINFO[0m | http:117 | [d222ca22] GET http://127.0.0.1:8000/docs | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:02:58 | [32mINFO[0m | http:133 | [d222ca22] GET http://127.0.0.1:8000/docs | Status: 200 | Time: 0.000s | Size: 949 bytes
+2025-10-20 15:02:59 | [32mINFO[0m | http:117 | [d480e228] GET http://127.0.0.1:8000/openapi.json | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:02:59 | [32mINFO[0m | http:133 | [d480e228] GET http://127.0.0.1:8000/openapi.json | Status: 200 | Time: 0.024s | Size: 31325 bytes
+2025-10-20 15:07:17 | [32mINFO[0m | http:117 | [65424b9e] POST http://127.0.0.1:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:07:18 | [32mINFO[0m | http:133 | [65424b9e] POST http://127.0.0.1:8000/auth/login | Status: 200 | Time: 0.324s | Size: 602 bytes
+2025-10-20 15:07:48 | [32mINFO[0m | http:117 | [c1b29440] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:07:48 | [31mERROR[0m | http:122 | [c1b29440] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.032s
+2025-10-20 15:07:48 | [31mERROR[0m | http:122 | [c1b29440] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.032s
+2025-10-20 15:07:50 | [32mINFO[0m | http:117 | [9949cf65] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:07:50 | [31mERROR[0m | http:122 | [9949cf65] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.009s
+2025-10-20 15:07:50 | [31mERROR[0m | http:122 | [9949cf65] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.009s
+2025-10-20 15:07:58 | [32mINFO[0m | http:117 | [7fa825df] GET http://127.0.0.1:8000/reports?candidate_status=applied&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:07:58 | [31mERROR[0m | http:122 | [7fa825df] GET http://127.0.0.1:8000/reports?candidate_status=applied&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'applied')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:07:58 | [31mERROR[0m | http:122 | [7fa825df] GET http://127.0.0.1:8000/reports?candidate_status=applied&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'applied')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:08:08 | [32mINFO[0m | http:117 | [d65ab18d] GET http://127.0.0.1:8000/reports?start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:08:09 | [32mINFO[0m | http:133 | [d65ab18d] GET http://127.0.0.1:8000/reports?start_date=2001-01-01&end_date=2025-10-20&file_type=excel | Status: 200 | Time: 0.187s | Size: 158286 bytes
+2025-10-20 15:12:50 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:12:51 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:12:51 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:12:51 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:12:51 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:12:51 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:12:56 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:12:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:12:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:12:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:12:56 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:12:56 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:13:13 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:13:14 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:13:14 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:13:14 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:13:14 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:13:14 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:13:19 | [32mINFO[0m | http:117 | [cc6570af] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:19 | [31mERROR[0m | http:122 | [cc6570af] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.068s
+2025-10-20 15:13:19 | [31mERROR[0m | http:122 | [cc6570af] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.068s
+2025-10-20 15:13:21 | [32mINFO[0m | http:117 | [55585c22] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:21 | [31mERROR[0m | http:122 | [55585c22] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.007s
+2025-10-20 15:13:21 | [31mERROR[0m | http:122 | [55585c22] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.007s
+2025-10-20 15:13:22 | [32mINFO[0m | http:117 | [2ef345b2] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:22 | [31mERROR[0m | http:122 | [2ef345b2] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.009s
+2025-10-20 15:13:22 | [31mERROR[0m | http:122 | [2ef345b2] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.009s
+2025-10-20 15:13:22 | [32mINFO[0m | http:117 | [9af89d58] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:22 | [31mERROR[0m | http:122 | [9af89d58] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:22 | [31mERROR[0m | http:122 | [9af89d58] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:22 | [32mINFO[0m | http:117 | [f053a904] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:22 | [31mERROR[0m | http:122 | [f053a904] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:22 | [31mERROR[0m | http:122 | [f053a904] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:23 | [32mINFO[0m | http:117 | [91184425] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:23 | [31mERROR[0m | http:122 | [91184425] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.006s
+2025-10-20 15:13:23 | [31mERROR[0m | http:122 | [91184425] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.006s
+2025-10-20 15:13:23 | [32mINFO[0m | http:117 | [0a958210] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:23 | [31mERROR[0m | http:122 | [0a958210] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.007s
+2025-10-20 15:13:23 | [31mERROR[0m | http:122 | [0a958210] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.007s
+2025-10-20 15:13:23 | [32mINFO[0m | http:117 | [ca0faf90] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:23 | [31mERROR[0m | http:122 | [ca0faf90] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:23 | [31mERROR[0m | http:122 | [ca0faf90] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:24 | [32mINFO[0m | http:117 | [81874395] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:24 | [31mERROR[0m | http:122 | [81874395] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.007s
+2025-10-20 15:13:24 | [31mERROR[0m | http:122 | [81874395] GET http://127.0.0.1:8000/reports?candidate_status=resume_scraped&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'resume_scraped')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.007s
+2025-10-20 15:13:27 | [32mINFO[0m | http:117 | [4493454c] GET http://127.0.0.1:8000/reports?candidate_status=screened&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:13:27 | [31mERROR[0m | http:122 | [4493454c] GET http://127.0.0.1:8000/reports?candidate_status=screened&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'screened')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:27 | [31mERROR[0m | http:122 | [4493454c] GET http://127.0.0.1:8000/reports?candidate_status=screened&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | ERROR: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: text = candidate_status
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT candidates.id, candidates.email, candidates.name, candidates.whatsapp, candidates.total_experience, candidates.highest_degree, candidates.salary_expectation, candidates.primary_programming_language, candidates.programming_language_experience, candidates.domicile, candidates.processed_status 
+FROM candidates 
+WHERE candidates.applied_at >= $1::DATE AND candidates.applied_at <= $2::DATE AND candidates.processed_status = $3::candidate_status]
+[parameters: (datetime.date(2001, 1, 1), datetime.date(2025, 10, 21), 'screened')]
+(Background on this error at: https://sqlalche.me/e/20/f405) | Time: 0.005s
+2025-10-20 15:13:41 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:13:41 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:13:41 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:13:41 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:13:41 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:13:41 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:14:57 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:14:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:14:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:14:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:14:57 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:14:57 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:15:10 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:15:11 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:15:11 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:15:11 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:15:11 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:15:11 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:15:26 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:15:27 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:15:27 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:15:27 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:15:27 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:15:27 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:15:33 | [32mINFO[0m | http:117 | [742d4ef2] GET http://127.0.0.1:8000/reports?candidate_status=screened&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+2025-10-20 15:15:33 | [32mINFO[0m | http:133 | [742d4ef2] GET http://127.0.0.1:8000/reports?candidate_status=screened&start_date=2001-01-01&end_date=2025-10-20&file_type=excel | Status: 200 | Time: 0.084s | Size: 19578 bytes
+2025-10-20 15:37:42 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:37:43 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:37:43 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:37:43 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:37:43 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:37:43 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:44:46 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:44:47 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:44:47 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:44:47 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:44:47 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:44:47 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:45:06 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:45:07 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:45:07 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:45:07 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:45:07 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:45:07 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:45:11 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:45:12 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:45:12 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:45:12 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:45:12 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:45:12 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:54:44 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:54:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:54:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:54:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:54:44 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:54:44 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:55:04 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:55:05 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:55:05 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:55:05 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:55:05 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:55:05 | [32mINFO[0m | app:30 | Application startup initiated
+2025-10-20 15:57:43 | [32mINFO[0m | app:33 | Application shutdown initiated
+2025-10-20 15:57:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:57:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:57:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:57:44 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:57:44 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 15:57:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:57:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:57:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:57:44 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:57:44 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 15:57:45 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 15:57:45 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 15:57:45 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 15:57:45 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 15:57:45 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:00:00 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:00:01 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:00:01 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:00:01 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:00:01 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:00:01 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:00:21 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:00:21 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:00:21 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:00:21 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:00:21 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:00:21 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:00:50 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:00:51 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:00:51 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:00:51 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:00:51 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:00:51 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:02:10 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:02:11 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:02:11 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:02:11 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:02:11 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:02:11 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:02:11 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:02:11 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:02:11 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:02:11 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:02:11 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:08:47 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:08:48 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:08:48 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:08:48 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:08:48 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:08:48 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:08:56 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:08:57 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:08:57 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:08:57 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:08:57 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:08:57 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:09:00 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:09:00 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:09:00 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:09:00 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:09:00 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:09:00 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:11:02 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:11:03 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:11:03 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:11:03 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:11:03 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:11:03 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:11:25 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:11:26 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:11:26 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:11:26 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:11:26 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:11:26 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:18:55 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:18:56 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:18:56 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:18:56 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:18:56 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:18:56 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:19:04 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:19:04 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:19:04 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:19:04 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:19:04 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:19:04 | [32mINFO[0m | app:31 | Application startup initiated
+2025-10-20 16:23:43 | [32mINFO[0m | app:34 | Application shutdown initiated
+2025-10-20 16:23:44 | [32mINFO[0m | app:91 | Logging system initialized
+2025-10-20 16:23:44 | [32mINFO[0m | app:92 | Log level: INFO
+2025-10-20 16:23:44 | [32mINFO[0m | app:93 | Log directory: logs
+2025-10-20 16:23:44 | [32mINFO[0m | app:94 | Daily log files: 2025-10-20.log
+2025-10-20 16:23:44 | [32mINFO[0m | app:31 | Application startup initiated

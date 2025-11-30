@@ -1,0 +1,93 @@
+2025-11-05 09:32:48 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-05 09:32:48 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-05 09:32:48 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-05 09:32:48 | [32mINFO[0m | app:94 | Daily log files: 2025-11-05.log
+2025-11-05 09:32:48 | [32mINFO[0m | app:32 | Application startup initiated
+2025-11-05 09:35:59 | [32mINFO[0m | http:117 | [93a21885] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:35:59 | [32mINFO[0m | http:117 | [b6353381] GET http://127.0.0.1:8000/candidates/stats/count | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:35:59 | [33mWARNING[0m | http:133 | [93a21885] GET http://127.0.0.1:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.017s | Size: 26 bytes
+2025-11-05 09:35:59 | [33mWARNING[0m | http:133 | [b6353381] GET http://127.0.0.1:8000/candidates/stats/count | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:04 | [32mINFO[0m | http:117 | [93f3b56a] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:04 | [33mWARNING[0m | http:133 | [93f3b56a] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:12 | [32mINFO[0m | http:117 | [4c636a88] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:12 | [33mWARNING[0m | http:133 | [4c636a88] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:12 | [32mINFO[0m | http:117 | [ed13e852] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:12 | [33mWARNING[0m | http:133 | [ed13e852] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:12 | [32mINFO[0m | http:117 | [4adccf50] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:12 | [33mWARNING[0m | http:133 | [4adccf50] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:12 | [32mINFO[0m | http:117 | [e995e811] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:12 | [33mWARNING[0m | http:133 | [e995e811] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:13 | [32mINFO[0m | http:117 | [0ab4644c] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:13 | [33mWARNING[0m | http:133 | [0ab4644c] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:13 | [32mINFO[0m | http:117 | [69141dd2] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:13 | [33mWARNING[0m | http:133 | [69141dd2] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:13 | [32mINFO[0m | http:117 | [12d5dbc6] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:13 | [33mWARNING[0m | http:133 | [12d5dbc6] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:16 | [32mINFO[0m | http:117 | [ee1cdea8] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:16 | [33mWARNING[0m | http:133 | [ee1cdea8] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:17 | [32mINFO[0m | http:117 | [93db2c88] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:17 | [33mWARNING[0m | http:133 | [93db2c88] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:17 | [32mINFO[0m | http:117 | [52d81a5d] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:17 | [33mWARNING[0m | http:133 | [52d81a5d] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:17 | [32mINFO[0m | http:117 | [294cfaba] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:17 | [33mWARNING[0m | http:133 | [294cfaba] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:18 | [32mINFO[0m | http:117 | [aa097af6] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:18 | [33mWARNING[0m | http:133 | [aa097af6] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:18 | [32mINFO[0m | http:117 | [8949b5f0] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:18 | [33mWARNING[0m | http:133 | [8949b5f0] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:19 | [32mINFO[0m | http:117 | [5ba1a44e] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:19 | [33mWARNING[0m | http:133 | [5ba1a44e] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:24 | [32mINFO[0m | http:117 | [8e6c0c98] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:24 | [33mWARNING[0m | http:133 | [8e6c0c98] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:24 | [32mINFO[0m | http:117 | [e40c0b6a] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:24 | [33mWARNING[0m | http:133 | [e40c0b6a] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | Status: 401 | Time: 0.005s | Size: 26 bytes
+2025-11-05 09:36:24 | [32mINFO[0m | http:117 | [a45eb8d3] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:24 | [33mWARNING[0m | http:133 | [a45eb8d3] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:24 | [32mINFO[0m | http:117 | [f2b90f4f] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:24 | [33mWARNING[0m | http:133 | [f2b90f4f] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:24 | [32mINFO[0m | http:117 | [3f504f14] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:24 | [33mWARNING[0m | http:133 | [3f504f14] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:24 | [32mINFO[0m | http:117 | [c9214c9d] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:24 | [33mWARNING[0m | http:133 | [c9214c9d] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:25 | [32mINFO[0m | http:117 | [893f3cef] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:25 | [33mWARNING[0m | http:133 | [893f3cef] GET http://127.0.0.1:8000/employees?page=8&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:26 | [32mINFO[0m | http:117 | [eb99dc8b] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:26 | [33mWARNING[0m | http:133 | [eb99dc8b] GET http://127.0.0.1:8000/employees?page=7&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:28 | [32mINFO[0m | http:117 | [a5f86d1f] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:28 | [33mWARNING[0m | http:133 | [a5f86d1f] GET http://127.0.0.1:8000/employees?page=6&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:28 | [32mINFO[0m | http:117 | [57d1699a] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:28 | [33mWARNING[0m | http:133 | [57d1699a] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:28 | [32mINFO[0m | http:117 | [99910d40] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:28 | [33mWARNING[0m | http:133 | [99910d40] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:28 | [32mINFO[0m | http:117 | [7e725f7d] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:28 | [33mWARNING[0m | http:133 | [7e725f7d] GET http://127.0.0.1:8000/employees?page=3&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:28 | [32mINFO[0m | http:117 | [8ee9ea2c] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:28 | [33mWARNING[0m | http:133 | [8ee9ea2c] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:29 | [32mINFO[0m | http:117 | [301f72f1] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:29 | [33mWARNING[0m | http:133 | [301f72f1] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:34 | [32mINFO[0m | http:117 | [ee2b99d9] GET http://127.0.0.1:8000/employees?page=1&per_page=10&search=wijayadi | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:34 | [33mWARNING[0m | http:133 | [ee2b99d9] GET http://127.0.0.1:8000/employees?page=1&per_page=10&search=wijayadi | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:40 | [32mINFO[0m | http:117 | [10a5ea0e] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:40 | [33mWARNING[0m | http:133 | [10a5ea0e] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.002s | Size: 26 bytes
+2025-11-05 09:36:40 | [32mINFO[0m | http:117 | [abacbe3f] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:40 | [33mWARNING[0m | http:133 | [abacbe3f] GET http://127.0.0.1:8000/employees?page=2&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:40 | [32mINFO[0m | http:117 | [29cd3250] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:40 | [33mWARNING[0m | http:133 | [29cd3250] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:40 | [32mINFO[0m | http:117 | [0c949b01] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:40 | [33mWARNING[0m | http:133 | [0c949b01] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:40 | [32mINFO[0m | http:117 | [949381d4] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:40 | [33mWARNING[0m | http:133 | [949381d4] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:42 | [32mINFO[0m | http:117 | [a605c705] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:42 | [33mWARNING[0m | http:133 | [a605c705] GET http://127.0.0.1:8000/employees?page=4&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:42 | [32mINFO[0m | http:117 | [146d5fd5] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:42 | [33mWARNING[0m | http:133 | [146d5fd5] GET http://127.0.0.1:8000/employees?page=5&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:42 | [32mINFO[0m | http:117 | [978bc52e] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:42 | [33mWARNING[0m | http:133 | [978bc52e] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:36:42 | [32mINFO[0m | http:117 | [73930e86] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-05 09:36:42 | [33mWARNING[0m | http:133 | [73930e86] GET http://127.0.0.1:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-05 09:37:00 | [32mINFO[0m | app:35 | Application shutdown initiated
+2025-11-05 11:08:23 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-05 11:08:23 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-05 11:08:23 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-05 11:08:23 | [32mINFO[0m | app:94 | Daily log files: 2025-11-05.log
+2025-11-05 11:08:23 | [32mINFO[0m | app:32 | Application startup initiated

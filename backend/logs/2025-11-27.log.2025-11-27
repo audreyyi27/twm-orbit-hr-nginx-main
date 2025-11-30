@@ -1,0 +1,404 @@
+2025-11-27 09:48:58 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-27 09:48:58 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-27 09:48:58 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-27 09:48:58 | [32mINFO[0m | app:94 | Daily log files: 2025-11-27.log
+2025-11-27 09:48:58 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-27 13:17:07 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-27 13:17:07 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-27 13:17:07 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-27 13:17:07 | [32mINFO[0m | app:94 | Daily log files: 2025-11-27.log
+2025-11-27 13:17:07 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-27 13:17:26 | [32mINFO[0m | http:117 | [7ec7b4b7] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:17:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 13:17:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 13:17:26 | [33mWARNING[0m | http:133 | [7ec7b4b7] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.020s | Size: 26 bytes
+2025-11-27 13:17:55 | [32mINFO[0m | http:117 | [c592c1af] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:17:55 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 13:17:55 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 13:17:55 | [33mWARNING[0m | http:133 | [c592c1af] GET http://localhost:8000/projects/dashboard | Status: 401 | Time: 0.003s | Size: 26 bytes
+2025-11-27 13:18:07 | [32mINFO[0m | http:117 | [60e1ccd8] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-27 13:18:07 | [32mINFO[0m | http:133 | [60e1ccd8] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.323s | Size: 616 bytes
+2025-11-27 13:18:07 | [32mINFO[0m | http:117 | [b4ca9d69] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:07 | [32mINFO[0m | http:133 | [b4ca9d69] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.053s | Size: 16301 bytes
+2025-11-27 13:18:12 | [32mINFO[0m | http:117 | [20f059e9] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:12 | [32mINFO[0m | http:133 | [20f059e9] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.009s | Size: 9288 bytes
+2025-11-27 13:18:12 | [32mINFO[0m | http:117 | [df51dfae] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:12 | [32mINFO[0m | http:133 | [df51dfae] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.006s | Size: 68155 bytes
+2025-11-27 13:18:43 | [32mINFO[0m | http:117 | [c5e1d50a] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:43 | [32mINFO[0m | http:133 | [c5e1d50a] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9288 bytes
+2025-11-27 13:18:47 | [32mINFO[0m | http:117 | [52edbc93] GET http://localhost:8000/employees?page=2&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:47 | [32mINFO[0m | http:133 | [52edbc93] GET http://localhost:8000/employees?page=2&per_page=10 | Status: 200 | Time: 0.005s | Size: 9525 bytes
+2025-11-27 13:18:47 | [32mINFO[0m | http:117 | [6f4eeb64] GET http://localhost:8000/employees?page=3&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:47 | [32mINFO[0m | http:133 | [6f4eeb64] GET http://localhost:8000/employees?page=3&per_page=10 | Status: 200 | Time: 0.004s | Size: 8617 bytes
+2025-11-27 13:18:47 | [32mINFO[0m | http:117 | [0837da78] GET http://localhost:8000/employees?page=4&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:47 | [32mINFO[0m | http:133 | [0837da78] GET http://localhost:8000/employees?page=4&per_page=10 | Status: 200 | Time: 0.004s | Size: 8305 bytes
+2025-11-27 13:18:47 | [32mINFO[0m | http:117 | [7d19e406] GET http://localhost:8000/employees?page=5&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:47 | [32mINFO[0m | http:133 | [7d19e406] GET http://localhost:8000/employees?page=5&per_page=10 | Status: 200 | Time: 0.004s | Size: 8251 bytes
+2025-11-27 13:18:47 | [32mINFO[0m | http:117 | [641f7ea3] GET http://localhost:8000/employees?page=6&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:47 | [32mINFO[0m | http:133 | [641f7ea3] GET http://localhost:8000/employees?page=6&per_page=10 | Status: 200 | Time: 0.007s | Size: 8679 bytes
+2025-11-27 13:18:48 | [32mINFO[0m | http:117 | [fa647175] GET http://localhost:8000/employees?page=7&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:48 | [32mINFO[0m | http:133 | [fa647175] GET http://localhost:8000/employees?page=7&per_page=10 | Status: 200 | Time: 0.005s | Size: 7643 bytes
+2025-11-27 13:18:49 | [32mINFO[0m | http:117 | [6d871b3a] GET http://localhost:8000/employees?page=8&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:49 | [32mINFO[0m | http:133 | [6d871b3a] GET http://localhost:8000/employees?page=8&per_page=10 | Status: 200 | Time: 0.004s | Size: 8392 bytes
+2025-11-27 13:18:51 | [32mINFO[0m | http:117 | [553ee355] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:18:51 | [32mINFO[0m | http:133 | [553ee355] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.008s | Size: 68155 bytes
+2025-11-27 13:19:33 | [32mINFO[0m | http:117 | [f0d5e47a] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:19:33 | [32mINFO[0m | http:133 | [f0d5e47a] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.022s | Size: 6704 bytes
+2025-11-27 13:19:36 | [32mINFO[0m | http:117 | [2f356fd8] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:19:36 | [32mINFO[0m | http:133 | [2f356fd8] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.007s | Size: 1077 bytes
+2025-11-27 13:22:46 | [32mINFO[0m | http:117 | [276fcf85] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:22:46 | [32mINFO[0m | http:133 | [276fcf85] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.010s | Size: 6704 bytes
+2025-11-27 13:22:52 | [32mINFO[0m | http:117 | [740fe743] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:22:52 | [32mINFO[0m | http:133 | [740fe743] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.005s | Size: 1077 bytes
+2025-11-27 13:23:41 | [32mINFO[0m | http:117 | [3a190b7e] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:41 | [32mINFO[0m | http:133 | [3a190b7e] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.006s | Size: 6704 bytes
+2025-11-27 13:23:46 | [32mINFO[0m | http:117 | [cc377744] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:46 | [32mINFO[0m | http:133 | [cc377744] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.004s | Size: 1077 bytes
+2025-11-27 13:23:47 | [32mINFO[0m | http:117 | [a8ce3716] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:47 | [32mINFO[0m | http:133 | [a8ce3716] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6704 bytes
+2025-11-27 13:23:48 | [32mINFO[0m | http:117 | [f6fe958d] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:48 | [32mINFO[0m | http:133 | [f6fe958d] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.004s | Size: 1077 bytes
+2025-11-27 13:23:52 | [32mINFO[0m | http:117 | [62c4003e] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:52 | [32mINFO[0m | http:133 | [62c4003e] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6704 bytes
+2025-11-27 13:23:53 | [32mINFO[0m | http:117 | [aa6c8493] GET http://localhost:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:53 | [32mINFO[0m | http:133 | [aa6c8493] GET http://localhost:8000/projects/ORBIT000016 | Status: 200 | Time: 0.004s | Size: 2499 bytes
+2025-11-27 13:23:58 | [32mINFO[0m | http:117 | [281ae2f7] PUT http://localhost:8000/projects/ORBIT000016/update | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:58 | [32mINFO[0m | http:133 | [281ae2f7] PUT http://localhost:8000/projects/ORBIT000016/update | Status: 200 | Time: 0.014s | Size: 234 bytes
+2025-11-27 13:23:58 | [32mINFO[0m | http:117 | [a55a1351] GET http://localhost:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:58 | [32mINFO[0m | http:133 | [a55a1351] GET http://localhost:8000/projects/ORBIT000016 | Status: 200 | Time: 0.003s | Size: 2504 bytes
+2025-11-27 13:23:59 | [32mINFO[0m | http:117 | [3f9f2249] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:23:59 | [32mINFO[0m | http:133 | [3f9f2249] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6709 bytes
+2025-11-27 13:24:01 | [32mINFO[0m | http:117 | [91e6e0ac] GET http://localhost:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:24:01 | [32mINFO[0m | http:133 | [91e6e0ac] GET http://localhost:8000/projects/ORBIT000016 | Status: 200 | Time: 0.004s | Size: 2504 bytes
+2025-11-27 13:24:05 | [32mINFO[0m | http:117 | [71622e1e] PUT http://localhost:8000/projects/ORBIT000016/update | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:24:05 | [32mINFO[0m | http:133 | [71622e1e] PUT http://localhost:8000/projects/ORBIT000016/update | Status: 200 | Time: 0.008s | Size: 231 bytes
+2025-11-27 13:24:05 | [32mINFO[0m | http:117 | [2a3bfdf7] GET http://localhost:8000/projects/ORBIT000016 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:24:05 | [32mINFO[0m | http:133 | [2a3bfdf7] GET http://localhost:8000/projects/ORBIT000016 | Status: 200 | Time: 0.004s | Size: 2501 bytes
+2025-11-27 13:24:07 | [32mINFO[0m | http:117 | [65cc1732] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:24:07 | [32mINFO[0m | http:133 | [65cc1732] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.003s | Size: 6706 bytes
+2025-11-27 13:25:44 | [32mINFO[0m | http:117 | [f47fe090] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:25:44 | [32mINFO[0m | http:133 | [f47fe090] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.005s | Size: 16301 bytes
+2025-11-27 13:25:44 | [32mINFO[0m | http:117 | [872caafe] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:25:44 | [32mINFO[0m | http:133 | [872caafe] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.004s | Size: 16301 bytes
+2025-11-27 13:25:49 | [32mINFO[0m | http:117 | [bfd9b26b] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:25:49 | [32mINFO[0m | http:133 | [bfd9b26b] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.007s | Size: 68155 bytes
+2025-11-27 13:25:51 | [32mINFO[0m | http:117 | [b9699a64] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:25:51 | [32mINFO[0m | http:133 | [b9699a64] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:25:52 | [32mINFO[0m | http:117 | [06f7e23b] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:25:52 | [32mINFO[0m | http:133 | [06f7e23b] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.006s | Size: 9288 bytes
+2025-11-27 13:25:55 | [32mINFO[0m | http:117 | [37b397ec] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:25:55 | [32mINFO[0m | http:133 | [37b397ec] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:27:09 | [32mINFO[0m | http:117 | [8ff2d1f5] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:27:09 | [32mINFO[0m | http:133 | [8ff2d1f5] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.004s | Size: 1077 bytes
+2025-11-27 13:27:12 | [32mINFO[0m | http:117 | [40e897d0] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:27:12 | [32mINFO[0m | http:133 | [40e897d0] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:28:20 | [32mINFO[0m | http:117 | [f815c158] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:28:20 | [32mINFO[0m | http:133 | [f815c158] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.021s | Size: 6706 bytes
+2025-11-27 13:28:21 | [32mINFO[0m | http:117 | [36853fa4] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:28:21 | [32mINFO[0m | http:133 | [36853fa4] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.005s | Size: 68155 bytes
+2025-11-27 13:32:01 | [32mINFO[0m | http:117 | [0f85fc6d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:32:01 | [32mINFO[0m | http:133 | [0f85fc6d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.014s | Size: 6706 bytes
+2025-11-27 13:32:02 | [32mINFO[0m | http:117 | [4c6032a0] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:32:02 | [32mINFO[0m | http:133 | [4c6032a0] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.004s | Size: 1077 bytes
+2025-11-27 13:32:05 | [32mINFO[0m | http:117 | [ff3ed86d] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:32:05 | [32mINFO[0m | http:133 | [ff3ed86d] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:32:16 | [32mINFO[0m | http:117 | [f56cba6d] GET http://localhost:8000/projects/ORBIT000001 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:32:16 | [32mINFO[0m | http:133 | [f56cba6d] GET http://localhost:8000/projects/ORBIT000001 | Status: 200 | Time: 0.004s | Size: 7964 bytes
+2025-11-27 13:33:25 | [32mINFO[0m | http:117 | [f307fb23] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:33:25 | [32mINFO[0m | http:133 | [f307fb23] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9288 bytes
+2025-11-27 13:33:25 | [32mINFO[0m | http:117 | [0c51d2e4] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:33:25 | [32mINFO[0m | http:133 | [0c51d2e4] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.009s | Size: 68155 bytes
+2025-11-27 13:34:50 | [32mINFO[0m | http:117 | [29a9faf0] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:34:50 | [32mINFO[0m | http:133 | [29a9faf0] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:34:52 | [32mINFO[0m | http:117 | [90670886] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:34:52 | [32mINFO[0m | http:133 | [90670886] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.005s | Size: 9288 bytes
+2025-11-27 13:34:53 | [32mINFO[0m | http:117 | [2a66f625] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:34:53 | [32mINFO[0m | http:133 | [2a66f625] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.007s | Size: 68155 bytes
+2025-11-27 13:35:09 | [32mINFO[0m | http:117 | [96b3f5e3] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:35:09 | [32mINFO[0m | http:133 | [96b3f5e3] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:35:12 | [32mINFO[0m | http:117 | [9e0e5de4] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:35:12 | [32mINFO[0m | http:133 | [9e0e5de4] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.005s | Size: 1077 bytes
+2025-11-27 13:35:13 | [32mINFO[0m | http:117 | [09e335d7] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:35:13 | [32mINFO[0m | http:133 | [09e335d7] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:35:33 | [32mINFO[0m | http:117 | [fb6da5e0] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:35:33 | [32mINFO[0m | http:133 | [fb6da5e0] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.005s | Size: 68155 bytes
+2025-11-27 13:36:20 | [32mINFO[0m | http:117 | [7dbfe03f] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:36:20 | [32mINFO[0m | http:133 | [7dbfe03f] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.021s | Size: 68155 bytes
+2025-11-27 13:36:24 | [32mINFO[0m | http:117 | [5ddd8b74] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:36:24 | [32mINFO[0m | http:133 | [5ddd8b74] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:36:25 | [32mINFO[0m | http:117 | [7cc6795e] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:36:25 | [32mINFO[0m | http:133 | [7cc6795e] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.005s | Size: 9288 bytes
+2025-11-27 13:36:31 | [32mINFO[0m | http:117 | [d1b4a593] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:36:31 | [32mINFO[0m | http:133 | [d1b4a593] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:36:35 | [32mINFO[0m | http:117 | [50c69fda] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:36:35 | [32mINFO[0m | http:133 | [50c69fda] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.008s | Size: 68155 bytes
+2025-11-27 13:36:38 | [32mINFO[0m | http:117 | [cc393aa9] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:36:38 | [32mINFO[0m | http:133 | [cc393aa9] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:36:57 | [32mINFO[0m | http:117 | [8cec124b] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:36:57 | [32mINFO[0m | http:133 | [8cec124b] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.015s | Size: 68155 bytes
+2025-11-27 13:37:28 | [32mINFO[0m | http:117 | [f2bb1b0e] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:37:28 | [32mINFO[0m | http:133 | [f2bb1b0e] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.006s | Size: 68155 bytes
+2025-11-27 13:38:10 | [32mINFO[0m | http:117 | [2361d8e7] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:38:10 | [32mINFO[0m | http:133 | [2361d8e7] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.013s | Size: 68155 bytes
+2025-11-27 13:38:31 | [32mINFO[0m | http:117 | [5bbf0e18] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:38:31 | [32mINFO[0m | http:133 | [5bbf0e18] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.027s | Size: 68155 bytes
+2025-11-27 13:38:57 | [32mINFO[0m | http:117 | [c7fb3037] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:38:57 | [32mINFO[0m | http:133 | [c7fb3037] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.015s | Size: 68155 bytes
+2025-11-27 13:39:54 | [32mINFO[0m | http:117 | [62c6cf45] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:39:54 | [32mINFO[0m | http:133 | [62c6cf45] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6706 bytes
+2025-11-27 13:39:56 | [32mINFO[0m | http:117 | [56392516] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:39:56 | [32mINFO[0m | http:133 | [56392516] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.004s | Size: 1077 bytes
+2025-11-27 13:40:03 | [32mINFO[0m | http:117 | [c9bc7f1a] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:40:03 | [32mINFO[0m | http:133 | [c9bc7f1a] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9288 bytes
+2025-11-27 13:40:04 | [32mINFO[0m | http:117 | [16639fbd] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:40:04 | [32mINFO[0m | http:133 | [16639fbd] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.007s | Size: 68155 bytes
+2025-11-27 13:46:18 | [32mINFO[0m | http:117 | [8d537ecb] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:46:18 | [32mINFO[0m | http:133 | [8d537ecb] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.009s | Size: 6706 bytes
+2025-11-27 13:46:19 | [32mINFO[0m | http:117 | [46d26e02] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:46:19 | [32mINFO[0m | http:133 | [46d26e02] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.004s | Size: 1077 bytes
+2025-11-27 13:46:28 | [32mINFO[0m | http:117 | [ce986fff] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:46:28 | [32mINFO[0m | http:133 | [ce986fff] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 13:46:39 | [32mINFO[0m | http:117 | [4f359b2b] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:46:39 | [32mINFO[0m | http:133 | [4f359b2b] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9288 bytes
+2025-11-27 13:46:40 | [32mINFO[0m | http:117 | [8629ddb6] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:46:40 | [32mINFO[0m | http:133 | [8629ddb6] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.011s | Size: 68155 bytes
+2025-11-27 13:47:43 | [32mINFO[0m | http:117 | [8f097ac0] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 13:47:43 | [32mINFO[0m | http:133 | [8f097ac0] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.013s | Size: 68155 bytes
+2025-11-27 14:01:13 | [32mINFO[0m | app:37 | Application shutdown initiated
+2025-11-27 16:01:46 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-27 16:01:46 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-27 16:01:46 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-27 16:01:46 | [32mINFO[0m | app:94 | Daily log files: 2025-11-27.log
+2025-11-27 16:01:46 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-27 16:01:52 | [32mINFO[0m | http:117 | [92c7fb7a] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:01:52 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:01:52 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:01:52 | [33mWARNING[0m | http:133 | [92c7fb7a] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.044s | Size: 26 bytes
+2025-11-27 16:01:54 | [32mINFO[0m | http:117 | [a36d0486] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:01:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:01:54 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:01:54 | [33mWARNING[0m | http:133 | [a36d0486] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.004s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [a11ada2f] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [a11ada2f] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.009s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [d6cb1880] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [d6cb1880] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [b4dc83c9] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [b4dc83c9] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [12f4d592] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [12f4d592] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [9d44a1b0] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [9d44a1b0] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [78ca6ff5] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [78ca6ff5] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [0d2fb1dd] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [0d2fb1dd] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [68f6d8e9] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [68f6d8e9] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [6cc97e18] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [6cc97e18] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [159df5ca] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [159df5ca] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [522f167e] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [522f167e] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [be39c759] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [be39c759] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [8f8f9be0] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [8f8f9be0] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [adc835dc] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [adc835dc] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:26 | [32mINFO[0m | http:117 | [a7f48d7a] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:26 | [33mWARNING[0m | http:133 | [a7f48d7a] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [f6aa1a7f] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [f6aa1a7f] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [aeeb57b2] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [aeeb57b2] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [5aec6603] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [5aec6603] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [ebea0379] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [ebea0379] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.000s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [a1c4d2a4] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [a1c4d2a4] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [5fd26da2] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [5fd26da2] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [1b16f3d4] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [1b16f3d4] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [710d05c2] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [710d05c2] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [3aec86f5] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [3aec86f5] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [d4d2222f] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [d4d2222f] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [b27671ba] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [b27671ba] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [48c1d1c0] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [48c1d1c0] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [92ed87ee] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [92ed87ee] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [e721b829] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [e721b829] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [fb15c65d] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [fb15c65d] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [2104a3a2] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [2104a3a2] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [84c730c4] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [84c730c4] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [4e53853d] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [4e53853d] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [0c799bb7] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [0c799bb7] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [6a0d2bba] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [6a0d2bba] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:23:27 | [32mINFO[0m | http:117 | [2aa9443a] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:23:27 | [33mWARNING[0m | http:133 | [2aa9443a] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 16:26:42 | [32mINFO[0m | http:117 | [380d7699] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 16:26:42 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:26:42 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 16:26:42 | [33mWARNING[0m | http:133 | [380d7699] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.006s | Size: 26 bytes
+2025-11-27 17:09:49 | [32mINFO[0m | app:91 | Logging system initialized
+2025-11-27 17:09:49 | [32mINFO[0m | app:92 | Log level: INFO
+2025-11-27 17:09:49 | [32mINFO[0m | app:93 | Log directory: logs
+2025-11-27 17:09:49 | [32mINFO[0m | app:94 | Daily log files: 2025-11-27.log
+2025-11-27 17:09:49 | [32mINFO[0m | app:34 | Application startup initiated
+2025-11-27 17:09:56 | [32mINFO[0m | http:117 | [3be9ae2a] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:09:56 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 17:09:56 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 17:09:56 | [33mWARNING[0m | http:133 | [3be9ae2a] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 401 | Time: 0.024s | Size: 26 bytes
+2025-11-27 17:09:59 | [32mINFO[0m | http:117 | [022fe44d] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:09:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 17:09:59 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 17:09:59 | [33mWARNING[0m | http:133 | [022fe44d] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 17:10:04 | [32mINFO[0m | http:117 | [e7f0b1f7] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:04 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 17:10:04 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
+2025-11-27 17:10:04 | [33mWARNING[0m | http:133 | [e7f0b1f7] GET http://localhost:8000/projects/dashboard | Status: 401 | Time: 0.001s | Size: 26 bytes
+2025-11-27 17:10:14 | [32mINFO[0m | http:117 | [822c490a] POST http://localhost:8000/auth/login | IP: 127.0.0.1 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-27 17:10:14 | [32mINFO[0m | http:133 | [822c490a] POST http://localhost:8000/auth/login | Status: 200 | Time: 0.345s | Size: 616 bytes
+2025-11-27 17:10:15 | [32mINFO[0m | http:117 | [e646ba3c] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:15 | [32mINFO[0m | http:133 | [e646ba3c] GET http://localhost:8000/candidates?page=1&per_page=10&sort_order=desc | Status: 200 | Time: 0.060s | Size: 16301 bytes
+2025-11-27 17:10:16 | [32mINFO[0m | http:117 | [839eae20] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:16 | [32mINFO[0m | http:133 | [839eae20] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.011s | Size: 9286 bytes
+2025-11-27 17:10:17 | [32mINFO[0m | http:117 | [5289b51f] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:17 | [32mINFO[0m | http:133 | [5289b51f] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.008s | Size: 6706 bytes
+2025-11-27 17:10:20 | [32mINFO[0m | http:117 | [a5427214] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:20 | [32mINFO[0m | http:133 | [a5427214] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.007s | Size: 68153 bytes
+2025-11-27 17:10:32 | [32mINFO[0m | http:117 | [60e6f281] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:32 | [32mINFO[0m | http:133 | [60e6f281] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.006s | Size: 9286 bytes
+2025-11-27 17:10:37 | [32mINFO[0m | http:117 | [db96bc98] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:37 | [32mINFO[0m | http:133 | [db96bc98] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.013s | Size: 68153 bytes
+2025-11-27 17:10:46 | [32mINFO[0m | http:117 | [2df49024] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:46 | [32mINFO[0m | http:133 | [2df49024] GET http://localhost:8000/employees/3672e0fd-dc19-49c5-94f9-22f6e8df7895 | Status: 200 | Time: 0.003s | Size: 1049 bytes
+2025-11-27 17:10:48 | [32mINFO[0m | http:117 | [c4a44567] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:10:48 | [32mINFO[0m | http:133 | [c4a44567] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.005s | Size: 9286 bytes
+2025-11-27 17:11:10 | [32mINFO[0m | http:117 | [41b4fad0] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:11:10 | [32mINFO[0m | http:133 | [41b4fad0] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.010s | Size: 68153 bytes
+2025-11-27 17:11:12 | [32mINFO[0m | http:117 | [3f5e2835] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:11:12 | [32mINFO[0m | http:133 | [3f5e2835] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9286 bytes
+2025-11-27 17:11:24 | [32mINFO[0m | http:117 | [3b1edb97] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:11:24 | [32mINFO[0m | http:133 | [3b1edb97] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6706 bytes
+2025-11-27 17:11:32 | [32mINFO[0m | http:117 | [2fa5db3b] GET http://localhost:8000/projects/ORBIT000007 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:11:32 | [32mINFO[0m | http:133 | [2fa5db3b] GET http://localhost:8000/projects/ORBIT000007 | Status: 200 | Time: 0.007s | Size: 1077 bytes
+2025-11-27 17:11:34 | [32mINFO[0m | http:117 | [7859fa34] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:11:34 | [32mINFO[0m | http:133 | [7859fa34] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 17:11:51 | [32mINFO[0m | http:117 | [e840d6c1] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:11:51 | [32mINFO[0m | http:133 | [e840d6c1] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.007s | Size: 9286 bytes
+2025-11-27 17:12:22 | [32mINFO[0m | http:117 | [7d285b4b] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:12:22 | [32mINFO[0m | http:133 | [7d285b4b] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.006s | Size: 68153 bytes
+2025-11-27 17:15:36 | [32mINFO[0m | http:117 | [034f89ba] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:15:36 | [32mINFO[0m | http:133 | [034f89ba] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.051s | Size: 68153 bytes
+2025-11-27 17:15:49 | [32mINFO[0m | http:117 | [ec873d48] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:15:49 | [32mINFO[0m | http:133 | [ec873d48] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.004s | Size: 6706 bytes
+2025-11-27 17:15:50 | [32mINFO[0m | http:117 | [252a747c] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:15:50 | [32mINFO[0m | http:133 | [252a747c] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.005s | Size: 9286 bytes
+2025-11-27 17:15:51 | [32mINFO[0m | http:117 | [67c1ca05] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:15:51 | [32mINFO[0m | http:133 | [67c1ca05] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 17:15:52 | [32mINFO[0m | http:117 | [e84e357e] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:15:52 | [32mINFO[0m | http:133 | [e84e357e] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.006s | Size: 68153 bytes
+2025-11-27 17:15:56 | [32mINFO[0m | http:117 | [ec909cea] GET http://localhost:8000/projects/dashboard | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:15:56 | [32mINFO[0m | http:133 | [ec909cea] GET http://localhost:8000/projects/dashboard | Status: 200 | Time: 0.005s | Size: 6706 bytes
+2025-11-27 17:16:18 | [32mINFO[0m | http:117 | [3738d9ca] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:16:18 | [32mINFO[0m | http:133 | [3738d9ca] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.013s | Size: 68153 bytes
+2025-11-27 17:18:16 | [32mINFO[0m | http:117 | [0b209c0a] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:18:16 | [32mINFO[0m | http:133 | [0b209c0a] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.004s | Size: 68153 bytes
+2025-11-27 17:18:31 | [32mINFO[0m | http:117 | [bdaa4e60] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:18:31 | [32mINFO[0m | http:133 | [bdaa4e60] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.010s | Size: 68153 bytes
+2025-11-27 17:21:03 | [32mINFO[0m | http:117 | [eee36b89] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:21:03 | [32mINFO[0m | http:133 | [eee36b89] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.011s | Size: 68153 bytes
+2025-11-27 17:21:35 | [32mINFO[0m | http:117 | [b8c5f764] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:21:35 | [32mINFO[0m | http:133 | [b8c5f764] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.009s | Size: 68153 bytes
+2025-11-27 17:21:39 | [32mINFO[0m | http:117 | [c7ec8039] GET http://localhost:8000/employees?page=1&per_page=10 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:21:39 | [32mINFO[0m | http:133 | [c7ec8039] GET http://localhost:8000/employees?page=1&per_page=10 | Status: 200 | Time: 0.004s | Size: 9286 bytes
+2025-11-27 17:25:29 | [32mINFO[0m | http:117 | [d6bb6ad8] GET http://localhost:8000/employees?page=1&per_page=100 | IP: 127.0.0.1 | User-Agent: node
+2025-11-27 17:25:29 | [32mINFO[0m | http:133 | [d6bb6ad8] GET http://localhost:8000/employees?page=1&per_page=100 | Status: 200 | Time: 0.006s | Size: 68153 bytes
+2025-11-28 00:07:35 | [31mERROR[0m | app.db:62 | Unexpected error in get_db: 401: Invalid token
