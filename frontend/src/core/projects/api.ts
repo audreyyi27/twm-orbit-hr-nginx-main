@@ -18,11 +18,7 @@ export const getProjectsDashboard = async (): Promise<ApiResponse<ProjectDashboa
   const url = `${BASE_URL}/projects/dashboard`;
   
   return await ssrApiClient(url, fetchMethod.get, {
-<<<<<<< HEAD:Frontend/src/core/projects/api.ts
-    cache: "no-store",
-=======
     cache: "no-store", // No caching for instant updates
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/api.ts
   });
 };
 
@@ -30,8 +26,7 @@ export const getProjectDetails = async (projectId: string): Promise<ApiResponse<
   const url = `${BASE_URL}/projects/${projectId}`;
   
   return await ssrApiClient(url, fetchMethod.get, {
-<<<<<<< HEAD:Frontend/src/core/projects/api.ts
-    cache: "no-store",
+    cache: "no-store", // Completely bypass cache for instant updates
   });
 };
 
@@ -53,9 +48,6 @@ export const updateProject = async (
   return await ssrApiClient(url, fetchMethod.put, {
     body: JSON.stringify(data),
     cache: "no-store",
-=======
-    cache: "no-store", // Completely bypass cache for instant updates
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/api.ts
   });
 };
 
@@ -68,11 +60,7 @@ export const getTeamsWithDetails = async (): Promise<ApiResponse<TeamWithDetails
   });
 };
 
-<<<<<<< HEAD:Frontend/src/core/projects/api.ts
-// Get all available employees grouped by team
-=======
 // Get all available employees grouped by team (no cache for dynamic data)
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/api.ts
 export const getAvailableEmployees = async (): Promise<ApiResponse<AvailableEmployeesResponse[]>> => {
   const url = `${BASE_URL}/projects/available-employees/all`;
   

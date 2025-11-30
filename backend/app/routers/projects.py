@@ -24,7 +24,6 @@ async def get_projects_dashboard(
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
     response.headers["Pragma"] = "no-cache"
     response.headers["Expires"] = "0"
-<<<<<<< HEAD:Backend/app/routers/projects.py
     
     # Optimized: Get all projects with member counts in a single query using LEFT JOIN
     projects_result = await db.execute(
@@ -38,22 +37,6 @@ async def get_projects_dashboard(
             models.Project.division,
             models.Project.contact_window,
             func.count(models.EmployeeProjectTask.task_id).label('member_count')
-=======
-    # Get all projects - INCLUDES projects with NO members (empty member count = 0)
-    projects_result = await db.execute(
-        select(models.Project).order_by(models.Project.project_name)
-    )
-    all_projects = projects_result.scalars().all()
-    
-    # Build project cards with member counts
-    project_cards = []
-    
-    for project in all_projects:
-        # Count members assigned to this project (will be 0 if no members)
-        member_count_result = await db.execute(
-            select(func.count(models.EmployeeProjectTask.task_id))
-            .where(models.EmployeeProjectTask.project_id == project.project_id)
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/app/routers/projects.py
         )
         .outerjoin(models.EmployeeProjectTask, models.Project.project_id == models.EmployeeProjectTask.project_id)
         .group_by(
@@ -70,7 +53,6 @@ async def get_projects_dashboard(
     )
     projects_data = projects_result.all()
     
-<<<<<<< HEAD:Backend/app/routers/projects.py
     # Build project cards directly without Pydantic validation overhead
     project_cards = []
     total_projects = 0
@@ -101,12 +83,6 @@ async def get_projects_dashboard(
             active_projects += 1
         elif status_lower == 'completed':
             completed_projects += 1
-=======
-    # Calculate statistics
-    total_projects = len(project_cards)
-    active_projects = sum(1 for p in project_cards if (p.get('status') or '').lower() == 'active')
-    completed_projects = sum(1 for p in project_cards if (p.get('status') or '').lower() == 'completed')
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/app/routers/projects.py
     
     return {
         "projects": project_cards,
@@ -128,11 +104,7 @@ async def get_project_details(
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
     response.headers["Pragma"] = "no-cache"
     response.headers["Expires"] = "0"
-<<<<<<< HEAD:Backend/app/routers/projects.py
     # Get project with specific columns only
-=======
-    # Get project
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/app/routers/projects.py
     project_result = await db.execute(
         select(
             models.Project.project_id,
@@ -150,7 +122,6 @@ async def get_project_details(
     if not project_row:
         raise HTTPException(status_code=404, detail="Project not found")
     
-<<<<<<< HEAD:Backend/app/routers/projects.py
     # Build project dict directly
     project_dict = {
         'project_id': project_row.project_id,
@@ -164,11 +135,7 @@ async def get_project_details(
     }
     
     # Get employees with specific columns only - optimized query
-=======
-    # Get employees assigned to this project (via employee_project_task junction table)
-    # Include their contribution details from the junction table
     # Use INNER JOIN to only return tasks with valid employees (filters out orphaned records)
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/app/routers/projects.py
     members_result = await db.execute(
         select(
             models.Employee.uuid,
@@ -195,12 +162,8 @@ async def get_project_details(
     )
     members_data = members_result.all()
     
-<<<<<<< HEAD:Backend/app/routers/projects.py
     # Build member list directly without Pydantic validation
-=======
-    # Build member list with contribution info
     # Only includes tasks where employee still exists (orphaned tasks are automatically filtered by INNER JOIN)
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/app/routers/projects.py
     members = []
     for row in members_data:
         members.append({

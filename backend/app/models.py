@@ -178,19 +178,11 @@ class Project(Base):
     __tablename__ = "orbit_projects"
     
     project_id = Column(String(100), primary_key=True)
-<<<<<<< HEAD:Backend/app/models.py
     project_name = Column(String(255), index=True)
     project_description = Column(Text)
     status = Column(String(50), nullable=True, index=True)
-    start_date = Column(Date)
-    end_date = Column(Date)
-=======
-    project_name = Column(String(255))
-    project_description = Column(Text)
-    status = Column(String(50), nullable=True)
     start_date = Column(Date, nullable=True)
     end_date = Column(Date, nullable=True)
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:backend/app/models.py
     division = Column(String(50), nullable=True)
     contact_window = Column(String(100), nullable=True)
     

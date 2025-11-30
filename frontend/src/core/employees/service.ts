@@ -1,12 +1,7 @@
 // Simple Service Layer - use DTO directly!
 
-<<<<<<< HEAD:Frontend/src/core/employees/service.ts
 import type { EmployeeDto, GetEmployeesDto,  TeamProjectsDto, EmployeeProjectDto } from "./dto";
 import { getEmployees, getEmployee, getEmployeeWithProjects, getTeamProjects } from "./api";
-=======
-import type { EmployeeDto, GetEmployeesDto } from "./dto";
-import { getEmployees, getEmployee } from "./api";
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/employees/service.ts
 import type { BaseMeta } from "../types/api";
 
 export interface ServiceResponse<T> {

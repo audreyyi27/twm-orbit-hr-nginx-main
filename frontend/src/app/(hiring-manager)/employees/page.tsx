@@ -118,11 +118,7 @@ export default async function EmployeesPage({ searchParams }: PageProps) {
           <div className="flex gap-2">
             {/* Previous */}
             {meta.page > 1 ? (
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/employees/page.tsx
-              <Link href={`/employees?page=${meta.page - 1}&per_page=${per_page || '10'}${search ? `&search=${search}` : ''}`}>
-=======
               <Link href={`/employees?page=${meta.page - 1}&per_page=${meta.per_page}${search ? `&search=${search}` : ''}`}>
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/employees/page.tsx
                 <Button variant="outline" size="sm">Previous</Button>
               </Link>
             ) : (
@@ -131,11 +127,7 @@ export default async function EmployeesPage({ searchParams }: PageProps) {
             
             {/* Next */}
             {meta.page < meta.total_pages ? (
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/employees/page.tsx
-              <Link href={`/employees?page=${meta.page + 1}&per_page=${per_page || '10'}${search ? `&search=${search}` : ''}`}>
-=======
               <Link href={`/employees?page=${meta.page + 1}&per_page=${meta.per_page}${search ? `&search=${search}` : ''}`}>
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/employees/page.tsx
                 <Button variant="outline" size="sm">Next</Button>
               </Link>
             ) : (

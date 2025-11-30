@@ -38,15 +38,11 @@ export default function ProjectsClient({
     setActiveProjects(initialActiveProjects);
     setCompletedProjects(initialCompletedProjects);
   }, [initialProjects, initialTotalProjects, initialActiveProjects, initialCompletedProjects]);
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/projectsList.tsx
-=======
   
   // Refresh data immediately when component mounts or pathname changes
   useEffect(() => {
     router.refresh();
   }, [pathname, router]);
-
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/projectsList.tsx
 
   // Filter projects based on search query and status
   const filteredProjects = useMemo(() => {
@@ -66,10 +62,6 @@ export default function ProjectsClient({
         const searchableFields = [
           project.project_name,
           project.project_description,
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/projectsList.tsx
-=======
-          project.department,
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/projectsList.tsx
           project.division,
           project.contact_window,
         ];

@@ -17,9 +17,9 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
   const [isAddMemberModalOpen, setIsAddMemberModalOpen] = useState(false);
   const [isDeleteMode, setIsDeleteMode] = useState(false);
   const [localMembers, setLocalMembers] = useState<ProjectMemberDto[]>(data.members);
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
   const [isEditMode, setIsEditMode] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
   
   const members = localMembers;
   const { project, team } = data;
@@ -49,14 +49,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
 
   const team_name = team?.team_name;
   const member_count = members.length;
-=======
-  const [isRefreshing, setIsRefreshing] = useState(false);
-  
-  // Use local state that gets updated
-  const members = localMembers;
-  
-  const { project, team } = data;
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
 
   // Status styling
   const statusConfig = {
@@ -69,7 +61,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
   const currentStatus = isEditMode ? editForm.status : status;
   const statusStyle = statusConfig[currentStatus?.toLowerCase() as keyof typeof statusConfig] || statusConfig.active;
 
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
   const handleEditChange = (field: string, value: string) => {
     setEditForm(prev => ({ ...prev, [field]: value }));
   };
@@ -125,12 +116,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
     setIsEditMode(false);
   };
 
-  const handleMemberAdded = (newMember?: ProjectMemberDto) => {
-    if (newMember) {
-      setLocalMembers(prev => [...prev, newMember]);
-    }
-    
-=======
   // Add member handler - optimistic update
   const handleMemberAdded = (newMember?: ProjectMemberDto) => {
     if (newMember) {
@@ -140,7 +125,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
     
     // Silently refresh in background to sync with server
     setIsRefreshing(true);
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
     router.refresh();
     setTimeout(() => setIsRefreshing(false), 500);
   };
@@ -151,14 +135,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
       return;
     }
 
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
-    setIsDeleteMode(false);
-    setLocalMembers(prev => prev.filter(m => m.task_id !== taskId));
-
-    const result = await RemoveProjectMemberService(projectId, taskId);
-    
-    if (result.isError) {
-=======
     // Close delete mode
     setIsDeleteMode(false);
 
@@ -170,7 +146,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
     
     if (result.isError) {
       // Revert optimistic update on error
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
       setLocalMembers(data.members);
       
       if (result.statusCode === 401 || result.statusCode === 403) {
@@ -182,31 +157,18 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
       return;
     }
     
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
-    router.refresh();
-=======
     // Silently refresh in background to sync with server
     setIsRefreshing(true);
     router.refresh();
     setTimeout(() => setIsRefreshing(false), 500);
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
   };
 
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
       {/* Back Button */}
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
       <Link
         href="/projects"
         className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 transition-colors"
-=======
-      <button
-        onClick={() => {
-          // Force hard reload - bypasses all caches for instant fresh data
-          window.location.href = '/projects';
-        }}
-        className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6"
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -218,7 +180,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
       <div className="bg-white rounded-xl border-2 border-gray-200 p-8 shadow-sm mb-6">
         <div className="flex items-start justify-between mb-6">
           <div className="flex-1">
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
             {/* Division Badge - Shows current value */}
             {(division || isEditMode) && (
               <div className="mb-3">
@@ -241,17 +202,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
                 className="text-4xl font-bold text-gray-900 mb-3 w-full border-2 border-blue-500 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             )}
-=======
-            {project.department && (
-              <span className="inline-block px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-3">
-                {project.department}
-              </span>
-            )}
-
-            <h1 className="text-4xl font-bold text-gray-900 mb-3">
-              {project.project_name}
-            </h1>
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
 
             {team && (
               <div className="flex items-center gap-2 text-gray-600">
@@ -315,7 +265,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
           </div>
         </div>
 
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
         {/* 2-Column Grid Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
           {/* Left Column - Project Info */}
@@ -422,28 +371,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
               <div className="p-3 bg-gray-50 border border-gray-300 rounded-lg">
                 <p className="text-gray-900 text-base font-medium">
                   {member_count}  
-=======
-        {project.project_description && (
-          <div className="mb-6">
-            <h3 className="text-sm font-semibold text-gray-700 mb-2">Project Description</h3>
-            <p className="text-gray-700 leading-relaxed">
-              {project.project_description}
-            </p>
-          </div>
-        )}
-
-        {(project.start_date || project.completed_date) && (
-          <div className="flex gap-6 p-4 bg-gray-50 rounded-lg">
-            {project.start_date && (
-              <div>
-                <p className="text-xs font-medium text-gray-500 mb-1">Start Date</p>
-                <p className="text-sm font-semibold text-gray-900">
-                  {new Date(project.start_date).toLocaleDateString('en-US', { 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
-                  })}
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
                 </p>
               </div>
             </div>
@@ -534,11 +461,7 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
             {members.map((member) => (
               <div
                 key={member.task_id || member.employee_uuid}
-<<<<<<< HEAD:Frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
                 className="bg-gradient-to-br from-gray-50 to-white rounded-lg border-2 border-gray-200 p-5 hover:border-blue-300 transition-colors relative"
-=======
-                className="bg-gradient-to-br from-gray-50 to-white rounded-lg border-2 border-gray-200 p-5 hover:border-blue-300 relative"
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/app/(hiring-manager)/projects/[project_id]/projectDetails.tsx
               >
                 {isDeleteMode && (
                   <button

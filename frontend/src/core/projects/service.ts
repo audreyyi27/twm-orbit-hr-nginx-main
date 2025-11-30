@@ -34,10 +34,7 @@ export const GetProjectsDashboardService = async (): Promise<ServiceResponse<Pro
       return { isError: true, message: res.error.message, statusCode: res.statusCode };
     }
 
-<<<<<<< HEAD:Frontend/src/core/projects/service.ts
-=======
     // Handle both direct data and wrapped data
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/service.ts
     const dashboardData = (res.data && typeof res.data === 'object' && 'items' in res.data) 
       ? (res.data as { items: ProjectDashboardDto }).items 
       : res.data;
@@ -76,10 +73,7 @@ export const GetProjectDetailsService = async (projectId: string): Promise<Servi
       return { isError: true, message: res.error.message, statusCode: res.statusCode };
     }
 
-<<<<<<< HEAD:Frontend/src/core/projects/service.ts
-=======
     // Handle both direct data and wrapped data
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/service.ts
     const projectData = res.data?.items || res.data;
 
     return {
@@ -91,7 +85,6 @@ export const GetProjectDetailsService = async (projectId: string): Promise<Servi
   }
 };
 
-<<<<<<< HEAD:Frontend/src/core/projects/service.ts
 // ADD THIS NEW SERVICE FUNCTION
 export const UpdateProjectService = async (
   projectId: string,
@@ -123,8 +116,6 @@ export const UpdateProjectService = async (
   }
 };
 
-=======
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/service.ts
 export const GetAvailableEmployeesService = async (): Promise<ServiceResponse<AvailableEmployeesResponse[]>> => {
   try {
     const res = await getAvailableEmployees();
@@ -133,10 +124,7 @@ export const GetAvailableEmployeesService = async (): Promise<ServiceResponse<Av
       return { isError: true, message: res.error.message, statusCode: res.statusCode };
     }
 
-<<<<<<< HEAD:Frontend/src/core/projects/service.ts
-=======
     // Handle both direct data and wrapped data
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/service.ts
     const employeesData = Array.isArray(res.data) 
       ? res.data 
       : (res.data && typeof res.data === 'object' && 'items' in res.data && Array.isArray(res.data.items))
@@ -168,10 +156,7 @@ export const AddProjectMemberService = async (
       return { isError: true, message: res.error.message, statusCode: res.statusCode };
     }
 
-<<<<<<< HEAD:Frontend/src/core/projects/service.ts
-=======
     // Handle both direct data and wrapped data
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/service.ts
     const memberData = (res.data && typeof res.data === 'object' && 'items' in res.data)
       ? res.data.items
       : res.data;
@@ -208,10 +193,7 @@ export const RemoveProjectMemberService = async (
       };
     }
 
-<<<<<<< HEAD:Frontend/src/core/projects/service.ts
-=======
     // Handle both direct data and wrapped data
->>>>>>> d72129bf2b4a1a853da9e59a0b8d4104b9050b5a:frontend/src/core/projects/service.ts
     const responseData = (res.data && typeof res.data === 'object' && 'items' in res.data)
       ? res.data.items
       : res.data;
