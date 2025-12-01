@@ -23,7 +23,7 @@ export default function TeamTabs({ teamName, members }: TeamTabsProps) {
   const tabs: { id: TabId; label: string; disabled?: boolean }[] = [
     { id: "projects", label: "Projects" },
     { id: "employees", label: "Employees" },
-    { id: "attendance", label: "Attendance", disabled: true },
+    { id: "attendance", label: "Attendance" },
   ];
 
   // Count distinct active projects from all team members
@@ -38,7 +38,7 @@ export default function TeamTabs({ teamName, members }: TeamTabsProps) {
   const activeProjectsCount = activeProjectsSet.size;
 
   return (
-    <div className="min-h-screen bg-[#f8f9fa]">
+    <div >
       {/* Header */}
       <div className="bg-white border-b border-gray-200 px-6 py-4">
         <div className="flex items-center justify-between">

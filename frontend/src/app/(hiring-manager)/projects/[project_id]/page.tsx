@@ -2,6 +2,19 @@ import { redirect, notFound } from "next/navigation";
 import { GetProjectDetailsService } from "@/core/projects";
 import ProjectDetailsClient from "./projectDetails";
 
+/**
+ * page.tsx - Next.js App Router Server Component
+ * 
+ * This is a SERVER COMPONENT that:
+ * 1. Fetches project data from the backend (server-side)
+ * 2. Handles authentication errors (redirects to login)
+ * 3. Handles 404 errors (shows not found page)
+ * 4. Handles other errors (displays error message)
+ * 5. Passes data to the client component (ProjectDetailsClient)
+ * 
+ * This pattern separates server-side data fetching from client-side interactivity.
+ */
+
 interface ProjectDetailsPageProps {
   params: {
     project_id: string;

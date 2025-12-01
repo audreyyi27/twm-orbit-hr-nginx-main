@@ -127,17 +127,17 @@ export default function TeamMain() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f8f9fa]">
+    <div>
       {/* Header */}
-      <div className="bg-white border-b border-gray-200 px-6 py-4">
+      <div className="bg-white  border-gray-200 px-6 py-4">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">Human Resources</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Indonesian Team Management</h1>
             <p className="text-sm text-gray-500 mt-1">Manage teams and employees</p>
           </div>
           <Button
             onClick={handleAddTeam}
-            className="bg-blue-600 hover:bg-blue-700 text-white"
+            className="bg-orange-600 hover:bg-orange-700 text-white"
           >
             <Plus className="w-4 h-4 mr-2" />
             Add Team
@@ -147,7 +147,7 @@ export default function TeamMain() {
       </div>
 
       {/* Content */}
-      <div className="p-6">
+      <div>
         {/* Summary Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
           <div className="bg-white rounded-xl p-6 border border-gray-200">
@@ -192,7 +192,7 @@ export default function TeamMain() {
         </div>
 
         {/* Team Cards Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {loading ? (
             // Loading skeleton
             Array.from({ length: 6 }).map((_, i) => (
@@ -222,57 +222,36 @@ export default function TeamMain() {
               <div
                 key={team.team_name}
                 onClick={() => handleTeamClick(team.team_name)}
-                className="bg-white rounded-lg p-4 border border-gray-200 hover:shadow-md transition-all cursor-pointer group"
+                className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all cursor-pointer group"
               >
-                {/* Team Badge and Status */}
-                <div className="flex items-center justify-between mb-2">
-                  <span className="inline-flex px-2 py-0.5 rounded-full text-xs font-semibold bg-purple-100 text-purple-700">
-                    {team.team_name}
-                  </span>
-                  <div className="flex items-center gap-1">
-                    <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-                    <span className="text-xs text-green-700 font-medium">Active</span>
-                  </div>
-                </div>
-
-                {/* Team Name */}
-                <h3 className="text-sm font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                  Team {team.team_name}
+                {/* Team Name - Bigger */}
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  {team.team_name}
                 </h3>
 
-                {/* Team Stats */}
-                <div className="space-y-1 mb-3">
-                  <div className="flex items-center justify-between text-xs">
-                    <span className="text-gray-500">Members</span>
-                    <span className="font-semibold text-gray-900">{team.member_count}</span>
-                  </div>
-                  {team.members && team.members.length > 0 && (
-                    <div className="mt-2 pt-2 border-t border-gray-100">
-                      <p className="text-xs text-gray-500 mb-1">Team Members</p>
-                      <div className="space-y-0.5">
-                        {team.members.slice(0, 2).map((member, idx) => (
-                          <div key={idx} className="text-xs text-gray-700 truncate">
-                            {member.name || "Unknown"} {member.role && `(${member.role})`}
-                          </div>
-                        ))}
-                        {team.members.length > 2 && (
-                          <p className="text-xs text-gray-400">+{team.members.length - 2} more</p>
-                        )}
-                      </div>
-                    </div>
-                  )}
-                </div>
+                {/* Subtitle/Role */}
+                <p className="text-sm text-gray-500 mb-6">Team Lead</p>
 
-                {/* Action Button */}
-                <div className="pt-2 border-t border-gray-100">
-                  <button
-                    onClick={(e) => handleEditTeam(e, team.team_name)}
-                    className="w-full px-2 py-1.5 text-xs font-medium text-gray-700 bg-gray-50 hover:bg-gray-100 rounded transition-colors flex items-center justify-center gap-1"
-                  >
-                    <Edit2 className="w-3 h-3" />
-                    Edit
-                  </button>
-                </div>
+                {/* Member Names as Small Boxes */}
+                {team.members && team.members.length > 0 && (
+                  <div className="mb-6">
+                    <div className="flex flex-wrap gap-2">
+                      {team.members.map((member, idx) => (
+                        <span
+                          key={idx}
+                          className={`px-3 py-1.5 rounded-lg text-xs font-medium ${
+                            idx === 0
+                              ? 'bg-orange-500 text-white'
+                              : 'bg-gray-100 text-gray-700'
+                          }`}
+                        >
+                          {member.name || "Unknown"}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
               </div>
             ))
           ) : (

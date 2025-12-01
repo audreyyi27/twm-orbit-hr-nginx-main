@@ -15,6 +15,9 @@ export interface ProjectDto {
   project_description?: string;
   status?: string;
   start_date?: string;
+  end_date?: string;
+  division?: string;
+  contact_window?: string;
   completed_date?: string;
   department?: string;
 }
@@ -139,4 +142,28 @@ export interface EmployeeProjectTaskResponse {
   employee_uuid: string;
   project_id: string;
   contribution?: string;
+}
+
+
+
+// ==================== ATTENDANCE DTOs ====================
+export interface AttendanceDto {
+  id: string;
+  user_id: string;
+  attendance_date?: string;
+  clock_in_time?: string | null;
+  clock_in_latitude?: number | null;
+  clock_in_longitude?: number | null;
+  clock_in_address?: string | null;
+  clock_out_time?: string | null;
+  clock_out_latitude?: number | null;
+  clock_out_longitude?: number | null;
+  clock_out_address?: string | null;
+  work_description?: string | null;
+  reason?: string | null;
+  status?: string | null;
+  plan?: string | null;
+  nt_account?: string | null;
+  created_at?: string;
+  updated_at?: string;
 }

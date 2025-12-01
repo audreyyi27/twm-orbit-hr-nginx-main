@@ -35,6 +35,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null)
   const [isLoading, setIsLoading] = useState(true) // Add loading state
+  const router = useRouter()
   useEffect(() => {
     // Check auth status from API route instead of reading cookies directly
     const checkAuth = async () => {
@@ -45,12 +46,16 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
         if (res.ok) {
           const data = await res.json()
+
           if (data.authenticated && data.user) {
             setUser(data.user)
           } else {
+            // Not authenticated -> just clear user.
+            // Redirects are handled by middleware and server components.
             setUser(null)
           }
         } else {
+          // API error -> treat as unauthenticated, but don't redirect here
           setUser(null)
         }
       } catch (error) {
@@ -62,7 +67,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     }
 
     checkAuth()
-  }, [])
+  }, [router])
 
   const login = async (access_token: string, refresh_token?: string, u?: User) => {
     // Call API route to set httpOnly cookies

@@ -1,102 +1,91 @@
-import { NextResponse } from 'next/server';
-import { cookies } from 'next/headers';
+import { NextResponse } from "next/server";
+import { cookies } from "next/headers";
 
-// Get backend URL - must be absolute (not relative like /api)
 // BACKEND_URL env var takes precedence, otherwise default to localhost:8000
-const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:8000';
+const BACKEND_URL = process.env.BACKEND_URL || "http://localhost:8000";
 
-// Ensure the URL is absolute
 function getBackendUrl(path: string): string {
   const baseUrl = BACKEND_URL.trim();
-  // If it's already absolute, use it directly
-  if (baseUrl.startsWith('http://') || baseUrl.startsWith('https://')) {
-    return `${baseUrl}${path.startsWith('/') ? path : `/${path}`}`;
+  if (baseUrl.startsWith("http://") || baseUrl.startsWith("https://")) {
+    return `${baseUrl}${path.startsWith("/") ? path : `/${path}`}`;
   }
-  // Otherwise, prepend http:// (fallback, though BACKEND_URL should always be absolute)
-  return `http://${baseUrl}${path.startsWith('/') ? path : `/${path}`}`;
+  return `http://${baseUrl}${path.startsWith("/") ? path : `/${path}`}`;
 }
 
+// Stabilized /api/auth/me:
+// - ALWAYS returns 200
+// - authenticated: true + user from backend when token is valid
+// - authenticated: false when token missing/invalid, but no 401 to avoid redirect loops
 export async function GET() {
   try {
     const cookieStore = await cookies();
-    
-    // Get the access token
-    const tokenCookie = cookieStore.get('access_token');
-    
-    // Check if token exists - return 401 if missing
+    const tokenCookie = cookieStore.get("access_token");
+
+    // No token → unauthenticated, but not an error
     if (!tokenCookie || !tokenCookie.value) {
       return NextResponse.json(
-        { 
-          authenticated: false,
-          error: 'No authentication token found' 
-        },
-        { status: 401 }
+        { authenticated: false, user: null, hasToken: false },
+        { status: 200 }
       );
     }
 
-    // Validate token with backend by calling /users/me endpoint
-    // This ensures the token is actually valid and not expired
     try {
-      const backendUrl = getBackendUrl('/users/me');
+      const backendUrl = getBackendUrl("/users/me");
       const backendResponse = await fetch(backendUrl, {
-        method: 'GET',
+        method: "GET",
         headers: {
-          'Authorization': `Bearer ${tokenCookie.value}`,
-          'Content-Type': 'application/json',
+          Authorization: `Bearer ${tokenCookie.value}`,
+          "Content-Type": "application/json",
         },
       });
 
       if (!backendResponse.ok) {
-        // Token is invalid or expired
-        if (backendResponse.status === 401) {
-          return NextResponse.json(
-            { 
-              authenticated: false,
-              error: 'Invalid or expired token' 
-            },
-            { status: 401 }
-          );
-        }
-        // Other backend errors
+        // Token invalid or backend error → treat as unauthenticated but keep 200.
+        // We intentionally do NOT warn every time to avoid noisy logs in dev.
         return NextResponse.json(
-          { 
+          {
             authenticated: false,
-            error: 'Failed to validate token' 
+            user: null,
+            hasToken: true,
+            error: "Token invalid or expired",
           },
-          { status: backendResponse.status }
+          { status: 200 }
         );
       }
 
-      // Token is valid, get user data from backend
       const userData = await backendResponse.json();
 
-      return NextResponse.json({
-        authenticated: true,
-        user: userData,
-        hasToken: true,
-        hasRefreshToken: !!cookieStore.get('refresh_token')
-      });
-
-    } catch (fetchError) {
-      // Backend connection error
-      console.error('Failed to validate token with backend:', fetchError);
       return NextResponse.json(
-        { 
-          authenticated: false,
-          error: 'Failed to connect to backend server' 
+        {
+          authenticated: true,
+          user: userData,
+          hasToken: true,
+          hasRefreshToken: !!cookieStore.get("refresh_token"),
         },
-        { status: 503 }
+        { status: 200 }
+      );
+    } catch (fetchError) {
+      console.error("Failed to validate token with backend:", fetchError);
+      return NextResponse.json(
+        {
+          authenticated: false,
+          user: null,
+          hasToken: true,
+          error: "Failed to connect to backend",
+        },
+        { status: 200 }
       );
     }
-
   } catch (error) {
-    console.error('Error getting auth status:', error);
+    console.error("Error getting auth status:", error);
     return NextResponse.json(
-      { 
+      {
         authenticated: false,
-        error: 'Internal server error' 
+        user: null,
+        hasToken: false,
+        error: "Internal error",
       },
-      { status: 500 }
+      { status: 200 }
     );
   }
 }

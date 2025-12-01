@@ -20,7 +20,6 @@ class AttendanceCreate(BaseModel):
     reason: Optional[str] = None
     status: Optional[str] = None
     plan: Optional[str] = None
-    nt_account: Optional[str] = None
 
 
 class AttendanceResponse(BaseModel):

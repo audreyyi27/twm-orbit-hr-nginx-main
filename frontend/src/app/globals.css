@@ -9,6 +9,23 @@ body,
   height: 100%;
 }
 
+/* Pulsing marker for active attendance on the map */
+.attendance-marker-pulse {
+  animation: attendance-pulse 1.6s ease-out infinite;
+}
+
+@keyframes attendance-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7); /* orange-500 */
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(249, 115, 22, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0);
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-background-darker: var(--background-darker);

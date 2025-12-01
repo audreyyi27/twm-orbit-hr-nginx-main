@@ -69,15 +69,18 @@ async function clientApiFetch<T>(path: string): Promise<ApiResponse<T>> {
 }
 
 // Get all attendance records for an employee by nt_account
-export const getEmployeeAttendance = async (ntAccount: string): Promise<ApiResponse<AttendanceDto[]>> => {
+// Optional date parameter in YYYY-MM-DD format for filtering
+export const getEmployeeAttendance = async (ntAccount: string, date?: string): Promise<ApiResponse<AttendanceDto[]>> => {
   // Check if we're in a client component
   if (typeof window !== "undefined") {
-    const path = `/attendance/employee/${encodeURIComponent(ntAccount)}/attendance`;
+    const dateParam = date ? `?date=${encodeURIComponent(date)}` : '';
+    const path = `/attendance/employee/${encodeURIComponent(ntAccount)}/attendance${dateParam}`;
     return await clientApiFetch<AttendanceDto[]>(path);
   }
   
   // Server-side version
-  const url = `${BASE_URL}/attendance/employee/${encodeURIComponent(ntAccount)}/attendance`;
+  const dateParam = date ? `?date=${encodeURIComponent(date)}` : '';
+  const url = `${BASE_URL}/attendance/employee/${encodeURIComponent(ntAccount)}/attendance${dateParam}`;
   return await ssrApiClient(url, fetchMethod.get, {
     cache: "no-store",
   });

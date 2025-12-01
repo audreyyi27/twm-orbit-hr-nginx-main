@@ -39,7 +39,7 @@ class AttendanceUser(AttendanceBase):
 
 class Attendance(AttendanceBase):
     """Main attendance records table - daily attendance with clock in/out"""
-    __tablename__ = 'attendance'
+    __tablename__ = 'attendances'
     
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     user_id = Column(UUID(as_uuid=True), ForeignKey('users.id', ondelete='CASCADE'), nullable=False)
@@ -66,7 +66,6 @@ class Attendance(AttendanceBase):
     # Metadata
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
-    nt_account = Column(String, nullable=True)
     
     # Relationships
     user = relationship("AttendanceUser", back_populates="attendances")
@@ -120,7 +119,7 @@ class AttendanceLog(AttendanceBase):
     __tablename__ = 'attendance_logs'
     
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
-    attendance_id = Column(UUID(as_uuid=True), ForeignKey('attendance.id', ondelete='CASCADE'), nullable=True)
+    attendance_id = Column(UUID(as_uuid=True), ForeignKey('attendances.id', ondelete='CASCADE'), nullable=True)
     event_type = Column(Text, nullable=True)
     event_time = Column(DateTime(timezone=True), nullable=True)
     latitude = Column(Float, nullable=True)
@@ -147,7 +146,6 @@ Index('idx_attendance_user_active', AttendanceUser.is_active)
 # Attendance indexes
 Index('idx_attendance_user_id', Attendance.user_id)
 Index('idx_attendance_date', Attendance.attendance_date)
-Index('idx_attendance_nt_account', Attendance.nt_account)
 Index('idx_attendance_status', Attendance.status)
 Index('idx_attendance_user_date', Attendance.user_id, Attendance.attendance_date)
 

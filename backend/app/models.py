@@ -49,7 +49,7 @@ class User(Base):
     email = Column(String, unique=True)
     phone = Column(String)
     positions = Column(String)
-    role = Column(Enum(UserRoleEnum, name="user_role"), default=UserRoleEnum.employee, nullable=False)
+    role: UserRoleEnum = Column(Enum(UserRoleEnum, name="user_role"), default=UserRoleEnum.employee, nullable=False)  # type: ignore[assignment, var-annotated]
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
@@ -103,7 +103,7 @@ class Candidates(Base):
     
     date_scraped = Column(DateTime(timezone=True), nullable=True)
     applied_as = Column(String(100), nullable=True)
-    candidate_status = Column(Enum(CandidateStatusEnum, name="candidate_status", create_type=False), nullable=True, default=CandidateStatusEnum.applied)
+    candidate_status: Optional[CandidateStatusEnum] = Column(Enum(CandidateStatusEnum, name="candidate_status", create_type=False), nullable=True, default=CandidateStatusEnum.applied)  # type: ignore[assignment, var-annotated]
 
     stages = relationship("CandidateStages", back_populates="candidate")
 
@@ -119,7 +119,7 @@ class CandidateStages(Base):
     send_email_on_reject = Column(Boolean,default=False)
     email_sent_at = Column(DateTime(timezone=True),nullable=True)
     created_by = Column(UUID(as_uuid=True),ForeignKey("users.id",ondelete="CASCADE"),nullable=False)
-    stage_key = Column(Enum(CandidateStatusEnum,name="candidate_status",create_type=False),nullable=False)
+    stage_key: CandidateStatusEnum = Column(Enum(CandidateStatusEnum,name="candidate_status",create_type=False),nullable=False)  # type: ignore[assignment, var-annotated]
     candidate = relationship("Candidates",back_populates="stages")
     creator = relationship("User",back_populates="created_stages")
 
@@ -219,7 +219,7 @@ class EmployeeProjectTask(Base):
 # Indexes for better query performance
 Index('idx_candidates_email', Candidates.email)
 Index('idx_candidates_date_scraped', Candidates.date_scraped)
-Index('idx_candidates_status', Candidates.candidate_status)
+Index('idx_candidates_status', Candidates.candidate_status)  # type: ignore[arg-type]
 Index('idx_user_sessions_token', UserSession.session_token_hash)
 Index('idx_user_sessions_active', UserSession.is_active)
 
