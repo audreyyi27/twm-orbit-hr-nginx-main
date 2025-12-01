@@ -1,5 +1,5 @@
 from pydantic import BaseModel, ConfigDict
-from typing import Optional
+from typing import Optional, List
 from datetime import datetime, date, time
 from uuid import UUID
 
@@ -35,6 +35,25 @@ class AttendanceResponse(BaseModel):
     updated_at: datetime
     
     model_config = ConfigDict(from_attributes=True)
+
+
+class TeamMemberAttendance(BaseModel):
+    employee_uuid: UUID
+    employee_id: Optional[str] = None
+    name: Optional[str] = None
+    chinese_name: Optional[str] = None
+    email: Optional[str] = None
+    role: Optional[str] = None
+    team_id: Optional[str] = None
+    nt_account: Optional[str] = None
+    attendance: Optional[AttendanceResponse] = None
+
+
+class TeamAttendanceResponse(BaseModel):
+    team_id: str
+    team_name: str
+    date: Optional[date] = None
+    members: List[TeamMemberAttendance]
 
 
 # ==================== LEAVE SCHEMAS ====================

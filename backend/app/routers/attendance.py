@@ -1,9 +1,11 @@
 # Attendance endpoints with employee relationships
 
 from fastapi import APIRouter, Depends, HTTPException, Query
-from sqlalchemy import select, func
+from sqlalchemy import select, func, or_
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import List, Optional
+from datetime import datetime
+from urllib.parse import unquote
 
 from app import models, models_attendance, schemas_attendance
 from app.db import get_db, get_attendance_db
@@ -62,7 +64,6 @@ async def get_employee_attendance(
     
     # If date filter is provided, add it to the query (uses composite index idx_attendance_user_date)
     if date:
-        from datetime import datetime
         try:
             filter_date = datetime.strptime(date, '%Y-%m-%d').date()
             query = query.where(models_attendance.Attendance.attendance_date == filter_date)
@@ -75,6 +76,123 @@ async def get_employee_attendance(
     attendances = attendance_result.scalars().all()
     
     return attendances
+
+
+@router.get(
+    "/team/{team_identifier}/attendance",
+    response_model=schemas_attendance.TeamAttendanceResponse,
+)
+async def get_team_attendance(
+    team_identifier: str,
+    date: Optional[str] = None,  # Optional date filter in YYYY-MM-DD format
+    hr_db: AsyncSession = Depends(get_db),
+    attendance_db: AsyncSession = Depends(get_attendance_db),
+    current = Depends(get_current_user_hr),
+):
+    """
+    Get attendance (optionally for a specific date) for all members of a team.
+    `team_identifier` can be either team_id (e.g. 'team_1') or team_name.
+    """
+    decoded = unquote(team_identifier)
+
+    # 1) Find the team by name OR id
+    team_result = await hr_db.execute(
+        select(models.Team).where(
+            or_(
+                func.lower(models.Team.team_name) == func.lower(decoded),
+                func.lower(models.Team.team_id) == func.lower(decoded),
+            )
+        )
+    )
+    team = team_result.scalar_one_or_none()
+    if not team:
+        return schemas_attendance.TeamAttendanceResponse(
+            team_id=decoded,
+            team_name=decoded,
+            date=None,
+            members=[],
+        )
+
+    # 2) Get all employees in this team
+    employees_result = await hr_db.execute(
+        select(models.Employee).where(models.Employee.team_id == team.team_id)
+    )
+    employees = employees_result.scalars().all()
+
+    if not employees:
+        return schemas_attendance.TeamAttendanceResponse(
+            team_id=str(team.team_id),
+            team_name=str(team.team_name),
+            date=None,
+            members=[],
+        )
+
+    # Optional date parsing (shared for all members)
+    filter_date = None
+    if date:
+        try:
+            filter_date = datetime.strptime(date, "%Y-%m-%d").date()
+        except ValueError:
+            raise HTTPException(status_code=400, detail="Invalid date format. Use YYYY-MM-DD")
+
+    members_out: List[schemas_attendance.TeamMemberAttendance] = []
+
+    for employee in employees:
+        # Default: no attendance record
+        attendance_record = None
+
+        if employee.nt_account:
+            # Find matching user in attendance database (case-insensitive)
+            attendance_user_result = await attendance_db.execute(
+                select(models_attendance.AttendanceUser).where(
+                    func.lower(models_attendance.AttendanceUser.username) == employee.nt_account.lower()
+                )
+            )
+            attendance_user = attendance_user_result.scalar_one_or_none()
+
+            if attendance_user:
+                # Build attendance query for this user
+                att_query = select(models_attendance.Attendance).where(
+                    models_attendance.Attendance.user_id == attendance_user.id
+                )
+
+                if filter_date:
+                    att_query = att_query.where(
+                        models_attendance.Attendance.attendance_date == filter_date
+                    )
+
+                att_query = att_query.order_by(
+                    models_attendance.Attendance.attendance_date.desc()
+                )
+
+                att_result = await attendance_db.execute(att_query)
+                attendance = att_result.scalars().first()
+
+                if attendance:
+                    attendance_record = schemas_attendance.AttendanceResponse.model_validate(attendance)
+
+        members_out.append(
+            schemas_attendance.TeamMemberAttendance(
+                employee_uuid=employee.uuid if not hasattr(employee.uuid, "hex") else employee.uuid,
+                employee_id=str(employee.employee_id) if employee.employee_id is not None else None,
+                name=str(employee.name) if employee.name is not None else None,
+                chinese_name=str(employee.chinese_name) if employee.chinese_name is not None else None,
+                email=str(employee.email) if employee.email is not None else None,
+                role=str(employee.role) if employee.role is not None else None,
+                team_id=str(employee.team_id) if employee.team_id is not None else None,
+                nt_account=str(employee.nt_account) if employee.nt_account is not None else None,
+                attendance=attendance_record,
+            )
+        )
+
+    # Note: we omit echoing the parsed date to avoid strict None-only validation issues.
+    # Clients can rely on the requested query parameter as the effective date.
+    return schemas_attendance.TeamAttendanceResponse(
+        team_id=str(team.team_id),
+        team_name=str(team.team_name),
+        date=None,
+        members=members_out,
+    )
 
 
 @router.get("/employee/{nt_account}/leave", response_model=List[schemas_attendance.LeaveResponse])

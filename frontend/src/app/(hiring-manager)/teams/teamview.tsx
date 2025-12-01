@@ -30,9 +30,9 @@ export default function TeamMain() {
       setError(null);
       setActiveProjectsCount(0);
       
-      console.log("🔍 Fetching teams...");
+      // console.log("🔍 Fetching teams...");
       const response = await apiFetch("/teams/with-details");
-      console.log("📦 API Response:", response);
+      // console.log("📦 API Response:", response);
       
       // Check for error
       if (response && response.error) {
@@ -47,20 +47,20 @@ export default function TeamMain() {
       let teamsData = response;
       if (response && Array.isArray(response)) {
         teamsData = response;
-        console.log("✅ Response is direct array");
+        // console.log("✅ Response is direct array");
       } else if (response?.data && Array.isArray(response.data)) {
         teamsData = response.data;
-        console.log("✅ Response wrapped in data property");
+        // console.log("✅ Response wrapped in data property");
       } else if (response?.items && Array.isArray(response.items)) {
         teamsData = response.items;
-        console.log("✅ Response wrapped in items property");
+        // console.log("✅ Response wrapped in items property");
       } else {
-        console.warn("⚠️ Unexpected response format:", response);
+        // console.warn("⚠️ Unexpected response format:", response);
       }
       
-      console.log("📊 Teams Data:", teamsData);
-      console.log("📊 Is Array?", Array.isArray(teamsData));
-      console.log("📊 Length:", teamsData?.length);
+      // console.log("📊 Teams Data:", teamsData);
+      // console.log("📊 Is Array?", Array.isArray(teamsData));
+      // console.log("📊 Length:", teamsData?.length);
       
       if (!Array.isArray(teamsData)) {
         console.error("❌ Teams data is not an array:", typeof teamsData);

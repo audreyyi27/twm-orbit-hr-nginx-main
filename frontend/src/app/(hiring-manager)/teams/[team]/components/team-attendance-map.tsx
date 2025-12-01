@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
+import maplibregl, { Map as MapLibreMap, LngLatBounds, LayerSpecification } from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
 import { MapPin, Moon, Sun } from "lucide-react";
 
 export interface TeamAttendanceMapItem {
@@ -23,7 +23,7 @@ interface TeamAttendanceMapProps {
   items?: TeamAttendanceMapItem[];
 }
 
-// Simple city-to-coordinate mapping
+// Simple city-to-coordinate mapping (lat, lng)
 const getCityCoordinates = (location: string): [number, number] => {
   const cityMap: { [key: string]: [number, number] } = {
     jakarta: [-6.2088, 106.8456],
@@ -47,142 +47,202 @@ const getCityCoordinates = (location: string): [number, number] => {
 
 export function TeamAttendanceMap({ items }: TeamAttendanceMapProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const mapRef = useRef<L.Map | null>(null);
-  const markersLayerRef = useRef<L.LayerGroup | null>(null);
-  const tileLayerRef = useRef<L.TileLayer | null>(null);
+  const mapRef = useRef<MapLibreMap | null>(null);
   const [darkMode, setDarkMode] = useState(false);
 
   // Fallback to empty array if items is ever undefined
   const safeItems = items ?? [];
+  // console.log("TeamAttendanceMap safeItems", safeItems.length, safeItems.map(i => i.name));
 
-  // Geographic bounds roughly covering Indonesia (to limit panning)
-  const indonesiaBounds = L.latLngBounds(
-    L.latLng(-11.0, 94.0),  // southwest
-    L.latLng(6.5, 142.0)    // northeast
-  );
+  // Jakarta HQ (lat, lng) – MapLibre expects [lng, lat]
+  const jakartaHQLatLng: [number, number] = [-6.2088, 106.8456];
+  const jakartaHQLngLat: [number, number] = [jakartaHQLatLng[1], jakartaHQLatLng[0]];
 
-  // Jakarta HQ (headquarter) - used as origin for lines
-  const jakartaHQ: [number, number] = [-6.2088, 106.8456];
-
-  // Initialize map once
+  // Initialize MapLibre map once
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
-    const map = L.map(containerRef.current, {
-      center: [-2.5, 118.0],
-      zoom: 5,
-      maxBounds: indonesiaBounds,
-      maxBoundsViscosity: 1.0,
-      worldCopyJump: false,
+    const map = new maplibregl.Map({
+      container: containerRef.current,
+      style: "https://demotiles.maplibre.org/style.json",
+      center: [118.0, -2.5], // [lng, lat]
+      zoom: 4.5,
     });
-    const tileLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: '&copy; OpenStreetMap contributors',
-    });
-    tileLayer.addTo(map);
+
+    // Disable rotation for a simpler experience
+    map.dragRotate.disable();
+    map.touchZoomRotate.disableRotation();
 
     mapRef.current = map;
-    markersLayerRef.current = L.layerGroup().addTo(map);
-    tileLayerRef.current = tileLayer;
 
     return () => {
       map.remove();
       mapRef.current = null;
-      markersLayerRef.current = null;
-      tileLayerRef.current = null;
     };
   }, []);
 
-  // Switch tile style for dark / light mode
+  // Update markers and lines when items change
   useEffect(() => {
-    if (!tileLayerRef.current) return;
-    const url = darkMode
-      ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-      : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
-    tileLayerRef.current.setUrl(url);
-  }, [darkMode]);
+    const map = mapRef.current;
+    if (!map) return;
 
-  // Update markers when items change
-  useEffect(() => {
-    if (!mapRef.current || !markersLayerRef.current) return;
-
-    const layer = markersLayerRef.current;
-    layer.clearLayers();
-
-    const bounds: [number, number][] = [];
-
-    // One marker per employee; draw line from Jakarta HQ to each location
-    safeItems.forEach((p) => {
-      const [lat, lng] = getCityCoordinates(p.address);
-      bounds.push([lat, lng]);
-
-      const status = p.status || "No record";
-      const time = p.clockInTime
-        ? new Date(p.clockInTime).toLocaleTimeString("en-US", {
-            hour: "2-digit",
-            minute: "2-digit",
-            hour12: false,
-          })
-        : "-";
-
-      // Use circle markers (no image icons → no broken image)
-      const isOnline =
-        status.toLowerCase() === "clocked_in" ||
-        status.toLowerCase() === "present" ||
-        status.toLowerCase() === "online";
-
-      const marker = L.circleMarker([lat, lng], {
-        radius: 6,
-        color: isOnline ? "#f97316" : "#6b7280", // orange border when active, gray otherwise
-        weight: 2,
-        fillColor: isOnline ? "#f97316" : "#6b7280",
-        fillOpacity: 0.9,
-        className: isOnline ? "attendance-marker-pulse" : "",
+    const updateLayers = () => {
+      // Remove any existing layers/sources we added in a previous render
+      const existingLayers = map.getStyle()?.layers || [];
+      existingLayers.forEach((layer: LayerSpecification) => {
+        if (layer.id.startsWith("team-attendance-markers") || layer.id.startsWith("team-attendance-lines")) {
+          if (map.getLayer(layer.id)) {
+            map.removeLayer(layer.id);
+          }
+        }
+      });
+      const existingSources = map.getStyle()?.sources || {};
+      Object.keys(existingSources).forEach((sourceId) => {
+        if (sourceId.startsWith("team-attendance-markers") || sourceId.startsWith("team-attendance-lines")) {
+          if (map.getSource(sourceId)) {
+            map.removeSource(sourceId);
+          }
+        }
       });
 
-      const projectsHtml = (p.projects || [])
-        .slice(0, 3)
-        .map(
-          (proj) => `
-          <div style="margin-top:2px;font-size:11px;color:#e5e7eb;">
-            <span style="font-weight:600;">${proj.project_name}</span>
-            ${proj.status ? ` <span style="opacity:0.8;">(${proj.status})</span>` : ""}
-          </div>
-        `
-        )
-        .join("");
+      if (safeItems.length === 0) return;
 
-      marker.bindPopup(
-        `<div style="font-size:12px;max-width:220px;">
-          <div style="font-weight:600;">${p.name}</div>
-          ${p.employeeId ? `<div style="color:#e5e7eb;">${p.employeeId}</div>` : ""}
-          <div style="margin-top:4px;font-size:11px;color:#e5e7eb;">${p.address}</div>
-          <div style="margin-top:2px;font-size:11px;color:#e5e7eb;">Clock in: ${time}</div>
-          ${projectsHtml ? `<div style="margin-top:4px;border-top:1px solid #4b5563;padding-top:4px;">${projectsHtml}</div>` : ""}
-          <div style="margin-top:4px;">
-            <span style="padding:2px 6px;border-radius:9999px;background:#ecfdf3;color:#166534;font-weight:500;font-size:11px;">
-              ${status}
-            </span>
-          </div>
-        </div>`
-      );
+      // Group employees by base coordinates so we can slightly offset overlapping markers
+      const grouped = new Map<
+        string,
+        { lat: number; lng: number; items: TeamAttendanceMapItem[] }
+      >();
 
-      marker.addTo(layer);
+      safeItems.forEach((p) => {
+        const [lat, lng] = getCityCoordinates(p.address);
+        const key = `${lat.toFixed(4)},${lng.toFixed(4)}`;
 
-      // Draw polyline from HQ to this employee
-      L.polyline([jakartaHQ, [lat, lng]], {
-        color: "#22c55e",
-        weight: 2,
-        opacity: 0.7,
-      }).addTo(layer);
-    });
-
-    // Fit map to markers (but stay within Indonesia bounds)
-    if (bounds.length > 0) {
-      mapRef.current.fitBounds(bounds as L.LatLngBoundsExpression, {
-        padding: [40, 40],
-        maxZoom: 8,
+        const existing = grouped.get(key);
+        if (existing) {
+          existing.items.push(p);
+        } else {
+          grouped.set(key, { lat, lng, items: [p] });
+        }
       });
+
+      const markerFeatures: any[] = [];
+      const lineFeatures: any[] = [];
+      const bounds = new LngLatBounds();
+
+      grouped.forEach(({ lat, lng, items }) => {
+        const count = items.length;
+        const radius = 0.15; // ~15km offset to ensure visibility even when zoomed out
+
+        items.forEach((p, index) => {
+          // If only one at this location, no offset
+          const angle = count > 1 ? (2 * Math.PI * index) / count : 0;
+          const adjLat = lat + (count > 1 ? radius * Math.cos(angle) : 0);
+          const adjLng = lng + (count > 1 ? radius * Math.sin(angle) : 0);
+
+          const point: [number, number] = [adjLng, adjLat]; // [lng, lat]
+          bounds.extend(point);
+
+          markerFeatures.push({
+            type: "Feature",
+            geometry: {
+              type: "Point",
+              coordinates: point,
+            },
+            properties: {
+              name: p.name,
+              employeeId: p.employeeId ?? "",
+              address: p.address ?? "",
+              status: p.status ?? "No record",
+              clockInTime: p.clockInTime ?? "",
+            },
+          });
+
+          lineFeatures.push({
+            type: "Feature",
+            geometry: {
+              type: "LineString",
+              coordinates: [jakartaHQLngLat, point],
+            },
+          });
+        });
+      });
+
+      if (markerFeatures.length === 0) return;
+
+      // Add markers as a circle layer
+      const markerSourceId = "team-attendance-markers-source";
+      const markerLayerId = "team-attendance-markers-layer";
+      map.addSource(markerSourceId, {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: markerFeatures,
+        },
+      });
+      map.addLayer({
+        id: markerLayerId,
+        type: "circle",
+        source: markerSourceId,
+        paint: {
+          "circle-radius": 8,
+          "circle-color": "#a855f7", // purple
+          "circle-stroke-color": "#ffffff",
+          "circle-stroke-width": 1.5,
+        },
+      });
+
+      // Add lines from HQ to each employee
+      const lineSourceId = "team-attendance-lines-source";
+      const lineLayerId = "team-attendance-lines-layer";
+      map.addSource(lineSourceId, {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: lineFeatures,
+        },
+      });
+      map.addLayer({
+        id: lineLayerId,
+        type: "line",
+        source: lineSourceId,
+        paint: {
+          "line-color": "#f97316", // orange
+          "line-width": 2,
+          "line-opacity": 0.8,
+        },
+      });
+
+      // Fit bounds to all points
+      if (!bounds.isEmpty()) {
+        map.fitBounds(bounds, {
+          padding: 40,
+          maxZoom: 7,
+          duration: 500,
+        });
+      }
+    };
+
+    if (map.isStyleLoaded()) {
+      updateLayers();
+    } else {
+      map.once("load", updateLayers);
     }
+
+    // Cleanup: remove our layers/sources on unmount or before next update
+    return () => {
+      const currentMap = mapRef.current;
+      if (!currentMap) return;
+
+      const markerSourceId = "team-attendance-markers-source";
+      const markerLayerId = "team-attendance-markers-layer";
+      const lineSourceId = "team-attendance-lines-source";
+      const lineLayerId = "team-attendance-lines-layer";
+
+      if (currentMap.getLayer(markerLayerId)) currentMap.removeLayer(markerLayerId);
+      if (currentMap.getLayer(lineLayerId)) currentMap.removeLayer(lineLayerId);
+      if (currentMap.getSource(markerSourceId)) currentMap.removeSource(markerSourceId);
+      if (currentMap.getSource(lineSourceId)) currentMap.removeSource(lineSourceId);
+    };
   }, [safeItems]);
 
   return (
