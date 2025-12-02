@@ -5,14 +5,13 @@ import { BASE_URL } from "@/core/utils/constant/base";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-export async function PUT(req: NextRequest, ctx: { params: { project_id: string } } | { params: Promise<{ project_id: string }> }) {
+export async function PUT(req: NextRequest, { params }: { params: Promise<{ project_id: string }> }) {
   try {
     const body = await req.json();
     const cookieStore = await cookies();
     const token = cookieStore.get("access_token")?.value;
-    // Next.js 16: params can be a Promise in dynamic APIs
-    const resolvedParams = "then" in (ctx.params as any) ? await (ctx.params as Promise<{ project_id: string }>) : (ctx.params as { project_id: string });
-    const projectId = resolvedParams.project_id?.replace(/[<>\s]/g, "");
+    const { project_id } = await params;
+    const projectId = project_id?.replace(/[<>\s]/g, "");
     const url = `${BASE_URL}/projects/${projectId}/update`;
 
     const res = await fetch(url, {

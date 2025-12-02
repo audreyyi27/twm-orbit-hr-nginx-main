@@ -5,10 +5,11 @@ import { BASE_URL } from "@/core/utils/constant/base";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-export async function PUT(req: NextRequest, { params }: { params: { project_id: string } }) {
+export async function PUT(req: NextRequest, { params }: { params: Promise<{ project_id: string }> }) {
   try {
     const body = await req.json();
-    const url = `${BASE_URL}/projects/${params.project_id}`;
+    const { project_id } = await params;
+    const url = `${BASE_URL}/projects/${project_id}`;
     const cookieStore = await cookies();
     const token = cookieStore.get("access_token")?.value;
 

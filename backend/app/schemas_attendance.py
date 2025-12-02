@@ -27,8 +27,12 @@ class AttendanceResponse(BaseModel):
     user_id: UUID
     attendance_date: date
     clock_in_time: Optional[datetime] = None
+    clock_in_latitude: Optional[float] = None
+    clock_in_longitude: Optional[float] = None
     clock_in_address: Optional[str] = None
     clock_out_time: Optional[datetime] = None
+    clock_out_latitude: Optional[float] = None
+    clock_out_longitude: Optional[float] = None
     clock_out_address: Optional[str] = None
     status: Optional[str] = None
     created_at: datetime

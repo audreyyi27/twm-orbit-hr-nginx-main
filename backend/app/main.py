@@ -3,7 +3,7 @@ import time
 from fastapi import FastAPI, Request
  
 from fastapi.concurrency import asynccontextmanager
-from .routers import auth,candidates,reports,dashboard, get_candidates, employees, teams, projects, attendance
+from .routers import auth,candidates,reports,dashboard, get_candidates, employees, teams, projects, attendance, users
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from slowapi.errors import RateLimitExceeded
@@ -100,6 +100,7 @@ app.add_middleware(
 
 
 app.include_router(auth.router)
+app.include_router(users.router)
 app.include_router(get_candidates.router)
 app.include_router(employees.router)
 app.include_router(candidates.router)

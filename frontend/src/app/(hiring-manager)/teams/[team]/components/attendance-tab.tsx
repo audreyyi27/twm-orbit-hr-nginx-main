@@ -215,16 +215,16 @@ export default function AttendanceTab({ teamName }: AttendanceTabProps) {
     if (!status) return 'bg-gray-100 text-gray-800';
     
     const statusLower = status.toLowerCase();
-    if (statusLower === 'present' || statusLower === 'approved') {
-      return 'bg-green-100 text-green-800';
+    if (statusLower === 'clocked_in' || statusLower === 'approved') {
+      return 'bg-orange-100 text-orange-800';
     }
-    if (statusLower === 'rejected' || statusLower === 'absent') {
-      return 'bg-red-100 text-red-800';
+    if (statusLower === 'clocked_out' || statusLower === 'absent') {
+      return 'bg-purple-100 text-purple-800';
     }
     if (statusLower === 'pending') {
       return 'bg-yellow-100 text-yellow-800';
     }
-    return 'bg-gray-100 text-gray-800';
+    return 'bg-orange-100 text-orange-800';
   };
 
   const isToday = () => {
@@ -295,6 +295,8 @@ export default function AttendanceTab({ teamName }: AttendanceTabProps) {
     status: item.attendance?.status || null,
     address: item.attendance?.clock_in_address || "",
     clockInTime: item.attendance?.clock_in_time || null,
+    lat: item.attendance?.clock_in_latitude ?? null,
+    lng: item.attendance?.clock_in_longitude ?? null,
     // Pass through projects so popup can show what they are working on
     projects: item.employee.projects || [],
   }));
@@ -321,7 +323,7 @@ export default function AttendanceTab({ teamName }: AttendanceTabProps) {
               {!isToday() && (
                 <button
                   onClick={goToToday}
-                  className="text-sm text-blue-600 hover:text-blue-800 mt-1"
+                  className="text-sm text-orange-600 hover:text-orange-800 mt-1"
                 >
                   Go to Today
                 </button>
@@ -368,6 +370,8 @@ export default function AttendanceTab({ teamName }: AttendanceTabProps) {
                 </TableHead>
                 <TableHead className="px-6 py-3">Status</TableHead>
                 <TableHead className="px-6 py-3">Location</TableHead>
+                <TableHead className="px-6 py-3">Lat</TableHead>
+                <TableHead className="px-6 py-3">Lng</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -407,6 +411,16 @@ export default function AttendanceTab({ teamName }: AttendanceTabProps) {
                     </TableCell>
                     <TableCell className="px-6 py-4 text-sm text-gray-500">
                       {item.attendance?.clock_in_address || '-'}
+                    </TableCell>
+                    <TableCell className="px-6 py-4 text-xs text-gray-500">
+                      {item.attendance?.clock_in_latitude != null
+                        ? item.attendance.clock_in_latitude.toFixed(6)
+                        : '-'}
+                    </TableCell>
+                    <TableCell className="px-6 py-4 text-xs text-gray-500">
+                      {item.attendance?.clock_in_longitude != null
+                        ? item.attendance.clock_in_longitude.toFixed(6)
+                        : '-'}
                     </TableCell>
                   </TableRow>
                 ))

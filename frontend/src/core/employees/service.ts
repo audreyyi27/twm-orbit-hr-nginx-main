@@ -107,8 +107,9 @@ export const GetTeamProjectService = async (
       return { isError: true, message: res.error.message, statusCode: res.statusCode };
     }
 
-    // Backend returns data directly, not wrapped in items
-    const teamProject = res.data;
+    // Backend returns data directly, but ApiResponse wraps it in { items, meta }
+    // Extract items if it exists, otherwise the data itself might be the TeamProjectsDto
+    const teamProject = res.data?.items || (res.data as unknown as TeamProjectsDto);
     
     if (!teamProject) {
       return { isError: true, message: "Team not found", statusCode: 404 };

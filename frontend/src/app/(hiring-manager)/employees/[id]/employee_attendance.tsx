@@ -105,22 +105,22 @@ export function EmployeeAttendanceSection({
     if (!status) return 'bg-gray-100 text-gray-800';
     
     const statusLower = status.toLowerCase();
-    if (statusLower === 'present' || statusLower === 'approved') {
-      return 'bg-green-100 text-green-800';
+    
+    if (statusLower === 'clocked_in' || statusLower === 'approved') {
+      return 'bg-orange-100 text-orange-800';
     }
-    if (statusLower === 'rejected' || statusLower === 'absent') {
-      return 'bg-red-100 text-red-800';
+    if (statusLower === 'clocked_out' || statusLower === 'absent') {
+      return 'bg-purple-100 text-purple-800';
     }
+
     if (statusLower === 'on leave' || statusLower === 'on_leave') {
       return 'bg-pink-100 text-pink-800';
     }
     if (statusLower === 'pending') {
       return 'bg-yellow-100 text-yellow-800';
     }
-    if (statusLower.includes('clocked')) {
-      return 'bg-orange-100 text-orange-800';
-    }
-    return 'bg-orange-100 text-orange-600';;
+    
+    return 'bg-gray-100 text-gray-600';;
   };
 
   const calculateTotalHours = (clockIn: string | null | undefined, clockOut: string | null | undefined): string => {
@@ -405,7 +405,7 @@ export function EmployeeAttendanceSection({
                         </div>
                       </td>
                       <td className="px-6 py-4">
-                        <span className={`inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-medium ${getStatusBadgeClass(att.status)} border border-orange-200`}>
+                        <span className={`inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-medium ${getStatusBadgeClass(att.status)} border border-black-200`}>
                           {att.status || '-'}
                         </span>
                       </td>

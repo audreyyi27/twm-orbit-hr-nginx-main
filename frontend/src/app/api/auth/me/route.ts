@@ -12,10 +12,6 @@ function getBackendUrl(path: string): string {
   return `http://${baseUrl}${path.startsWith("/") ? path : `/${path}`}`;
 }
 
-// Stabilized /api/auth/me:
-// - ALWAYS returns 200
-// - authenticated: true + user from backend when token is valid
-// - authenticated: false when token missing/invalid, but no 401 to avoid redirect loops
 export async function GET() {
   try {
     const cookieStore = await cookies();
@@ -39,15 +35,34 @@ export async function GET() {
         },
       });
 
+      if (backendResponse.status === 401) {
+        
+        const response = NextResponse.json(
+          {
+            authenticated: false,
+            user: null, 
+            hasToken: false,
+            error: "Token invalid or expired"
+          },
+          { status: 200  }
+        )
+
+        // Delete cookies through response object 
+        response.cookies.delete("access_token");
+        response.cookies.delete("refresh_token"); 
+
+        return response;
+
+      }
+
       if (!backendResponse.ok) {
-        // Token invalid or backend error → treat as unauthenticated but keep 200.
-        // We intentionally do NOT warn every time to avoid noisy logs in dev.
+        // Other backend errors (not 401) → treat as unauthenticated but keep token
         return NextResponse.json(
           {
             authenticated: false,
             user: null,
             hasToken: true,
-            error: "Token invalid or expired",
+            error: "Backend error",
           },
           { status: 200 }
         );

@@ -9,6 +9,7 @@ import type { TeamWithDetailsDto } from "@/core/projects/dto";
 
 interface TeamCardData {
   team_name: string;
+  team_description?: string;
   member_count: number;
   members: Array<{ name?: string; role?: string }>;
 }
@@ -80,16 +81,18 @@ export default function TeamMain() {
       // Simple transformation: just team name and members
       const transformedTeams: TeamCardData[] = teamsData.map((teamData: TeamWithDetailsDto) => {
         const teamName = teamData.team?.team_name || "Unknown Team";
+        const teamDescription = teamData.team?.team_description;
         const members = teamData.members || [];
         console.log(`📝 Processing team: ${teamName} with ${members.length} members`);
         return {
           team_name: teamName,
+          team_description: teamDescription,
           member_count: members.length,
           members: members,
         };
       });
       
-      console.log("✅ Transformed teams:", transformedTeams);
+      // console.log("✅ Transformed teams:", transformedTeams);
       setTeams(transformedTeams);
       
       // Calculate total distinct active projects across all teams
@@ -137,7 +140,7 @@ export default function TeamMain() {
           </div>
           <Button
             onClick={handleAddTeam}
-            className="bg-orange-600 hover:bg-orange-700 text-white"
+            className="bg-orange-600 hover:bg-orange-100 text-white"
           >
             <Plus className="w-4 h-4 mr-2" />
             Add Team
@@ -224,13 +227,15 @@ export default function TeamMain() {
                 onClick={() => handleTeamClick(team.team_name)}
                 className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all cursor-pointer group"
               >
-                {/* Team Name - Bigger */}
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                {/* Team Name */}
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors">
                   {team.team_name}
                 </h3>
 
                 {/* Subtitle/Role */}
-                <p className="text-sm text-gray-500 mb-6">Team Lead</p>
+                {team.team_description && (
+                  <p className="text-sm text-gray-500 mb-6">{team.team_description}</p>
+                )}
 
                 {/* Member Names as Small Boxes */}
                 {team.members && team.members.length > 0 && (
@@ -241,7 +246,7 @@ export default function TeamMain() {
                           key={idx}
                           className={`px-3 py-1.5 rounded-lg text-xs font-medium ${
                             idx === 0
-                              ? 'bg-orange-500 text-white'
+                              ? 'bg-orange-200 text-orange-800'
                               : 'bg-gray-100 text-gray-700'
                           }`}
                         >
