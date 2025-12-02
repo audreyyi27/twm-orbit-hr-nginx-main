@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Users, Plus, Edit2 } from "lucide-react";
+import { Users, Plus, Edit2, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { apiFetch } from "@/lib/api";
 import type { TeamWithDetailsDto } from "@/core/projects/dto";
@@ -17,13 +17,32 @@ interface TeamCardData {
 export default function TeamMain() {
   const router = useRouter();
   const [teams, setTeams] = useState<TeamCardData[]>([]);
+  const [allTeams, setAllTeams] = useState<TeamCardData[]>([]); // Store all teams for filtering
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [activeProjectsCount, setActiveProjectsCount] = useState<number>(0);
+  const [searchTerm, setSearchTerm] = useState<string>("");
 
   useEffect(() => {
     fetchTeams();
   }, []);
+
+  // Filter teams based on search term (case-insensitive, handles spaces)
+  useEffect(() => {
+    if (!searchTerm.trim()) {
+      setTeams(allTeams);
+      return;
+    }
+
+    const searchLower = searchTerm.toLowerCase().trim();
+    const filtered = allTeams.filter((team) => {
+      const teamNameLower = team.team_name.toLowerCase();
+      // Check if search term matches team name (handles spaces)
+      return teamNameLower.includes(searchLower);
+    });
+    
+    setTeams(filtered);
+  }, [searchTerm, allTeams]);
 
   const fetchTeams = async () => {
     try {
@@ -93,6 +112,7 @@ export default function TeamMain() {
       });
       
       // console.log("✅ Transformed teams:", transformedTeams);
+      setAllTeams(transformedTeams);
       setTeams(transformedTeams);
       
       // Calculate total distinct active projects across all teams
@@ -131,13 +151,9 @@ export default function TeamMain() {
 
   return (
     <div>
-      {/* Header */}
-      <div className="bg-white  border-gray-200 px-6 py-4">
-        <div className="flex items-center justify-between">
-          <div>
-            <h1 className="text-3xl font-bold text-gray-900">Indonesian Team Management</h1>
-            <p className="text-sm text-gray-500 mt-1">Manage teams and employees</p>
-          </div>
+      {/* Header with Add Team Button */}
+      <div className="bg-white border-gray-200 px-6 py-4">
+        <div className="flex items-center justify-end">
           <Button
             onClick={handleAddTeam}
             className="bg-orange-600 hover:bg-orange-100 text-white"
@@ -146,7 +162,6 @@ export default function TeamMain() {
             Add Team
           </Button>
         </div>
-
       </div>
 
       {/* Content */}
@@ -157,7 +172,7 @@ export default function TeamMain() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-gray-500 mb-1">Total Teams</p>
-                <p className="text-3xl font-bold text-gray-900">{teams.length}</p>
+                <p className="text-3xl font-bold text-gray-900">{allTeams.length}</p>
               </div>
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
                 <Users className="w-6 h-6 text-blue-600" />
@@ -170,7 +185,7 @@ export default function TeamMain() {
               <div>
                 <p className="text-sm text-gray-500 mb-1">Total Members</p>
                 <p className="text-3xl font-bold text-gray-900">
-                  {teams.reduce((sum, team) => sum + (team.member_count || 0), 0)}
+                  {allTeams.reduce((sum, team) => sum + (team.member_count || 0), 0)}
                 </p>
               </div>
               <div className="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center">
@@ -191,6 +206,20 @@ export default function TeamMain() {
                 <Users className="w-6 h-6 text-purple-600" />
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Search Filter */}
+        <div className="bg-white rounded-xl p-4 mb-6 border border-gray-200">
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <input
+              type="text"
+              placeholder="Search team by name..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+            />
           </div>
         </div>
 

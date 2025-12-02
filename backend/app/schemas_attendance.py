@@ -60,6 +60,21 @@ class TeamAttendanceResponse(BaseModel):
     members: List[TeamMemberAttendance]
 
 
+class ProjectMemberAttendanceResponse(BaseModel):
+    task_id: str
+    employee_uuid: UUID
+    employee_id: Optional[str] = None
+    name: Optional[str] = None
+    chinese_name: Optional[str] = None
+    email: Optional[str] = None
+    role: Optional[str] = None
+    team_name: Optional[str] = None
+    nt_account: Optional[str] = None
+    contribution: Optional[str] = None
+    programming_languages: Optional[str] = None
+    attendance: Optional[AttendanceResponse] = None
+
+
 # ==================== LEAVE SCHEMAS ====================
 class LeaveCreate(BaseModel):
     user_id: UUID

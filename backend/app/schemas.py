@@ -6,9 +6,11 @@ from pydantic import BaseModel, EmailStr, ConfigDict, Field, field_validator
 from typing import Any, Dict, Optional, List, Literal,Annotated, Union
 from datetime import datetime, date
 import uuid
+from uuid import UUID
 from fastapi import File,UploadFile
 
 from app.models import CandidateStatusEnum
+from app.schemas_attendance import AttendanceResponse
 
 
 # Log in (Input validation) 
@@ -336,6 +338,22 @@ class Token(BaseModel):
     refresh_token: Optional[str]
     user: Optional[UserOut]  # include user info
 
+# Project get attendance and members info 
+class ProjectMemberAttendanceResponse(BaseModel):
+    """Response model for project member with attendance data"""
+    task_id: str
+    employee_uuid: UUID
+    employee_id: Optional[str] = None
+    name: Optional[str] = None
+    chinese_name: Optional[str] = None
+    email: Optional[str] = None
+    role: Optional[str] = None
+    team_name: Optional[str] = None
+    nt_account: Optional[str] = None
+    contribution: Optional[str] = None
+    attendance: Optional[AttendanceResponse] = None
+    
+    model_config = {"from_attributes": True}
 
 # ============================================================================
 # UNUSED SCHEMAS - Commented out (not used in any routers)
@@ -431,20 +449,6 @@ class Token(BaseModel):
 #     project_name: Optional[str] = None  # From employee_projects table
 #     contribution: Optional[str] = None
 
-# class ProjectMember(BaseModel):
-#     """Employee info for project members list"""
-#     model_config = ConfigDict(from_attributes=True)
-#     task_id: uuid.UUID  # For managing the assignment
-#     employee_uuid: uuid.UUID
-#     name: Optional[str] = None
-#     chinese_name: Optional[str] = None
-#     employee_id: Optional[str] = None
-#     email: Optional[str] = None
-#     role: Optional[str] = None
-#     team_name: Optional[str] = None  # Employee's team name from employee.team
-#     specialization: Optional[str] = None
-#     programming_languages: Optional[str] = None
-#     contribution: Optional[str] = None  # Their contribution to this project
 
 # class ProjectCard(BaseModel):
 #     """Project card/box for dashboard"""

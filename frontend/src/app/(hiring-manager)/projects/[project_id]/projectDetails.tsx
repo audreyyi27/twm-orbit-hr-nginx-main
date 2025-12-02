@@ -2,28 +2,22 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import AddMembersModal from './addMembers';
-import ProjectInfo from './projectInfo';
 import { RemoveProjectMemberService } from '@/core/projects/service';
-import type { ProjectDetailsDto, ProjectMemberDto } from '@/core/projects';
-import { getEmployeeAttendance } from '@/core/employees/attendance_api';
-import type { AttendanceDto } from '@/core/employees/dto';
-import { BASE_URL } from '@/core/utils/constant/base';
+import type { ProjectDetailsDto, ProjectMemberDto, ProjectMemberAttendanceResponse } from '@/core/projects';
 
 interface ProjectDetailsProps {
   projectId: string;
   data: ProjectDetailsDto;
+  membersWithAttendance?: ProjectMemberAttendanceResponse[];
 }
 
-export default function ProjectDetails({ projectId, data }: ProjectDetailsProps) {
+export default function ProjectDetails({ projectId, data, membersWithAttendance = [] }: ProjectDetailsProps) {
   const router = useRouter();
   const [isAddMemberModalOpen, setIsAddMemberModalOpen] = useState(false);
   const [isDeleteMode, setIsDeleteMode] = useState(false);
   const [localMembers, setLocalMembers] = useState<ProjectMemberDto[]>(data.members);
   const [isRefreshing, setIsRefreshing] = useState(false);
-  const [memberAttendance, setMemberAttendance] = useState<Record<string, AttendanceDto | null>>({});
-  const [loadingAttendance, setLoadingAttendance] = useState<Record<string, boolean>>({});
   
   const members = localMembers;
   const { project, team } = data;
@@ -76,108 +70,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
     setTimeout(() => setIsRefreshing(false), 500);
   };
 
-  // Fetch today's attendance for all members
-  useEffect(() => {
-    const fetchTodayAttendance = async () => {
-      if (members.length === 0) return;
-      
-      const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
-      
-      // Reset attendance state when members change
-      setMemberAttendance({});
-      setLoadingAttendance({});
-      
-      // Fetch attendance for all members in parallel
-      const attendancePromises = members.map(async (member) => {
-        try {
-          // Guard: some project members may be missing employee_uuid
-          if (!member.employee_uuid) {
-            console.warn(`Skipping attendance fetch: project member without employee_uuid -> ${member.name}`);
-            return { uuid: member.employee_uuid || 'unknown', attendance: null };
-          }
-
-          setLoadingAttendance(prev => ({ ...prev, [member.employee_uuid]: true }));
-          let ntAccount: string | undefined;
-
-          // Try to get nt_account directly from member if backend ever adds it
-          const memberAny = member as any;
-          if (memberAny.nt_account) {
-            ntAccount = memberAny.nt_account as string;
-          } else {
-            // Fallback: fetch full employee data (client-side) like team attendance tab
-            try {
-              const authRes = await fetch('/api/auth/get-token', {
-                credentials: 'include',
-              });
-
-              if (authRes.ok) {
-                const { token } = await authRes.json();
-                if (token) {
-                  const backendUrl = BASE_URL || process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8000';
-                  const empRes = await fetch(`${backendUrl}/employees/${member.employee_uuid}`, {
-                    headers: {
-                      Authorization: `Bearer ${token}`,
-                      'Content-Type': 'application/json',
-                    },
-                    credentials: 'include',
-                  });
-
-                  if (empRes.ok) {
-                    const empData = await empRes.json();
-                    const employeeAny = (empData.items || empData) as any;
-                    ntAccount = employeeAny.nt_account as string | undefined;
-                  }
-                }
-              }
-            } catch (err) {
-              console.warn(`Failed to fetch employee data for ${member.name}:`, err);
-            }
-          }
-
-          if (!ntAccount) {
-            console.warn(`No nt_account available for member ${member.name} (${member.employee_uuid})`);
-            return { uuid: member.employee_uuid, attendance: null };
-          }
-
-          // Fetch today's attendance using nt_account (EXACTLY same helper as employee page)
-          const attendanceResult = await getEmployeeAttendance(ntAccount, today);
-          
-          if (attendanceResult.error) {
-            console.error(`Error fetching attendance for ${member.name}:`, attendanceResult.error);
-            return { uuid: member.employee_uuid, attendance: null };
-          }
-          
-          if (!attendanceResult.data?.items || attendanceResult.data.items.length === 0) {
-            return { uuid: member.employee_uuid, attendance: null };
-          }
-          
-          // Get the first (and should be only) attendance record for today
-          const items = attendanceResult.data.items;
-          return { 
-            uuid: member.employee_uuid, 
-            attendance: items && items.length > 0 ? items[0] : null 
-          };
-        } catch (error) {
-          console.error(`Error fetching attendance for ${member.name}:`, error);
-          return { uuid: member.employee_uuid, attendance: null };
-        } finally {
-          setLoadingAttendance(prev => ({ ...prev, [member.employee_uuid]: false }));
-        }
-      });
-
-      // Wait for all requests to complete
-      const results = await Promise.all(attendancePromises);
-      
-      // Update state with all results
-      const newAttendance: Record<string, AttendanceDto | null> = {};
-      results.forEach(result => {
-        newAttendance[result.uuid] = result.attendance;
-      });
-      setMemberAttendance(newAttendance);
-    };
-
-    fetchTodayAttendance();
-  }, [members]); // Re-fetch when members array changes
 
   // Format time helper
   const formatTime = (timeString: string | null | undefined): string => {
@@ -194,21 +86,7 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
   };
 
   return (
-    <div className="p-6 bg-gray-50 min-h-screen">
-      {/* Back Button */}
-      <Link
-        href="/projects"
-        className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 transition-colors"
-      >
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-        </svg>
-        Back to Projects
-      </Link>
-
-      {/* Project Info Component */}
-      <ProjectInfo project={project} team={team} projectId={projectId} />
-
+    <>
       {/* Team Members Section */}
       <div className="bg-white rounded-xl border-2 border-gray-200 p-8 shadow-sm">
         <div className="flex items-center justify-between mb-6">
@@ -358,31 +236,28 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
                 {/* Today's Attendance Status */}
                 <div className="pt-3 border-t border-gray-200 mt-3">
                   <p className="text-xs font-medium text-gray-500 mb-2">Today's Status</p>
-                  {loadingAttendance[member.employee_uuid] ? (
-                    <div className="flex items-center gap-2 text-xs text-gray-400">
-                      <svg className="w-3 h-3 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                      </svg>
-                      Loading...
-                    </div>
-                  ) : memberAttendance[member.employee_uuid] ? (
-                    <div className="space-y-1.5">
-                      <div className="flex items-center justify-between text-xs">
-                        <span className="text-gray-600">Clock In:</span>
-                        <span className="font-medium text-orange-600">
-                          {formatTime(memberAttendance[member.employee_uuid]?.clock_in_time)}
-                        </span>
+                  {(() => {
+                    // Find attendance data for this member by matching employee_uuid or task_id
+                    const memberAttendanceData = membersWithAttendance.find(
+                      m => m.employee_uuid === member.employee_uuid || m.task_id === member.task_id
+                    );
+                    return (
+                      <div className="space-y-1.5">
+                        <div className="flex items-center justify-between text-xs">
+                          <span className="text-gray-600">Clock In:</span>
+                          <span className="font-medium text-orange-600">
+                            {formatTime(memberAttendanceData?.attendance?.clock_in_time)}
+                          </span>
+                        </div>
+                        <div className="flex items-center justify-between text-xs">
+                          <span className="text-gray-600">Clock Out:</span>
+                          <span className="font-medium text-purple-600">
+                            {formatTime(memberAttendanceData?.attendance?.clock_out_time)}
+                          </span>
+                        </div>
                       </div>
-                      <div className="flex items-center justify-between text-xs">
-                        <span className="text-gray-600">Clock Out:</span>
-                        <span className="font-medium text-purple-600">
-                          {formatTime(memberAttendance[member.employee_uuid]?.clock_out_time)}
-                        </span>
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="text-xs text-gray-400">No attendance record for today</div>
-                  )}
+                    );
+                  })()}
                 </div>
               </div>
             ))}
@@ -413,6 +288,6 @@ export default function ProjectDetails({ projectId, data }: ProjectDetailsProps)
         currentMembers={members}
         onMemberAdded={handleMemberAdded}
       />
-    </div>
+    </>
   );
 }

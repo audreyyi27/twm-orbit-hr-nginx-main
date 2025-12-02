@@ -167,3 +167,20 @@ export interface AttendanceDto {
   created_at?: string;
   updated_at?: string;
 }
+
+export interface ProjectMemberAttendanceResponse {
+  task_id: string;
+  employee_uuid: string;
+  employee_id?: string | null;
+  name?: string | null;
+  chinese_name?: string | null;
+  email?: string | null;
+  role?: string | null;
+  team_name?: string | null;
+  nt_account?: string | null;
+  contribution?: string | null;
+  programming_languages?: string | null;
+  attendance?: AttendanceDto | null;
+  leave?: import('../employees/dto').AttendanceLeaveDto[] | null;
+  overtime?: import('../employees/dto').AttendanceOvertimeDto[] | null;
+}

@@ -6,6 +6,7 @@ import type {
   AddProjectMemberRequest,
   AvailableEmployeesResponse,
   EmployeeProjectTaskResponse,
+  ProjectMemberAttendanceResponse,
 } from "./dto";
 import type { AttendanceDto, AttendanceLeaveDto, AttendanceOvertimeDto } from "../employees/dto";
 import ssrApiClient from "@/core/utils/ssr-api";
@@ -93,10 +94,6 @@ export const removeProjectMember = async (
   });
 };
 
-// ==================== ATTENDANCE FUNCTIONS FOR PROJECT MEMBERS ====================
-// These functions get attendance data for project members by their nt_account
-// Similar to employees/attendance_api.ts but organized under projects API
-// Works for both client and server components
 
 // Client-side API helper (for use in client components)
 async function clientApiFetch<T>(path: string): Promise<ApiResponse<T>> {
@@ -212,6 +209,27 @@ export const getProjectMemberOvertime = async (
   
   // Server-side version
   const url = `${BASE_URL}/attendance/employee/${encodeURIComponent(ntAccount)}/overtime`;
+  return await ssrApiClient(url, fetchMethod.get, {
+    cache: "no-store",
+  });
+};
+
+// Get all project members with their attendance records
+// Optional date parameter in YYYY-MM-DD format for filtering (e.g., today's attendance)
+export const getProjectMembersWithAttendance = async (
+  projectId: string,
+  date?: string
+): Promise<ApiResponse<ProjectMemberAttendanceResponse[]>> => {
+  // Check if we're in a client component
+  if (typeof window !== "undefined") {
+    const dateParam = date ? `?date=${encodeURIComponent(date)}` : '';
+    const path = `/attendance/project/${encodeURIComponent(projectId)}/members/attendance${dateParam}`;
+    return await clientApiFetch<ProjectMemberAttendanceResponse[]>(path);
+  }
+  
+  // Server-side version
+  const dateParam = date ? `?date=${encodeURIComponent(date)}` : '';
+  const url = `${BASE_URL}/attendance/project/${encodeURIComponent(projectId)}/members/attendance${dateParam}`;
   return await ssrApiClient(url, fetchMethod.get, {
     cache: "no-store",
   });

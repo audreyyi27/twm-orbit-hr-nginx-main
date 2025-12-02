@@ -3,9 +3,10 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import select, func, or_
 from sqlalchemy.ext.asyncio import AsyncSession
-from typing import List, Optional
+from typing import List, Optional, cast
 from datetime import datetime
 from urllib.parse import unquote
+from uuid import UUID
 
 from app import models, models_attendance, schemas_attendance
 from app.db import get_db, get_attendance_db
@@ -173,7 +174,7 @@ async def get_team_attendance(
 
         members_out.append(
             schemas_attendance.TeamMemberAttendance(
-                employee_uuid=employee.uuid if not hasattr(employee.uuid, "hex") else employee.uuid,
+                employee_uuid=cast(UUID, employee.uuid),
                 employee_id=str(employee.employee_id) if employee.employee_id is not None else None,
                 name=str(employee.name) if employee.name is not None else None,
                 chinese_name=str(employee.chinese_name) if employee.chinese_name is not None else None,
@@ -280,4 +281,102 @@ async def get_employee_overtime(
     
     return overtimes 
 
+
+@router.get("/project/{project_id}/members/attendance", 
+           response_model=List[schemas_attendance.ProjectMemberAttendanceResponse])
+async def get_project_members_with_attendance(
+    project_id: str,
+    date: Optional[str] = None,  # Optional date filter in YYYY-MM-DD format
+    hr_db: AsyncSession = Depends(get_db),
+    attendance_db: AsyncSession = Depends(get_attendance_db),
+    current = Depends(get_current_user_hr)
+):
+    """Get all members of a project with their attendance records"""
     
+    # Step 1: Get all members (tasks) for this project
+    tasks_result = await hr_db.execute(
+        select(models.EmployeeProjectTask)
+        .where(models.EmployeeProjectTask.project_id == project_id)
+    )
+    tasks = tasks_result.scalars().all()
+    
+    if not tasks:
+        return []
+    
+    # Step 2: For each task, get employee info and attendance
+    members_with_attendance = []
+    
+    for task in tasks:
+        # Get employee details
+        employee_result = await hr_db.execute(
+            select(models.Employee).where(models.Employee.uuid == task.employee_uuid)
+        )
+        employee = employee_result.scalar_one_or_none()
+        
+        if not employee:
+            continue
+            
+        # Default: no attendance record
+        attendance_record = None
+        
+        if employee.nt_account:
+            # Find matching user in attendance database
+            attendance_user_result = await attendance_db.execute(
+                select(models_attendance.AttendanceUser).where(
+                    func.lower(models_attendance.AttendanceUser.username) == employee.nt_account.lower()
+                )
+            )
+            attendance_user = attendance_user_result.scalar_one_or_none()
+            
+            if attendance_user:
+                # Build attendance query
+                att_query = select(models_attendance.Attendance).where(
+                    models_attendance.Attendance.user_id == attendance_user.id
+                )
+                
+                # Optional date filter
+                if date:
+                    try:
+                        filter_date = datetime.strptime(date, '%Y-%m-%d').date()
+                        att_query = att_query.where(
+                            models_attendance.Attendance.attendance_date == filter_date
+                        )
+                    except ValueError:
+                        raise HTTPException(status_code=400, detail="Invalid date format. Use YYYY-MM-DD")
+                
+                att_query = att_query.order_by(
+                    models_attendance.Attendance.attendance_date.desc()
+                )
+                
+                att_result = await attendance_db.execute(att_query)
+                attendance = att_result.scalars().first()
+                
+                if attendance:
+                    attendance_record = schemas_attendance.AttendanceResponse.model_validate(attendance)
+        
+        # Build response - handle None values properly
+        # Helper function to safely convert to string or None
+        def safe_str(value) -> Optional[str]:
+            if value is None:
+                return None
+            str_value = str(value).strip()
+            return str_value if str_value else None
+        
+        members_with_attendance.append(
+            schemas_attendance.ProjectMemberAttendanceResponse(
+                task_id=str(task.task_id),
+                employee_uuid=cast(UUID, employee.uuid),
+                employee_id=safe_str(employee.employee_id),
+                name=safe_str(employee.name),
+                chinese_name=safe_str(employee.chinese_name),
+                email=safe_str(employee.email),
+                role=safe_str(employee.role),
+                team_name=safe_str(employee.team),
+                nt_account=safe_str(employee.nt_account),
+                contribution=safe_str(task.contribution),
+                programming_languages=safe_str(employee.programming_languages),
+                attendance=attendance_record,
+            )
+        )
+    
+    return members_with_attendance

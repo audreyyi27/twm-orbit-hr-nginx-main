@@ -41,33 +41,34 @@ export default function TeamTabs({ teamName, members }: TeamTabsProps) {
     <div >
       {/* Header */}
       <div className="bg-white border-b border-gray-200 px-6 py-4">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-12">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => router.push("/teams")}
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              Back to Teams
-            </Button>
-            <div className="pl-8 border-l border-gray-200">
-              <h5 className="text-xs text-gray-500 mb-1">Team name =</h5>
-              <h1 className="text-3xl font-bold text-gray-900">
-                {teamName}
-              </h1>
-              <p className="text-sm text-gray-500 mt-1">
-                Projects and members information for this team.
-              </p>
-              <div className="mt-2">
-                <span className="text-sm font-medium text-gray-700">
-                  Active Projects:{" "}
-                </span>
-                <span className="text-sm font-bold text-green-600">
-                  {activeProjectsCount}
-                </span>
-              </div>
+        <div className="flex items-start gap-6">
+          {/* Back Button */}
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => router.push("/teams")}
+            className="flex items-center gap-2 text-orange-600 hover:text-orange-700 hover:bg-orange-50"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Teams
+          </Button>
+          
+          {/* Team Info - Left aligned */}
+          <div>
+            <h5 className="text-xs text-gray-500 mb-1">Information for </h5>
+            <h1 className="text-3xl font-bold text-gray-900">
+              {teamName}
+            </h1>
+            <p className="text-sm text-gray-500 mt-1">
+              Projects and members information for this team.
+            </p>
+            <div className="mt-2">
+              <span className="text-sm font-medium text-gray-700">
+                Active Projects:{" "}
+              </span>
+              <span className="text-sm font-bold text-green-600">
+                {activeProjectsCount}
+              </span>
             </div>
           </div>
         </div>

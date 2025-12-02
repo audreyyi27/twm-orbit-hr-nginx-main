@@ -8,6 +8,7 @@ import type {
   AddProjectMemberRequest,
   AvailableEmployeesResponse,
   EmployeeProjectTaskResponse,
+  ProjectMemberAttendanceResponse,
 } from "./dto";
 import { 
   getTeamsWithDetails, 
@@ -16,7 +17,8 @@ import {
   getAvailableEmployees,
   addProjectMember,
   removeProjectMember,
-  updateProject  // Add this import
+  updateProject,
+  getProjectMembersWithAttendance,
 } from "./api";
 
 export interface ServiceResponse<T> {
@@ -204,5 +206,32 @@ export const RemoveProjectMemberService = async (
     };
   } catch {
     return { isError: true, message: "Failed to remove project member" };
+  }
+};
+
+export const GetProjectMembersWithAttendanceService = async (
+  projectId: string,
+  date?: string
+): Promise<ServiceResponse<ProjectMemberAttendanceResponse[]>> => {
+  try {
+    const res = await getProjectMembersWithAttendance(projectId, date);
+
+    if (res.error) {
+      return { isError: true, message: res.error.message, statusCode: res.statusCode };
+    }
+
+    // Handle both direct data and wrapped data
+    const membersData = Array.isArray(res.data) 
+      ? res.data 
+      : (res.data && typeof res.data === 'object' && 'items' in res.data && Array.isArray(res.data.items))
+        ? res.data.items
+        : [];
+
+    return {
+      data: membersData,
+      isError: false,
+    };
+  } catch {
+    return { isError: true, message: "Failed to fetch project members with attendance" };
   }
 };
